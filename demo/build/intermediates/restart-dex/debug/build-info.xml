@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="23337884139335"
+    token="-3399210133473439036"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="2180" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="4193" />
+    <task
+        name="verifier"
+        duration="1689" />
+
+    <artifact
+        location="C:\Users\Administrator\Desktop\NIM_Android_Demo_v3.4.0\nim_demo\demo\build\outputs\apk\demo-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="23337884139335"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Administrator\Desktop\NIM_Android_Demo_v3.4.0\nim_demo\demo\build\outputs\apk\demo-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
