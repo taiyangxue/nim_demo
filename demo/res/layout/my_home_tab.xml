@@ -7,9 +7,14 @@
     android:background="@color/white"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_gravity="center_horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="test"/>
+    <!--<GridView-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="test"/>-->
+    <fragment
+        android:id="@+id/my_homes_fragment"
+        android:name="com.netease.nim.demo.home.fragment.MyHomesFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 </LinearLayout>

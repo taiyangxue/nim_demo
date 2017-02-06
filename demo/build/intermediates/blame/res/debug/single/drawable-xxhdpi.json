@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\NIM_Android_Demo_v3.4.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_logo.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\NIM_Android_Demo_v3.4.0\\nim_demo\\demo\\res\\drawable-xxhdpi\\ic_logo.png"
+        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_logo.png",
+        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-xxhdpi\\ic_logo.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\NIM_Android_Demo_v3.4.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_stat_notify_msg.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\NIM_Android_Demo_v3.4.0\\nim_demo\\demo\\res\\drawable-xxhdpi\\ic_stat_notify_msg.png"
+        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_stat_notify_msg.png",
+        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-xxhdpi\\ic_stat_notify_msg.png"
     }
 ]

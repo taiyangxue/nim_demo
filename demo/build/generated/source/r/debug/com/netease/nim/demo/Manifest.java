@@ -9,6 +9,7 @@ package com.netease.nim.demo;
 
 public final class Manifest {
     public static final class permission {
+        public static final String C2D_MESSAGE="com.netease.nim.demo.permission.C2D_MESSAGE";
         /**  小米推送 
          */
         public static final String MIPUSH_RECEIVE="com.netease.nim.demo.permission.MIPUSH_RECEIVE";
