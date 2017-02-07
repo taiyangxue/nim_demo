@@ -88,12 +88,12 @@
         "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-hdpi\\app_icon4.png"
     },
     {
-        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_view_holder_right_snapchat.png",
-        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-hdpi\\message_view_holder_right_snapchat.png"
-    },
-    {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_multiport_detail.png",
         "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-hdpi\\ic_multiport_detail.png"
+    },
+    {
+        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_view_holder_right_snapchat.png",
+        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-hdpi\\message_view_holder_right_snapchat.png"
     },
     {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_mute_disable.png",
@@ -672,12 +672,12 @@
         "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-hdpi\\room_cover_64.png"
     },
     {
-        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_white_btn_pressed.9.png",
-        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-hdpi\\g_white_btn_pressed.9.png"
-    },
-    {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\network_grade_2.png",
         "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-hdpi\\network_grade_2.png"
+    },
+    {
+        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_white_btn_pressed.9.png",
+        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-hdpi\\g_white_btn_pressed.9.png"
     },
     {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_video_chat_normal.png",

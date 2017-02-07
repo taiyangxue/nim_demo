@@ -416,12 +416,12 @@
         "source": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_moon_page_selected.png",
-        "source": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\nim_demo\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_moon_page_selected.png"
-    },
-    {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_audio_animation_list_right_3.png",
         "source": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\nim_demo\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_audio_animation_list_right_3.png"
+    },
+    {
+        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_moon_page_selected.png",
+        "source": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\nim_demo\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_moon_page_selected.png"
     },
     {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_message_input_plus.png",

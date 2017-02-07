@@ -16,12 +16,12 @@
         "source": "F:\\my_workpace\\nim_demo\\demo\\res\\layout\\edit_nick_activity.xml"
     },
     {
-        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\about_layout.xml",
         "source": "F:\\my_workpace\\nim_demo\\demo\\res\\layout\\about_layout.xml"
+    },
+    {
+        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\global_search_detail.xml",
@@ -60,12 +60,12 @@
         "source": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\indicator_layout.xml"
     },
     {
-        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\render_type_default.xml",
-        "source": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\render_type_default.xml"
-    },
-    {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_listview_refresh.xml",
         "source": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\nim_demo\\uikit\\unspecified\\res\\layout\\nim_listview_refresh.xml"
+    },
+    {
+        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\render_type_default.xml",
+        "source": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\render_type_default.xml"
     },
     {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_advanced_team_create_announce.xml",
@@ -92,12 +92,12 @@
         "source": "F:\\my_workpace\\nim_demo\\demo\\res\\layout\\action_bar_layout.xml"
     },
     {
-        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\no_disturb_activity.xml",
-        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\layout\\no_disturb_activity.xml"
-    },
-    {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
         "source": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\no_disturb_activity.xml",
+        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\layout\\no_disturb_activity.xml"
     },
     {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\user_profile_edittext_layout.xml",
@@ -144,12 +144,12 @@
         "source": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_new_message_tip_layout.xml",
-        "source": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\nim_demo\\uikit\\unspecified\\res\\layout\\nim_new_message_tip_layout.xml"
-    },
-    {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\icon_list_item.xml",
         "source": "F:\\my_workpace\\nim_demo\\demo\\res\\layout\\icon_list_item.xml"
+    },
+    {
+        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_new_message_tip_layout.xml",
+        "source": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\nim_demo\\uikit\\unspecified\\res\\layout\\nim_new_message_tip_layout.xml"
     },
     {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
@@ -204,12 +204,12 @@
         "source": "F:\\my_workpace\\nim_demo\\demo\\res\\layout\\no_disturb_footer.xml"
     },
     {
-        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\avchat_activity.xml",
-        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\layout\\avchat_activity.xml"
-    },
-    {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\avchat_activity.xml",
+        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\layout\\avchat_activity.xml"
     },
     {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\file_browser_activity.xml",
@@ -466,6 +466,10 @@
     {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_image_preview_activity.xml",
         "source": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\nim_demo\\uikit\\unspecified\\res\\layout\\nim_picker_image_preview_activity.xml"
+    },
+    {
+        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\item_gridview_home.xml",
+        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\layout\\item_gridview_home.xml"
     },
     {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_contacts_item.xml",

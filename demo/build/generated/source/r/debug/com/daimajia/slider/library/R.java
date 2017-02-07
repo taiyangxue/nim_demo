@@ -577,13 +577,13 @@ public final class R {
 		public static final int abc_search_view = 0x7f030017;
 		public static final int abc_select_dialog_material = 0x7f030018;
 		public static final int indicator_layout = 0x7f03004f;
-		public static final int render_type_default = 0x7f0300d2;
-		public static final int render_type_text = 0x7f0300d3;
-		public static final int select_dialog_item_material = 0x7f0300d5;
-		public static final int select_dialog_multichoice_material = 0x7f0300d6;
-		public static final int select_dialog_singlechoice_material = 0x7f0300d7;
-		public static final int slider_layout = 0x7f0300df;
-		public static final int support_simple_spinner_dropdown_item = 0x7f0300e0;
+		public static final int render_type_default = 0x7f0300d3;
+		public static final int render_type_text = 0x7f0300d4;
+		public static final int select_dialog_item_material = 0x7f0300d6;
+		public static final int select_dialog_multichoice_material = 0x7f0300d7;
+		public static final int select_dialog_singlechoice_material = 0x7f0300d8;
+		public static final int slider_layout = 0x7f0300e0;
+		public static final int support_simple_spinner_dropdown_item = 0x7f0300e1;
 	}
 	public static final class string {
 		public static final int abc_action_bar_home_description = 0x7f070000;

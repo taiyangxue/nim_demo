@@ -120,16 +120,16 @@
         "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-xhdpi\\ic_advanced_team.png"
     },
     {
-        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\network_grade_1.png",
-        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-xhdpi\\network_grade_1.png"
-    },
-    {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\room_cover_64.png",
         "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-xhdpi\\room_cover_64.png"
     },
     {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\main_menu.png",
         "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-xhdpi\\main_menu.png"
+    },
+    {
+        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\network_grade_1.png",
+        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-xhdpi\\network_grade_1.png"
     },
     {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\business_card_chat_icon_pressed.png",
@@ -156,12 +156,12 @@
         "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-xhdpi\\room_cover_50.png"
     },
     {
-        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_multiport_detail.png",
-        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-xhdpi\\ic_multiport_detail.png"
-    },
-    {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\message_view_holder_right_snapchat.png",
         "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-xhdpi\\message_view_holder_right_snapchat.png"
+    },
+    {
+        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_multiport_detail.png",
+        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\drawable-xhdpi\\ic_multiport_detail.png"
     },
     {
         "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\business_card_chat_icon_normal.png",
