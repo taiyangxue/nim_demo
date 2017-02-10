@@ -9,11 +9,11 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
-
 import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
 import com.netease.nim.demo.R;
+import com.netease.nim.demo.home.activity.ErrorAdminActivity;
 import com.netease.nim.uikit.common.fragment.TFragment;
 
 import java.util.ArrayList;
@@ -83,6 +83,8 @@ public class MyHomesFragment extends TFragment {
 
                 switch (position){
                     case 0:
+                        intent=new Intent(getActivity(), ErrorAdminActivity.class);
+                        getActivity().startActivity(intent);
                         Toast.makeText(getActivity(),"错题管理",Toast.LENGTH_SHORT).show();
                         break;
                     case 1:
@@ -125,7 +127,7 @@ public class MyHomesFragment extends TFragment {
         sliderShow.addSlider(textSliderView1);
         sliderShow.addSlider(textSliderView2);
         sliderShow.addSlider(textSliderView3);
-        sliderShow.setPresetTransformer(SliderLayout.Transformer.ZoomOutSlide);
+        sliderShow.setPresetTransformer(SliderLayout.Transformer.Accordion);
         sliderShow.setDuration(2000);
     }
 }
