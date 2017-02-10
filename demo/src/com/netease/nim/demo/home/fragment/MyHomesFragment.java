@@ -9,17 +9,17 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
+
 import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
 import com.netease.nim.demo.R;
 import com.netease.nim.uikit.common.fragment.TFragment;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import static com.netease.nimlib.sdk.msg.constant.SystemMessageStatus.init;
 
 /**
  * 直播间列表fragment
@@ -34,7 +34,7 @@ public class MyHomesFragment extends TFragment {
     private List<Map<String, Object>> data_list;
     private SimpleAdapter sim_adapter;
     // 图片封装为一个数组
-    private int[] icon = {R.drawable.cuo, R.drawable.cuo};
+    private int[] icon = {R.drawable.home_cuoti, R.drawable.home_yuyue};
     private String[] iconName = {"错题管理", "预约老师"};
     private Intent intent;
 

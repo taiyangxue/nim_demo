@@ -61,9 +61,12 @@
             android:name="com.amap.api.v2.apikey"
             android:value="${AMAP_KEY}"/>
 
+        <!--<meta-data-->
+            <!--android:name="com.netease.nim.appKey"-->
+			<!--android:value="45c6af3c98409b18a84451215d0bdd6e"/>-->
         <meta-data
             android:name="com.netease.nim.appKey"
-			android:value="45c6af3c98409b18a84451215d0bdd6e"/>
+			android:value="9a69511ec44840b9b9dff9d0e57d5449"/>
 
         <uses-library
             android:name="com.google.android.maps"

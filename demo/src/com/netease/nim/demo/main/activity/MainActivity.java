@@ -290,7 +290,6 @@ public class MainActivity extends UI {
                 TeamCreateHelper.createAdvancedTeam(MainActivity.this, selected);
             }
         }
-
     }
 
     // 注销

@@ -20,6 +20,10 @@
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\network_grade_3.png"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\home_cuoti.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\home_cuoti.png"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_loaction_normal.png",
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\btn_loaction_normal.png"
     },
@@ -40,12 +44,12 @@
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_pdf.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_speaker_bg_disable.9.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_mute_speaker_bg_disable.9.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_checkbox_not_checked.png",
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\nim_checkbox_not_checked.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_speaker_bg_disable.9.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_mute_speaker_bg_disable.9.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_word.png",
@@ -462,6 +466,10 @@
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logo.png",
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\home_yuyue.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\home_yuyue.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_refuse_bg_pressed.9.png",
