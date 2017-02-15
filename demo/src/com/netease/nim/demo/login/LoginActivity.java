@@ -20,9 +20,10 @@ import android.widget.Toast;
 
 import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.R;
+import com.netease.nim.demo.common.util.MyUtils;
 import com.netease.nim.demo.config.preference.Preferences;
 import com.netease.nim.demo.config.preference.UserPreferences;
-import com.netease.nim.demo.contact.ContactHttpClient;
+import com.netease.nim.demo.contact.MyContactHttpClient;
 import com.netease.nim.demo.main.activity.MainActivity;
 import com.netease.nim.uikit.NimUIKit;
 import com.netease.nim.uikit.cache.DataCacheManager;
@@ -47,6 +48,17 @@ import com.netease.nimlib.sdk.StatusBarNotificationConfig;
 import com.netease.nimlib.sdk.auth.AuthService;
 import com.netease.nimlib.sdk.auth.ClientType;
 import com.netease.nimlib.sdk.auth.LoginInfo;
+
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import cn.bmob.v3.exception.BmobException;
+import cn.bmob.v3.listener.SaveListener;
 
 /**
  * 登录/注册界面
@@ -106,13 +118,12 @@ public class LoginActivity extends UI implements OnKeyListener {
         options.isNeedNavigate = false;
         options.logoId = R.drawable.actionbar_white_logo_space;
         setToolBar(R.id.toolbar, options);
-
         requestBasicPermission();
-
         onParseIntent();
         initRightTopBtn();
         setupLoginPanel();
         setupRegisterPanel();
+
     }
 
     /**
@@ -212,7 +223,6 @@ public class LoginActivity extends UI implements OnKeyListener {
         loginLayout = findView(R.id.login_layout);
         registerLayout = findView(R.id.register_layout);
         switchModeBtn = findView(R.id.register_login_tip);
-
         switchModeBtn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -287,7 +297,6 @@ public class LoginActivity extends UI implements OnKeyListener {
 
                 // 初始化消息提醒配置
                 initNotificationConfig();
-
                 // 进入主界面
                 MainActivity.start(LoginActivity.this, null);
                 finish();
@@ -341,7 +350,6 @@ public class LoginActivity extends UI implements OnKeyListener {
         String appKey = readAppKey(this);
         boolean isDemo = "45c6af3c98409b18a84451215d0bdd6e".equals(appKey)
                 || "fe416640c8e8a72734219e1847ad2547".equals(appKey);
-
         return isDemo ? MD5.getStringMD5(password) : password;
     }
 
@@ -376,35 +384,81 @@ public class LoginActivity extends UI implements OnKeyListener {
         }
 
         DialogMaker.showProgressDialog(this, getString(R.string.registering), false);
-
         // 注册流程
         final String account = registerAccountEdit.getText().toString();
         final String nickName = registerNickNameEdit.getText().toString();
         final String password = registerPasswordEdit.getText().toString();
-
-        ContactHttpClient.getInstance().register(account, nickName, password, new ContactHttpClient.ContactHttpCallback<Void>() {
+        // 设置请求的参数
+        List<NameValuePair> nvps = new ArrayList<NameValuePair>();
+        nvps.add(new BasicNameValuePair("accid", account));
+        nvps.add(new BasicNameValuePair("name", nickName));
+        nvps.add(new BasicNameValuePair("token", password));
+        new MyContactHttpClient(nvps) {
             @Override
-            public void onSuccess(Void aVoid) {
-                Toast.makeText(LoginActivity.this, R.string.register_success, Toast.LENGTH_SHORT).show();
-                switchMode();  // 切换回登录
-                loginAccountEdit.setText(account);
-                loginPasswordEdit.setText(password);
-
-                registerAccountEdit.setText("");
-                registerNickNameEdit.setText("");
-                registerPasswordEdit.setText("");
-
-                DialogMaker.dismissProgressDialog();
+            protected void onPostExecute(String s) {
+                super.onPostExecute(s);
+                Log.e(TAG,s);
+                try {
+                    JSONObject jsonObj = new JSONObject(s);
+                    if(200==jsonObj.getInt("code")){
+                        //bmob服务器进行用户注册
+                        switchMode();  // 切换回登录
+                        loginAccountEdit.setText(account);
+                        loginPasswordEdit.setText(password);
+                        registerAccountEdit.setText("");
+                        registerNickNameEdit.setText("");
+                        registerPasswordEdit.setText("");
+                        DialogMaker.dismissProgressDialog();
+                        bmobRegister(account, nickName, password);
+                    }else {
+                        Toast.makeText(LoginActivity.this, jsonObj.getString("desc"), Toast.LENGTH_SHORT).show();
+                        DialogMaker.dismissProgressDialog();
+                    }
+                } catch (JSONException e) {
+                    Toast.makeText(LoginActivity.this, "JSON解析异常", Toast.LENGTH_SHORT).show();
+//                    e.printStackTrace();
+                }
             }
+        }.execute();
+        // 执行请求
+//        ContactHttpClient.getInstance().register(account, nickName, password, new ContactHttpClient.ContactHttpCallback<Void>() {
+//            @Override
+//            public void onSuccess(Void aVoid) {
+//                Toast.makeText(LoginActivity.this, R.string.register_success, Toast.LENGTH_SHORT).show();
+//                switchMode();  // 切换回登录
+//                loginAccountEdit.setText(account);
+//                loginPasswordEdit.setText(password);
+//                registerAccountEdit.setText("");
+//                registerNickNameEdit.setText("");
+//                registerPasswordEdit.setText("");
+//                DialogMaker.dismissProgressDialog();
+//            }
+//
+//            @Override
+//            public void onFailed(int code, String errorMsg) {
+//                Toast.makeText(LoginActivity.this, getString(R.string.register_failed, String.valueOf(code), errorMsg), Toast.LENGTH_SHORT)
+//                        .show();
+//                DialogMaker.dismissProgressDialog();
+//            }
+//        });
+    }
 
-            @Override
-            public void onFailed(int code, String errorMsg) {
-                Toast.makeText(LoginActivity.this, getString(R.string.register_failed, String.valueOf(code), errorMsg), Toast.LENGTH_SHORT)
-                        .show();
-
-                DialogMaker.dismissProgressDialog();
-            }
-        });
+    private void bmobRegister(final String account, String nickName, final String password) {
+        MyUser user = new MyUser();
+        user.setUsername(account);
+        user.setNick(nickName);
+        user.setPassword(password);
+//注意：不能用save方法进行注册
+        user.signUp(new SaveListener<MyUser>() {
+             @Override
+             public void done(MyUser s, BmobException e) {
+                 if(e==null){
+                     Toast.makeText(LoginActivity.this, R.string.register_success, Toast.LENGTH_SHORT).show();
+                 }else{
+                     MyUtils.showToast(LoginActivity.this,"Bomb数据库存储失败"+e.getErrorCode()+e.getMessage());
+                 }
+             }
+         });
     }
 
     private boolean checkRegisterContentValid() {
@@ -414,9 +468,13 @@ public class LoginActivity extends UI implements OnKeyListener {
 
         // 帐号检查
         String account = registerAccountEdit.getText().toString().trim();
-        if (account.length() <= 0 || account.length() > 20) {
-            Toast.makeText(this, R.string.register_account_tip, Toast.LENGTH_SHORT).show();
-
+//        if (account.length() <= 0 || account.length() > 20) {
+//            Toast.makeText(this, R.string.register_account_tip, Toast.LENGTH_SHORT).show();
+//
+//            return false;
+//        }
+        if(!MyUtils.isMobileNumber(account)){
+            Toast.makeText(this, "请输入正确的手机号", Toast.LENGTH_SHORT).show();
             return false;
         }
 
@@ -424,7 +482,6 @@ public class LoginActivity extends UI implements OnKeyListener {
         String nick = registerNickNameEdit.getText().toString().trim();
         if (nick.length() <= 0 || nick.length() > 10) {
             Toast.makeText(this, R.string.register_nick_name_tip, Toast.LENGTH_SHORT).show();
-
             return false;
         }
 
@@ -432,10 +489,8 @@ public class LoginActivity extends UI implements OnKeyListener {
         String password = registerPasswordEdit.getText().toString().trim();
         if (password.length() < 6 || password.length() > 20) {
             Toast.makeText(this, R.string.register_password_tip, Toast.LENGTH_SHORT).show();
-
             return false;
         }
-
         return true;
     }
 

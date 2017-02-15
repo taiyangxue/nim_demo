@@ -63,10 +63,8 @@ public class ChatRoomActivity extends UI {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.chat_room_activity);
         roomId = getIntent().getStringExtra(EXTRA_ROOM_ID);
-
         // 注册监听
         registerObservers(true);
-
         // 登录聊天室
         enterRoom();
     }
@@ -82,7 +80,6 @@ public class ChatRoomActivity extends UI {
         if (messageFragment == null || !messageFragment.onBackPressed()) {
             super.onBackPressed();
         }
-
         logoutChatRoom();
     }
 

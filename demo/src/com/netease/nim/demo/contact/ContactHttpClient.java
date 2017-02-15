@@ -84,7 +84,6 @@ public class ContactHttpClient {
         headers.put(HEADER_CONTENT_TYPE, "application/x-www-form-urlencoded; charset=utf-8");
         headers.put(HEADER_USER_AGENT, "nim_demo_android");
         headers.put(HEADER_KEY_APP_KEY, appKey);
-
         StringBuilder body = new StringBuilder();
         body.append(REQUEST_USER_NAME).append("=").append(account.toLowerCase()).append("&")
                 .append(REQUEST_NICK_NAME).append("=").append(nickName).append("&")

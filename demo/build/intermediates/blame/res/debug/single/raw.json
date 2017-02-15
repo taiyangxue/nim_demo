@@ -1,30 +1,30 @@
 [
     {
-        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\raw\\msg.wav",
-        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\raw\\msg.wav"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\raw\\avchat_peer_busy.mp3",
+        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\raw\\avchat_peer_busy.mp3"
     },
     {
-        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\raw\\avchat_peer_busy.mp3",
-        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\raw\\avchat_peer_busy.mp3"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\raw\\audio_end_tip.wav",
+        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\nim_demo\\uikit\\unspecified\\res\\raw\\audio_end_tip.wav"
     },
     {
-        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\raw\\avchat_no_response.mp3",
-        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\raw\\avchat_no_response.mp3"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\raw\\msg.wav",
+        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\raw\\msg.wav"
     },
     {
-        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\raw\\avchat_ring.mp3",
-        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\raw\\avchat_ring.mp3"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\raw\\avchat_no_response.mp3",
+        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\raw\\avchat_no_response.mp3"
     },
     {
-        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\raw\\avchat_peer_reject.mp3",
-        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\raw\\avchat_peer_reject.mp3"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\raw\\avchat_ring.mp3",
+        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\raw\\avchat_ring.mp3"
     },
     {
-        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\raw\\audio_end_tip.wav",
-        "source": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\nim_demo\\uikit\\unspecified\\res\\raw\\audio_end_tip.wav"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\raw\\avchat_peer_reject.mp3",
+        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\raw\\avchat_peer_reject.mp3"
     },
     {
-        "merged": "F:\\my_workpace\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\raw\\avchat_connecting.mp3",
-        "source": "F:\\my_workpace\\nim_demo\\demo\\res\\raw\\avchat_connecting.mp3"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\raw\\avchat_connecting.mp3",
+        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\raw\\avchat_connecting.mp3"
     }
 ]

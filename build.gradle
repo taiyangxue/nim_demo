@@ -10,6 +10,7 @@ allprojects {
 //        url 'http://maven.oschina.net/content/groups/public/'
 //    }
         jcenter()
+        maven { url "https://raw.github.com/bmob/bmob-android-sdk/master" }
 
     }
 }

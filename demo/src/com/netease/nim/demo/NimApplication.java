@@ -23,9 +23,9 @@ import com.netease.nim.demo.main.activity.WelcomeActivity;
 import com.netease.nim.demo.rts.activity.RTSActivity;
 import com.netease.nim.demo.session.NimDemoLocationProvider;
 import com.netease.nim.demo.session.SessionHelper;
-import com.netease.nim.uikit.custom.DefalutUserInfoProvider;
 import com.netease.nim.uikit.NimUIKit;
 import com.netease.nim.uikit.contact.core.query.PinYin;
+import com.netease.nim.uikit.custom.DefalutUserInfoProvider;
 import com.netease.nim.uikit.session.viewholder.MsgViewHolderThumbBase;
 import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.NimStrings;
@@ -48,6 +48,8 @@ import com.netease.nimlib.sdk.team.model.UpdateTeamAttachment;
 
 import java.util.Map;
 
+import cn.bmob.v3.Bmob;
+
 public class NimApplication extends Application {
 
     protected void attachBaseContext(Context newBase) {
@@ -61,6 +63,7 @@ public class NimApplication extends Application {
         DemoCache.setContext(this);
         // 注册小米推送appID 、appKey 以及在云信管理后台添加的小米推送证书名称，该逻辑放在 NIMClient init 之前
         NIMPushClient.registerMiPush(this, "DEMO_MI_PUSH", "2882303761517502883", "5671750254883");
+        Bmob.initialize(this, "58f11fc42fcfa78a75e0f3f2ae124485");
         // 注册自定义小米推送消息处理，这个是可选项
         //NIMPushClient.registerMixPushMessageHandler(new DemoMixPushMessageHandler());
         NIMClient.init(this, getLoginInfo(), getOptions());
