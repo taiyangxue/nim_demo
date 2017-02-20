@@ -94,4 +94,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile files('libs/org.apache.http.legacy.jar')
     compile 'cn.bmob.android:bmob-sdk:3.5.0'
+    compile 'com.jiechic.library:xUtils:2.6.14'
 }

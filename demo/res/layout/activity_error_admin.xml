@@ -6,9 +6,25 @@
     android:layout_height="fill_parent"
     android:background="@color/bussiness_card_gridview_bg">
         <include layout="@layout/action_bar_layout"></include>
+
+        <Button
+            android:id="@+id/btn_push"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/nim_message_button_bottom_send_selector"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:layout_margin="3dp"
+            android:textColor="@color/color_green_text_view_selector"
+            android:text="拍照上传"/>
+
         <android.support.v7.widget.RecyclerView
-            android:layout_below="@+id/bar_panel"
             android:id="@+id/recycler_view"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/btn_push"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 </RelativeLayout>

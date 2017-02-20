@@ -11,6 +11,6 @@ public final class BuildConfig {
   public static final int VERSION_CODE = 32;
   public static final String VERSION_NAME = "3.4.0";
   // Fields from default config.
-  public static final String BUILD_DATE = "2017-2-15 21:31:16";
-  public static final String GIT_REVISION = "13b3e54";
+  public static final String BUILD_DATE = "2017-2-20 21:44:14";
+  public static final String GIT_REVISION = "842e48d";
 }

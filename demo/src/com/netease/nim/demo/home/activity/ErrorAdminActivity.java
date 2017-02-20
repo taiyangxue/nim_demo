@@ -3,7 +3,10 @@ package com.netease.nim.demo.home.activity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 
+import com.lidroid.xutils.ViewUtils;
+import com.lidroid.xutils.view.annotation.event.OnClick;
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.home.adapter.ErrorAdminAdapter;
 import com.netease.nim.uikit.common.activity.UI;
@@ -21,9 +24,17 @@ public class ErrorAdminActivity extends UI {
         setContentView(R.layout.activity_error_admin);
         findViews();
     }
+    @OnClick({R.id.btn_push})
+    public void onClick(View v){
+        switch (v.getId()){
+            case R.id.btn_push:
 
+                break;
+        }
+    }
     private void findViews() {
         // recyclerView
+        ViewUtils.inject(this);
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         adapter = new ErrorAdminAdapter();
         recyclerView.setAdapter(adapter);
