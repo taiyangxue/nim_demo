@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="android-android-23">
+  <library name="NELivePlayer">
     <CLASSES>
-      <root url="jar://D:/Android/sdk/platforms/android-23/android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo/libs/NELivePlayer.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

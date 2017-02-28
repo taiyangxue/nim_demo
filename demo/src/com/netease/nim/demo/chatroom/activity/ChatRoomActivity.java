@@ -67,6 +67,8 @@ public class ChatRoomActivity extends UI {
         registerObservers(true);
         // 登录聊天室
         enterRoom();
+//        initChatRoomFragment();
+//        initMessageFragment();
     }
 
     @Override
@@ -84,6 +86,8 @@ public class ChatRoomActivity extends UI {
     }
 
     private void enterRoom() {
+//        initChatRoomFragment();
+//        initMessageFragment();
         DialogMaker.showProgressDialog(this, null, "", true, new DialogInterface.OnCancelListener() {
             @Override
             public void onCancel(DialogInterface dialog) {
@@ -114,7 +118,6 @@ public class ChatRoomActivity extends UI {
             public void onFailed(int code) {
                 // test
                 LogUtil.ui("enter chat room failed, callback code=" + code);
-
                 onLoginDone();
                 if (code == ResponseCode.RES_CHATROOM_BLACKLIST) {
                     Toast.makeText(ChatRoomActivity.this, "你已被拉入黑名单，不能再进入", Toast.LENGTH_SHORT).show();

@@ -1,27 +1,40 @@
 package com.netease.nim.demo.chatroom.fragment;
 
+import android.Manifest;
 import android.app.Activity;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
 import com.netease.nim.demo.R;
-import com.netease.nim.demo.chatroom.activity.ChatRoomActivity;
+import com.netease.nim.demo.chatroom.activity.NEVideoPlayerActivity;
 import com.netease.nim.demo.chatroom.adapter.ChatRoomsAdapter;
-import com.netease.nim.demo.chatroom.thridparty.ChatRoomHttpClient;
+import com.netease.nim.demo.common.entity.AddressResult;
+import com.netease.nim.demo.common.entity.ChannelListResult;
+import com.netease.nim.demo.common.util.MyHttpClient;
 import com.netease.nim.uikit.common.fragment.TFragment;
 import com.netease.nim.uikit.common.ui.ptr2.PullToRefreshLayout;
 import com.netease.nim.uikit.common.ui.recyclerview.adapter.BaseQuickAdapter;
 import com.netease.nim.uikit.common.ui.recyclerview.decoration.SpacingDecoration;
 import com.netease.nim.uikit.common.ui.recyclerview.listener.OnItemClickListener;
 import com.netease.nim.uikit.common.util.sys.ScreenUtil;
-import com.netease.nimlib.sdk.chatroom.model.ChatRoomInfo;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
 import java.util.List;
+
 
 /**
  * 直播间列表fragment
@@ -34,6 +47,14 @@ public class ChatRoomsFragment extends TFragment {
     private ChatRoomsAdapter adapter;
     private PullToRefreshLayout swipeRefreshLayout;
     private RecyclerView recyclerView;
+    private Gson gson;
+    private String decodeType = "software";  //解码类型，默认软件解码
+    private String mediaType = "livestream"; //媒体类型，默认网络直播
+
+    /**
+     * 6.0权限处理
+     **/
+    private boolean bPermission = false;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -43,8 +64,8 @@ public class ChatRoomsFragment extends TFragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-
         findViews();
+        gson = new Gson();
     }
 
     public void onCurrent() {
@@ -82,30 +103,113 @@ public class ChatRoomsFragment extends TFragment {
         recyclerView.addOnItemTouchListener(new OnItemClickListener<ChatRoomsAdapter>() {
             @Override
             public void onItemClick(ChatRoomsAdapter adapter, View view, int position) {
-                ChatRoomInfo room = adapter.getItem(position);
-                ChatRoomActivity.start(getActivity(), room.getRoomId());
+                ChannelListResult.RetBean.ListBean room = adapter.getItem(position);
+//                ChatRoomActivity.start(getAtivity(), room.getCid());
+                String url = "https://vcloud.163.com/app/address";
+                String param = "{\"cid\":\"" + room.getCid() + "\"}";
+                new MyHttpClient(url, param) {
+                    @Override
+                    protected void onPostExecute(String s) {
+                        super.onPostExecute(s);
+                        Log.e(TAG, s);
+                        try {
+                            JSONObject jsonObj = new JSONObject(s);
+                            if (200 == jsonObj.getInt("code")) {
+                                AddressResult addressResult = gson.fromJson(s, AddressResult.class);
+                                Intent intent = new Intent(getActivity(), NEVideoPlayerActivity.class);
+//                                String url = "rtmp://v2220e357.live.126.net/live/e1f3a464831c45b6bb3dd18d6a762993";
+                                //把多个参数传给NEVideoPlayerActivity
+                                intent.putExtra("media_type", mediaType);
+                                intent.putExtra("decode_type", decodeType);
+                                intent.putExtra("videoPath", addressResult.getRet().getRtmpPullUrl());
+                                startActivity(intent);
+                            } else {
+                                if (getActivity() != null) {
+                                    Toast.makeText(getActivity(), jsonObj.getString("msg"), Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        } catch (JSONException e) {
+                            Toast.makeText(getActivity(), "JSON解析异常", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                }.execute();
             }
         });
+    }
+
+    private final int WRITE_PERMISSION_REQ_CODE = 100;
+
+    private boolean checkPublishPermission() {
+        if (Build.VERSION.SDK_INT >= 23) {
+            List<String> permissions = new ArrayList<>();
+            if (PackageManager.PERMISSION_GRANTED != ActivityCompat.checkSelfPermission(getActivity(), Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
+                permissions.add(Manifest.permission.WRITE_EXTERNAL_STORAGE);
+            }
+            if (PackageManager.PERMISSION_GRANTED != ActivityCompat.checkSelfPermission(getActivity(), Manifest.permission.CAMERA)) {
+                permissions.add(Manifest.permission.CAMERA);
+            }
+            if (PackageManager.PERMISSION_GRANTED != ActivityCompat.checkSelfPermission(getActivity(), Manifest.permission.READ_PHONE_STATE)) {
+                permissions.add(Manifest.permission.READ_PHONE_STATE);
+            }
+            if (permissions.size() != 0) {
+                ActivityCompat.requestPermissions(getActivity(),
+                        (String[]) permissions.toArray(new String[0]),
+                        WRITE_PERMISSION_REQ_CODE);
+                return false;
+            }
+        }
+        return true;
     }
 
     private void fetchData() {
-        ChatRoomHttpClient.getInstance().fetchChatRoomList(new ChatRoomHttpClient.ChatRoomHttpCallback<List<ChatRoomInfo>>() {
-            @Override
-            public void onSuccess(List<ChatRoomInfo> rooms) {
-                onFetchDataDone(true, rooms);
-            }
+        String url = "https://vcloud.163.com/app/channellist";
+        new MyHttpClient(url, "{\"records\":100, \"pnum\":1, \"ofield\": \"ctime\", \"sort\": 0}") {
+
 
             @Override
-            public void onFailed(int code, String errorMsg) {
-                onFetchDataDone(false, null);
-                if (getActivity() != null) {
-                    Toast.makeText(getActivity(), "fetch chat room list failed, code=" + code, Toast.LENGTH_SHORT).show();
+            protected void onPostExecute(String s) {
+                super.onPostExecute(s);
+                Log.e(TAG, s);
+                try {
+                    JSONObject jsonObj = new JSONObject(s);
+                    if (200 == jsonObj.getInt("code")) {
+                        ChannelListResult channelListResult = gson.fromJson(s, ChannelListResult.class);
+                        List<ChannelListResult.RetBean.ListBean> rooms = channelListResult.getRet().getList();
+//                        for(ChannelListResult.RetBean.ListBean room:rooms){
+//                            if(room.getStatus()!=1){
+//                                rooms.remove(room);
+//                            }
+//                        }
+                        onFetchDataDone(true, rooms);
+                    } else {
+                        onFetchDataDone(false, null);
+                        if (getActivity() != null) {
+                            Toast.makeText(getActivity(), jsonObj.getString("msg"), Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                } catch (JSONException e) {
+                    Toast.makeText(getActivity(), "JSON解析异常", Toast.LENGTH_SHORT).show();
                 }
             }
-        });
+        }.execute();
+
+//        ChatRoomHttpClient.getInstance().fetchChatRoomList(new ChatRoomHttpClient.ChatRoomHttpCallback<List<ChatRoomInfo>>() {
+//            @Override
+//            public void onSuccess(List<ChatRoomInfo> rooms) {
+//                onFetchDataDone(true, rooms);
+//            }
+//
+//            @Override
+//            public void onFailed(int code, String errorMsg) {
+//                onFetchDataDone(false, null);
+//                if (getActivity() != null) {
+//                    Toast.makeText(getActivity(), "fetch chat room list failed, code=" + code, Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//        });
     }
 
-    private void onFetchDataDone(final boolean success, final List<ChatRoomInfo> data) {
+    private void onFetchDataDone(final boolean success, final List<ChannelListResult.RetBean.ListBean> data) {
         Activity context = getActivity();
         if (context != null) {
             context.runOnUiThread(new Runnable() {
@@ -115,7 +219,6 @@ public class ChatRoomsFragment extends TFragment {
 
                     if (success) {
                         adapter.setNewData(data); // 刷新数据源
-
                         postRunnable(new Runnable() {
                             @Override
                             public void run() {

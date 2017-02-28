@@ -9,7 +9,10 @@
     <com.netease.nim.uikit.common.ui.ptr2.PullToRefreshLayout
         android:id="@+id/swipe_refresh"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recycler_view"

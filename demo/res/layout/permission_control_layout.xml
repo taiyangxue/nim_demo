@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="20dp"
+    tools:showIn="@layout/chat_room_fragment">
+
+    <ImageView
+        android:id="@+id/video_permission_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/chat_room_video_on_selector" />
+
+    <ImageView
+        android:id="@+id/audio_permission_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="7dp"
+        android:layout_toRightOf="@id/video_permission_btn"
+        android:background="@drawable/chat_room_audio_on_selector" />
+
+    <ImageView
+        android:id="@+id/share_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="7dp"
+        android:layout_toRightOf="@id/audio_permission_btn"
+        android:background="@drawable/chat_room_share_selector" />
+
+    <TextView
+        android:id="@+id/close_apply_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/share_btn"
+        android:background="@drawable/chat_room_gray_round_selector"
+        android:gravity="center"
+        android:text="互动"
+        android:textColor="@color/white"
+        android:textSize="11sp" />
+</RelativeLayout>

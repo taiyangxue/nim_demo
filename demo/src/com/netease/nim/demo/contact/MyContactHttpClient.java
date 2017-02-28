@@ -22,7 +22,7 @@ import java.util.Map;
  * Created by huangjun on 2015/3/6.
  */
 public class MyContactHttpClient extends AsyncTask<Map, Float, String> {
-    private static final String TAG ="MyContactHttpClient" ;
+    private static final String TAG ="MyChatRoomHttpClient" ;
     private List<NameValuePair> list;
     private HttpEntity entity;
 

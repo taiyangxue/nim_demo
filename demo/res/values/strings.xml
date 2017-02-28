@@ -11,6 +11,7 @@
     <string name="logining">登录中\u2026</string>
     <string name="register">注册</string>
     <string name="registering">注册中\u2026</string>
+    <string name="buffering">缓冲中</string>
     <string name="agree">同意</string>
     <string name="reject">拒绝</string>
     <string name="network_is_not_available">网络连接失败，请检查你的网络设置</string>
