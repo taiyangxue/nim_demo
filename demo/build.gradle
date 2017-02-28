@@ -13,7 +13,6 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         buildConfigField "String", "GIT_REVISION", "\"${getGitVersion()}\""

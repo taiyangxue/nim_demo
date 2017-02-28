@@ -115,7 +115,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="1c8d1887b324431a437d0d41f8f26a0db1ce6fd1">
+        sha1="af10b21531d0d2b177bcf4c9677a2fbe0035e1a9">
         <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8074fda98eaf97386b140d9e7a71ff3908f86673\classes.dex" />
     </item>
     <item
@@ -201,21 +201,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_7562db0e34a932f8e38ba53e37a735d8b939ca30\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
         <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.daimajia.slider-library-1.1.5_48d5de407bc06844c32835f87f1d965949a4054c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_7562db0e34a932f8e38ba53e37a735d8b939ca30\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -309,15 +309,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\libs\AMap_Services_V2.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="89ccf8789dad06e5ed2eab33e89d1dfab5226bba">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Services_V2.3.1_933fbd1e10b1dda9e766a876cf371e53fe98d4d8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -327,11 +318,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\libs\AMap_Services_V2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="89ccf8789dad06e5ed2eab33e89d1dfab5226bba">
+        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Services_V2.3.1_933fbd1e10b1dda9e766a876cf371e53fe98d4d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="5abee845845f749fdb96de54164689925e80f723">
+        sha1="bb3c379e847613ef4a2e3e603ec0fee6db71edf6">
         <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b34ce2d1b712c8a0a06bf286bc8455b5ce6a6e09\classes.dex" />
     </item>
     <item
