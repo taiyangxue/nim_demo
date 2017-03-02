@@ -4,15 +4,21 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
+import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.chatroom.fragment.ChatRoomFragment;
 import com.netease.nim.demo.chatroom.fragment.ChatRoomMessageFragment;
 import com.netease.nim.demo.chatroom.helper.ChatRoomMemberCache;
+import com.netease.nim.demo.common.entity.ChatroomCreateResult;
+import com.netease.nim.demo.common.util.MyContactHttpClient;
 import com.netease.nim.uikit.common.activity.UI;
 import com.netease.nim.uikit.common.ui.dialog.DialogMaker;
 import com.netease.nim.uikit.common.util.log.LogUtil;
+import com.netease.nim.uikit.session.module.ModuleProxy;
 import com.netease.nimlib.sdk.AbortableFuture;
 import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.Observer;
@@ -27,6 +33,17 @@ import com.netease.nimlib.sdk.chatroom.model.ChatRoomMember;
 import com.netease.nimlib.sdk.chatroom.model.ChatRoomStatusChangeData;
 import com.netease.nimlib.sdk.chatroom.model.EnterChatRoomData;
 import com.netease.nimlib.sdk.chatroom.model.EnterChatRoomResultData;
+import com.netease.nimlib.sdk.msg.model.IMMessage;
+
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import static android.provider.ContactsContract.QuickContact.EXTRA_MODE;
 
 /**
  * 聊天室
@@ -35,7 +52,7 @@ import com.netease.nimlib.sdk.chatroom.model.EnterChatRoomResultData;
 public class ChatRoomActivity extends UI {
     private final static String EXTRA_ROOM_ID = "ROOM_ID";
     private static final String TAG = ChatRoomActivity.class.getSimpleName();
-
+    private final static String KEY_SHARE_URL = "webUrl";
     /**
      * 聊天室基本信息
      */
@@ -49,26 +66,79 @@ public class ChatRoomActivity extends UI {
      */
     private ChatRoomMessageFragment messageFragment;
     private AbortableFuture<EnterChatRoomResultData> enterRequest;
+    private Gson gson;
+    private boolean isCreate;
+    private String shareUrl;
 
-    public static void start(Context context, String roomId) {
+    public static void start(Context context, String roomId, boolean isCreate) {
+//        Intent intent = new Intent();
+//        intent.setClass(context, ChatRoomActivity.class);
+//        intent.putExtra(EXTRA_ROOM_ID, roomId);
+//        intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+//        context.startActivity(intent);
         Intent intent = new Intent();
         intent.setClass(context, ChatRoomActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         intent.putExtra(EXTRA_ROOM_ID, roomId);
-        intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        intent.putExtra(EXTRA_MODE, isCreate);
         context.startActivity(intent);
+    }
+
+    private void parseIntent() {
+        roomId = getIntent().getStringExtra(EXTRA_ROOM_ID);
+        isCreate = getIntent().getBooleanExtra(EXTRA_MODE, false);
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.chat_room_activity);
-        roomId = getIntent().getStringExtra(EXTRA_ROOM_ID);
+        gson = new Gson();
+        parseIntent();
+//        creatChatRoom();
+
         // 注册监听
         registerObservers(true);
+
         // 登录聊天室
         enterRoom();
+//        enterRoom();
 //        initChatRoomFragment();
 //        initMessageFragment();
+    }
+
+    /**
+     * 创建聊天室
+     */
+    private void creatChatRoom() {
+        String url = "https://api.netease.im/nimserver/chatroom/create.action";
+//        String params = "name=mychatroom&announcement=&broadcasturl=xxxxxx&creator=1551878404";
+        // 设置请求的参数
+        List<NameValuePair> nvps = new ArrayList<NameValuePair>();
+        nvps.add(new BasicNameValuePair("creator", "15135024644"));
+        nvps.add(new BasicNameValuePair("name", "test"));
+        new MyContactHttpClient(url, nvps) {
+            @Override
+            protected void onPostExecute(String s) {
+                super.onPostExecute(s);
+                Log.e(TAG, s);
+                try {
+                    JSONObject jsonObj = new JSONObject(s);
+                    if (200 == jsonObj.getInt("code")) {
+                        ChatroomCreateResult chatroomCreateResult = gson.fromJson(s, ChatroomCreateResult.class);
+                        chatroomCreateResult.getChatroom().getRoomid();
+                        roomId = chatroomCreateResult.getChatroom().getRoomid() + "";
+                        // 注册监听
+                        registerObservers(true);
+                        enterRoom();
+                    } else {
+                        Toast.makeText(ChatRoomActivity.this, jsonObj.getString("desc"), Toast.LENGTH_SHORT).show();
+                    }
+                } catch (JSONException e) {
+                    Toast.makeText(ChatRoomActivity.this, "JSON解析异常", Toast.LENGTH_SHORT).show();
+                }
+            }
+        }.execute();
     }
 
     @Override
@@ -106,10 +176,19 @@ public class ChatRoomActivity extends UI {
             public void onSuccess(EnterChatRoomResultData result) {
                 onLoginDone();
                 roomInfo = result.getRoomInfo();
+                Log.e(TAG, roomInfo.getRoomId());
                 ChatRoomMember member = result.getMember();
                 member.setRoomId(roomInfo.getRoomId());
                 ChatRoomMemberCache.getInstance().saveMyMember(member);
-                initChatRoomFragment();
+                if (roomInfo.getCreator().equals(DemoCache.getAccount())) {
+                    isCreate = true;
+                }
+                if (roomInfo.getExtension() != null) {
+                    shareUrl = (String) roomInfo.getExtension().get(KEY_SHARE_URL);
+                }
+                initChatRoomFragment(roomInfo.getName());
+//                Log.e(TAG,shareUrl);
+//                initChatRoomFragment();
                 initMessageFragment();
                 hasEnterSuccess = true;
             }
@@ -197,16 +276,39 @@ public class ChatRoomActivity extends UI {
         }
     };
 
-    private void initChatRoomFragment() {
+    private void initChatRoomFragment(final String roomName) {
         fragment = (ChatRoomFragment) getSupportFragmentManager().findFragmentById(R.id.chat_rooms_fragment);
         if (fragment != null) {
-            fragment.updateView();
+//            fragment.updateView();
+            fragment.initLiveVideo(roomInfo, roomName, isCreate, shareUrl, new ModuleProxy() {
+                @Override
+                public boolean sendMessage(IMMessage msg) {
+                    return false;
+                }
+
+                @Override
+                public void onInputPanelExpand() {
+
+                }
+
+                @Override
+                public void shouldCollapseInputPanel() {
+                    if (messageFragment != null) {
+                        messageFragment.shouldCollapseInputPanel();
+                    }
+                }
+
+                @Override
+                public boolean isLongClickEnabled() {
+                    return false;
+                }
+            });
         } else {
             // 如果Fragment还未Create完成，延迟初始化
             getHandler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                    initChatRoomFragment();
+                    initChatRoomFragment(roomName);
                 }
             }, 50);
         }

@@ -116,12 +116,12 @@
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-xhdpi\\nim_male.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\circle_loading_grey.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-xhdpi\\circle_loading_grey.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\network_grade_1.png",
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-xhdpi\\network_grade_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\circle_loading_grey.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-xhdpi\\circle_loading_grey.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\message_view_holder_left_snapchat_disable.png",
@@ -232,12 +232,12 @@
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-xhdpi\\ic_multiport.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\welcome_bg.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-xhdpi\\welcome_bg.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\message_plus_file_pressed.png",
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-xhdpi\\message_plus_file_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\welcome_bg.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-xhdpi\\welcome_bg.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\room_cover_50.png",

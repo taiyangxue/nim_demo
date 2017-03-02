@@ -2,7 +2,6 @@ package com.netease.nim.demo.chatroom.fragment;
 
 import android.Manifest;
 import android.app.Activity;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
@@ -16,18 +15,23 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
+import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.R;
-import com.netease.nim.demo.chatroom.activity.NEVideoPlayerActivity;
+import com.netease.nim.demo.chatroom.activity.ChatRoomActivity;
 import com.netease.nim.demo.chatroom.adapter.ChatRoomsAdapter;
-import com.netease.nim.demo.common.entity.AddressResult;
+import com.netease.nim.demo.chatroom.thridparty.EduChatRoomHttpClient;
 import com.netease.nim.demo.common.entity.ChannelListResult;
 import com.netease.nim.demo.common.util.MyHttpClient;
 import com.netease.nim.uikit.common.fragment.TFragment;
+import com.netease.nim.uikit.common.ui.dialog.DialogMaker;
 import com.netease.nim.uikit.common.ui.ptr2.PullToRefreshLayout;
 import com.netease.nim.uikit.common.ui.recyclerview.adapter.BaseQuickAdapter;
 import com.netease.nim.uikit.common.ui.recyclerview.decoration.SpacingDecoration;
 import com.netease.nim.uikit.common.ui.recyclerview.listener.OnItemClickListener;
 import com.netease.nim.uikit.common.util.sys.ScreenUtil;
+import com.netease.nimlib.sdk.avchat.AVChatCallback;
+import com.netease.nimlib.sdk.avchat.AVChatManager;
+import com.netease.nimlib.sdk.avchat.model.AVChatChannelInfo;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -104,35 +108,41 @@ public class ChatRoomsFragment extends TFragment {
             @Override
             public void onItemClick(ChatRoomsAdapter adapter, View view, int position) {
                 ChannelListResult.RetBean.ListBean room = adapter.getItem(position);
-//                ChatRoomActivity.start(getAtivity(), room.getCid());
-                String url = "https://vcloud.163.com/app/address";
-                String param = "{\"cid\":\"" + room.getCid() + "\"}";
-                new MyHttpClient(url, param) {
-                    @Override
-                    protected void onPostExecute(String s) {
-                        super.onPostExecute(s);
-                        Log.e(TAG, s);
-                        try {
-                            JSONObject jsonObj = new JSONObject(s);
-                            if (200 == jsonObj.getInt("code")) {
-                                AddressResult addressResult = gson.fromJson(s, AddressResult.class);
-                                Intent intent = new Intent(getActivity(), NEVideoPlayerActivity.class);
-//                                String url = "rtmp://v2220e357.live.126.net/live/e1f3a464831c45b6bb3dd18d6a762993";
-                                //把多个参数传给NEVideoPlayerActivity
-                                intent.putExtra("media_type", mediaType);
-                                intent.putExtra("decode_type", decodeType);
-                                intent.putExtra("videoPath", addressResult.getRet().getRtmpPullUrl());
-                                startActivity(intent);
-                            } else {
-                                if (getActivity() != null) {
-                                    Toast.makeText(getActivity(), jsonObj.getString("msg"), Toast.LENGTH_SHORT).show();
-                                }
-                            }
-                        } catch (JSONException e) {
-                            Toast.makeText(getActivity(), "JSON解析异常", Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                }.execute();
+                createRoom("sun");
+//                enterRoom("sun");
+//                ChatRoomActivity.start(getActivity(), "123456");
+//                String url = "https://vcloud.163.com/app/address";
+//                String param = "{\"cid\":\"" + room.getCid() + "\"}";
+//                if(room.getStatus()==1||room.getStatus()==3){
+//                    new MyHttpClient(url, param) {
+//                        @Override
+//                        protected void onPostExecute(String s) {
+//                            super.onPostExecute(s);
+//                            Log.e(TAG, s);
+//                            try {
+//                                JSONObject jsonObj = new JSONObject(s);
+//                                if (200 == jsonObj.getInt("code")) {
+//                                    AddressResult addressResult = gson.fromJson(s, AddressResult.class);
+//                                    Intent intent = new Intent(getActivity(), NEVideoPlayerActivity.class);
+////                                String url = "rtmp://v2220e357.live.126.net/live/e1f3a464831c45b6bb3dd18d6a762993";
+//                                    //把多个参数传给NEVideoPlayerActivity
+//                                    intent.putExtra("media_type", mediaType);
+//                                    intent.putExtra("decode_type", decodeType);
+//                                    intent.putExtra("videoPath", addressResult.getRet().getRtmpPullUrl());
+//                                    startActivity(intent);
+//                                } else {
+//                                    if (getActivity() != null) {
+//                                        Toast.makeText(getActivity(), jsonObj.getString("msg"), Toast.LENGTH_SHORT).show();
+//                                    }
+//                                }
+//                            } catch (JSONException e) {
+//                                Toast.makeText(getActivity(), "JSON解析异常", Toast.LENGTH_SHORT).show();
+//                            }
+//                        }
+//                    }.execute();
+//                }else {
+//                    MyUtils.showToast(getActivity(),"当前教室未上课");
+//                }
             }
         });
     }
@@ -230,4 +240,74 @@ public class ChatRoomsFragment extends TFragment {
             });
         }
     }
+    // 创建房间
+    private void createRoom(String name) {
+        EduChatRoomHttpClient.getInstance().createRoom(DemoCache.getAccount(), name, new EduChatRoomHttpClient.ChatRoomHttpCallback<String>() {
+            @Override
+            public void onSuccess(String s) {
+                createChannel(s);
+//                ChatRoomActivity.start(getActivity(), s, true);
+//                getActivity().finish();
+            }
+            @Override
+            public void onFailed(int code, String errorMsg) {
+                DialogMaker.dismissProgressDialog();
+            }
+        });
+    }
+    // 创建房间
+//    private void createRoom() {
+//        ChatRoomHttpClient.getInstance().createRoom(DemoCache.getAccount(), roomEdit.getText().toString(), new ChatRoomHttpClient.ChatRoomHttpCallback<String>() {
+//            @Override
+//            public void onSuccess(String s) {
+//                createChannel(s);
+//            }
+//
+//            @Override
+//            public void onFailed(int code, String errorMsg) {
+//                DialogMaker.dismissProgressDialog();
+//                Toast.makeText(EnterRoomActivity.this, "创建房间失败, code:" + code + ", errorMsg:" + errorMsg, Toast.LENGTH_SHORT).show();
+//            }
+//        });
+//    }
+
+    /**
+     * 创建会议频道
+     */
+    private void createChannel(final String roomId) {
+        Log.e(TAG,roomId);
+        AVChatManager.getInstance().createRoom(roomId, "avchat test", new AVChatCallback<AVChatChannelInfo>() {
+            @Override
+            public void onSuccess(AVChatChannelInfo avChatChannelInfo) {
+                DialogMaker.dismissProgressDialog();
+                ChatRoomActivity.start(getActivity(), roomId, true);
+                getActivity().finish();
+            }
+
+            @Override
+            public void onFailed(int i) {
+                DialogMaker.dismissProgressDialog();
+                Toast.makeText(getActivity(), "创建频道失败, code:" + i, Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onException(Throwable throwable) {
+                DialogMaker.dismissProgressDialog();
+            }
+        });
+    }
+
+    // 进入房间
+    private void enterRoom(String name) {
+        ChatRoomActivity.start(getActivity(), name, false);
+//        getActivity().finish();
+    }
+//    private void createOrEnterRoom() {
+//        DialogMaker.showProgressDialog(this, "", false);
+//        if (isCreate) {
+//            createRoom();
+//        } else {
+//            enterRoom();
+//        }
+//    }
 }

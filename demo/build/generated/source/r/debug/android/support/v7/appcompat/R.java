@@ -509,7 +509,7 @@ public final class R {
 		public static final int ifRoom = 0x7f0e0039;
 		public static final int image = 0x7f0e0057;
 		public static final int info = 0x7f0e026b;
-		public static final int line1 = 0x7f0e0151;
+		public static final int line1 = 0x7f0e014f;
 		public static final int line3 = 0x7f0e026a;
 		public static final int listMode = 0x7f0e000f;
 		public static final int list_item = 0x7f0e0059;
@@ -550,7 +550,7 @@ public final class R {
 		public static final int status_bar_latest_event_content = 0x7f0e0264;
 		public static final int submit_area = 0x7f0e007d;
 		public static final int tabMode = 0x7f0e0011;
-		public static final int text = 0x7f0e010c;
+		public static final int text = 0x7f0e010a;
 		public static final int text2 = 0x7f0e0269;
 		public static final int textSpacerNoButtons = 0x7f0e0065;
 		public static final int time = 0x7f0e0267;

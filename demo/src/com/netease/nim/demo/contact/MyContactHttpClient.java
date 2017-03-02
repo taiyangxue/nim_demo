@@ -34,7 +34,8 @@ public class MyContactHttpClient extends AsyncTask<Map, Float, String> {
     protected String doInBackground(Map... params) {
 //
         DefaultHttpClient httpClient = new DefaultHttpClient();
-        String url = "https://api.netease.im/nimserver/user/create.action";
+//        String url = "https://api.netease.im/nimserver/user/create.action";
+        String url = "https://api.netease.im/nimserver/chatroom/create.action";
         HttpPost httpPost = new HttpPost(url);
         String appKey = "9a69511ec44840b9b9dff9d0e57d5449";
         String appSecret = "16ba19d26ee84dbb82d4cc9c34bc208f";

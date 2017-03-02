@@ -10,71 +10,107 @@
         android:id="@+id/view_layout"
         android:layout_width="match_parent"
         android:layout_height="217dp">
+        <!--<FrameLayout-->
+        <!--android:id="@+id/master_video_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/ic_meeting_background" >-->
+
+        <!--<com.netease.nim.demo.chatroom.widget.NEVideoView-->
+        <!--android:id="@+id/video_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="center" />-->
+
+        <!--<RelativeLayout-->
+        <!--android:id="@+id/play_toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dip"-->
+        <!--android:layout_marginLeft="0.0dip"-->
+        <!--android:layout_marginRight="0.0dip"-->
+        <!--android:layout_marginTop="0.0dip"-->
+        <!--android:background="@drawable/nemediacontroller_bg">-->
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/player_exit"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginLeft="7dip"-->
+        <!--android:src="@drawable/ic_play_exit" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/file_name"-->
+        <!--style="@style/MediaController_Text"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:ellipsize="marquee"-->
+        <!--android:focusable="true"-->
+        <!--android:gravity="center"-->
+        <!--android:maxWidth="200dip"-->
+        <!--android:singleLine="true" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/buffering_prompt"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:orientation="vertical"-->
+        <!--android:visibility="gone">-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:text="@string/buffering"-->
+        <!--android:textColor="#FFFFFFFF"-->
+        <!--android:textSize="13dp" />-->
+
+        <!--<ProgressBar-->
+        <!--style="@android:style/Widget.ProgressBar.Large"-->
+        <!--android:layout_width="50dip"-->
+        <!--android:layout_height="50dip" />-->
+        <!--</LinearLayout>-->
+        <!--</FrameLayout>-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/full_screen_image"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="right|bottom"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:background="@drawable/ic_full_screen"-->
+        <!--android:visibility="gone" />-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/back_arrow"-->
+        <!--android:layout_width="30dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:background="@drawable/chat_room_back_arrow_selector" />-->
+        <!--<TextView-->
+        <!--android:id="@+id/online_status"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:background="@color/transparent"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="@string/internet_broken"-->
+        <!--android:textColor="@color/color_red_ccfa3c55"-->
+        <!--android:textSize="@dimen/text_size_12"-->
+        <!--android:visibility="gone" />-->
         <FrameLayout
             android:id="@+id/master_video_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/ic_meeting_background" >
-
-            <com.netease.nim.demo.chatroom.widget.NEVideoView
-                android:id="@+id/video_view"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center" />
-
-            <RelativeLayout
-                android:id="@+id/play_toolbar"
-                android:layout_width="match_parent"
-                android:layout_height="40dip"
-                android:layout_marginLeft="0.0dip"
-                android:layout_marginRight="0.0dip"
-                android:layout_marginTop="0.0dip"
-                android:background="@drawable/nemediacontroller_bg">
-
-                <ImageButton
-                    android:id="@+id/player_exit"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="7dip"
-                    android:src="@drawable/ic_play_exit" />
-
-                <TextView
-                    android:id="@+id/file_name"
-                    style="@style/MediaController_Text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:ellipsize="marquee"
-                    android:focusable="true"
-                    android:gravity="center"
-                    android:maxWidth="200dip"
-                    android:singleLine="true" />
-            </RelativeLayout>
-
-            <LinearLayout
-                android:id="@+id/buffering_prompt"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:orientation="vertical"
-                android:visibility="gone">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:adjustViewBounds="true"
-                    android:text="@string/buffering"
-                    android:textColor="#FFFFFFFF"
-                    android:textSize="13dp" />
-
-                <ProgressBar
-                    style="@android:style/Widget.ProgressBar.Large"
-                    android:layout_width="50dip"
-                    android:layout_height="50dip" />
-            </LinearLayout>
-        </FrameLayout>
+            android:background="@drawable/ic_meeting_background" />
 
         <ImageView
             android:id="@+id/full_screen_image"
@@ -85,33 +121,14 @@
             android:layout_marginRight="10dp"
             android:background="@drawable/ic_full_screen"
             android:visibility="gone" />
-
-        <ImageView
-            android:id="@+id/back_arrow"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/chat_room_back_arrow_selector" />
-        <TextView
-            android:id="@+id/online_status"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:background="@color/transparent"
-            android:padding="5dp"
-            android:text="@string/internet_broken"
-            android:textColor="@color/color_red_ccfa3c55"
-            android:textSize="@dimen/text_size_12"
-            android:visibility="gone" />
     </FrameLayout>
+
     <com.netease.nim.demo.common.ui.viewpager.PagerSlidingTabStrip
         android:id="@+id/chat_room_tabs"
         android:layout_width="match_parent"
         android:layout_height="@dimen/pager_sliding_tab_strip_height"
         android:background="@color/white" />
+
     <android.support.v4.view.ViewPager
         android:id="@+id/chat_room_viewpager"
         android:layout_width="match_parent"

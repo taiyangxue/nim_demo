@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:background="@drawable/touch_bg"
-              android:clickable="true"
-              android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/touch_bg"
+    android:clickable="true"
+    android:orientation="vertical">
 
     <RelativeLayout
-        android:background="@color/white"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@color/white">
 
         <ImageView
             android:id="@+id/cover_image"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="10dp"
             android:layout_centerInParent="true"
-            android:src="@drawable/about_logo"
             android:layout_gravity="center_vertical"
-            android:scaleType="centerCrop"/>
+            android:scaleType="centerCrop"
+            android:src="@drawable/about_logo" />
 
     </RelativeLayout>
 
@@ -32,14 +33,15 @@
             android:id="@+id/tv_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="7dp"
             android:layout_gravity="center"
+            android:layout_marginLeft="7dp"
             android:ellipsize="end"
-            android:text="ceshi"
             android:includeFontPadding="false"
             android:maxEms="9"
+            android:paddingBottom="10dp"
             android:singleLine="true"
+            android:text="ceshi"
             android:textColor="@color/color_black_333333"
-            android:textSize="16sp"/>
+            android:textSize="16sp" />
     </LinearLayout>
 </LinearLayout>
