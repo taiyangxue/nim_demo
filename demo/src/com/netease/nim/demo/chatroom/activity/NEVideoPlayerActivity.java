@@ -105,7 +105,6 @@ public class NEVideoPlayerActivity extends Activity {
 		mMediaPlayer.setLogLevel(NELP_LOG_SILENT); //设置log级别
 		mVideoView.requestFocus();
 		mVideoView.start();
-
 		mPlayBack.setOnClickListener(mOnClickEvent); //监听退出播放的事件响应
 		mMediaController.setOnShownListener(mOnShowListener); //监听mediacontroller是否显示
 		mMediaController.setOnHiddenListener(mOnHiddenListener); //监听mediacontroller是否隐藏

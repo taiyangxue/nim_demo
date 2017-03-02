@@ -96,50 +96,13 @@ public class ChatRoomActivity extends UI {
         gson = new Gson();
         parseIntent();
 //        creatChatRoom();
-
         // 注册监听
         registerObservers(true);
 
         // 登录聊天室
         enterRoom();
-//        enterRoom();
-//        initChatRoomFragment();
-//        initMessageFragment();
     }
 
-    /**
-     * 创建聊天室
-     */
-    private void creatChatRoom() {
-        String url = "https://api.netease.im/nimserver/chatroom/create.action";
-//        String params = "name=mychatroom&announcement=&broadcasturl=xxxxxx&creator=1551878404";
-        // 设置请求的参数
-        List<NameValuePair> nvps = new ArrayList<NameValuePair>();
-        nvps.add(new BasicNameValuePair("creator", "15135024644"));
-        nvps.add(new BasicNameValuePair("name", "test"));
-        new MyContactHttpClient(url, nvps) {
-            @Override
-            protected void onPostExecute(String s) {
-                super.onPostExecute(s);
-                Log.e(TAG, s);
-                try {
-                    JSONObject jsonObj = new JSONObject(s);
-                    if (200 == jsonObj.getInt("code")) {
-                        ChatroomCreateResult chatroomCreateResult = gson.fromJson(s, ChatroomCreateResult.class);
-                        chatroomCreateResult.getChatroom().getRoomid();
-                        roomId = chatroomCreateResult.getChatroom().getRoomid() + "";
-                        // 注册监听
-                        registerObservers(true);
-                        enterRoom();
-                    } else {
-                        Toast.makeText(ChatRoomActivity.this, jsonObj.getString("desc"), Toast.LENGTH_SHORT).show();
-                    }
-                } catch (JSONException e) {
-                    Toast.makeText(ChatRoomActivity.this, "JSON解析异常", Toast.LENGTH_SHORT).show();
-                }
-            }
-        }.execute();
-    }
 
     @Override
     protected void onDestroy() {
@@ -156,8 +119,6 @@ public class ChatRoomActivity extends UI {
     }
 
     private void enterRoom() {
-//        initChatRoomFragment();
-//        initMessageFragment();
         DialogMaker.showProgressDialog(this, null, "", true, new DialogInterface.OnCancelListener() {
             @Override
             public void onCancel(DialogInterface dialog) {
@@ -187,8 +148,6 @@ public class ChatRoomActivity extends UI {
                     shareUrl = (String) roomInfo.getExtension().get(KEY_SHARE_URL);
                 }
                 initChatRoomFragment(roomInfo.getName());
-//                Log.e(TAG,shareUrl);
-//                initChatRoomFragment();
                 initMessageFragment();
                 hasEnterSuccess = true;
             }
@@ -279,7 +238,8 @@ public class ChatRoomActivity extends UI {
     private void initChatRoomFragment(final String roomName) {
         fragment = (ChatRoomFragment) getSupportFragmentManager().findFragmentById(R.id.chat_rooms_fragment);
         if (fragment != null) {
-//            fragment.updateView();
+            fragment.initFragment();
+//            initFragment();
             fragment.initLiveVideo(roomInfo, roomName, isCreate, shareUrl, new ModuleProxy() {
                 @Override
                 public boolean sendMessage(IMMessage msg) {

@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="nim-avchat-3.3.0">
+  <library name="android-android-23">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/demo/libs/nim-avchat-3.3.0.jar!/" />
+      <root url="jar://D:/Android/sdk/platforms/android-23/android.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

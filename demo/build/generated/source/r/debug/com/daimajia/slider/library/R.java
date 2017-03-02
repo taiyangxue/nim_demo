@@ -475,7 +475,7 @@ public final class R {
 		public static final int contentPanel = 0x7f0e0062;
 		public static final int custom = 0x7f0e0068;
 		public static final int customPanel = 0x7f0e0067;
-		public static final int daimajia_indicator_wrapper = 0x7f0e0105;
+		public static final int daimajia_indicator_wrapper = 0x7f0e0107;
 		public static final int daimajia_slider_image = 0x7f0e0276;
 		public static final int daimajia_slider_viewpager = 0x7f0e0296;
 		public static final int decor_content_parent = 0x7f0e0070;

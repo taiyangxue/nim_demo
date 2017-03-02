@@ -3,6 +3,7 @@ package com.netease.nim.demo.chatroom.fragment;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.SurfaceView;
 import android.view.View;
@@ -15,6 +16,7 @@ import android.widget.Toast;
 import com.netease.neliveplayer.NEMediaPlayer;
 import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.R;
+import com.netease.nim.demo.chatroom.activity.ChatRoomActivity;
 import com.netease.nim.demo.chatroom.adapter.ChatRoomTabPagerAdapter;
 import com.netease.nim.demo.chatroom.fragment.tab.ChatRoomTabFragment;
 import com.netease.nim.demo.chatroom.helper.NEMediaController;
@@ -25,6 +27,7 @@ import com.netease.nim.demo.common.ui.viewpager.PagerSlidingTabStrip;
 import com.netease.nim.demo.common.util.Preferences;
 import com.netease.nim.uikit.common.util.log.LogUtil;
 import com.netease.nim.uikit.session.module.ModuleProxy;
+import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.avchat.AVChatCallback;
 import com.netease.nimlib.sdk.avchat.AVChatManager;
 import com.netease.nimlib.sdk.avchat.AVChatStateObserver;
@@ -37,6 +40,7 @@ import com.netease.nimlib.sdk.avchat.model.AVChatOptionalConfig;
 import com.netease.nimlib.sdk.avchat.model.AVChatParameters;
 import com.netease.nimlib.sdk.avchat.model.AVChatVideoFrame;
 import com.netease.nimlib.sdk.avchat.model.AVChatVideoRender;
+import com.netease.nimlib.sdk.chatroom.ChatRoomService;
 import com.netease.nimlib.sdk.chatroom.model.ChatRoomInfo;
 import com.netease.nrtc.sdk.NRtcParameters;
 
@@ -95,56 +99,62 @@ public class ChatRoomFragment extends ChatRoomTabFragment implements ViewPager.O
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        initFragment();
     }
 
     @Override
     protected void onInit() {
         //接收MainActivity传过来的参数
-//        mMediaType   = "livestream";
-//        mDecodeType = "software";
-//        mVideoPath = "rtmp://v2220e357.live.126.net/live/e1f3a464831c45b6bb3dd18d6a762993";
-////        mVideoPath  = getIntent().getStringExtra("videoPath");
-////        private String decodeType = "software";  //解码类型，默认软件解码
-////        private String mediaType = "livestream"; //媒体类型，默认网络直播
-////        Intent intent = getIntent();
-////        String intentAction = intent.getAction();
-////        if (!TextUtils.isEmpty(intentAction) && intentAction.equals(Intent.ACTION_VIEW)) {
-////            mVideoPath = intent.getDataString();
-////        }
-//
-//        if (mDecodeType.equals("hardware")) {
-//            mHardware = true;
+//        initFragment();
+    }
+
+
+    public void initFragment() {
+        mMediaType   = "livestream";
+        mDecodeType = "software";
+        mVideoPath = "rtmp://v2220e357.live.126.net/live/e1f3a464831c45b6bb3dd18d6a762993";
+//        mVideoPath  = getIntent().getStringExtra("videoPath");
+//        private String decodeType = "software";  //解码类型，默认软件解码
+//        private String mediaType = "livestream"; //媒体类型，默认网络直播
+//        Intent intent = getIntent();
+//        String intentAction = intent.getAction();
+//        if (!TextUtils.isEmpty(intentAction) && intentAction.equals(Intent.ACTION_VIEW)) {
+//            mVideoPath = intent.getDataString();
 //        }
-//        else if (mDecodeType.equals("software")) {
-//            mHardware = false;
-//        }
-//
-//        mUri = Uri.parse(mVideoPath);
-//        if (mUri != null) { //获取文件名，不包括地址
-//            List<String> paths = mUri.getPathSegments();
-//            String name = paths == null || paths.isEmpty() ? "null" : paths.get(paths.size() - 1);
-//            setFileName(name);
-//        }
-//
-//        if (mMediaType.equals("livestream")) {
-//            mVideoView.setBufferStrategy(0); //直播低延时
-//        }
-//        else {
-//            mVideoView.setBufferStrategy(2); //点播抗抖动
-//        }
-//        mVideoView.setMediaController(mMediaController);
-//        mVideoView.setBufferingIndicator(mLoadingView);
-//        mVideoView.setMediaType(mMediaType);
-//        mVideoView.setHardwareDecoder(mHardware);
-//        mVideoView.setPauseInBackground(pauseInBackgroud);
-//        mVideoView.setVideoPath(mVideoPath);
-//        mMediaPlayer.setLogLevel(NELP_LOG_SILENT); //设置log级别
-//        mVideoView.requestFocus();
-//        mVideoView.start();
-//
-//        mPlayBack.setOnClickListener(mOnClickEvent); //监听退出播放的事件响应
-//        mMediaController.setOnShownListener(mOnShowListener); //监听mediacontroller是否显示
-//        mMediaController.setOnHiddenListener(mOnHiddenListener); //监听mediacontroller是否隐藏
+
+        if (mDecodeType.equals("hardware")) {
+            mHardware = true;
+        }
+        else if (mDecodeType.equals("software")) {
+            mHardware = false;
+        }
+
+        mUri = Uri.parse(mVideoPath);
+        if (mUri != null) { //获取文件名，不包括地址
+            List<String> paths = mUri.getPathSegments();
+            String name = paths == null || paths.isEmpty() ? "null" : paths.get(paths.size() - 1);
+            setFileName(name);
+        }
+
+        if (mMediaType.equals("livestream")) {
+            mVideoView.setBufferStrategy(0); //直播低延时
+        }
+        else {
+            mVideoView.setBufferStrategy(2); //点播抗抖动
+        }
+        mVideoView.setMediaController(mMediaController);
+        mVideoView.setBufferingIndicator(mLoadingView);
+        mVideoView.setMediaType(mMediaType);
+        mVideoView.setHardwareDecoder(mHardware);
+        mVideoView.setPauseInBackground(pauseInBackgroud);
+        mVideoView.setVideoPath(mVideoPath);
+        mMediaPlayer.setLogLevel(NELP_LOG_SILENT); //设置log级别
+        mVideoView.requestFocus();
+        mVideoView.start();
+
+        mPlayBack.setOnClickListener(mOnClickEvent); //监听退出播放的事件响应
+        mMediaController.setOnShownListener(mOnShowListener); //监听mediacontroller是否显示
+        mMediaController.setOnHiddenListener(mOnHiddenListener); //监听mediacontroller是否隐藏
     }
 
     @Override
@@ -233,16 +243,16 @@ public class ChatRoomFragment extends ChatRoomTabFragment implements ViewPager.O
 //        final ImageView backImage = findView(R.id.back_arrow);
         tabs = findView(R.id.chat_room_tabs);
         viewPager = findView(R.id.chat_room_viewpager);
-//        mPlayToolbar = (RelativeLayout)findView(R.id.play_toolbar);
-//        mPlayToolbar.setVisibility(View.INVISIBLE);
-//
-//        mLoadingView = findView(R.id.buffering_prompt);
-//        mMediaController = new NEMediaController(getActivity());
-//
-//        mVideoView = (NEVideoView) findView(R.id.video_view);
-//        mPlayBack = (ImageButton)findView(R.id.player_exit);//退出播放
-//        mPlayBack.getBackground().setAlpha(0);
-//        mFileName = (TextView)findView(R.id.file_name);
+        mPlayToolbar = (RelativeLayout)findView(R.id.play_toolbar);
+        mPlayToolbar.setVisibility(View.INVISIBLE);
+
+        mLoadingView = findView(R.id.buffering_prompt);
+        mMediaController = new NEMediaController(getActivity());
+
+        mVideoView = (NEVideoView) findView(R.id.video_view);
+        mPlayBack = (ImageButton)findView(R.id.player_exit);//退出播放
+        mPlayBack.getBackground().setAlpha(0);
+        mFileName = (TextView) findView(R.id.file_name);
 //        backImage.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
@@ -318,43 +328,43 @@ public class ChatRoomFragment extends ChatRoomTabFragment implements ViewPager.O
         }
     }
 
-    //    View.OnClickListener mOnClickEvent = new View.OnClickListener() {
-//        @Override
-//        public void onClick(View v) {
-//            if (v.getId() == R.id.player_exit) {
-//                mVideoView.release_resource();
-//                onDestroy();
-////                finish();
-//            }
-//        }
-//    };
-//
-//    NEMediaController.OnShownListener mOnShowListener = new NEMediaController.OnShownListener() {
-//
-//        @Override
-//        public void onShown() {
-//            mPlayToolbar.setVisibility(View.VISIBLE);
-//            mPlayToolbar.requestLayout();
-//            mVideoView.invalidate();
-//            mPlayToolbar.postInvalidate();
-//        }
-//    };
-//
-//    NEMediaController.OnHiddenListener mOnHiddenListener = new NEMediaController.OnHiddenListener() {
-//
-//        @Override
-//        public void onHidden() {
-//            mPlayToolbar.setVisibility(View.INVISIBLE);
-//        }
-//    };
-//
-//    public void setFileName(String name) { //设置文件名并显示出来
-//        mTitle = name;
-//        if (mFileName != null)
-//            mFileName.setText(mTitle);
-//
-//        mFileName.setGravity(Gravity.CENTER);
-//    }
+        View.OnClickListener mOnClickEvent = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            if (v.getId() == R.id.player_exit) {
+                mVideoView.release_resource();
+                onDestroy();
+//                finish();
+            }
+        }
+    };
+
+    NEMediaController.OnShownListener mOnShowListener = new NEMediaController.OnShownListener() {
+
+        @Override
+        public void onShown() {
+            mPlayToolbar.setVisibility(View.VISIBLE);
+            mPlayToolbar.requestLayout();
+            mVideoView.invalidate();
+            mPlayToolbar.postInvalidate();
+        }
+    };
+
+    NEMediaController.OnHiddenListener mOnHiddenListener = new NEMediaController.OnHiddenListener() {
+
+        @Override
+        public void onHidden() {
+            mPlayToolbar.setVisibility(View.INVISIBLE);
+        }
+    };
+
+    public void setFileName(String name) { //设置文件名并显示出来
+        mTitle = name;
+        if (mFileName != null)
+            mFileName.setText(mTitle);
+
+        mFileName.setGravity(Gravity.CENTER);
+    }
 
     /*****************************
      * AVChatStateObserver

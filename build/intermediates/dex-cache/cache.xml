@@ -3,120 +3,102 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\rxandroid-1.2.0.jar"
+        jar="F:\my_workpace\nim_demo\demo\libs\mi_push_sdk_3.1.2.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="19beef6debb6a22febc28777464c71bfccbafe3d">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\rxandroid-1.2.0_fdd15f5a6b7ffc215d47a9da58ae8a8c9e1169db\classes.dex" />
+        sha1="be4a7a20473c8e53375e59bef1af1bccaf1a7276">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\mi_push_sdk_3.1.2_801b97bbea5b90f6294095561e2ddc4e40105463\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_554de41054bc7682ea055ba42f19950bf6753841\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\com.netease.nimlib\jsbridge\1.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="4e9a2507654369919377dc1cf0304cfc40859ecd">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.netease.nimlib-jsbridge-1.3.1_02d8e719da45c5896d9af20bbca21f820ea12691\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\jars\libs\nim-basesdk-3.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="4790bdd03901b04b6f694afb624213cee3e31e48">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\8\nim-basesdk-3.4.0_a1ae1c1eb14c4717be8ef203580133746bfa9048\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e47f10299673ab68f24c595f96b18086cc9a8384">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\cn.bmob.android-bmob-sdk-3.5.0_950ae68bfaed3c420645c7f3e19c3cd17f491cd6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="debf30ce0a7560396b6235edef77e447006454c2">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.3.0_8c8d90cff3e68c6530f65e2f681ecaedd84eb794\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_0740e35b1562f687139862cca605a1202e2f94d0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\libs\nrtc-sdk.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="46c6daf87ac56784bc07480e015e69806e243b29">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\nrtc-sdk_c95ddea7b451ec479cbb108513f3bee16cec6c5f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_30de28be8fb0fd1ef241e3c2a4dcac16ca1af909\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\libs\nim-rts-3.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="9be6068d1b9df21da7ade05c7e9673aed33a9a84">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\nim-rts-3.4.0_306e8af7afb4d5da066a9892d67fd10fc3bda42b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\com.jiechic.library\xUtils\2.6.14\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="fe75606aa9485cd20177894c204291a79a0cc7ab">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.jiechic.library-xUtils-2.6.14_0781196a436fa295775f0b646a3c5c164354d2b6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\rxjava-1.1.6.jar"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\rxjava-1.1.6.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="ac615240b277e7fd3950d7b35f73b733f310cede">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.6_7771acce8020708b88860c38bf36ac50cdfa77e7\classes.dex" />
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.6_dca7c842ee273659336b6b1b15cd8d7ecc552284\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\jars\libs\nim-lucene-3.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_7562db0e34a932f8e38ba53e37a735d8b939ca30\classes.dex" />
+        sha1="c52dac0411afb4d962d318fa15271d342dd4a0fc">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\8\nim-lucene-3.4.0_3cd19f78193efcf17126a37e7faf6c3cc19c1e85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.3.0_21062ff8ada8e35efdf1f1dbc9695682d1bcdb85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\jars\libs\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4e2ec9a1a288c4a652f0611e2c2c31ab0f9df8fb">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\8\universal-image-loader-1.9.5_a6dd825b009e89a2322c7a5ed2c9ea93f221ff8d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\rxandroid-1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="19beef6debb6a22febc28777464c71bfccbafe3d">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\rxandroid-1.2.0_5945cd2e7b43b9d1fba333c7e4a7ae6ee0571c39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\com.jiechic.library\xUtils\2.6.14\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fe75606aa9485cd20177894c204291a79a0cc7ab">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.jiechic.library-xUtils-2.6.14_aae3c1180f542f4313c1887a4c474b0ebafef97b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_6c2a284fdd61d0d8ac24aa3991d9cfbc35ef85c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\okhttp-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e7cb33d9f82d3b8521c6594b180f4dd9fc6d49f2">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.1_b426b527f35ebeeb7b887608d5fa9fd26e99dfce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\jars\libs\nim-avchat-3.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6a3772b584998fcd8a5561de8473081a67884709">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\8\nim-avchat-3.4.0_3f86e858fb87a51568962425eb8cfce6930831e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\libs\nim-chatroom-3.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="19af0587f52002066b62ff057210823d9bec6a73">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\nim-chatroom-3.4.0_e8a53c7c8d1a405c3fd1df025f2747905bf25c06\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -125,34 +107,43 @@
         optimize="true"
         revision="23.0.3"
         sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.3.2_129daf79aac2b89d04477dd06772606059eeedd9\classes.dex" />
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.3.2_129daf79aac2b89d04477dd06772606059eeedd9\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\jars\libs\nim-avchat-3.4.0.jar"
+        jar="F:\my_workpace\nim_demo\demo\libs\NELivePlayer.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="6a3772b584998fcd8a5561de8473081a67884709">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\8\nim-avchat-3.4.0_8d1b2ec79f1c76d8209549d81ad1531ce11b1221\classes.dex" />
+        sha1="d15720e288a5a7ff22d383ec06401e2a9361c31d">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\NELivePlayer_70cc2b4de10bd58f2d966d588f67ac5fc0398f4e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_165640e5be2ded94ce95c6a3ade092e5da8d4b13\classes.dex" />
+        sha1="2a919c077cede518a394e8ca035d1bb7cc3c8b78">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a64873c39fc62812d22fbc820e00207f3c2f922c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\libs\Android_2DMap_V2.4.0.jar"
+        jar="F:\my_workpace\nim_demo\demo\libs\nim-rts-3.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="d0d5d6f4c13f4b1002dcdd6cc79588e8a7ee995f">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\Android_2DMap_V2.4.0_691238220a5ccde6297643a7f4ca1d237bd07065\classes.dex" />
+        sha1="9be6068d1b9df21da7ade05c7e9673aed33a9a84">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\nim-rts-3.4.0_cac26e51e41603bb7c87645ec60b0d64f1d1449e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\libs\AMap_Services_V2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="89ccf8789dad06e5ed2eab33e89d1dfab5226bba">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Services_V2.3.1_8cf84c238b1ba1042ef41cf2d8f699f730418489\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -161,196 +152,196 @@
         optimize="true"
         revision="23.0.3"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_dd460f45d27a359687729c3c169358b1eda3100b\classes.dex" />
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_dd460f45d27a359687729c3c169358b1eda3100b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\libs\cosinesdk.jar"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="4deaa111b14cb8263f34b7a54dda9f151632010d">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\cosinesdk_ed339f7999180d348203afc47016899613897963\classes.dex" />
+        sha1="e47f10299673ab68f24c595f96b18086cc9a8384">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\cn.bmob.android-bmob-sdk-3.5.0_02ee221f66b369eacd7a2c37c7d89765ed0130e0\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\libs\AMap_Services_V2.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="89ccf8789dad06e5ed2eab33e89d1dfab5226bba">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Services_V2.3.1_933fbd1e10b1dda9e766a876cf371e53fe98d4d8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="51873082adc971ccd2e6a4521a6ee2a68ecc6669">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b34ce2d1b712c8a0a06bf286bc8455b5ce6a6e09\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\BmobSDK_3.5.0_20160630.jar"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\BmobSDK_3.5.0_20160630.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="8eb5c605a02f792e326c5ac8e4feb2c18dd171ad">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\BmobSDK_3.5.0_20160630_6993fbaf3201c1116a111af6a5b4534250156874\classes.dex" />
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\BmobSDK_3.5.0_20160630_66b6bc3e19f88bad6a8d5fdb0776b9ba013ebb92\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\libs\NELivePlayer.jar"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="d15720e288a5a7ff22d383ec06401e2a9361c31d">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\NELivePlayer_17daa8210258ab35aeb1425abb6d9c6273183c0b\classes.dex" />
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.3.0_9927c8d919e50110876cd6a924a7e60eb78721ad\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\jars\libs\fastjson-1.1.34.android.jar"
+        jar="F:\my_workpace\nim_demo\demo\libs\cosinesdk.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="eef620d9aaf422102f51e417dbc08ffbece1da39">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\8\fastjson-1.1.34.android_96f813284930b2df728232b5877883b7f76c0888\classes.dex" />
+        sha1="4deaa111b14cb8263f34b7a54dda9f151632010d">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\cosinesdk_1179c18ba48b9ff1e59874a45070a04b5e0e3d13\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\libs\Android_Location_V1.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="38a2f44a304a66fab0527c0a86e356ddd2cce30d">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\Android_Location_V1.3.1_75be2cb64685d3261cf45bb1642eff1e4f00b383\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\libs\nim-avchat-3.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="1e48235d1b1fb223f66331f6bd9b75b8814ff26b">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\nim-avchat-3.3.0_ba54789a8db7c10b8f0d402360ac6a2360c6719a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\libs\org.apache.http.legacy.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="fa331331b626ee78c52bea16ce1e34b39e666ce5">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\org.apache.http.legacy_f3ae1e48829cf0ee699d7adeee1e7aec80d1e74c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\jars\libs\universal-image-loader-1.9.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="4e2ec9a1a288c4a652f0611e2c2c31ab0f9df8fb">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\8\universal-image-loader-1.9.5_5a8ec41d560493b05597077604ffaba5512617c0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="11cda4cc48c52a320afc07960054206e246ef8da">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8074fda98eaf97386b140d9e7a71ff3908f86673\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\jars\libs\nim-lucene-3.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="c52dac0411afb4d962d318fa15271d342dd4a0fc">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\8\nim-lucene-3.4.0_c47b6392a3265e6827b65136fbde462ba5deec0e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_988850da29a0db36ea5efbcd03d69199a052f129\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\libs\nim-chatroom-3.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="19af0587f52002066b62ff057210823d9bec6a73">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\nim-chatroom-3.4.0_01b623f5489cb310c0001aefdfad42ac69f8802d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.daimajia.slider-library-1.1.5_48d5de407bc06844c32835f87f1d965949a4054c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\gson-2.6.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="dd625f5e7bba8235782b5dc4244c3fd26953190f">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.2_d9ed657471d80e741b9d03f163e8b25f1825d0ef\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\libs\mi_push_sdk_3.1.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="be4a7a20473c8e53375e59bef1af1bccaf1a7276">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\mi_push_sdk_3.1.2_a1a409bd4c0ed6f0910ae88bfd55860fff42b5ea\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\okio-1.7.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="bbeca71da43c8f4bc9ceedec002060f53437ad26">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.7.0_6b2c145ba8e2e4d9ef6a55b1443c3e648c6e4c2e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_d51e508f4e0f2c310178c7025c7cf7dc007cc128\classes.dex" />
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_178fb1b654b0389f52fb7fd7a6359f4a931902c2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.3.0_ddc9d3feb3000fe950ca13b2a63f17c216c7e47a\classes.dex" />
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_54aafaf90e015e42d0dc4bf1653eb096e6eec4a1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\okhttp-3.3.1.jar"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="e7cb33d9f82d3b8521c6594b180f4dd9fc6d49f2">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.1_430aa845b9e7d776ab4534da0e02208f48bcea1c\classes.dex" />
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_ad32940f19cde6b26038fcf77310df564fa78da1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="dd625f5e7bba8235782b5dc4244c3fd26953190f">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.2_e36ad29ae89186a567665494400c0cef90fd5e35\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\libs\nrtc-sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="46c6daf87ac56784bc07480e015e69806e243b29">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\nrtc-sdk_f93dd0c22935c309d2de421df057f68be2f79025\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\jars\libs\nim-basesdk-3.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4790bdd03901b04b6f694afb624213cee3e31e48">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\8\nim-basesdk-3.4.0_7d9d7bf200e9f2fc4df8d361b9ffc43d8f46d855\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\jars\libs\fastjson-1.1.34.android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="eef620d9aaf422102f51e417dbc08ffbece1da39">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\8\fastjson-1.1.34.android_ad6b1740133e82fc41fff2b72bd892addf2c9ba7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\libs\Android_Location_V1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="38a2f44a304a66fab0527c0a86e356ddd2cce30d">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\Android_Location_V1.3.1_6ad4b39ed6a1e35b8779ea19567640a1c39e7924\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.daimajia.slider-library-1.1.5_cf81435c6d9a14be24d6c05e47aa7020d6e6fecd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_8d75d760a35503fdbcf0a85fba660be26a27cc3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_2f393f746385222e0ae308579e9745d18a39a026\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\okio-1.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bbeca71da43c8f4bc9ceedec002060f53437ad26">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.7.0_a396c123555ded0dc5c031121ddbe9b44478e7d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\libs\Android_2DMap_V2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d0d5d6f4c13f4b1002dcdd6cc79588e8a7ee995f">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\Android_2DMap_V2.4.0_4c2947cd20590c83a804c8135cdcbe2a61928422\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\libs\org.apache.http.legacy.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fa331331b626ee78c52bea16ce1e34b39e666ce5">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\org.apache.http.legacy_ce4ce4a1f71cfa54f0b76ebd8cf20a4e6fc6a5c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_c407283c51f4eb890b97618bcbde4a09fea192d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="47cc63cbdfe0f389db1f61ca9a7453a464337db4">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_70edbc1a49bc6a0225375cf5a4b17cc7433cf7ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\my_workpace\nim_demo\demo\build\intermediates\exploded-aar\com.netease.nimlib\jsbridge\1.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4e9a2507654369919377dc1cf0304cfc40859ecd">
+        <dex dex="F:\my_workpace\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.netease.nimlib-jsbridge-1.3.1_fb8ee71b1aad2f42264b202ba05635f8e699483a\classes.dex" />
     </item>
 
 </items>
