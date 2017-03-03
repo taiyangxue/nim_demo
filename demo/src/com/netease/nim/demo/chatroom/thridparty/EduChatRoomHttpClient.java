@@ -10,6 +10,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.google.gson.Gson;
 import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.common.entity.AddressResult;
+import com.netease.nim.demo.common.entity.ChannelCreat;
 import com.netease.nim.demo.common.entity.ChannelListResult;
 import com.netease.nim.demo.common.entity.ChatroomCreateResult;
 import com.netease.nim.demo.config.DemoServers;
@@ -123,6 +124,54 @@ public class EduChatRoomHttpClient {
     }
 
     /**
+     * 教师创建教室，服务器创建直播频道
+     * @param roomName 教室名称
+     * @param callback 回调
+     */
+    public void createClassRoom(String roomName, final ChatRoomHttpCallback<ChannelCreat.RetBean> callback) {
+        String url = DemoServers.API_SERVER2 + "channel/create";
+        Map<String, String> headers = new HashMap<>(2);
+        String appKey = readAppKey();
+        String appSecret = "16ba19d26ee84dbb82d4cc9c34bc208f";
+        String nonce = "12345";
+        String curTime = String.valueOf((new Date()).getTime() / 1000L);
+        String checkSum = CheckSumBuilder.getCheckSum(appSecret, nonce, curTime);//参考 计算CheckSum的java代码
+        // 设置请求的header
+        headers.put("AppKey", appKey);
+        headers.put("Nonce", nonce);
+        headers.put("CurTime", curTime);
+        headers.put("CheckSum", checkSum);
+        headers.put("Content-Type", "application/json;charset=utf-8");
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("name", roomName);
+        jsonObject.put("type", 0);
+        NimHttpClient.getInstance().execute(url, headers, jsonObject.toString(), new NimHttpClient.NimHttpCallback() {
+            @Override
+            public void onResponse(String response, int code, Throwable e) {
+                ChannelCreat channelCreat=gson.fromJson(response,ChannelCreat.class);
+                LogUtil.e(TAG, response);
+                if (channelCreat.getCode()!= 200) {
+                    errorMsg=channelCreat.getMsg();
+                    LogUtil.e(TAG, "create room failed : code = " + code + ", errorMsg = " + errorMsg);
+                    if (callback != null) {
+                        callback.onFailed(code, errorMsg);
+                    }
+                    return;
+                }
+                try {
+                    if (channelCreat.getCode() == RESULT_CODE_SUCCESS) {
+                        callback.onSuccess(channelCreat.getRet());
+                    } else {
+                        LogUtil.e(TAG, "create room failed : code = " + code + ", errorMsg = " + channelCreat.getMsg());
+                       callback.onFailed(code, channelCreat.getMsg());
+                    }
+                } catch (Exception e2) {
+                    callback.onFailed(-1, e2.getMessage());
+                }
+            }
+        });
+    }
+    /**
      * 主播创建房间
      * @param account  主播accid
      * @param roomName 房间名称
@@ -144,15 +193,6 @@ public class EduChatRoomHttpClient {
         headers.put("CurTime", curTime);
         headers.put("CheckSum", checkSum);
         headers.put("Content-Type", "application/x-www-form-urlencoded;charset=utf-8");
-
-//        JSONObject jsonObject = new JSONObject();
-//        jsonObject.put(REQUEST_CREATOR, account);
-//        jsonObject.put(REQUEST_ROOM_NAME, roomName);
-//        jsonObject.put(RESULT_KEY_EXT, "hahah");
-//        List<NameValuePair> nvps = new ArrayList<NameValuePair>();
-//        nvps.add(new BasicNameValuePair(REQUEST_CREATOR, account));
-//        nvps.add(new BasicNameValuePair(REQUEST_ROOM_NAME, roomName));
-//        nvps.add(new BasicNameVaePair(RESULT_KEY_EXT, "hahah"));
         String params = "name="+roomName+"&announcement=&broadcasturl=xxxxxx&creator="+account;
         NimHttpClient.getInstance().execute(url, headers, params, new NimHttpClient.NimHttpCallback() {
             @Override
@@ -183,9 +223,9 @@ public class EduChatRoomHttpClient {
         });
     }
     /**
-     * 向服务器请求直播拉流地址
+     * 向服务器请求直播间信息
      */
-    public void fetchChatRoomPullAddress(String cid,final ChatRoomHttpCallback<String> callback) {
+    public void fetchChatRoomPullAddress(String cid,final ChatRoomHttpCallback<AddressResult> callback) {
         String url = DemoServers.API_SERVER2 + "address";
         Map<String, String> headers = new HashMap<>(2);
         String appKey = readAppKey();
@@ -214,7 +254,7 @@ public class EduChatRoomHttpClient {
                 try {
                     if (code == RESULT_CODE_SUCCESS) {
                         // reply
-                        callback.onSuccess(addressResult.getRet().getRtmpPullUrl());
+                        callback.onSuccess(addressResult);
                     } else {
                         callback.onFailed(code, null);
                     }

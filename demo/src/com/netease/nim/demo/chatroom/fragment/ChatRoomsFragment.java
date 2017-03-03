@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -104,19 +103,7 @@ public class ChatRoomsFragment extends TFragment {
             public void onItemClick(ChatRoomsAdapter adapter, View view, int position) {
                 ChannelListResult.RetBean.ListBean room = adapter.getItem(position);
                 if(room.getStatus()==1||room.getStatus()==3){
-                    EduChatRoomHttpClient.getInstance().fetchChatRoomPullAddress(room.getCid(), new EduChatRoomHttpClient.ChatRoomHttpCallback<String>() {
-                        @Override
-                        public void onSuccess(String pullurl) {
-                            Log.e("test",pullurl);
-                            if(checkPublishPermission()){
-                                createRoom("sun",pullurl);
-                            }
-                        }
-                        @Override
-                        public void onFailed(int code, String errorMsg) {
-                            MyUtils.showToast(getActivity(),errorMsg);
-                        }
-                    });
+
                 }else {
                     MyUtils.showToast(getActivity(),"当前教室未上课");
                 }

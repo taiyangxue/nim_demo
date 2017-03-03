@@ -3475,58 +3475,58 @@ containing a value of this type.
         public static final int ZoomIn=0x7f0e004d;
         public static final int ZoomOut=0x7f0e004e;
         public static final int ZoomOutSlide=0x7f0e004f;
-        public static final int about=0x7f0e02d7;
-        public static final int accept=0x7f0e027f;
+        public static final int about=0x7f0e02dd;
+        public static final int accept=0x7f0e0285;
         public static final int account=0x7f0e00c0;
         public static final int account_editor=0x7f0e0088;
-        public static final int account_info_layout=0x7f0e027b;
-        public static final int account_log=0x7f0e0126;
-        public static final int action0=0x7f0e0262;
+        public static final int account_info_layout=0x7f0e0281;
+        public static final int account_log=0x7f0e0129;
+        public static final int action0=0x7f0e0268;
         public static final int action_bar=0x7f0e0072;
         public static final int action_bar_activity_content=0x7f0e0004;
         public static final int action_bar_container=0x7f0e0071;
-        public static final int action_bar_right_clickable_textview=0x7f0e015f;
+        public static final int action_bar_right_clickable_textview=0x7f0e0165;
         public static final int action_bar_root=0x7f0e006d;
         public static final int action_bar_spinner=0x7f0e0005;
         public static final int action_bar_subtitle=0x7f0e0053;
         public static final int action_bar_title=0x7f0e0052;
         public static final int action_context_bar=0x7f0e0073;
-        public static final int action_divider=0x7f0e0266;
+        public static final int action_divider=0x7f0e026c;
         public static final int action_menu_divider=0x7f0e0006;
         public static final int action_menu_presenter=0x7f0e0007;
         public static final int action_mode_bar=0x7f0e006f;
         public static final int action_mode_bar_stub=0x7f0e006e;
         public static final int action_mode_close_button=0x7f0e0054;
-        public static final int action_search=0x7f0e02ce;
-        public static final int actionsLayout=0x7f0e01d0;
-        public static final int actions_page_indicator=0x7f0e01d2;
+        public static final int action_search=0x7f0e02d4;
+        public static final int actionsLayout=0x7f0e01d6;
+        public static final int actions_page_indicator=0x7f0e01d8;
         public static final int activity_chooser_view_content=0x7f0e0055;
-        public static final int add_btn=0x7f0e0123;
-        public static final int add_buddy=0x7f0e02b0;
+        public static final int add_btn=0x7f0e0126;
+        public static final int add_buddy=0x7f0e02b6;
         public static final int add_button=0x7f0e008a;
         public static final int addressTextView=0x7f0e0098;
-        public static final int agree=0x7f0e0141;
+        public static final int agree=0x7f0e0144;
         public static final int alertTitle=0x7f0e0061;
-        public static final int alias=0x7f0e02a9;
+        public static final int alias=0x7f0e02af;
         public static final int always=0x7f0e0037;
-        public static final int announce_content=0x7f0e0131;
-        public static final int announce_create_time=0x7f0e0167;
-        public static final int announce_layout=0x7f0e0130;
-        public static final int announce_placeholder=0x7f0e02a1;
-        public static final int announce_title=0x7f0e0165;
-        public static final int annourcement_indicator=0x7f0e02a3;
-        public static final int annourcement_vp=0x7f0e02a2;
+        public static final int announce_content=0x7f0e0134;
+        public static final int announce_create_time=0x7f0e016d;
+        public static final int announce_layout=0x7f0e0133;
+        public static final int announce_placeholder=0x7f0e02a7;
+        public static final int announce_title=0x7f0e016b;
+        public static final int annourcement_indicator=0x7f0e02a9;
+        public static final int annourcement_vp=0x7f0e02a8;
         public static final int app_bar_layout=0x7f0e0081;
-        public static final int apply_join=0x7f0e0184;
+        public static final int apply_join=0x7f0e018a;
         public static final int arrow_left=0x7f0e0087;
-        public static final int arrow_right=0x7f0e02bc;
-        public static final int assist_my_location=0x7f0e011f;
-        public static final int attribute=0x7f0e02a8;
-        public static final int audioRecord=0x7f0e01da;
-        public static final int audioTextSwitchLayout=0x7f0e01d8;
-        public static final int audio_permission_btn=0x7f0e0271;
-        public static final int audio_switch=0x7f0e0283;
-        public static final int autonavi_mapView=0x7f0e011a;
+        public static final int arrow_right=0x7f0e02c2;
+        public static final int assist_my_location=0x7f0e0122;
+        public static final int attribute=0x7f0e02ae;
+        public static final int audioRecord=0x7f0e01e0;
+        public static final int audioTextSwitchLayout=0x7f0e01de;
+        public static final int audio_permission_btn=0x7f0e0277;
+        public static final int audio_switch=0x7f0e0289;
+        public static final int autonavi_mapView=0x7f0e011d;
         public static final int avchat_audio_hangup=0x7f0e00a1;
         public static final int avchat_audio_head=0x7f0e00a3;
         public static final int avchat_audio_layout=0x7f0e009b;
@@ -3541,38 +3541,38 @@ containing a value of this type.
         public static final int avchat_audio_switch_video=0x7f0e00a2;
         public static final int avchat_audio_time=0x7f0e00a5;
         public static final int avchat_audio_wifi_unavailable=0x7f0e00a7;
-        public static final int avchat_close_camera=0x7f0e02c5;
-        public static final int avchat_incoming_control=0x7f0e02c3;
+        public static final int avchat_close_camera=0x7f0e02cb;
+        public static final int avchat_incoming_control=0x7f0e02c9;
         public static final int avchat_record_layout=0x7f0e00ab;
         public static final int avchat_record_tip=0x7f0e00ac;
         public static final int avchat_record_warning=0x7f0e00ad;
         public static final int avchat_surface_layout=0x7f0e009c;
-        public static final int avchat_switch_camera=0x7f0e02c4;
+        public static final int avchat_switch_camera=0x7f0e02ca;
         public static final int avchat_video_bottom_control=0x7f0e00bc;
         public static final int avchat_video_head=0x7f0e00b6;
         public static final int avchat_video_layout=0x7f0e009d;
-        public static final int avchat_video_logout=0x7f0e02c8;
+        public static final int avchat_video_logout=0x7f0e02ce;
         public static final int avchat_video_middle_control=0x7f0e00bb;
-        public static final int avchat_video_mute=0x7f0e02c6;
-        public static final int avchat_video_netunstable=0x7f0e02cd;
+        public static final int avchat_video_mute=0x7f0e02cc;
+        public static final int avchat_video_netunstable=0x7f0e02d3;
         public static final int avchat_video_nickname=0x7f0e00b7;
         public static final int avchat_video_notify=0x7f0e00b8;
-        public static final int avchat_video_record=0x7f0e02c7;
+        public static final int avchat_video_record=0x7f0e02cd;
         public static final int avchat_video_refuse_receive=0x7f0e00b9;
-        public static final int avchat_video_switch_audio=0x7f0e02cb;
-        public static final int avchat_video_time=0x7f0e02cc;
+        public static final int avchat_video_switch_audio=0x7f0e02d1;
+        public static final int avchat_video_time=0x7f0e02d2;
         public static final int avchat_video_top_control=0x7f0e00ba;
         public static final int back=0x7f0e0086;
         public static final int back_arrow=0x7f0e00ce;
-        public static final int back_layout=0x7f0e0154;
-        public static final int background=0x7f0e018e;
+        public static final int back_layout=0x7f0e0157;
+        public static final int background=0x7f0e0194;
         public static final int bar_panel=0x7f0e0085;
-        public static final int begin_chat=0x7f0e02ae;
+        public static final int begin_chat=0x7f0e02b4;
         public static final int beginning=0x7f0e0035;
-        public static final int birth_layout=0x7f0e02be;
-        public static final int birth_picker_layout=0x7f0e02b1;
-        public static final int birth_value=0x7f0e02b2;
-        public static final int birthday=0x7f0e02aa;
+        public static final int birth_layout=0x7f0e02c4;
+        public static final int birth_picker_layout=0x7f0e02b7;
+        public static final int birth_value=0x7f0e02b8;
+        public static final int birthday=0x7f0e02b0;
         public static final int black_list_view=0x7f0e00be;
         public static final int bmob_update_content=0x7f0e00c5;
         public static final int bmob_update_id_cancel=0x7f0e00c8;
@@ -3582,25 +3582,28 @@ containing a value of this type.
         public static final int bmob_update_id_ok=0x7f0e00c7;
         public static final int bmob_update_wifi_indicator=0x7f0e00c3;
         public static final int bottom=0x7f0e0021;
-        public static final int bottomLine=0x7f0e00fe;
+        public static final int bottomLine=0x7f0e0101;
         public static final int bottom_line=0x7f0e00c2;
-        public static final int btnAlSelected=0x7f0e01a7;
-        public static final int btnSelect=0x7f0e01a8;
+        public static final int bt_cancle=0x7f0e00f3;
+        public static final int bt_ok=0x7f0e00f4;
+        public static final int btnAlSelected=0x7f0e01ad;
+        public static final int btnSelect=0x7f0e01ae;
+        public static final int btn_channel_creat=0x7f0e015c;
         public static final int btn_push=0x7f0e008d;
         public static final int buffering_prompt=0x7f0e0096;
-        public static final int buttonAudioMessage=0x7f0e01d6;
-        public static final int buttonMoreFuntionInText=0x7f0e01dc;
+        public static final int buttonAudioMessage=0x7f0e01dc;
+        public static final int buttonMoreFuntionInText=0x7f0e01e2;
         public static final int buttonPanel=0x7f0e005c;
-        public static final int buttonSend=0x7f0e0229;
-        public static final int buttonSendMessage=0x7f0e01dd;
-        public static final int buttonTextMessage=0x7f0e01d7;
-        public static final int callee_ack_layout=0x7f0e027e;
-        public static final int cancel_action=0x7f0e0263;
-        public static final int cancel_btn=0x7f0e01b0;
-        public static final int cancel_full_screen_image=0x7f0e0158;
+        public static final int buttonSend=0x7f0e022f;
+        public static final int buttonSendMessage=0x7f0e01e3;
+        public static final int buttonTextMessage=0x7f0e01dd;
+        public static final int callee_ack_layout=0x7f0e0284;
+        public static final int cancel_action=0x7f0e0269;
+        public static final int cancel_btn=0x7f0e01b6;
+        public static final int cancel_full_screen_image=0x7f0e015b;
         public static final int center=0x7f0e0022;
         public static final int center_horizontal=0x7f0e0023;
-        public static final int center_notify_text=0x7f0e02c9;
+        public static final int center_notify_text=0x7f0e02cf;
         public static final int center_vertical=0x7f0e0024;
         public static final int chat_room_message_fragment=0x7f0e00e2;
         public static final int chat_room_message_layout=0x7f0e00e1;
@@ -3609,388 +3612,391 @@ containing a value of this type.
         public static final int chat_room_viewpager=0x7f0e00d1;
         public static final int chat_rooms_fragment=0x7f0e00ca;
         public static final int checkbox=0x7f0e006a;
-        public static final int chronometer=0x7f0e0268;
-        public static final int clear_btn=0x7f0e0125;
-        public static final int client_logout=0x7f0e0150;
-        public static final int client_name=0x7f0e014f;
+        public static final int chronometer=0x7f0e026e;
+        public static final int clear_btn=0x7f0e0128;
+        public static final int client_logout=0x7f0e0153;
+        public static final int client_name=0x7f0e0152;
         public static final int clip_horizontal=0x7f0e0030;
         public static final int clip_vertical=0x7f0e0031;
-        public static final int close_apply_btn=0x7f0e0273;
+        public static final int close_apply_btn=0x7f0e0279;
         public static final int collapseActionView=0x7f0e0038;
         public static final int connect=0x7f0e008e;
-        public static final int contactCountText=0x7f0e019d;
+        public static final int contactCountText=0x7f0e01a3;
         public static final int contact_fragment=0x7f0e00e8;
-        public static final int contact_list_view=0x7f0e0198;
-        public static final int contact_loading_frame=0x7f0e0119;
-        public static final int contact_select_area=0x7f0e01a9;
-        public static final int contact_select_area_grid=0x7f0e01aa;
-        public static final int contact_select_area_head=0x7f0e0196;
-        public static final int contact_select_area_image=0x7f0e0197;
-        public static final int contact_select_back=0x7f0e01a6;
-        public static final int contactsLayout=0x7f0e01a4;
-        public static final int contacts_item_desc=0x7f0e01a3;
-        public static final int contacts_item_head=0x7f0e019f;
-        public static final int contacts_item_name=0x7f0e01a2;
-        public static final int contacts_item_name_layout=0x7f0e01a0;
-        public static final int contacts_item_time=0x7f0e01a1;
+        public static final int contact_list_view=0x7f0e019e;
+        public static final int contact_loading_frame=0x7f0e011c;
+        public static final int contact_select_area=0x7f0e01af;
+        public static final int contact_select_area_grid=0x7f0e01b0;
+        public static final int contact_select_area_head=0x7f0e019c;
+        public static final int contact_select_area_image=0x7f0e019d;
+        public static final int contact_select_back=0x7f0e01ac;
+        public static final int contactsLayout=0x7f0e01aa;
+        public static final int contacts_item_desc=0x7f0e01a9;
+        public static final int contacts_item_head=0x7f0e01a5;
+        public static final int contacts_item_name=0x7f0e01a8;
+        public static final int contacts_item_name_layout=0x7f0e01a6;
+        public static final int contacts_item_time=0x7f0e01a7;
         public static final int contentPanel=0x7f0e0062;
-        public static final int content_layout=0x7f0e0180;
-        public static final int content_text=0x7f0e0147;
-        public static final int control_download_btn=0x7f0e0254;
+        public static final int content_layout=0x7f0e0186;
+        public static final int content_text=0x7f0e014a;
+        public static final int control_download_btn=0x7f0e025a;
         public static final int cover_image=0x7f0e00d2;
-        public static final int create_normal_team=0x7f0e02d4;
-        public static final int create_regular_team=0x7f0e02d5;
-        public static final int create_team_layout=0x7f0e013b;
-        public static final int cropable_image_view=0x7f0e01ae;
+        public static final int create_normal_team=0x7f0e02da;
+        public static final int create_regular_team=0x7f0e02db;
+        public static final int create_team_layout=0x7f0e013e;
+        public static final int cropable_image_view=0x7f0e01b4;
         public static final int custom=0x7f0e0068;
         public static final int customPanel=0x7f0e0067;
-        public static final int custom_dialog_text_view=0x7f0e01b2;
-        public static final int custom_loading=0x7f0e0275;
-        public static final int daimajia_indicator_wrapper=0x7f0e0107;
-        public static final int daimajia_slider_image=0x7f0e0276;
-        public static final int daimajia_slider_viewpager=0x7f0e0296;
+        public static final int custom_dialog_text_view=0x7f0e01b8;
+        public static final int custom_loading=0x7f0e027b;
+        public static final int daimajia_indicator_wrapper=0x7f0e010a;
+        public static final int daimajia_slider_image=0x7f0e027c;
+        public static final int daimajia_slider_viewpager=0x7f0e029c;
         public static final int decor_content_parent=0x7f0e0070;
         public static final int default_activity_button=0x7f0e0058;
-        public static final int default_bottom_left_indicator=0x7f0e0299;
-        public static final int default_bottom_right_indicator=0x7f0e0298;
-        public static final int default_center_bottom_indicator=0x7f0e0297;
-        public static final int default_center_top_indicator=0x7f0e029a;
-        public static final int default_center_top_left_indicator=0x7f0e029c;
-        public static final int default_center_top_right_indicator=0x7f0e029b;
-        public static final int delete_btn=0x7f0e0124;
-        public static final int description=0x7f0e0279;
-        public static final int description_layout=0x7f0e0278;
+        public static final int default_bottom_left_indicator=0x7f0e029f;
+        public static final int default_bottom_right_indicator=0x7f0e029e;
+        public static final int default_center_bottom_indicator=0x7f0e029d;
+        public static final int default_center_top_indicator=0x7f0e02a0;
+        public static final int default_center_top_left_indicator=0x7f0e02a2;
+        public static final int default_center_top_right_indicator=0x7f0e02a1;
+        public static final int delete_btn=0x7f0e0127;
+        public static final int description=0x7f0e027f;
+        public static final int description_layout=0x7f0e027e;
         public static final int design_bottom_sheet=0x7f0e00ea;
         public static final int design_menu_item_action_area=0x7f0e00f1;
         public static final int design_menu_item_action_area_stub=0x7f0e00f0;
         public static final int design_menu_item_text=0x7f0e00ef;
         public static final int design_navigation_view=0x7f0e00ee;
-        public static final int detail_label=0x7f0e028d;
-        public static final int device_label=0x7f0e0291;
-        public static final int device_name=0x7f0e0290;
+        public static final int detail_label=0x7f0e0293;
+        public static final int device_label=0x7f0e0297;
+        public static final int device_name=0x7f0e0296;
         public static final int disableHome=0x7f0e0012;
-        public static final int discussion_name=0x7f0e0243;
-        public static final int divider=0x7f0e017f;
-        public static final int divider_line=0x7f0e01cc;
-        public static final int doodle_back=0x7f0e0285;
-        public static final int doodle_clear=0x7f0e0284;
-        public static final int doodle_view=0x7f0e0286;
-        public static final int downloadProgressBackground=0x7f0e0252;
-        public static final int downloadProgressForeground=0x7f0e0253;
-        public static final int downloadProgressText=0x7f0e0255;
-        public static final int download_btn=0x7f0e00f5;
-        public static final int download_layout=0x7f0e00f9;
-        public static final int download_status=0x7f0e00fa;
-        public static final int easy_alert_dialog_edit_text=0x7f0e01bd;
-        public static final int easy_alert_dialog_layout=0x7f0e01b6;
-        public static final int easy_dialog_btn_divide_view=0x7f0e01b4;
-        public static final int easy_dialog_list_view=0x7f0e01bf;
-        public static final int easy_dialog_message_2=0x7f0e01b9;
-        public static final int easy_dialog_message_text_view=0x7f0e01b8;
-        public static final int easy_dialog_negative_btn=0x7f0e01b3;
-        public static final int easy_dialog_positive_btn=0x7f0e01b5;
-        public static final int easy_dialog_title_button=0x7f0e01ba;
-        public static final int easy_dialog_title_text_view=0x7f0e01bb;
-        public static final int easy_dialog_title_view=0x7f0e01b7;
-        public static final int easy_edit_dialog_root=0x7f0e01bc;
-        public static final int easy_progress_bar=0x7f0e01c0;
-        public static final int easy_progress_dialog_message=0x7f0e01c1;
-        public static final int editTextMessage=0x7f0e01d5;
-        public static final int edit_login_account=0x7f0e010f;
-        public static final int edit_login_password=0x7f0e0110;
+        public static final int discussion_name=0x7f0e0249;
+        public static final int divider=0x7f0e0185;
+        public static final int divider_line=0x7f0e01d2;
+        public static final int doodle_back=0x7f0e028b;
+        public static final int doodle_clear=0x7f0e028a;
+        public static final int doodle_view=0x7f0e028c;
+        public static final int downloadProgressBackground=0x7f0e0258;
+        public static final int downloadProgressForeground=0x7f0e0259;
+        public static final int downloadProgressText=0x7f0e025b;
+        public static final int download_btn=0x7f0e00f8;
+        public static final int download_layout=0x7f0e00fc;
+        public static final int download_status=0x7f0e00fd;
+        public static final int easy_alert_dialog_edit_text=0x7f0e01c3;
+        public static final int easy_alert_dialog_layout=0x7f0e01bc;
+        public static final int easy_dialog_btn_divide_view=0x7f0e01ba;
+        public static final int easy_dialog_list_view=0x7f0e01c5;
+        public static final int easy_dialog_message_2=0x7f0e01bf;
+        public static final int easy_dialog_message_text_view=0x7f0e01be;
+        public static final int easy_dialog_negative_btn=0x7f0e01b9;
+        public static final int easy_dialog_positive_btn=0x7f0e01bb;
+        public static final int easy_dialog_title_button=0x7f0e01c0;
+        public static final int easy_dialog_title_text_view=0x7f0e01c1;
+        public static final int easy_dialog_title_view=0x7f0e01bd;
+        public static final int easy_edit_dialog_root=0x7f0e01c2;
+        public static final int easy_progress_bar=0x7f0e01c6;
+        public static final int easy_progress_dialog_message=0x7f0e01c7;
+        public static final int editTextMessage=0x7f0e01db;
+        public static final int edit_login_account=0x7f0e0112;
+        public static final int edit_login_password=0x7f0e0113;
         public static final int edit_query=0x7f0e0074;
-        public static final int edit_register_account=0x7f0e0112;
-        public static final int edit_register_nickname=0x7f0e0113;
-        public static final int edit_register_password=0x7f0e0114;
-        public static final int edit_text_length=0x7f0e01be;
-        public static final int edittext=0x7f0e02b5;
-        public static final int email=0x7f0e02ac;
-        public static final int email_layout=0x7f0e02c0;
-        public static final int emoj_tab_view=0x7f0e01c8;
-        public static final int emoj_tab_view_container=0x7f0e01c7;
-        public static final int emojiLayout=0x7f0e01c3;
-        public static final int emoji_button=0x7f0e01d9;
+        public static final int edit_register_account=0x7f0e0115;
+        public static final int edit_register_nickname=0x7f0e0116;
+        public static final int edit_register_password=0x7f0e0117;
+        public static final int edit_text_length=0x7f0e01c4;
+        public static final int edittext=0x7f0e02bb;
+        public static final int email=0x7f0e02b2;
+        public static final int email_layout=0x7f0e02c6;
+        public static final int emoj_tab_view=0x7f0e01ce;
+        public static final int emoj_tab_view_container=0x7f0e01cd;
+        public static final int emojiLayout=0x7f0e01c9;
+        public static final int emoji_button=0x7f0e01df;
         public static final int emoticon_picker_view=0x7f0e00da;
-        public static final int emptyBg=0x7f0e0231;
-        public static final int emptyBg1=0x7f0e0232;
+        public static final int emptyBg=0x7f0e0237;
+        public static final int emptyBg1=0x7f0e0238;
         public static final int end=0x7f0e0025;
-        public static final int end_padder=0x7f0e026c;
-        public static final int end_session=0x7f0e0280;
-        public static final int end_session_menu=0x7f0e02da;
-        public static final int end_text=0x7f0e025f;
-        public static final int end_time_layout=0x7f0e025e;
-        public static final int end_time_value=0x7f0e0260;
+        public static final int end_padder=0x7f0e0272;
+        public static final int end_session=0x7f0e0286;
+        public static final int end_session_menu=0x7f0e02e0;
+        public static final int end_text=0x7f0e0265;
+        public static final int end_time_layout=0x7f0e0264;
+        public static final int end_time_value=0x7f0e0266;
         public static final int enterAlways=0x7f0e0019;
         public static final int enterAlwaysCollapsed=0x7f0e001a;
+        public static final int et_name=0x7f0e00f2;
+        public static final int et_push_id=0x7f0e015e;
         public static final int exitUntilCollapsed=0x7f0e001b;
         public static final int expand_activities_button=0x7f0e0056;
         public static final int expanded_menu=0x7f0e0069;
-        public static final int female_check=0x7f0e02b9;
-        public static final int female_layout=0x7f0e02b8;
-        public static final int file_image=0x7f0e00f4;
-        public static final int file_list=0x7f0e00f3;
+        public static final int female_check=0x7f0e02bf;
+        public static final int female_layout=0x7f0e02be;
+        public static final int file_image=0x7f0e00f7;
+        public static final int file_list=0x7f0e00f6;
         public static final int file_name=0x7f0e0095;
         public static final int fill=0x7f0e0032;
         public static final int fill_horizontal=0x7f0e0033;
         public static final int fill_vertical=0x7f0e0026;
         public static final int fixed=0x7f0e0050;
-        public static final int fl_inner=0x7f0e0274;
-        public static final int float_annourcement_layout=0x7f0e02a0;
+        public static final int fl_inner=0x7f0e027a;
+        public static final int float_annourcement_layout=0x7f0e02a6;
         public static final int fragment=0x7f0e00b0;
-        public static final int frameLayoutHead=0x7f0e023b;
-        public static final int from_account_head_image=0x7f0e013f;
-        public static final int from_account_text=0x7f0e0145;
+        public static final int frameLayoutHead=0x7f0e0241;
+        public static final int from_account_head_image=0x7f0e0142;
+        public static final int from_account_text=0x7f0e0148;
         public static final int full_screen_image=0x7f0e00cd;
-        public static final int full_screen_layout=0x7f0e0156;
-        public static final int full_screen_view=0x7f0e0157;
-        public static final int gender_img=0x7f0e02a5;
-        public static final int gender_layout=0x7f0e02bd;
-        public static final int global_search_root=0x7f0e00ff;
-        public static final int google_mapView=0x7f0e0120;
-        public static final int gridview=0x7f0e015c;
-        public static final int group_list=0x7f0e0104;
-        public static final int group_list_root=0x7f0e0103;
-        public static final int head_detail_label=0x7f0e028b;
+        public static final int full_screen_layout=0x7f0e0159;
+        public static final int full_screen_view=0x7f0e015a;
+        public static final int gender_img=0x7f0e02ab;
+        public static final int gender_layout=0x7f0e02c3;
+        public static final int global_search_root=0x7f0e0102;
+        public static final int google_mapView=0x7f0e0123;
+        public static final int gridview=0x7f0e015f;
+        public static final int group_list=0x7f0e0107;
+        public static final int group_list_root=0x7f0e0106;
+        public static final int head_detail_label=0x7f0e0291;
         public static final int head_image=0x7f0e00bf;
-        public static final int head_layout=0x7f0e019e;
-        public static final int head_title_label=0x7f0e028a;
-        public static final int holder=0x7f0e021c;
+        public static final int head_layout=0x7f0e01a4;
+        public static final int head_title_label=0x7f0e0290;
+        public static final int holder=0x7f0e0222;
         public static final int home=0x7f0e0008;
         public static final int homeAsUp=0x7f0e0013;
         public static final int icon=0x7f0e005a;
-        public static final int identity_container=0x7f0e018a;
-        public static final int identity_image=0x7f0e026d;
+        public static final int identity_container=0x7f0e0190;
+        public static final int identity_image=0x7f0e0273;
         public static final int ifRoom=0x7f0e0039;
         public static final int image=0x7f0e0057;
-        public static final int imageView=0x7f0e0161;
-        public static final int imageViewAdmin=0x7f0e023e;
-        public static final int imageViewDeleteTag=0x7f0e023f;
-        public static final int imageViewHeader=0x7f0e023c;
-        public static final int imageViewOwner=0x7f0e023d;
-        public static final int imageViewPreview=0x7f0e0228;
-        public static final int imgEmoji=0x7f0e01c2;
-        public static final int imgSelect=0x7f0e01ac;
-        public static final int img_head=0x7f0e00fb;
-        public static final int img_hit_letter=0x7f0e019a;
-        public static final int img_msg_status=0x7f0e013e;
-        public static final int info=0x7f0e026b;
-        public static final int invalid_team_text=0x7f0e0242;
-        public static final int invalid_team_tip=0x7f0e0241;
+        public static final int imageView=0x7f0e0167;
+        public static final int imageViewAdmin=0x7f0e0244;
+        public static final int imageViewDeleteTag=0x7f0e0245;
+        public static final int imageViewHeader=0x7f0e0242;
+        public static final int imageViewOwner=0x7f0e0243;
+        public static final int imageViewPreview=0x7f0e022e;
+        public static final int imgEmoji=0x7f0e01c8;
+        public static final int imgSelect=0x7f0e01b2;
+        public static final int img_head=0x7f0e00fe;
+        public static final int img_hit_letter=0x7f0e01a0;
+        public static final int img_msg_status=0x7f0e0141;
+        public static final int info=0x7f0e0271;
+        public static final int invalid_team_text=0x7f0e0248;
+        public static final int invalid_team_tip=0x7f0e0247;
         public static final int invisible=0x7f0e003c;
-        public static final int item_detail=0x7f0e017e;
-        public static final int item_title=0x7f0e017d;
+        public static final int item_detail=0x7f0e0184;
+        public static final int item_title=0x7f0e0183;
         public static final int item_touch_helper_previous_elevation=0x7f0e0009;
         public static final int large_size_preview=0x7f0e00b1;
-        public static final int layoutDownload=0x7f0e0251;
+        public static final int layoutDownload=0x7f0e0257;
         public static final int layoutPlayAudio=0x7f0e00dd;
-        public static final int layout_scr_bottom=0x7f0e01c6;
-        public static final int lblVideoFileInfo=0x7f0e0256;
-        public static final int lblVideoTimes=0x7f0e0257;
+        public static final int layout_scr_bottom=0x7f0e01cc;
+        public static final int lblVideoFileInfo=0x7f0e025c;
+        public static final int lblVideoTimes=0x7f0e025d;
         public static final int left=0x7f0e0027;
-        public static final int line=0x7f0e0247;
-        public static final int line1=0x7f0e0151;
-        public static final int line3=0x7f0e026a;
-        public static final int listItemLayout=0x7f0e01ab;
+        public static final int line=0x7f0e024d;
+        public static final int line1=0x7f0e0154;
+        public static final int line3=0x7f0e0270;
+        public static final int listItemLayout=0x7f0e01b1;
         public static final int listMode=0x7f0e000f;
         public static final int list_item=0x7f0e0059;
-        public static final int liv_index=0x7f0e0199;
-        public static final int load_more_load_end_view=0x7f0e014c;
-        public static final int load_more_load_fail_view=0x7f0e014a;
-        public static final int load_more_loading_view=0x7f0e0148;
-        public static final int loading_bar=0x7f0e0277;
-        public static final int loading_layout=0x7f0e024c;
-        public static final int loading_progress=0x7f0e0149;
-        public static final int loading_text=0x7f0e0295;
-        public static final int location_info=0x7f0e011c;
-        public static final int location_pin=0x7f0e011b;
-        public static final int login_layout=0x7f0e010e;
-        public static final int ly_main_weixin=0x7f0e015a;
-        public static final int mail_view_content_layout=0x7f0e022c;
-        public static final int main_tab_pager=0x7f0e0117;
-        public static final int male_check=0x7f0e02b7;
-        public static final int male_layout=0x7f0e02b6;
-        public static final int marker_address=0x7f0e011d;
+        public static final int liv_index=0x7f0e019f;
+        public static final int ll_main=0x7f0e015d;
+        public static final int load_more_load_end_view=0x7f0e014f;
+        public static final int load_more_load_fail_view=0x7f0e014d;
+        public static final int load_more_loading_view=0x7f0e014b;
+        public static final int loading_bar=0x7f0e027d;
+        public static final int loading_layout=0x7f0e0252;
+        public static final int loading_progress=0x7f0e014c;
+        public static final int loading_text=0x7f0e029b;
+        public static final int location_info=0x7f0e011f;
+        public static final int location_pin=0x7f0e011e;
+        public static final int login_layout=0x7f0e0111;
+        public static final int ly_main_weixin=0x7f0e0161;
+        public static final int mail_view_content_layout=0x7f0e0232;
+        public static final int main_tab_pager=0x7f0e011a;
+        public static final int male_check=0x7f0e02bd;
+        public static final int male_layout=0x7f0e02bc;
+        public static final int marker_address=0x7f0e0120;
         public static final int master_fragment=0x7f0e00d7;
-        public static final int master_head_image=0x7f0e012c;
-        public static final int master_name=0x7f0e012e;
+        public static final int master_head_image=0x7f0e012f;
+        public static final int master_name=0x7f0e0131;
         public static final int master_tab=0x7f0e00d6;
         public static final int master_video_layout=0x7f0e00cc;
-        public static final int media_actions=0x7f0e0265;
-        public static final int mediacontroller_play_pause=0x7f0e0133;
-        public static final int mediacontroller_seekbar=0x7f0e0135;
-        public static final int mediacontroller_time_current=0x7f0e0134;
-        public static final int mediacontroller_time_total=0x7f0e0136;
-        public static final int member_count=0x7f0e0183;
-        public static final int member_list=0x7f0e0240;
-        public static final int menu_button=0x7f0e01cd;
-        public static final int menu_button_click_layout=0x7f0e01cb;
-        public static final int menu_dialog_items_root=0x7f0e01ca;
-        public static final int menu_select_icon=0x7f0e01ce;
+        public static final int media_actions=0x7f0e026b;
+        public static final int mediacontroller_play_pause=0x7f0e0136;
+        public static final int mediacontroller_seekbar=0x7f0e0138;
+        public static final int mediacontroller_time_current=0x7f0e0137;
+        public static final int mediacontroller_time_total=0x7f0e0139;
+        public static final int member_count=0x7f0e0189;
+        public static final int member_list=0x7f0e0246;
+        public static final int menu_button=0x7f0e01d3;
+        public static final int menu_button_click_layout=0x7f0e01d1;
+        public static final int menu_dialog_items_root=0x7f0e01d0;
+        public static final int menu_select_icon=0x7f0e01d4;
         public static final int messageActivityBottomLayout=0x7f0e00d9;
         public static final int messageActivityLayout=0x7f0e00d8;
         public static final int messageListView=0x7f0e00dc;
-        public static final int message_activity_background=0x7f0e01de;
+        public static final int message_activity_background=0x7f0e01e4;
         public static final int message_activity_list_view_container=0x7f0e00db;
-        public static final int message_activity_menu_action=0x7f0e02d8;
-        public static final int message_fragment_container=0x7f0e01cf;
-        public static final int message_item_alert=0x7f0e01e8;
-        public static final int message_item_audio_container=0x7f0e01ea;
-        public static final int message_item_audio_duration=0x7f0e01ec;
-        public static final int message_item_audio_playing_animation=0x7f0e01eb;
-        public static final int message_item_audio_unread_indicator=0x7f0e01ed;
-        public static final int message_item_avchat_content=0x7f0e01ee;
-        public static final int message_item_avchat_state=0x7f0e01f0;
-        public static final int message_item_avchat_type_img=0x7f0e01ef;
-        public static final int message_item_body=0x7f0e01e6;
-        public static final int message_item_content=0x7f0e01e9;
-        public static final int message_item_file_detail_layout=0x7f0e01f1;
-        public static final int message_item_file_icon_image=0x7f0e01f2;
-        public static final int message_item_file_name_label=0x7f0e01f3;
-        public static final int message_item_file_status_label=0x7f0e01f4;
-        public static final int message_item_file_transfer_progress_bar=0x7f0e01f5;
-        public static final int message_item_location_address=0x7f0e01f7;
-        public static final int message_item_location_image=0x7f0e01f6;
-        public static final int message_item_name_icon=0x7f0e01e4;
-        public static final int message_item_name_layout=0x7f0e01e3;
-        public static final int message_item_nickname=0x7f0e01e5;
-        public static final int message_item_notification_label=0x7f0e01f9;
-        public static final int message_item_portrait_left=0x7f0e01e1;
-        public static final int message_item_portrait_right=0x7f0e01e2;
-        public static final int message_item_progress=0x7f0e01e7;
-        public static final int message_item_snap_chat_body=0x7f0e01fc;
-        public static final int message_item_snap_chat_image=0x7f0e01fd;
-        public static final int message_item_snap_chat_readed=0x7f0e01ff;
-        public static final int message_item_snap_chat_tips_label=0x7f0e0200;
-        public static final int message_item_sticker_image=0x7f0e0201;
-        public static final int message_item_thumb_progress_bar=0x7f0e0204;
-        public static final int message_item_thumb_progress_cover=0x7f0e0203;
-        public static final int message_item_thumb_progress_text=0x7f0e0205;
-        public static final int message_item_thumb_thumbnail=0x7f0e01fa;
-        public static final int message_item_time=0x7f0e01e0;
-        public static final int message_item_tips_layout=0x7f0e01fe;
-        public static final int message_item_unsupport_container=0x7f0e0206;
-        public static final int message_item_unsupport_desc=0x7f0e0209;
-        public static final int message_item_unsupport_image=0x7f0e0207;
-        public static final int message_item_unsupport_title=0x7f0e0208;
-        public static final int message_item_video_play=0x7f0e020a;
-        public static final int message_list_empty_hint=0x7f0e0233;
-        public static final int messages_fragment=0x7f0e0287;
-        public static final int messages_list_layout=0x7f0e0230;
+        public static final int message_activity_menu_action=0x7f0e02de;
+        public static final int message_fragment_container=0x7f0e01d5;
+        public static final int message_item_alert=0x7f0e01ee;
+        public static final int message_item_audio_container=0x7f0e01f0;
+        public static final int message_item_audio_duration=0x7f0e01f2;
+        public static final int message_item_audio_playing_animation=0x7f0e01f1;
+        public static final int message_item_audio_unread_indicator=0x7f0e01f3;
+        public static final int message_item_avchat_content=0x7f0e01f4;
+        public static final int message_item_avchat_state=0x7f0e01f6;
+        public static final int message_item_avchat_type_img=0x7f0e01f5;
+        public static final int message_item_body=0x7f0e01ec;
+        public static final int message_item_content=0x7f0e01ef;
+        public static final int message_item_file_detail_layout=0x7f0e01f7;
+        public static final int message_item_file_icon_image=0x7f0e01f8;
+        public static final int message_item_file_name_label=0x7f0e01f9;
+        public static final int message_item_file_status_label=0x7f0e01fa;
+        public static final int message_item_file_transfer_progress_bar=0x7f0e01fb;
+        public static final int message_item_location_address=0x7f0e01fd;
+        public static final int message_item_location_image=0x7f0e01fc;
+        public static final int message_item_name_icon=0x7f0e01ea;
+        public static final int message_item_name_layout=0x7f0e01e9;
+        public static final int message_item_nickname=0x7f0e01eb;
+        public static final int message_item_notification_label=0x7f0e01ff;
+        public static final int message_item_portrait_left=0x7f0e01e7;
+        public static final int message_item_portrait_right=0x7f0e01e8;
+        public static final int message_item_progress=0x7f0e01ed;
+        public static final int message_item_snap_chat_body=0x7f0e0202;
+        public static final int message_item_snap_chat_image=0x7f0e0203;
+        public static final int message_item_snap_chat_readed=0x7f0e0205;
+        public static final int message_item_snap_chat_tips_label=0x7f0e0206;
+        public static final int message_item_sticker_image=0x7f0e0207;
+        public static final int message_item_thumb_progress_bar=0x7f0e020a;
+        public static final int message_item_thumb_progress_cover=0x7f0e0209;
+        public static final int message_item_thumb_progress_text=0x7f0e020b;
+        public static final int message_item_thumb_thumbnail=0x7f0e0200;
+        public static final int message_item_time=0x7f0e01e6;
+        public static final int message_item_tips_layout=0x7f0e0204;
+        public static final int message_item_unsupport_container=0x7f0e020c;
+        public static final int message_item_unsupport_desc=0x7f0e020f;
+        public static final int message_item_unsupport_image=0x7f0e020d;
+        public static final int message_item_unsupport_title=0x7f0e020e;
+        public static final int message_item_video_play=0x7f0e0210;
+        public static final int message_list_empty_hint=0x7f0e0239;
+        public static final int messages_fragment=0x7f0e028d;
+        public static final int messages_list_layout=0x7f0e0236;
         public static final int middle=0x7f0e0036;
         public static final int mini=0x7f0e0034;
-        public static final int msg_progressBar=0x7f0e0234;
+        public static final int msg_progressBar=0x7f0e023a;
         public static final int multiply=0x7f0e002b;
-        public static final int multiport_desc_label=0x7f0e0153;
-        public static final int multiport_notify_bar=0x7f0e0152;
-        public static final int my_homes_fragment=0x7f0e0159;
-        public static final int my_location=0x7f0e011e;
-        public static final int name=0x7f0e027c;
-        public static final int name_layout=0x7f0e01ad;
+        public static final int multiport_desc_label=0x7f0e0156;
+        public static final int multiport_notify_bar=0x7f0e0155;
+        public static final int my_homes_fragment=0x7f0e0160;
+        public static final int my_location=0x7f0e0121;
+        public static final int name=0x7f0e0282;
+        public static final int name_layout=0x7f0e01b3;
         public static final int navigation_header_container=0x7f0e00ed;
         public static final int never=0x7f0e003a;
-        public static final int new_message_tip_head_image_view=0x7f0e020c;
-        public static final int new_message_tip_layout=0x7f0e020b;
-        public static final int new_message_tip_text_view=0x7f0e020d;
-        public static final int nick_edit=0x7f0e00f2;
+        public static final int new_message_tip_head_image_view=0x7f0e0212;
+        public static final int new_message_tip_layout=0x7f0e0211;
+        public static final int new_message_tip_text_view=0x7f0e0213;
+        public static final int nick_edit=0x7f0e00f5;
         public static final int nick_editor=0x7f0e0089;
-        public static final int nick_layout=0x7f0e012d;
-        public static final int nickname_container=0x7f0e0187;
-        public static final int nim_message_item_text_body=0x7f0e0202;
-        public static final int no_announce_layout=0x7f0e0132;
-        public static final int no_disturb_list=0x7f0e0259;
-        public static final int no_disturb_tip=0x7f0e0261;
+        public static final int nick_layout=0x7f0e0130;
+        public static final int nickname_container=0x7f0e018d;
+        public static final int nim_message_item_text_body=0x7f0e0208;
+        public static final int no_announce_layout=0x7f0e0135;
+        public static final int no_disturb_list=0x7f0e025f;
+        public static final int no_disturb_tip=0x7f0e0267;
         public static final int none=0x7f0e0014;
         public static final int normal=0x7f0e0010;
         public static final int notificationLayout=0x7f0e00b2;
-        public static final int notification_menu_btn=0x7f0e02d9;
-        public static final int notification_time=0x7f0e0146;
+        public static final int notification_menu_btn=0x7f0e02df;
+        public static final int notification_time=0x7f0e0149;
         public static final int notify_bar=0x7f0e00bd;
-        public static final int number_edit=0x7f0e0127;
-        public static final int ok_btn=0x7f0e01b1;
+        public static final int number_edit=0x7f0e012a;
+        public static final int ok_btn=0x7f0e01b7;
         public static final int online_people_fragment=0x7f0e00e4;
         public static final int online_people_tab=0x7f0e00e3;
         public static final int online_status=0x7f0e00cf;
-        public static final int online_total=0x7f0e012f;
-        public static final int operate_layout=0x7f0e0282;
-        public static final int operator_layout=0x7f0e0140;
-        public static final int operator_result=0x7f0e0143;
-        public static final int other_check=0x7f0e02bb;
-        public static final int other_layout=0x7f0e02ba;
+        public static final int online_total=0x7f0e0132;
+        public static final int operate_layout=0x7f0e0288;
+        public static final int operator_layout=0x7f0e0143;
+        public static final int operator_result=0x7f0e0146;
+        public static final int other_check=0x7f0e02c1;
+        public static final int other_layout=0x7f0e02c0;
         public static final int oval=0x7f0e003e;
         public static final int parallax=0x7f0e001f;
         public static final int parentLayout=0x7f0e009a;
         public static final int parentPanel=0x7f0e005e;
-        public static final int phone=0x7f0e02ab;
-        public static final int phone_layout=0x7f0e02bf;
-        public static final int picker_album_fragment=0x7f0e020f;
-        public static final int picker_bottombar=0x7f0e020e;
-        public static final int picker_bottombar_preview=0x7f0e0211;
-        public static final int picker_bottombar_select=0x7f0e0212;
-        public static final int picker_image_folder_listView=0x7f0e0216;
-        public static final int picker_image_folder_loading=0x7f0e0213;
-        public static final int picker_image_folder_loading_empty=0x7f0e0215;
-        public static final int picker_image_folder_loading_tips=0x7f0e0214;
-        public static final int picker_image_preview_operator_bar=0x7f0e0219;
-        public static final int picker_image_preview_orignal_image=0x7f0e021a;
-        public static final int picker_image_preview_orignal_image_tip=0x7f0e021b;
-        public static final int picker_image_preview_photos_select=0x7f0e0160;
-        public static final int picker_image_preview_root=0x7f0e0217;
-        public static final int picker_image_preview_send=0x7f0e021d;
-        public static final int picker_image_preview_viewpager=0x7f0e0218;
-        public static final int picker_images_gridview=0x7f0e021e;
-        public static final int picker_photo_grid_item_img=0x7f0e021f;
-        public static final int picker_photo_grid_item_select=0x7f0e0221;
-        public static final int picker_photo_grid_item_select_hotpot=0x7f0e0220;
-        public static final int picker_photofolder_cover=0x7f0e0222;
-        public static final int picker_photofolder_info=0x7f0e0223;
-        public static final int picker_photofolder_num=0x7f0e0224;
-        public static final int picker_photos_fragment=0x7f0e0210;
+        public static final int phone=0x7f0e02b1;
+        public static final int phone_layout=0x7f0e02c5;
+        public static final int picker_album_fragment=0x7f0e0215;
+        public static final int picker_bottombar=0x7f0e0214;
+        public static final int picker_bottombar_preview=0x7f0e0217;
+        public static final int picker_bottombar_select=0x7f0e0218;
+        public static final int picker_image_folder_listView=0x7f0e021c;
+        public static final int picker_image_folder_loading=0x7f0e0219;
+        public static final int picker_image_folder_loading_empty=0x7f0e021b;
+        public static final int picker_image_folder_loading_tips=0x7f0e021a;
+        public static final int picker_image_preview_operator_bar=0x7f0e021f;
+        public static final int picker_image_preview_orignal_image=0x7f0e0220;
+        public static final int picker_image_preview_orignal_image_tip=0x7f0e0221;
+        public static final int picker_image_preview_photos_select=0x7f0e0166;
+        public static final int picker_image_preview_root=0x7f0e021d;
+        public static final int picker_image_preview_send=0x7f0e0223;
+        public static final int picker_image_preview_viewpager=0x7f0e021e;
+        public static final int picker_images_gridview=0x7f0e0224;
+        public static final int picker_photo_grid_item_img=0x7f0e0225;
+        public static final int picker_photo_grid_item_select=0x7f0e0227;
+        public static final int picker_photo_grid_item_select_hotpot=0x7f0e0226;
+        public static final int picker_photofolder_cover=0x7f0e0228;
+        public static final int picker_photofolder_info=0x7f0e0229;
+        public static final int picker_photofolder_num=0x7f0e022a;
+        public static final int picker_photos_fragment=0x7f0e0216;
         public static final int pin=0x7f0e0020;
-        public static final int pinImageView=0x7f0e0121;
+        public static final int pinImageView=0x7f0e0124;
         public static final int play_toolbar=0x7f0e0093;
         public static final int player_exit=0x7f0e0094;
-        public static final int popmenu_listview=0x7f0e0225;
-        public static final int popup_menu_icon=0x7f0e0226;
-        public static final int popup_menu_title=0x7f0e0227;
-        public static final int portrait_panel=0x7f0e013d;
+        public static final int popmenu_listview=0x7f0e022b;
+        public static final int popup_menu_icon=0x7f0e022c;
+        public static final int popup_menu_title=0x7f0e022d;
+        public static final int portrait_panel=0x7f0e0140;
         public static final int progress_circular=0x7f0e000a;
         public static final int progress_horizontal=0x7f0e000b;
-        public static final int quit_team=0x7f0e0239;
+        public static final int quit_team=0x7f0e023f;
         public static final int radio=0x7f0e006c;
         public static final int receive=0x7f0e00af;
-        public static final int record_btn=0x7f0e0195;
-        public static final int record_times=0x7f0e0194;
-        public static final int recording_id=0x7f0e0193;
+        public static final int record_btn=0x7f0e019b;
+        public static final int record_times=0x7f0e019a;
+        public static final int recording_id=0x7f0e0199;
         public static final int rect=0x7f0e003f;
         public static final int recycler_view=0x7f0e008c;
-        public static final int refresh_loading_indicator=0x7f0e01c9;
-        public static final int refreshing_indicator=0x7f0e024a;
+        public static final int refresh_loading_indicator=0x7f0e01cf;
+        public static final int refreshing_indicator=0x7f0e0250;
         public static final int refuse=0x7f0e00ae;
-        public static final int register_layout=0x7f0e0111;
-        public static final int register_login_tip=0x7f0e0115;
-        public static final int regular_team_nickname=0x7f0e018f;
-        public static final int reject=0x7f0e0142;
+        public static final int register_layout=0x7f0e0114;
+        public static final int register_login_tip=0x7f0e0118;
+        public static final int regular_team_nickname=0x7f0e0195;
+        public static final int reject=0x7f0e0145;
         public static final int remove=0x7f0e00c1;
-        public static final int remove_buddy=0x7f0e02af;
+        public static final int remove_buddy=0x7f0e02b5;
         public static final int right=0x7f0e0028;
-        public static final int rlCtrl=0x7f0e01a5;
+        public static final int rlCtrl=0x7f0e01ab;
         public static final int rlRoot=0x7f0e008b;
-        public static final int rlSur=0x7f0e024f;
-        public static final int room_id=0x7f0e0155;
-        public static final int rts_text=0x7f0e01fb;
-        public static final int save_to_local_btn=0x7f0e0129;
-        public static final int scrPlugin=0x7f0e01c5;
+        public static final int rlSur=0x7f0e0255;
+        public static final int room_id=0x7f0e0158;
+        public static final int rts_text=0x7f0e0201;
+        public static final int save_to_local_btn=0x7f0e012c;
+        public static final int scrPlugin=0x7f0e01cb;
         public static final int screen=0x7f0e002c;
         public static final int scroll=0x7f0e001c;
         public static final int scrollIndicatorDown=0x7f0e0066;
         public static final int scrollIndicatorUp=0x7f0e0063;
         public static final int scrollView=0x7f0e0064;
         public static final int scrollable=0x7f0e0051;
-        public static final int searchResultList=0x7f0e0102;
-        public static final int search_advanced_team=0x7f0e02d6;
+        public static final int searchResultList=0x7f0e0105;
+        public static final int search_advanced_team=0x7f0e02dc;
         public static final int search_badge=0x7f0e0076;
         public static final int search_bar=0x7f0e0075;
-        public static final int search_btn=0x7f0e02d2;
+        public static final int search_btn=0x7f0e02d8;
         public static final int search_button=0x7f0e0077;
         public static final int search_close_btn=0x7f0e007c;
         public static final int search_edit_frame=0x7f0e0078;
@@ -3998,194 +4004,194 @@ containing a value of this type.
         public static final int search_go_btn=0x7f0e007e;
         public static final int search_mag_icon=0x7f0e0079;
         public static final int search_plate=0x7f0e007a;
-        public static final int search_result_list=0x7f0e0101;
-        public static final int search_result_tip=0x7f0e0100;
+        public static final int search_result_list=0x7f0e0104;
+        public static final int search_result_tip=0x7f0e0103;
         public static final int search_src_text=0x7f0e007b;
         public static final int search_voice_btn=0x7f0e007f;
         public static final int select_dialog_listview=0x7f0e0080;
-        public static final int sendLayout=0x7f0e01db;
-        public static final int send_custom_notification=0x7f0e02cf;
-        public static final int send_custom_notification_to_buddy=0x7f0e02d0;
-        public static final int send_custom_notification_to_team=0x7f0e02d1;
-        public static final int send_orignal_picture_root=0x7f0e022a;
+        public static final int sendLayout=0x7f0e01e1;
+        public static final int send_custom_notification=0x7f0e02d5;
+        public static final int send_custom_notification_to_buddy=0x7f0e02d6;
+        public static final int send_custom_notification_to_team=0x7f0e02d7;
+        public static final int send_orignal_picture_root=0x7f0e0230;
         public static final int send_p2p=0x7f0e008f;
         public static final int send_team=0x7f0e0090;
-        public static final int send_to_others_btn=0x7f0e012a;
-        public static final int session_id=0x7f0e0122;
-        public static final int session_layout=0x7f0e0281;
-        public static final int session_step_text=0x7f0e027d;
-        public static final int setting_item_indicator=0x7f0e028f;
-        public static final int setting_item_toggle=0x7f0e028c;
-        public static final int setting_tip_close_btn=0x7f0e029e;
-        public static final int settings_button_logout=0x7f0e0293;
-        public static final int settings_item_icon=0x7f0e0288;
-        public static final int settings_item_name=0x7f0e0238;
-        public static final int settings_listview=0x7f0e0292;
-        public static final int share_btn=0x7f0e0272;
+        public static final int send_to_others_btn=0x7f0e012d;
+        public static final int session_id=0x7f0e0125;
+        public static final int session_layout=0x7f0e0287;
+        public static final int session_step_text=0x7f0e0283;
+        public static final int setting_item_indicator=0x7f0e0295;
+        public static final int setting_item_toggle=0x7f0e0292;
+        public static final int setting_tip_close_btn=0x7f0e02a4;
+        public static final int settings_button_logout=0x7f0e0299;
+        public static final int settings_item_icon=0x7f0e028e;
+        public static final int settings_item_name=0x7f0e023e;
+        public static final int settings_listview=0x7f0e0298;
+        public static final int share_btn=0x7f0e0278;
         public static final int shortcut=0x7f0e006b;
         public static final int showCustom=0x7f0e0015;
         public static final int showHome=0x7f0e0016;
         public static final int showTitle=0x7f0e0017;
-        public static final int signature=0x7f0e02ad;
-        public static final int signature_edit=0x7f0e02c2;
-        public static final int signature_layout=0x7f0e02c1;
-        public static final int slider=0x7f0e015b;
+        public static final int signature=0x7f0e02b3;
+        public static final int signature_edit=0x7f0e02c8;
+        public static final int signature_layout=0x7f0e02c7;
+        public static final int slider=0x7f0e0162;
         public static final int smallSizePreviewCoverImg=0x7f0e00b5;
         public static final int small_size_preview=0x7f0e00b4;
         public static final int small_size_preview_layout=0x7f0e00b3;
         public static final int snackbar_action=0x7f0e00ec;
         public static final int snackbar_text=0x7f0e00eb;
         public static final int snap=0x7f0e001d;
-        public static final int snapShot=0x7f0e0138;
+        public static final int snapShot=0x7f0e013b;
         public static final int snippet=0x7f0e0099;
-        public static final int sns_audio_download_progressBar=0x7f0e0258;
+        public static final int sns_audio_download_progressBar=0x7f0e025e;
         public static final int spacer=0x7f0e005d;
         public static final int split_action_bar=0x7f0e000c;
         public static final int src_atop=0x7f0e002d;
         public static final int src_in=0x7f0e002e;
         public static final int src_over=0x7f0e002f;
         public static final int start=0x7f0e0029;
-        public static final int start_session_layout=0x7f0e027a;
-        public static final int start_text=0x7f0e025c;
-        public static final int start_time_layout=0x7f0e025b;
-        public static final int start_time_value=0x7f0e025d;
-        public static final int status_bar_latest_event_content=0x7f0e0264;
-        public static final int status_desc_label=0x7f0e015e;
-        public static final int status_notify_bar=0x7f0e015d;
-        public static final int sticker_desc_label=0x7f0e0235;
-        public static final int sticker_thumb_image=0x7f0e0236;
-        public static final int stop_btn=0x7f0e012b;
+        public static final int start_session_layout=0x7f0e0280;
+        public static final int start_text=0x7f0e0262;
+        public static final int start_time_layout=0x7f0e0261;
+        public static final int start_time_value=0x7f0e0263;
+        public static final int status_bar_latest_event_content=0x7f0e026a;
+        public static final int status_desc_label=0x7f0e0164;
+        public static final int status_notify_bar=0x7f0e0163;
+        public static final int sticker_desc_label=0x7f0e023b;
+        public static final int sticker_thumb_image=0x7f0e023c;
+        public static final int stop_btn=0x7f0e012e;
         public static final int submit_area=0x7f0e007d;
         public static final int swipe_refresh=0x7f0e00e7;
-        public static final int switchLayout=0x7f0e01d4;
-        public static final int switch_cameras=0x7f0e0192;
-        public static final int switch_mode_top_layout=0x7f0e02ca;
+        public static final int switchLayout=0x7f0e01da;
+        public static final int switch_cameras=0x7f0e0198;
+        public static final int switch_mode_top_layout=0x7f0e02d0;
         public static final int tabMode=0x7f0e0011;
-        public static final int tab_new_indicator=0x7f0e029d;
-        public static final int tab_new_msg_label=0x7f0e00fd;
+        public static final int tab_new_indicator=0x7f0e02a3;
+        public static final int tab_new_msg_label=0x7f0e0100;
         public static final int tab_title_label=0x7f0e00e6;
-        public static final int tabs=0x7f0e0116;
-        public static final int team_announce_body_label=0x7f0e029f;
-        public static final int team_announce_content=0x7f0e0169;
-        public static final int team_announce_listview=0x7f0e0164;
-        public static final int team_announce_tips=0x7f0e0163;
-        public static final int team_announce_title=0x7f0e0168;
-        public static final int team_announcement_layout=0x7f0e0177;
-        public static final int team_authentication_layout=0x7f0e016c;
-        public static final int team_create_time=0x7f0e0171;
-        public static final int team_extension_layout=0x7f0e0178;
-        public static final int team_head_image=0x7f0e016e;
-        public static final int team_id=0x7f0e016f;
-        public static final int team_info_header=0x7f0e016d;
-        public static final int team_info_update_layout=0x7f0e017b;
-        public static final int team_introduce=0x7f0e016b;
-        public static final int team_introduce_layout=0x7f0e0176;
-        public static final int team_invite_layout=0x7f0e017a;
-        public static final int team_invitee_authen_layout=0x7f0e017c;
-        public static final int team_member_grid=0x7f0e023a;
-        public static final int team_member_grid_view=0x7f0e016a;
-        public static final int team_member_head_view=0x7f0e0185;
-        public static final int team_member_identity=0x7f0e018b;
-        public static final int team_member_identity_detail=0x7f0e018c;
-        public static final int team_member_more_grid=0x7f0e0294;
-        public static final int team_member_name=0x7f0e0186;
-        public static final int team_members_grid_view=0x7f0e0237;
-        public static final int team_memeber_layout=0x7f0e0174;
-        public static final int team_mime_layout=0x7f0e0173;
-        public static final int team_name=0x7f0e0166;
-        public static final int team_name_layout=0x7f0e0175;
-        public static final int team_nickname=0x7f0e0188;
-        public static final int team_nickname_detail=0x7f0e0189;
-        public static final int team_notification_config_layout=0x7f0e0179;
-        public static final int team_notify_bar_panel=0x7f0e01df;
-        public static final int team_remove_member=0x7f0e018d;
-        public static final int team_search_edittext=0x7f0e0190;
-        public static final int team_type=0x7f0e0182;
-        public static final int team_wrap=0x7f0e0181;
-        public static final int temp_text_create=0x7f0e0172;
-        public static final int temp_text_with=0x7f0e0170;
-        public static final int text=0x7f0e010c;
-        public static final int text1=0x7f0e0105;
-        public static final int text2=0x7f0e0269;
-        public static final int textMessageLayout=0x7f0e01d3;
+        public static final int tabs=0x7f0e0119;
+        public static final int team_announce_body_label=0x7f0e02a5;
+        public static final int team_announce_content=0x7f0e016f;
+        public static final int team_announce_listview=0x7f0e016a;
+        public static final int team_announce_tips=0x7f0e0169;
+        public static final int team_announce_title=0x7f0e016e;
+        public static final int team_announcement_layout=0x7f0e017d;
+        public static final int team_authentication_layout=0x7f0e0172;
+        public static final int team_create_time=0x7f0e0177;
+        public static final int team_extension_layout=0x7f0e017e;
+        public static final int team_head_image=0x7f0e0174;
+        public static final int team_id=0x7f0e0175;
+        public static final int team_info_header=0x7f0e0173;
+        public static final int team_info_update_layout=0x7f0e0181;
+        public static final int team_introduce=0x7f0e0171;
+        public static final int team_introduce_layout=0x7f0e017c;
+        public static final int team_invite_layout=0x7f0e0180;
+        public static final int team_invitee_authen_layout=0x7f0e0182;
+        public static final int team_member_grid=0x7f0e0240;
+        public static final int team_member_grid_view=0x7f0e0170;
+        public static final int team_member_head_view=0x7f0e018b;
+        public static final int team_member_identity=0x7f0e0191;
+        public static final int team_member_identity_detail=0x7f0e0192;
+        public static final int team_member_more_grid=0x7f0e029a;
+        public static final int team_member_name=0x7f0e018c;
+        public static final int team_members_grid_view=0x7f0e023d;
+        public static final int team_memeber_layout=0x7f0e017a;
+        public static final int team_mime_layout=0x7f0e0179;
+        public static final int team_name=0x7f0e016c;
+        public static final int team_name_layout=0x7f0e017b;
+        public static final int team_nickname=0x7f0e018e;
+        public static final int team_nickname_detail=0x7f0e018f;
+        public static final int team_notification_config_layout=0x7f0e017f;
+        public static final int team_notify_bar_panel=0x7f0e01e5;
+        public static final int team_remove_member=0x7f0e0193;
+        public static final int team_search_edittext=0x7f0e0196;
+        public static final int team_type=0x7f0e0188;
+        public static final int team_wrap=0x7f0e0187;
+        public static final int temp_text_create=0x7f0e0178;
+        public static final int temp_text_with=0x7f0e0176;
+        public static final int text=0x7f0e010f;
+        public static final int text1=0x7f0e0108;
+        public static final int text2=0x7f0e026f;
+        public static final int textMessageLayout=0x7f0e01d9;
         public static final int textSpacerNoButtons=0x7f0e0065;
-        public static final int textView=0x7f0e0162;
-        public static final int textViewAlreadyRead=0x7f0e022d;
-        public static final int textViewName=0x7f0e01f8;
-        public static final int textViewTime=0x7f0e0244;
-        public static final int time=0x7f0e0267;
-        public static final int time_edit=0x7f0e0128;
-        public static final int time_layout=0x7f0e025a;
+        public static final int textView=0x7f0e0168;
+        public static final int textViewAlreadyRead=0x7f0e0233;
+        public static final int textViewName=0x7f0e01fe;
+        public static final int textViewTime=0x7f0e024a;
+        public static final int time=0x7f0e026d;
+        public static final int time_edit=0x7f0e012b;
+        public static final int time_layout=0x7f0e0260;
         public static final int timer=0x7f0e00de;
         public static final int timer_tip=0x7f0e00e0;
         public static final int timer_tip_container=0x7f0e00df;
-        public static final int tip_label=0x7f0e028e;
+        public static final int tip_label=0x7f0e0294;
         public static final int title=0x7f0e005b;
-        public static final int title_content_layout=0x7f0e0144;
-        public static final int title_label=0x7f0e0289;
+        public static final int title_content_layout=0x7f0e0147;
+        public static final int title_label=0x7f0e028f;
         public static final int title_template=0x7f0e0060;
-        public static final int toggle_layout=0x7f0e013c;
+        public static final int toggle_layout=0x7f0e013f;
         public static final int toolbar=0x7f0e0082;
         public static final int top=0x7f0e002a;
         public static final int topPanel=0x7f0e005f;
-        public static final int top_divider_line=0x7f0e01c4;
-        public static final int top_line=0x7f0e0108;
+        public static final int top_divider_line=0x7f0e01ca;
+        public static final int top_line=0x7f0e010b;
         public static final int touch_outside=0x7f0e00e9;
-        public static final int trans_fail_icon=0x7f0e0249;
-        public static final int tv_date_time=0x7f0e010b;
-        public static final int tv_func_name=0x7f0e00fc;
-        public static final int tv_hit_letter=0x7f0e019b;
-        public static final int tv_message=0x7f0e010a;
+        public static final int trans_fail_icon=0x7f0e024f;
+        public static final int tv_date_time=0x7f0e010e;
+        public static final int tv_func_name=0x7f0e00ff;
+        public static final int tv_hit_letter=0x7f0e01a1;
+        public static final int tv_message=0x7f0e010d;
         public static final int tv_name=0x7f0e00d5;
-        public static final int tv_nick_name=0x7f0e0109;
-        public static final int tv_nickname=0x7f0e019c;
+        public static final int tv_nick_name=0x7f0e010c;
+        public static final int tv_nickname=0x7f0e01a2;
         public static final int tv_online_count=0x7f0e00d4;
-        public static final int tv_prompt=0x7f0e014b;
+        public static final int tv_prompt=0x7f0e014e;
         public static final int tv_status=0x7f0e00d3;
-        public static final int unread_cover=0x7f0e0118;
-        public static final int unread_number_explosion=0x7f0e022f;
-        public static final int unread_number_tip=0x7f0e022e;
+        public static final int unread_cover=0x7f0e011b;
+        public static final int unread_number_explosion=0x7f0e0235;
+        public static final int unread_number_tip=0x7f0e0234;
         public static final int up=0x7f0e000d;
-        public static final int upload_btn=0x7f0e00f7;
-        public static final int upload_layout=0x7f0e00f6;
-        public static final int upload_status=0x7f0e00f8;
+        public static final int upload_btn=0x7f0e00fa;
+        public static final int upload_layout=0x7f0e00f9;
+        public static final int upload_status=0x7f0e00fb;
         public static final int useLogo=0x7f0e0018;
-        public static final int user_account=0x7f0e02a6;
-        public static final int user_head=0x7f0e026e;
-        public static final int user_head_image=0x7f0e02a4;
-        public static final int user_layout=0x7f0e013a;
-        public static final int user_name=0x7f0e026f;
-        public static final int user_nick=0x7f0e02a7;
-        public static final int user_profile_title=0x7f0e0245;
-        public static final int user_profile_toggle=0x7f0e0246;
-        public static final int value=0x7f0e02b4;
-        public static final int value_layout=0x7f0e02b3;
+        public static final int user_account=0x7f0e02ac;
+        public static final int user_head=0x7f0e0274;
+        public static final int user_head_image=0x7f0e02aa;
+        public static final int user_layout=0x7f0e013d;
+        public static final int user_name=0x7f0e0275;
+        public static final int user_nick=0x7f0e02ad;
+        public static final int user_profile_title=0x7f0e024b;
+        public static final int user_profile_toggle=0x7f0e024c;
+        public static final int value=0x7f0e02ba;
+        public static final int value_layout=0x7f0e02b9;
         public static final int version_detail_date=0x7f0e0084;
         public static final int version_detail_git=0x7f0e0083;
-        public static final int version_layout=0x7f0e014e;
-        public static final int versions=0x7f0e014d;
-        public static final int videoIcon=0x7f0e0250;
-        public static final int videoView=0x7f0e0191;
-        public static final int video_permission_btn=0x7f0e0270;
-        public static final int video_player_mute=0x7f0e0137;
-        public static final int video_player_scale=0x7f0e0139;
+        public static final int version_layout=0x7f0e0151;
+        public static final int versions=0x7f0e0150;
+        public static final int videoIcon=0x7f0e0256;
+        public static final int videoView=0x7f0e0197;
+        public static final int video_permission_btn=0x7f0e0276;
+        public static final int video_player_mute=0x7f0e013a;
+        public static final int video_player_scale=0x7f0e013c;
         public static final int video_view=0x7f0e0092;
-        public static final int viewPager=0x7f0e01d1;
-        public static final int viewPagerImage=0x7f0e022b;
+        public static final int viewPager=0x7f0e01d7;
+        public static final int viewPagerImage=0x7f0e0231;
         public static final int view_layout=0x7f0e00cb;
         public static final int view_offset_helper=0x7f0e000e;
-        public static final int view_pager_image=0x7f0e024e;
+        public static final int view_pager_image=0x7f0e0254;
         public static final int visible=0x7f0e003d;
-        public static final int voice_trans_layout=0x7f0e0248;
-        public static final int voice_trans_text=0x7f0e024b;
-        public static final int watch_image_view=0x7f0e0106;
-        public static final int watch_picture_activity_layout=0x7f0e024d;
-        public static final int webView=0x7f0e010d;
+        public static final int voice_trans_layout=0x7f0e024e;
+        public static final int voice_trans_text=0x7f0e0251;
+        public static final int watch_image_view=0x7f0e0109;
+        public static final int watch_picture_activity_layout=0x7f0e0253;
+        public static final int webView=0x7f0e0110;
         public static final int welcome_container=0x7f0e0091;
-        public static final int welcome_menu=0x7f0e02d3;
+        public static final int welcome_menu=0x7f0e02d9;
         public static final int withText=0x7f0e003b;
         public static final int wrap_content=0x7f0e001e;
-        public static final int yixin_profile_buddy_operations=0x7f0e01af;
+        public static final int yixin_profile_buddy_operations=0x7f0e01b5;
     }
     public static final class integer {
         public static final int abc_config_activityDefaultDur=0x7f0b0002;
@@ -4268,185 +4274,187 @@ containing a value of this type.
         public static final int design_navigation_item_subheader=0x7f030044;
         public static final int design_navigation_menu=0x7f030045;
         public static final int design_navigation_menu_item=0x7f030046;
-        public static final int edit_nick_activity=0x7f030047;
-        public static final int error_admin_item=0x7f030048;
-        public static final int file_browser_activity=0x7f030049;
-        public static final int file_browser_list_item=0x7f03004a;
-        public static final int file_download_activity=0x7f03004b;
-        public static final int file_transfer_layout=0x7f03004c;
-        public static final int func_contacts_item=0x7f03004d;
-        public static final int global_search_detail=0x7f03004e;
-        public static final int global_search_result=0x7f03004f;
-        public static final int group_list_activity=0x7f030050;
-        public static final int icon_list_item=0x7f030051;
-        public static final int image_layout_multi_touch=0x7f030052;
-        public static final int indicator_layout=0x7f030053;
-        public static final int item_custom_notification=0x7f030054;
-        public static final int item_gridview_home=0x7f030055;
-        public static final int js_bridge_activity=0x7f030056;
-        public static final int login_activity=0x7f030057;
-        public static final int main=0x7f030058;
-        public static final int main_tab_fragment_container=0x7f030059;
-        public static final int map_view_amap_layout=0x7f03005a;
-        public static final int map_view_amap_navigation_layout=0x7f03005b;
-        public static final int map_view_google_layout=0x7f03005c;
-        public static final int mass_message_activity=0x7f03005d;
-        public static final int master_fragment=0x7f03005e;
-        public static final int mediacontroller=0x7f03005f;
-        public static final int message_history_activity=0x7f030060;
-        public static final int message_info_activity=0x7f030061;
-        public static final int message_search_activity=0x7f030062;
-        public static final int message_search_empty_view=0x7f030063;
-        public static final int message_search_list_view_item=0x7f030064;
-        public static final int message_system_notification_view_item=0x7f030065;
-        public static final int msg_list_fetch_load_more=0x7f030066;
-        public static final int multiport_activity=0x7f030067;
-        public static final int multiport_item=0x7f030068;
-        public static final int multiport_status_bar=0x7f030069;
-        public static final int my_chat_room_fragment=0x7f03006a;
-        public static final int my_home_tab=0x7f03006b;
-        public static final int my_homes=0x7f03006c;
-        public static final int network_status_bar=0x7f03006d;
-        public static final int nim_action_bar_custom_view=0x7f03006e;
-        public static final int nim_action_bar_right_clickable_tv=0x7f03006f;
-        public static final int nim_action_bar_right_picker_preview=0x7f030070;
-        public static final int nim_actions_item_layout=0x7f030071;
-        public static final int nim_advanced_team_announce=0x7f030072;
-        public static final int nim_advanced_team_announce_list_item=0x7f030073;
-        public static final int nim_advanced_team_create_announce=0x7f030074;
-        public static final int nim_advanced_team_create_layout=0x7f030075;
-        public static final int nim_advanced_team_info_activity=0x7f030076;
-        public static final int nim_advanced_team_info_divider_item=0x7f030077;
-        public static final int nim_advanced_team_join_activity=0x7f030078;
-        public static final int nim_advanced_team_member_info_layout=0x7f030079;
-        public static final int nim_advanced_team_nickname_activity=0x7f03007a;
-        public static final int nim_advanced_team_search_activity=0x7f03007b;
-        public static final int nim_capture_video_activity=0x7f03007c;
-        public static final int nim_contact_loading_frame=0x7f03007d;
-        public static final int nim_contact_select_area_item=0x7f03007e;
-        public static final int nim_contact_text_item=0x7f03007f;
-        public static final int nim_contacts=0x7f030080;
-        public static final int nim_contacts_abc_item=0x7f030081;
-        public static final int nim_contacts_count_item=0x7f030082;
-        public static final int nim_contacts_item=0x7f030083;
-        public static final int nim_contacts_select=0x7f030084;
-        public static final int nim_contacts_select_item=0x7f030085;
-        public static final int nim_crop_image_activity=0x7f030086;
-        public static final int nim_custom_dialog_list_item=0x7f030087;
-        public static final int nim_easy_alert_dialog_bottom_button=0x7f030088;
-        public static final int nim_easy_alert_dialog_default_layout=0x7f030089;
-        public static final int nim_easy_alert_dialog_title=0x7f03008a;
-        public static final int nim_easy_alert_dialog_with_edit_text=0x7f03008b;
-        public static final int nim_easy_alert_dialog_with_listview=0x7f03008c;
-        public static final int nim_easy_progress_dialog=0x7f03008d;
-        public static final int nim_emoji_item=0x7f03008e;
-        public static final int nim_emoji_layout=0x7f03008f;
-        public static final int nim_listview_refresh=0x7f030090;
-        public static final int nim_menu_dialog=0x7f030091;
-        public static final int nim_menu_dialog_item=0x7f030092;
-        public static final int nim_message_activity=0x7f030093;
-        public static final int nim_message_activity_actions_layout=0x7f030094;
-        public static final int nim_message_activity_bottom_layout=0x7f030095;
-        public static final int nim_message_activity_text_layout=0x7f030096;
-        public static final int nim_message_fragment=0x7f030097;
-        public static final int nim_message_item=0x7f030098;
-        public static final int nim_message_item_audio=0x7f030099;
-        public static final int nim_message_item_avchat=0x7f03009a;
-        public static final int nim_message_item_file=0x7f03009b;
-        public static final int nim_message_item_location=0x7f03009c;
-        public static final int nim_message_item_name_layout=0x7f03009d;
-        public static final int nim_message_item_notification=0x7f03009e;
-        public static final int nim_message_item_picture=0x7f03009f;
-        public static final int nim_message_item_rts=0x7f0300a0;
-        public static final int nim_message_item_snapchat=0x7f0300a1;
-        public static final int nim_message_item_sticker=0x7f0300a2;
-        public static final int nim_message_item_text=0x7f0300a3;
-        public static final int nim_message_item_thumb_progress_bar_text=0x7f0300a4;
-        public static final int nim_message_item_unknown=0x7f0300a5;
-        public static final int nim_message_item_video=0x7f0300a6;
-        public static final int nim_new_message_tip_layout=0x7f0300a7;
-        public static final int nim_pick_image_activity=0x7f0300a8;
-        public static final int nim_picker_album_activity=0x7f0300a9;
-        public static final int nim_picker_image_folder_activity=0x7f0300aa;
-        public static final int nim_picker_image_preview_activity=0x7f0300ab;
-        public static final int nim_picker_images_fragment=0x7f0300ac;
-        public static final int nim_picker_photo_grid_item=0x7f0300ad;
-        public static final int nim_picker_photofolder_item=0x7f0300ae;
-        public static final int nim_popup_menu_black_layout=0x7f0300af;
-        public static final int nim_popup_menu_layout=0x7f0300b0;
-        public static final int nim_popup_menu_list_black_item=0x7f0300b1;
-        public static final int nim_popup_menu_list_item=0x7f0300b2;
-        public static final int nim_preview_image_from_camera_activity=0x7f0300b3;
-        public static final int nim_preview_image_from_local_activity=0x7f0300b4;
-        public static final int nim_preview_image_layout_multi_touch=0x7f0300b5;
-        public static final int nim_preview_image_layout_zoom_control=0x7f0300b6;
-        public static final int nim_read_recipt_layout=0x7f0300b7;
-        public static final int nim_recent_contact_list_item=0x7f0300b8;
-        public static final int nim_recent_contacts=0x7f0300b9;
-        public static final int nim_round_loading_progress_bar=0x7f0300ba;
-        public static final int nim_sticker_picker_view=0x7f0300bb;
-        public static final int nim_team_info_activity=0x7f0300bc;
-        public static final int nim_team_info_divider_item=0x7f0300bd;
-        public static final int nim_team_member_grid_layout=0x7f0300be;
-        public static final int nim_team_member_item=0x7f0300bf;
-        public static final int nim_team_member_list_item=0x7f0300c0;
-        public static final int nim_team_member_list_layout=0x7f0300c1;
-        public static final int nim_team_message_activity=0x7f0300c2;
-        public static final int nim_team_name_activity=0x7f0300c3;
-        public static final int nim_time_text_view_layout=0x7f0300c4;
-        public static final int nim_user_profile_toggle_item=0x7f0300c5;
-        public static final int nim_voice_trans_layout=0x7f0300c6;
-        public static final int nim_watch_media_download_progress_layout=0x7f0300c7;
-        public static final int nim_watch_picture_activity=0x7f0300c8;
-        public static final int nim_watch_snapchat_activity=0x7f0300c9;
-        public static final int nim_watch_video_activity=0x7f0300ca;
-        public static final int nim_zbra_loading_progress_bar=0x7f0300cb;
-        public static final int no_disturb_activity=0x7f0300cc;
-        public static final int no_disturb_footer=0x7f0300cd;
-        public static final int notification_media_action=0x7f0300ce;
-        public static final int notification_media_cancel_action=0x7f0300cf;
-        public static final int notification_template_big_media=0x7f0300d0;
-        public static final int notification_template_big_media_narrow=0x7f0300d1;
-        public static final int notification_template_lines=0x7f0300d2;
-        public static final int notification_template_media=0x7f0300d3;
-        public static final int notification_template_part_chronometer=0x7f0300d4;
-        public static final int notification_template_part_time=0x7f0300d5;
-        public static final int online_people_fragment=0x7f0300d6;
-        public static final int online_people_item=0x7f0300d7;
-        public static final int permission_control_layout=0x7f0300d8;
-        public static final int pull_to_refresh_header_custom=0x7f0300d9;
-        public static final int render_type_default=0x7f0300da;
-        public static final int render_type_text=0x7f0300db;
-        public static final int rts_activity=0x7f0300dc;
-        public static final int select_dialog_item_material=0x7f0300dd;
-        public static final int select_dialog_multichoice_material=0x7f0300de;
-        public static final int select_dialog_singlechoice_material=0x7f0300df;
-        public static final int session_list=0x7f0300e0;
-        public static final int setting_item_base=0x7f0300e1;
-        public static final int setting_item_toggle=0x7f0300e2;
-        public static final int settings_activity=0x7f0300e3;
-        public static final int settings_logout_footer=0x7f0300e4;
-        public static final int show_all_team_members_activity=0x7f0300e5;
-        public static final int simple_load_more=0x7f0300e6;
-        public static final int slider_layout=0x7f0300e7;
-        public static final int support_simple_spinner_dropdown_item=0x7f0300e8;
-        public static final int system_notification_message_activity=0x7f0300e9;
-        public static final int tab_layout_main=0x7f0300ea;
-        public static final int team_announce_head_view=0x7f0300eb;
-        public static final int team_announcement_vp_item=0x7f0300ec;
-        public static final int team_message_announce_dialog=0x7f0300ed;
-        public static final int user_profile_activity=0x7f0300ee;
-        public static final int user_profile_birth_layout=0x7f0300ef;
-        public static final int user_profile_edit_activity=0x7f0300f0;
-        public static final int user_profile_edit_item=0x7f0300f1;
-        public static final int user_profile_edittext_layout=0x7f0300f2;
-        public static final int user_profile_gender_layout=0x7f0300f3;
-        public static final int user_profile_item=0x7f0300f4;
-        public static final int user_profile_set_activity=0x7f0300f5;
-        public static final int user_profile_signature_layout=0x7f0300f6;
-        public static final int video_call_bottom_switch_layout=0x7f0300f7;
-        public static final int video_call_peer_close_cameral=0x7f0300f8;
-        public static final int video_switch_audio_layout=0x7f0300f9;
+        public static final int dialog_add_class_room=0x7f030047;
+        public static final int edit_nick_activity=0x7f030048;
+        public static final int error_admin_item=0x7f030049;
+        public static final int file_browser_activity=0x7f03004a;
+        public static final int file_browser_list_item=0x7f03004b;
+        public static final int file_download_activity=0x7f03004c;
+        public static final int file_transfer_layout=0x7f03004d;
+        public static final int func_contacts_item=0x7f03004e;
+        public static final int global_search_detail=0x7f03004f;
+        public static final int global_search_result=0x7f030050;
+        public static final int group_list_activity=0x7f030051;
+        public static final int icon_list_item=0x7f030052;
+        public static final int image_layout_multi_touch=0x7f030053;
+        public static final int indicator_layout=0x7f030054;
+        public static final int item_custom_notification=0x7f030055;
+        public static final int item_gridview_home=0x7f030056;
+        public static final int js_bridge_activity=0x7f030057;
+        public static final int login_activity=0x7f030058;
+        public static final int main=0x7f030059;
+        public static final int main_tab_fragment_container=0x7f03005a;
+        public static final int map_view_amap_layout=0x7f03005b;
+        public static final int map_view_amap_navigation_layout=0x7f03005c;
+        public static final int map_view_google_layout=0x7f03005d;
+        public static final int mass_message_activity=0x7f03005e;
+        public static final int master_fragment=0x7f03005f;
+        public static final int mediacontroller=0x7f030060;
+        public static final int message_history_activity=0x7f030061;
+        public static final int message_info_activity=0x7f030062;
+        public static final int message_search_activity=0x7f030063;
+        public static final int message_search_empty_view=0x7f030064;
+        public static final int message_search_list_view_item=0x7f030065;
+        public static final int message_system_notification_view_item=0x7f030066;
+        public static final int msg_list_fetch_load_more=0x7f030067;
+        public static final int multiport_activity=0x7f030068;
+        public static final int multiport_item=0x7f030069;
+        public static final int multiport_status_bar=0x7f03006a;
+        public static final int my_chat_room_fragment=0x7f03006b;
+        public static final int my_class_room=0x7f03006c;
+        public static final int my_home_tab=0x7f03006d;
+        public static final int my_homes=0x7f03006e;
+        public static final int network_status_bar=0x7f03006f;
+        public static final int nim_action_bar_custom_view=0x7f030070;
+        public static final int nim_action_bar_right_clickable_tv=0x7f030071;
+        public static final int nim_action_bar_right_picker_preview=0x7f030072;
+        public static final int nim_actions_item_layout=0x7f030073;
+        public static final int nim_advanced_team_announce=0x7f030074;
+        public static final int nim_advanced_team_announce_list_item=0x7f030075;
+        public static final int nim_advanced_team_create_announce=0x7f030076;
+        public static final int nim_advanced_team_create_layout=0x7f030077;
+        public static final int nim_advanced_team_info_activity=0x7f030078;
+        public static final int nim_advanced_team_info_divider_item=0x7f030079;
+        public static final int nim_advanced_team_join_activity=0x7f03007a;
+        public static final int nim_advanced_team_member_info_layout=0x7f03007b;
+        public static final int nim_advanced_team_nickname_activity=0x7f03007c;
+        public static final int nim_advanced_team_search_activity=0x7f03007d;
+        public static final int nim_capture_video_activity=0x7f03007e;
+        public static final int nim_contact_loading_frame=0x7f03007f;
+        public static final int nim_contact_select_area_item=0x7f030080;
+        public static final int nim_contact_text_item=0x7f030081;
+        public static final int nim_contacts=0x7f030082;
+        public static final int nim_contacts_abc_item=0x7f030083;
+        public static final int nim_contacts_count_item=0x7f030084;
+        public static final int nim_contacts_item=0x7f030085;
+        public static final int nim_contacts_select=0x7f030086;
+        public static final int nim_contacts_select_item=0x7f030087;
+        public static final int nim_crop_image_activity=0x7f030088;
+        public static final int nim_custom_dialog_list_item=0x7f030089;
+        public static final int nim_easy_alert_dialog_bottom_button=0x7f03008a;
+        public static final int nim_easy_alert_dialog_default_layout=0x7f03008b;
+        public static final int nim_easy_alert_dialog_title=0x7f03008c;
+        public static final int nim_easy_alert_dialog_with_edit_text=0x7f03008d;
+        public static final int nim_easy_alert_dialog_with_listview=0x7f03008e;
+        public static final int nim_easy_progress_dialog=0x7f03008f;
+        public static final int nim_emoji_item=0x7f030090;
+        public static final int nim_emoji_layout=0x7f030091;
+        public static final int nim_listview_refresh=0x7f030092;
+        public static final int nim_menu_dialog=0x7f030093;
+        public static final int nim_menu_dialog_item=0x7f030094;
+        public static final int nim_message_activity=0x7f030095;
+        public static final int nim_message_activity_actions_layout=0x7f030096;
+        public static final int nim_message_activity_bottom_layout=0x7f030097;
+        public static final int nim_message_activity_text_layout=0x7f030098;
+        public static final int nim_message_fragment=0x7f030099;
+        public static final int nim_message_item=0x7f03009a;
+        public static final int nim_message_item_audio=0x7f03009b;
+        public static final int nim_message_item_avchat=0x7f03009c;
+        public static final int nim_message_item_file=0x7f03009d;
+        public static final int nim_message_item_location=0x7f03009e;
+        public static final int nim_message_item_name_layout=0x7f03009f;
+        public static final int nim_message_item_notification=0x7f0300a0;
+        public static final int nim_message_item_picture=0x7f0300a1;
+        public static final int nim_message_item_rts=0x7f0300a2;
+        public static final int nim_message_item_snapchat=0x7f0300a3;
+        public static final int nim_message_item_sticker=0x7f0300a4;
+        public static final int nim_message_item_text=0x7f0300a5;
+        public static final int nim_message_item_thumb_progress_bar_text=0x7f0300a6;
+        public static final int nim_message_item_unknown=0x7f0300a7;
+        public static final int nim_message_item_video=0x7f0300a8;
+        public static final int nim_new_message_tip_layout=0x7f0300a9;
+        public static final int nim_pick_image_activity=0x7f0300aa;
+        public static final int nim_picker_album_activity=0x7f0300ab;
+        public static final int nim_picker_image_folder_activity=0x7f0300ac;
+        public static final int nim_picker_image_preview_activity=0x7f0300ad;
+        public static final int nim_picker_images_fragment=0x7f0300ae;
+        public static final int nim_picker_photo_grid_item=0x7f0300af;
+        public static final int nim_picker_photofolder_item=0x7f0300b0;
+        public static final int nim_popup_menu_black_layout=0x7f0300b1;
+        public static final int nim_popup_menu_layout=0x7f0300b2;
+        public static final int nim_popup_menu_list_black_item=0x7f0300b3;
+        public static final int nim_popup_menu_list_item=0x7f0300b4;
+        public static final int nim_preview_image_from_camera_activity=0x7f0300b5;
+        public static final int nim_preview_image_from_local_activity=0x7f0300b6;
+        public static final int nim_preview_image_layout_multi_touch=0x7f0300b7;
+        public static final int nim_preview_image_layout_zoom_control=0x7f0300b8;
+        public static final int nim_read_recipt_layout=0x7f0300b9;
+        public static final int nim_recent_contact_list_item=0x7f0300ba;
+        public static final int nim_recent_contacts=0x7f0300bb;
+        public static final int nim_round_loading_progress_bar=0x7f0300bc;
+        public static final int nim_sticker_picker_view=0x7f0300bd;
+        public static final int nim_team_info_activity=0x7f0300be;
+        public static final int nim_team_info_divider_item=0x7f0300bf;
+        public static final int nim_team_member_grid_layout=0x7f0300c0;
+        public static final int nim_team_member_item=0x7f0300c1;
+        public static final int nim_team_member_list_item=0x7f0300c2;
+        public static final int nim_team_member_list_layout=0x7f0300c3;
+        public static final int nim_team_message_activity=0x7f0300c4;
+        public static final int nim_team_name_activity=0x7f0300c5;
+        public static final int nim_time_text_view_layout=0x7f0300c6;
+        public static final int nim_user_profile_toggle_item=0x7f0300c7;
+        public static final int nim_voice_trans_layout=0x7f0300c8;
+        public static final int nim_watch_media_download_progress_layout=0x7f0300c9;
+        public static final int nim_watch_picture_activity=0x7f0300ca;
+        public static final int nim_watch_snapchat_activity=0x7f0300cb;
+        public static final int nim_watch_video_activity=0x7f0300cc;
+        public static final int nim_zbra_loading_progress_bar=0x7f0300cd;
+        public static final int no_disturb_activity=0x7f0300ce;
+        public static final int no_disturb_footer=0x7f0300cf;
+        public static final int notification_media_action=0x7f0300d0;
+        public static final int notification_media_cancel_action=0x7f0300d1;
+        public static final int notification_template_big_media=0x7f0300d2;
+        public static final int notification_template_big_media_narrow=0x7f0300d3;
+        public static final int notification_template_lines=0x7f0300d4;
+        public static final int notification_template_media=0x7f0300d5;
+        public static final int notification_template_part_chronometer=0x7f0300d6;
+        public static final int notification_template_part_time=0x7f0300d7;
+        public static final int online_people_fragment=0x7f0300d8;
+        public static final int online_people_item=0x7f0300d9;
+        public static final int permission_control_layout=0x7f0300da;
+        public static final int pull_to_refresh_header_custom=0x7f0300db;
+        public static final int render_type_default=0x7f0300dc;
+        public static final int render_type_text=0x7f0300dd;
+        public static final int rts_activity=0x7f0300de;
+        public static final int select_dialog_item_material=0x7f0300df;
+        public static final int select_dialog_multichoice_material=0x7f0300e0;
+        public static final int select_dialog_singlechoice_material=0x7f0300e1;
+        public static final int session_list=0x7f0300e2;
+        public static final int setting_item_base=0x7f0300e3;
+        public static final int setting_item_toggle=0x7f0300e4;
+        public static final int settings_activity=0x7f0300e5;
+        public static final int settings_logout_footer=0x7f0300e6;
+        public static final int show_all_team_members_activity=0x7f0300e7;
+        public static final int simple_load_more=0x7f0300e8;
+        public static final int slider_layout=0x7f0300e9;
+        public static final int support_simple_spinner_dropdown_item=0x7f0300ea;
+        public static final int system_notification_message_activity=0x7f0300eb;
+        public static final int tab_layout_main=0x7f0300ec;
+        public static final int team_announce_head_view=0x7f0300ed;
+        public static final int team_announcement_vp_item=0x7f0300ee;
+        public static final int team_message_announce_dialog=0x7f0300ef;
+        public static final int user_profile_activity=0x7f0300f0;
+        public static final int user_profile_birth_layout=0x7f0300f1;
+        public static final int user_profile_edit_activity=0x7f0300f2;
+        public static final int user_profile_edit_item=0x7f0300f3;
+        public static final int user_profile_edittext_layout=0x7f0300f4;
+        public static final int user_profile_gender_layout=0x7f0300f5;
+        public static final int user_profile_item=0x7f0300f6;
+        public static final int user_profile_set_activity=0x7f0300f7;
+        public static final int user_profile_signature_layout=0x7f0300f8;
+        public static final int video_call_bottom_switch_layout=0x7f0300f9;
+        public static final int video_call_peer_close_cameral=0x7f0300fa;
+        public static final int video_switch_audio_layout=0x7f0300fb;
     }
     public static final class menu {
         public static final int contacts_search_menu=0x7f0f0000;
@@ -5421,33 +5429,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.netease.nim.demo:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.netease.nim.demo:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.netease.nim.demo:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.netease.nim.demo:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.netease.nim.demo:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.netease.nim.demo:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.netease.nim.demo:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.netease.nim.demo:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.netease.nim.demo:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.netease.nim.demo:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.netease.nim.demo:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.netease.nim.demo:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.netease.nim.demo:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.netease.nim.demo:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.netease.nim.demo:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.netease.nim.demo:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.netease.nim.demo:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.netease.nim.demo:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.netease.nim.demo:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.netease.nim.demo:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.netease.nim.demo:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.netease.nim.demo:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.netease.nim.demo:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.netease.nim.demo:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.netease.nim.demo:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.netease.nim.demo:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.netease.nim.demo:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.netease.nim.teacher:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.netease.nim.teacher:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.netease.nim.teacher:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.netease.nim.teacher:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.netease.nim.teacher:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.netease.nim.teacher:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.netease.nim.teacher:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.netease.nim.teacher:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.netease.nim.teacher:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.netease.nim.teacher:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.netease.nim.teacher:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.netease.nim.teacher:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.netease.nim.teacher:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.netease.nim.teacher:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.netease.nim.teacher:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.netease.nim.teacher:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.netease.nim.teacher:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.netease.nim.teacher:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.netease.nim.teacher:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.netease.nim.teacher:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.netease.nim.teacher:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.netease.nim.teacher:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.netease.nim.teacher:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.netease.nim.teacher:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.netease.nim.teacher:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.netease.nim.teacher:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.netease.nim.teacher:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -5487,17 +5495,17 @@ containing a value of this type.
             0x7f01001a, 0x7f01001b, 0x7f010057
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#background}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:background
+          @attr name com.netease.nim.teacher:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5505,11 +5513,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:backgroundSplit
+          @attr name com.netease.nim.teacher:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5517,11 +5525,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:backgroundStacked
+          @attr name com.netease.nim.teacher:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5533,11 +5541,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:contentInsetEnd
+          @attr name com.netease.nim.teacher:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5549,11 +5557,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:contentInsetLeft
+          @attr name com.netease.nim.teacher:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5565,11 +5573,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:contentInsetRight
+          @attr name com.netease.nim.teacher:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5581,21 +5589,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:contentInsetStart
+          @attr name com.netease.nim.teacher:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:customNavigationLayout
+          @attr name com.netease.nim.teacher:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5613,21 +5621,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:displayOptions
+          @attr name com.netease.nim.teacher:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:divider
+          @attr name com.netease.nim.teacher:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5639,11 +5647,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:elevation
+          @attr name com.netease.nim.teacher:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#height}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5655,11 +5663,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:height
+          @attr name com.netease.nim.teacher:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5669,51 +5677,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:hideOnContentScroll
+          @attr name com.netease.nim.teacher:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:homeAsUpIndicator
+          @attr name com.netease.nim.teacher:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:homeLayout
+          @attr name com.netease.nim.teacher:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:icon
+          @attr name com.netease.nim.teacher:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:indeterminateProgressStyle
+          @attr name com.netease.nim.teacher:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5725,21 +5733,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:itemPadding
+          @attr name com.netease.nim.teacher:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:logo
+          @attr name com.netease.nim.teacher:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5753,21 +5761,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:navigationMode
+          @attr name com.netease.nim.teacher:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:popupTheme
+          @attr name com.netease.nim.teacher:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5779,21 +5787,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:progressBarPadding
+          @attr name com.netease.nim.teacher:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:progressBarStyle
+          @attr name com.netease.nim.teacher:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5803,21 +5811,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:subtitle
+          @attr name com.netease.nim.teacher:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:subtitleTextStyle
+          @attr name com.netease.nim.teacher:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#title}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5827,17 +5835,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:title
+          @attr name com.netease.nim.teacher:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:titleTextStyle
+          @attr name com.netease.nim.teacher:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -5889,12 +5897,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.netease.nim.demo:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.netease.nim.demo:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.netease.nim.demo:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.netease.nim.demo:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.netease.nim.demo:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.netease.nim.demo:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.netease.nim.teacher:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.netease.nim.teacher:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.netease.nim.teacher:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.netease.nim.teacher:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.netease.nim.teacher:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.netease.nim.teacher:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -5908,17 +5916,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#background}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:background
+          @attr name com.netease.nim.teacher:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -5926,21 +5934,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:backgroundSplit
+          @attr name com.netease.nim.teacher:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:closeItemLayout
+          @attr name com.netease.nim.teacher:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#height}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -5952,27 +5960,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:height
+          @attr name com.netease.nim.teacher:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:subtitleTextStyle
+          @attr name com.netease.nim.teacher:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:titleTextStyle
+          @attr name com.netease.nim.teacher:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -5981,8 +5989,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.netease.nim.demo:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.netease.nim.demo:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.netease.nim.teacher:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.netease.nim.teacher:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -5991,17 +5999,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:expandActivityOverflowButtonDrawable
+          @attr name com.netease.nim.teacher:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -6011,7 +6019,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:initialActivityCount
+          @attr name com.netease.nim.teacher:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -6021,11 +6029,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.netease.nim.demo:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout com.netease.nim.demo:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout com.netease.nim.demo:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.netease.nim.demo:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.netease.nim.demo:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.netease.nim.teacher:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout com.netease.nim.teacher:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout com.netease.nim.teacher:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.netease.nim.teacher:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.netease.nim.teacher:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -6045,53 +6053,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:buttonPanelSideLayout
+          @attr name com.netease.nim.teacher:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:listItemLayout
+          @attr name com.netease.nim.teacher:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:listLayout
+          @attr name com.netease.nim.teacher:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:multiChoiceItemLayout
+          @attr name com.netease.nim.teacher:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:singleChoiceItemLayout
+          @attr name com.netease.nim.teacher:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -6101,8 +6109,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation com.netease.nim.demo:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded com.netease.nim.demo:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation com.netease.nim.teacher:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded com.netease.nim.teacher:expanded}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_elevation
@@ -6118,7 +6126,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -6130,11 +6138,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:elevation
+          @attr name com.netease.nim.teacher:elevation
         */
         public static final int AppBarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#expanded}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -6144,7 +6152,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:expanded
+          @attr name com.netease.nim.teacher:expanded
         */
         public static final int AppBarLayout_expanded = 2;
         /** Attributes that can be used with a AppBarLayout_LayoutParams.
@@ -6153,8 +6161,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags com.netease.nim.demo:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator com.netease.nim.demo:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags com.netease.nim.teacher:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator com.netease.nim.teacher:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_LayoutParams_layout_scrollFlags
            @see #AppBarLayout_LayoutParams_layout_scrollInterpolator
@@ -6163,7 +6171,7 @@ containing a value of this type.
             0x7f010025, 0x7f010026
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
@@ -6179,17 +6187,17 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:layout_scrollFlags
+          @attr name com.netease.nim.teacher:layout_scrollFlags
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:layout_scrollInterpolator
+          @attr name com.netease.nim.teacher:layout_scrollInterpolator
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatImageView.
@@ -6199,7 +6207,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat com.netease.nim.demo:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat com.netease.nim.teacher:srcCompat}</code></td><td></td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
@@ -6214,13 +6222,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:srcCompat
+          @attr name com.netease.nim.teacher:srcCompat
         */
         public static final int AppCompatImageView_srcCompat = 1;
         /** Attributes that can be used with a AppCompatTextView.
@@ -6230,7 +6238,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.netease.nim.demo:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.netease.nim.teacher:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -6245,14 +6253,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.netease.nim.demo:textAllCaps
+          @attr name com.netease.nim.teacher:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -6261,118 +6269,118 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.netease.nim.demo:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.netease.nim.demo:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.netease.nim.demo:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.netease.nim.demo:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.netease.nim.demo:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.netease.nim.demo:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.netease.nim.demo:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.netease.nim.demo:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.netease.nim.demo:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.netease.nim.demo:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.netease.nim.demo:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.netease.nim.demo:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.netease.nim.demo:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.netease.nim.demo:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.netease.nim.demo:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.netease.nim.demo:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.netease.nim.demo:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.netease.nim.demo:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.netease.nim.demo:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.netease.nim.demo:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.netease.nim.demo:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.netease.nim.demo:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.netease.nim.demo:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.netease.nim.demo:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.netease.nim.demo:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.netease.nim.demo:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.netease.nim.demo:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.netease.nim.demo:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.netease.nim.demo:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.netease.nim.demo:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.netease.nim.demo:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.netease.nim.demo:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.netease.nim.demo:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.netease.nim.demo:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.netease.nim.demo:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.netease.nim.teacher:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.netease.nim.teacher:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.netease.nim.teacher:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.netease.nim.teacher:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.netease.nim.teacher:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.netease.nim.teacher:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.netease.nim.teacher:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.netease.nim.teacher:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.netease.nim.teacher:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.netease.nim.teacher:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.netease.nim.teacher:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.netease.nim.teacher:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.netease.nim.teacher:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.netease.nim.teacher:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.netease.nim.teacher:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.netease.nim.teacher:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.netease.nim.teacher:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.netease.nim.teacher:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.netease.nim.teacher:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.netease.nim.teacher:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.netease.nim.teacher:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.netease.nim.teacher:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.netease.nim.teacher:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.netease.nim.teacher:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.netease.nim.teacher:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.netease.nim.teacher:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.netease.nim.teacher:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.netease.nim.teacher:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.netease.nim.teacher:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.netease.nim.teacher:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.netease.nim.teacher:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.netease.nim.teacher:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.netease.nim.teacher:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.netease.nim.teacher:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.netease.nim.teacher:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.netease.nim.demo:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.netease.nim.demo:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.netease.nim.demo:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.netease.nim.demo:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.netease.nim.demo:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.netease.nim.demo:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.netease.nim.demo:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.netease.nim.demo:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.netease.nim.demo:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.netease.nim.demo:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.netease.nim.demo:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent com.netease.nim.demo:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.netease.nim.demo:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.netease.nim.demo:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.netease.nim.demo:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.netease.nim.demo:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.netease.nim.demo:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.netease.nim.demo:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.netease.nim.demo:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground com.netease.nim.demo:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.netease.nim.demo:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.netease.nim.demo:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.netease.nim.demo:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.netease.nim.demo:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.netease.nim.demo:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.netease.nim.demo:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.netease.nim.demo:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor com.netease.nim.demo:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.netease.nim.demo:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.netease.nim.demo:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.netease.nim.demo:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.netease.nim.demo:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.netease.nim.demo:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.netease.nim.demo:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.netease.nim.demo:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.netease.nim.demo:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.netease.nim.demo:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.netease.nim.demo:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.netease.nim.demo:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground com.netease.nim.demo:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.netease.nim.demo:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.netease.nim.demo:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.netease.nim.demo:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.netease.nim.demo:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.netease.nim.demo:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.netease.nim.demo:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.netease.nim.demo:ratingBarStyleIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.netease.nim.demo:ratingBarStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.netease.nim.demo:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.netease.nim.demo:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.netease.nim.demo:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.netease.nim.demo:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.netease.nim.demo:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.netease.nim.demo:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle com.netease.nim.demo:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.netease.nim.demo:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.netease.nim.demo:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.netease.nim.demo:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.netease.nim.demo:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.netease.nim.demo:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.netease.nim.demo:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.netease.nim.demo:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.netease.nim.demo:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.netease.nim.demo:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.netease.nim.demo:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.netease.nim.demo:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.netease.nim.demo:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.netease.nim.demo:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.netease.nim.demo:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.netease.nim.demo:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.netease.nim.demo:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.netease.nim.demo:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.netease.nim.demo:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.netease.nim.demo:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.netease.nim.demo:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.netease.nim.teacher:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.netease.nim.teacher:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.netease.nim.teacher:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.netease.nim.teacher:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.netease.nim.teacher:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.netease.nim.teacher:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.netease.nim.teacher:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.netease.nim.teacher:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.netease.nim.teacher:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.netease.nim.teacher:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.netease.nim.teacher:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent com.netease.nim.teacher:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.netease.nim.teacher:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.netease.nim.teacher:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.netease.nim.teacher:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.netease.nim.teacher:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.netease.nim.teacher:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.netease.nim.teacher:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.netease.nim.teacher:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground com.netease.nim.teacher:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.netease.nim.teacher:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.netease.nim.teacher:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.netease.nim.teacher:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.netease.nim.teacher:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.netease.nim.teacher:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.netease.nim.teacher:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.netease.nim.teacher:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor com.netease.nim.teacher:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.netease.nim.teacher:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.netease.nim.teacher:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.netease.nim.teacher:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.netease.nim.teacher:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.netease.nim.teacher:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.netease.nim.teacher:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.netease.nim.teacher:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.netease.nim.teacher:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.netease.nim.teacher:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.netease.nim.teacher:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.netease.nim.teacher:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground com.netease.nim.teacher:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.netease.nim.teacher:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.netease.nim.teacher:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.netease.nim.teacher:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.netease.nim.teacher:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.netease.nim.teacher:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.netease.nim.teacher:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.netease.nim.teacher:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.netease.nim.teacher:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.netease.nim.teacher:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.netease.nim.teacher:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.netease.nim.teacher:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.netease.nim.teacher:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.netease.nim.teacher:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.netease.nim.teacher:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle com.netease.nim.teacher:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.netease.nim.teacher:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.netease.nim.teacher:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.netease.nim.teacher:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.netease.nim.teacher:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.netease.nim.teacher:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.netease.nim.teacher:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.netease.nim.teacher:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.netease.nim.teacher:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.netease.nim.teacher:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.netease.nim.teacher:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.netease.nim.teacher:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.netease.nim.teacher:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.netease.nim.teacher:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.netease.nim.teacher:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.netease.nim.teacher:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.netease.nim.teacher:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.netease.nim.teacher:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.netease.nim.teacher:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.netease.nim.teacher:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.netease.nim.teacher:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -6518,37 +6526,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010093, 0x7f010094, 0x7f010095, 0x7f010096
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionBarDivider
+          @attr name com.netease.nim.teacher:actionBarDivider
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionBarItemBackground
+          @attr name com.netease.nim.teacher:actionBarItemBackground
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionBarPopupTheme
+          @attr name com.netease.nim.teacher:actionBarPopupTheme
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6568,111 +6576,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:actionBarSize
+          @attr name com.netease.nim.teacher:actionBarSize
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionBarSplitStyle
+          @attr name com.netease.nim.teacher:actionBarSplitStyle
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionBarStyle
+          @attr name com.netease.nim.teacher:actionBarStyle
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionBarTabBarStyle
+          @attr name com.netease.nim.teacher:actionBarTabBarStyle
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionBarTabStyle
+          @attr name com.netease.nim.teacher:actionBarTabStyle
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionBarTabTextStyle
+          @attr name com.netease.nim.teacher:actionBarTabTextStyle
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionBarTheme
+          @attr name com.netease.nim.teacher:actionBarTheme
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionBarWidgetTheme
+          @attr name com.netease.nim.teacher:actionBarWidgetTheme
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionButtonStyle
+          @attr name com.netease.nim.teacher:actionButtonStyle
         */
         public static final int AppCompatTheme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionDropDownStyle
+          @attr name com.netease.nim.teacher:actionDropDownStyle
         */
         public static final int AppCompatTheme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionMenuTextAppearance
+          @attr name com.netease.nim.teacher:actionMenuTextAppearance
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6680,181 +6688,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:actionMenuTextColor
+          @attr name com.netease.nim.teacher:actionMenuTextColor
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionModeBackground
+          @attr name com.netease.nim.teacher:actionModeBackground
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionModeCloseButtonStyle
+          @attr name com.netease.nim.teacher:actionModeCloseButtonStyle
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionModeCloseDrawable
+          @attr name com.netease.nim.teacher:actionModeCloseDrawable
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionModeCopyDrawable
+          @attr name com.netease.nim.teacher:actionModeCopyDrawable
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionModeCutDrawable
+          @attr name com.netease.nim.teacher:actionModeCutDrawable
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionModeFindDrawable
+          @attr name com.netease.nim.teacher:actionModeFindDrawable
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionModePasteDrawable
+          @attr name com.netease.nim.teacher:actionModePasteDrawable
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionModePopupWindowStyle
+          @attr name com.netease.nim.teacher:actionModePopupWindowStyle
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionModeSelectAllDrawable
+          @attr name com.netease.nim.teacher:actionModeSelectAllDrawable
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionModeShareDrawable
+          @attr name com.netease.nim.teacher:actionModeShareDrawable
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionModeSplitBackground
+          @attr name com.netease.nim.teacher:actionModeSplitBackground
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionModeStyle
+          @attr name com.netease.nim.teacher:actionModeStyle
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionModeWebSearchDrawable
+          @attr name com.netease.nim.teacher:actionModeWebSearchDrawable
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionOverflowButtonStyle
+          @attr name com.netease.nim.teacher:actionOverflowButtonStyle
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionOverflowMenuStyle
+          @attr name com.netease.nim.teacher:actionOverflowMenuStyle
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:activityChooserViewStyle
+          @attr name com.netease.nim.teacher:activityChooserViewStyle
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:alertDialogButtonGroupStyle
+          @attr name com.netease.nim.teacher:alertDialogButtonGroupStyle
         */
         public static final int AppCompatTheme_alertDialogButtonGroupStyle = 92;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6864,27 +6872,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:alertDialogCenterButtons
+          @attr name com.netease.nim.teacher:alertDialogCenterButtons
         */
         public static final int AppCompatTheme_alertDialogCenterButtons = 93;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:alertDialogStyle
+          @attr name com.netease.nim.teacher:alertDialogStyle
         */
         public static final int AppCompatTheme_alertDialogStyle = 91;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:alertDialogTheme
+          @attr name com.netease.nim.teacher:alertDialogTheme
         */
         public static final int AppCompatTheme_alertDialogTheme = 94;
         /**
@@ -6900,117 +6908,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:autoCompleteTextViewStyle
+          @attr name com.netease.nim.teacher:autoCompleteTextViewStyle
         */
         public static final int AppCompatTheme_autoCompleteTextViewStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:borderlessButtonStyle
+          @attr name com.netease.nim.teacher:borderlessButtonStyle
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:buttonBarButtonStyle
+          @attr name com.netease.nim.teacher:buttonBarButtonStyle
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:buttonBarNegativeButtonStyle
+          @attr name com.netease.nim.teacher:buttonBarNegativeButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 97;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:buttonBarNeutralButtonStyle
+          @attr name com.netease.nim.teacher:buttonBarNeutralButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:buttonBarPositiveButtonStyle
+          @attr name com.netease.nim.teacher:buttonBarPositiveButtonStyle
         */
         public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:buttonBarStyle
+          @attr name com.netease.nim.teacher:buttonBarStyle
         */
         public static final int AppCompatTheme_buttonBarStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:buttonStyle
+          @attr name com.netease.nim.teacher:buttonStyle
         */
         public static final int AppCompatTheme_buttonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:buttonStyleSmall
+          @attr name com.netease.nim.teacher:buttonStyleSmall
         */
         public static final int AppCompatTheme_buttonStyleSmall = 101;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:checkboxStyle
+          @attr name com.netease.nim.teacher:checkboxStyle
         */
         public static final int AppCompatTheme_checkboxStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:checkedTextViewStyle
+          @attr name com.netease.nim.teacher:checkedTextViewStyle
         */
         public static final int AppCompatTheme_checkedTextViewStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7021,11 +7029,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:colorAccent
+          @attr name com.netease.nim.teacher:colorAccent
         */
         public static final int AppCompatTheme_colorAccent = 84;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7036,11 +7044,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:colorButtonNormal
+          @attr name com.netease.nim.teacher:colorButtonNormal
         */
         public static final int AppCompatTheme_colorButtonNormal = 88;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7051,11 +7059,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:colorControlActivated
+          @attr name com.netease.nim.teacher:colorControlActivated
         */
         public static final int AppCompatTheme_colorControlActivated = 86;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7066,11 +7074,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:colorControlHighlight
+          @attr name com.netease.nim.teacher:colorControlHighlight
         */
         public static final int AppCompatTheme_colorControlHighlight = 87;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7081,11 +7089,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:colorControlNormal
+          @attr name com.netease.nim.teacher:colorControlNormal
         */
         public static final int AppCompatTheme_colorControlNormal = 85;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7096,11 +7104,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:colorPrimary
+          @attr name com.netease.nim.teacher:colorPrimary
         */
         public static final int AppCompatTheme_colorPrimary = 82;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7111,11 +7119,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:colorPrimaryDark
+          @attr name com.netease.nim.teacher:colorPrimaryDark
         */
         public static final int AppCompatTheme_colorPrimaryDark = 83;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7126,21 +7134,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:colorSwitchThumbNormal
+          @attr name com.netease.nim.teacher:colorSwitchThumbNormal
         */
         public static final int AppCompatTheme_colorSwitchThumbNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:controlBackground
+          @attr name com.netease.nim.teacher:controlBackground
         */
         public static final int AppCompatTheme_controlBackground = 90;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7152,51 +7160,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:dialogPreferredPadding
+          @attr name com.netease.nim.teacher:dialogPreferredPadding
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:dialogTheme
+          @attr name com.netease.nim.teacher:dialogTheme
         */
         public static final int AppCompatTheme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:dividerHorizontal
+          @attr name com.netease.nim.teacher:dividerHorizontal
         */
         public static final int AppCompatTheme_dividerHorizontal = 56;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:dividerVertical
+          @attr name com.netease.nim.teacher:dividerVertical
         */
         public static final int AppCompatTheme_dividerVertical = 55;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:dropDownListViewStyle
+          @attr name com.netease.nim.teacher:dropDownListViewStyle
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 74;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7208,21 +7216,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:dropdownListPreferredItemHeight
+          @attr name com.netease.nim.teacher:dropdownListPreferredItemHeight
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 46;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:editTextBackground
+          @attr name com.netease.nim.teacher:editTextBackground
         */
         public static final int AppCompatTheme_editTextBackground = 63;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7230,71 +7238,71 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:editTextColor
+          @attr name com.netease.nim.teacher:editTextColor
         */
         public static final int AppCompatTheme_editTextColor = 62;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:editTextStyle
+          @attr name com.netease.nim.teacher:editTextStyle
         */
         public static final int AppCompatTheme_editTextStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:homeAsUpIndicator
+          @attr name com.netease.nim.teacher:homeAsUpIndicator
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:imageButtonStyle
+          @attr name com.netease.nim.teacher:imageButtonStyle
         */
         public static final int AppCompatTheme_imageButtonStyle = 64;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:listChoiceBackgroundIndicator
+          @attr name com.netease.nim.teacher:listChoiceBackgroundIndicator
         */
         public static final int AppCompatTheme_listChoiceBackgroundIndicator = 81;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:listDividerAlertDialog
+          @attr name com.netease.nim.teacher:listDividerAlertDialog
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 44;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:listPopupWindowStyle
+          @attr name com.netease.nim.teacher:listPopupWindowStyle
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7306,11 +7314,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:listPreferredItemHeight
+          @attr name com.netease.nim.teacher:listPreferredItemHeight
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 69;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7322,11 +7330,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:listPreferredItemHeightLarge
+          @attr name com.netease.nim.teacher:listPreferredItemHeightLarge
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 71;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7338,11 +7346,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:listPreferredItemHeightSmall
+          @attr name com.netease.nim.teacher:listPreferredItemHeightSmall
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 70;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7354,11 +7362,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:listPreferredItemPaddingLeft
+          @attr name com.netease.nim.teacher:listPreferredItemPaddingLeft
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 72;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7370,31 +7378,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:listPreferredItemPaddingRight
+          @attr name com.netease.nim.teacher:listPreferredItemPaddingRight
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 73;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:panelBackground
+          @attr name com.netease.nim.teacher:panelBackground
         */
         public static final int AppCompatTheme_panelBackground = 78;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:panelMenuListTheme
+          @attr name com.netease.nim.teacher:panelMenuListTheme
         */
         public static final int AppCompatTheme_panelMenuListTheme = 80;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7406,201 +7414,201 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:panelMenuListWidth
+          @attr name com.netease.nim.teacher:panelMenuListWidth
         */
         public static final int AppCompatTheme_panelMenuListWidth = 79;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:popupMenuStyle
+          @attr name com.netease.nim.teacher:popupMenuStyle
         */
         public static final int AppCompatTheme_popupMenuStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:popupWindowStyle
+          @attr name com.netease.nim.teacher:popupWindowStyle
         */
         public static final int AppCompatTheme_popupWindowStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:radioButtonStyle
+          @attr name com.netease.nim.teacher:radioButtonStyle
         */
         public static final int AppCompatTheme_radioButtonStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:ratingBarStyle
+          @attr name com.netease.nim.teacher:ratingBarStyle
         */
         public static final int AppCompatTheme_ratingBarStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:ratingBarStyleIndicator
+          @attr name com.netease.nim.teacher:ratingBarStyleIndicator
         */
         public static final int AppCompatTheme_ratingBarStyleIndicator = 107;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:ratingBarStyleSmall
+          @attr name com.netease.nim.teacher:ratingBarStyleSmall
         */
         public static final int AppCompatTheme_ratingBarStyleSmall = 108;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:searchViewStyle
+          @attr name com.netease.nim.teacher:searchViewStyle
         */
         public static final int AppCompatTheme_searchViewStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:seekBarStyle
+          @attr name com.netease.nim.teacher:seekBarStyle
         */
         public static final int AppCompatTheme_seekBarStyle = 109;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:selectableItemBackground
+          @attr name com.netease.nim.teacher:selectableItemBackground
         */
         public static final int AppCompatTheme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:selectableItemBackgroundBorderless
+          @attr name com.netease.nim.teacher:selectableItemBackgroundBorderless
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:spinnerDropDownItemStyle
+          @attr name com.netease.nim.teacher:spinnerDropDownItemStyle
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:spinnerStyle
+          @attr name com.netease.nim.teacher:spinnerStyle
         */
         public static final int AppCompatTheme_spinnerStyle = 110;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:switchStyle
+          @attr name com.netease.nim.teacher:switchStyle
         */
         public static final int AppCompatTheme_switchStyle = 111;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:textAppearanceLargePopupMenu
+          @attr name com.netease.nim.teacher:textAppearanceLargePopupMenu
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:textAppearanceListItem
+          @attr name com.netease.nim.teacher:textAppearanceListItem
         */
         public static final int AppCompatTheme_textAppearanceListItem = 76;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:textAppearanceListItemSmall
+          @attr name com.netease.nim.teacher:textAppearanceListItemSmall
         */
         public static final int AppCompatTheme_textAppearanceListItemSmall = 77;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:textAppearanceSearchResultSubtitle
+          @attr name com.netease.nim.teacher:textAppearanceSearchResultSubtitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:textAppearanceSearchResultTitle
+          @attr name com.netease.nim.teacher:textAppearanceSearchResultTitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 65;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:textAppearanceSmallPopupMenu
+          @attr name com.netease.nim.teacher:textAppearanceSmallPopupMenu
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7608,11 +7616,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:textColorAlertDialogListItem
+          @attr name com.netease.nim.teacher:textColorAlertDialogListItem
         */
         public static final int AppCompatTheme_textColorAlertDialogListItem = 95;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7620,31 +7628,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:textColorSearchUrl
+          @attr name com.netease.nim.teacher:textColorSearchUrl
         */
         public static final int AppCompatTheme_textColorSearchUrl = 67;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:toolbarNavigationButtonStyle
+          @attr name com.netease.nim.teacher:toolbarNavigationButtonStyle
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:toolbarStyle
+          @attr name com.netease.nim.teacher:toolbarStyle
         */
         public static final int AppCompatTheme_toolbarStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7654,11 +7662,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:windowActionBar
+          @attr name com.netease.nim.teacher:windowActionBar
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7668,11 +7676,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:windowActionBarOverlay
+          @attr name com.netease.nim.teacher:windowActionBarOverlay
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7682,11 +7690,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:windowActionModeOverlay
+          @attr name com.netease.nim.teacher:windowActionModeOverlay
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7701,11 +7709,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:windowFixedHeightMajor
+          @attr name com.netease.nim.teacher:windowFixedHeightMajor
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7720,11 +7728,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:windowFixedHeightMinor
+          @attr name com.netease.nim.teacher:windowFixedHeightMinor
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7739,11 +7747,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:windowFixedWidthMajor
+          @attr name com.netease.nim.teacher:windowFixedWidthMajor
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7758,11 +7766,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:windowFixedWidthMinor
+          @attr name com.netease.nim.teacher:windowFixedWidthMinor
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7777,11 +7785,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:windowMinWidthMajor
+          @attr name com.netease.nim.teacher:windowMinWidthMajor
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7796,11 +7804,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:windowMinWidthMinor
+          @attr name com.netease.nim.teacher:windowMinWidthMinor
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7810,7 +7818,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:windowNoTitle
+          @attr name com.netease.nim.teacher:windowNoTitle
         */
         public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a BottomSheetBehavior_Params.
@@ -7819,8 +7827,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_hideable com.netease.nim.demo:behavior_hideable}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_peekHeight com.netease.nim.demo:behavior_peekHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_hideable com.netease.nim.teacher:behavior_hideable}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_peekHeight com.netease.nim.teacher:behavior_peekHeight}</code></td><td></td></tr>
            </table>
            @see #BottomSheetBehavior_Params_behavior_hideable
            @see #BottomSheetBehavior_Params_behavior_peekHeight
@@ -7829,7 +7837,7 @@ containing a value of this type.
             0x7f010097, 0x7f010098
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#behavior_hideable}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#behavior_hideable}
           attribute's value can be found in the {@link #BottomSheetBehavior_Params} array.
 
 
@@ -7839,11 +7847,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:behavior_hideable
+          @attr name com.netease.nim.teacher:behavior_hideable
         */
         public static final int BottomSheetBehavior_Params_behavior_hideable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#behavior_peekHeight}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#behavior_peekHeight}
           attribute's value can be found in the {@link #BottomSheetBehavior_Params} array.
 
 
@@ -7855,7 +7863,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:behavior_peekHeight
+          @attr name com.netease.nim.teacher:behavior_peekHeight
         */
         public static final int BottomSheetBehavior_Params_behavior_peekHeight = 0;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -7864,7 +7872,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.netease.nim.demo:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.netease.nim.teacher:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -7872,7 +7880,7 @@ containing a value of this type.
             0x7f010099
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -7882,7 +7890,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:allowStacking
+          @attr name com.netease.nim.teacher:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CircleImageView.
@@ -7891,10 +7899,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CircleImageView_civ_border_color com.netease.nim.demo:civ_border_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircleImageView_civ_border_overlay com.netease.nim.demo:civ_border_overlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircleImageView_civ_border_width com.netease.nim.demo:civ_border_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircleImageView_civ_fill_color com.netease.nim.demo:civ_fill_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleImageView_civ_border_color com.netease.nim.teacher:civ_border_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleImageView_civ_border_overlay com.netease.nim.teacher:civ_border_overlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleImageView_civ_border_width com.netease.nim.teacher:civ_border_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleImageView_civ_fill_color com.netease.nim.teacher:civ_fill_color}</code></td><td></td></tr>
            </table>
            @see #CircleImageView_civ_border_color
            @see #CircleImageView_civ_border_overlay
@@ -7905,7 +7913,7 @@ containing a value of this type.
             0x7f01009a, 0x7f01009b, 0x7f01009c, 0x7f01009d
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#civ_border_color}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#civ_border_color}
           attribute's value can be found in the {@link #CircleImageView} array.
 
 
@@ -7916,11 +7924,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:civ_border_color
+          @attr name com.netease.nim.teacher:civ_border_color
         */
         public static final int CircleImageView_civ_border_color = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#civ_border_overlay}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#civ_border_overlay}
           attribute's value can be found in the {@link #CircleImageView} array.
 
 
@@ -7930,11 +7938,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:civ_border_overlay
+          @attr name com.netease.nim.teacher:civ_border_overlay
         */
         public static final int CircleImageView_civ_border_overlay = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#civ_border_width}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#civ_border_width}
           attribute's value can be found in the {@link #CircleImageView} array.
 
 
@@ -7946,11 +7954,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:civ_border_width
+          @attr name com.netease.nim.teacher:civ_border_width
         */
         public static final int CircleImageView_civ_border_width = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#civ_fill_color}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#civ_fill_color}
           attribute's value can be found in the {@link #CircleImageView} array.
 
 
@@ -7961,7 +7969,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:civ_fill_color
+          @attr name com.netease.nim.teacher:civ_fill_color
         */
         public static final int CircleImageView_civ_fill_color = 3;
         /** Attributes that can be used with a CollapsingAppBarLayout_LayoutParams.
@@ -7970,8 +7978,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode com.netease.nim.demo:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier com.netease.nim.demo:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode com.netease.nim.teacher:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier com.netease.nim.teacher:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseMode
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier
@@ -7980,7 +7988,7 @@ containing a value of this type.
             0x7f01009e, 0x7f01009f
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -7994,11 +8002,11 @@ containing a value of this type.
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:layout_collapseMode
+          @attr name com.netease.nim.teacher:layout_collapseMode
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -8008,7 +8016,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:layout_collapseParallaxMultiplier
+          @attr name com.netease.nim.teacher:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -8017,20 +8025,20 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.netease.nim.demo:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.netease.nim.demo:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.netease.nim.demo:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.netease.nim.demo:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.netease.nim.demo:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.netease.nim.demo:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.netease.nim.demo:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.netease.nim.demo:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.netease.nim.demo:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.netease.nim.demo:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.netease.nim.demo:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title com.netease.nim.demo:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.netease.nim.demo:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.netease.nim.demo:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.netease.nim.teacher:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.netease.nim.teacher:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.netease.nim.teacher:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.netease.nim.teacher:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.netease.nim.teacher:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.netease.nim.teacher:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.netease.nim.teacher:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.netease.nim.teacher:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.netease.nim.teacher:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.netease.nim.teacher:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.netease.nim.teacher:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title com.netease.nim.teacher:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.netease.nim.teacher:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.netease.nim.teacher:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -8054,7 +8062,7 @@ containing a value of this type.
             0x7f0100ab, 0x7f0100ac
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8075,21 +8083,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:collapsedTitleGravity
+          @attr name com.netease.nim.teacher:collapsedTitleGravity
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 11;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:collapsedTitleTextAppearance
+          @attr name com.netease.nim.teacher:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8100,11 +8108,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:contentScrim
+          @attr name com.netease.nim.teacher:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8125,11 +8133,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:expandedTitleGravity
+          @attr name com.netease.nim.teacher:expandedTitleGravity
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 12;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8141,11 +8149,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:expandedTitleMargin
+          @attr name com.netease.nim.teacher:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8157,11 +8165,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:expandedTitleMarginBottom
+          @attr name com.netease.nim.teacher:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8173,11 +8181,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:expandedTitleMarginEnd
+          @attr name com.netease.nim.teacher:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8189,11 +8197,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:expandedTitleMarginStart
+          @attr name com.netease.nim.teacher:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8205,21 +8213,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:expandedTitleMarginTop
+          @attr name com.netease.nim.teacher:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:expandedTitleTextAppearance
+          @attr name com.netease.nim.teacher:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8230,11 +8238,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:statusBarScrim
+          @attr name com.netease.nim.teacher:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#title}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8244,11 +8252,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:title
+          @attr name com.netease.nim.teacher:title
         */
         public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8258,17 +8266,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:titleEnabled
+          @attr name com.netease.nim.teacher:titleEnabled
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 13;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:toolbarId
+          @attr name com.netease.nim.teacher:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a CompoundButton.
@@ -8278,8 +8286,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint com.netease.nim.demo:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode com.netease.nim.demo:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint com.netease.nim.teacher:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode com.netease.nim.teacher:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -8295,7 +8303,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -8306,11 +8314,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:buttonTint
+          @attr name com.netease.nim.teacher:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -8326,7 +8334,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:buttonTintMode
+          @attr name com.netease.nim.teacher:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -8335,8 +8343,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines com.netease.nim.demo:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.netease.nim.demo:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines com.netease.nim.teacher:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.netease.nim.teacher:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
@@ -8345,23 +8353,23 @@ containing a value of this type.
             0x7f0100af, 0x7f0100b0
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#keylines}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:keylines
+          @attr name com.netease.nim.teacher:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:statusBarBackground
+          @attr name com.netease.nim.teacher:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_LayoutParams.
@@ -8371,10 +8379,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_LayoutParams_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor com.netease.nim.demo:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity com.netease.nim.demo:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior com.netease.nim.demo:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline com.netease.nim.demo:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor com.netease.nim.teacher:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity com.netease.nim.teacher:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior com.netease.nim.teacher:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline com.netease.nim.teacher:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_LayoutParams_android_layout_gravity
            @see #CoordinatorLayout_LayoutParams_layout_anchor
@@ -8393,17 +8401,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_LayoutParams_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:layout_anchor
+          @attr name com.netease.nim.teacher:layout_anchor
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -8428,11 +8436,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:layout_anchorGravity
+          @attr name com.netease.nim.teacher:layout_anchorGravity
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -8442,11 +8450,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:layout_behavior
+          @attr name com.netease.nim.teacher:layout_behavior
         */
         public static final int CoordinatorLayout_LayoutParams_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -8456,7 +8464,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:layout_keyline
+          @attr name com.netease.nim.teacher:layout_keyline
         */
         public static final int CoordinatorLayout_LayoutParams_layout_keyline = 3;
         /** Attributes that can be used with a DesignTheme.
@@ -8465,9 +8473,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.netease.nim.demo:bottomSheetDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.netease.nim.demo:bottomSheetStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_textColorError com.netease.nim.demo:textColorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.netease.nim.teacher:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.netease.nim.teacher:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_textColorError com.netease.nim.teacher:textColorError}</code></td><td></td></tr>
            </table>
            @see #DesignTheme_bottomSheetDialogTheme
            @see #DesignTheme_bottomSheetStyle
@@ -8477,27 +8485,27 @@ containing a value of this type.
             0x7f0100b5, 0x7f0100b6, 0x7f0100b7
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#bottomSheetDialogTheme}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#bottomSheetDialogTheme}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:bottomSheetDialogTheme
+          @attr name com.netease.nim.teacher:bottomSheetDialogTheme
         */
         public static final int DesignTheme_bottomSheetDialogTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#bottomSheetStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#bottomSheetStyle}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:bottomSheetStyle
+          @attr name com.netease.nim.teacher:bottomSheetStyle
         */
         public static final int DesignTheme_bottomSheetStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#textColorError}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#textColorError}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
@@ -8508,7 +8516,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:textColorError
+          @attr name com.netease.nim.teacher:textColorError
         */
         public static final int DesignTheme_textColorError = 2;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -8517,14 +8525,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.netease.nim.demo:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.netease.nim.demo:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength com.netease.nim.demo:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.netease.nim.demo:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.netease.nim.demo:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.netease.nim.demo:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.netease.nim.demo:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.netease.nim.demo:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.netease.nim.teacher:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.netease.nim.teacher:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength com.netease.nim.teacher:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.netease.nim.teacher:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.netease.nim.teacher:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.netease.nim.teacher:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.netease.nim.teacher:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.netease.nim.teacher:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -8540,7 +8548,7 @@ containing a value of this type.
             0x7f0100bc, 0x7f0100bd, 0x7f0100be, 0x7f0100bf
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8552,11 +8560,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:arrowHeadLength
+          @attr name com.netease.nim.teacher:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8568,11 +8576,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:arrowShaftLength
+          @attr name com.netease.nim.teacher:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#barLength}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8584,11 +8592,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:barLength
+          @attr name com.netease.nim.teacher:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#color}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8599,11 +8607,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:color
+          @attr name com.netease.nim.teacher:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8615,11 +8623,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:drawableSize
+          @attr name com.netease.nim.teacher:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8631,11 +8639,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:gapBetweenBars
+          @attr name com.netease.nim.teacher:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8645,11 +8653,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:spinBars
+          @attr name com.netease.nim.teacher:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8661,7 +8669,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:thickness
+          @attr name com.netease.nim.teacher:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a FloatingActionButton.
@@ -8670,14 +8678,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint com.netease.nim.demo:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.netease.nim.demo:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth com.netease.nim.demo:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation com.netease.nim.demo:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize com.netease.nim.demo:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.netease.nim.demo:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor com.netease.nim.demo:rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.netease.nim.demo:useCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint com.netease.nim.teacher:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.netease.nim.teacher:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth com.netease.nim.teacher:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation com.netease.nim.teacher:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize com.netease.nim.teacher:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.netease.nim.teacher:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor com.netease.nim.teacher:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.netease.nim.teacher:useCompatPadding}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -8693,7 +8701,7 @@ containing a value of this type.
             0x7f0100c3, 0x7f0100c4, 0x7f010151, 0x7f010152
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8704,11 +8712,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:backgroundTint
+          @attr name com.netease.nim.teacher:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8724,11 +8732,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:backgroundTintMode
+          @attr name com.netease.nim.teacher:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 7;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8740,11 +8748,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:borderWidth
+          @attr name com.netease.nim.teacher:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8756,11 +8764,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:elevation
+          @attr name com.netease.nim.teacher:elevation
         */
         public static final int FloatingActionButton_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8773,11 +8781,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:fabSize
+          @attr name com.netease.nim.teacher:fabSize
         */
         public static final int FloatingActionButton_fabSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8789,11 +8797,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pressedTranslationZ
+          @attr name com.netease.nim.teacher:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8804,11 +8812,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:rippleColor
+          @attr name com.netease.nim.teacher:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#useCompatPadding}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#useCompatPadding}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8818,7 +8826,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:useCompatPadding
+          @attr name com.netease.nim.teacher:useCompatPadding
         */
         public static final int FloatingActionButton_useCompatPadding = 5;
         /** Attributes that can be used with a ForegroundLinearLayout.
@@ -8829,7 +8837,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.netease.nim.demo:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.netease.nim.teacher:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
@@ -8851,7 +8859,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -8861,7 +8869,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:foregroundInsidePadding
+          @attr name com.netease.nim.teacher:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a ImageViewEx.
@@ -8870,7 +8878,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ImageViewEx_exiv_default_image_res com.netease.nim.demo:exiv_default_image_res}</code></td><td></td></tr>
+           <tr><td><code>{@link #ImageViewEx_exiv_default_image_res com.netease.nim.teacher:exiv_default_image_res}</code></td><td></td></tr>
            </table>
            @see #ImageViewEx_exiv_default_image_res
          */
@@ -8878,13 +8886,13 @@ containing a value of this type.
             0x7f0100c6
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#exiv_default_image_res}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#exiv_default_image_res}
           attribute's value can be found in the {@link #ImageViewEx} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:exiv_default_image_res
+          @attr name com.netease.nim.teacher:exiv_default_image_res
         */
         public static final int ImageViewEx_exiv_default_image_res = 0;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -8898,10 +8906,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.netease.nim.demo:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.netease.nim.demo:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.netease.nim.demo:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.netease.nim.demo:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.netease.nim.teacher:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.netease.nim.teacher:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.netease.nim.teacher:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.netease.nim.teacher:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -8949,17 +8957,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:divider
+          @attr name com.netease.nim.teacher:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -8971,11 +8979,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:dividerPadding
+          @attr name com.netease.nim.teacher:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -8985,11 +8993,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:measureWithLargestChild
+          @attr name com.netease.nim.teacher:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -9004,7 +9012,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:showDividers
+          @attr name com.netease.nim.teacher:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -9083,11 +9091,11 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoadingView_animation_speed com.netease.nim.demo:animation_speed}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingView_left_ball_color com.netease.nim.demo:left_ball_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingView_need_animation com.netease.nim.demo:need_animation}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingView_radius com.netease.nim.demo:radius}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingView_right_ball_color com.netease.nim.demo:right_ball_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingView_animation_speed com.netease.nim.teacher:animation_speed}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingView_left_ball_color com.netease.nim.teacher:left_ball_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingView_need_animation com.netease.nim.teacher:need_animation}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingView_radius com.netease.nim.teacher:radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingView_right_ball_color com.netease.nim.teacher:right_ball_color}</code></td><td></td></tr>
            </table>
            @see #LoadingView_animation_speed
            @see #LoadingView_left_ball_color
@@ -9100,18 +9108,18 @@ containing a value of this type.
             0x7f0100ce
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#animation_speed}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#animation_speed}
           attribute's value can be found in the {@link #LoadingView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a floating point value, such as "<code>1.2</code>".
-          @attr name com.netease.nim.demo:animation_speed
+          @attr name com.netease.nim.teacher:animation_speed
         */
         public static final int LoadingView_animation_speed = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#left_ball_color}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#left_ball_color}
           attribute's value can be found in the {@link #LoadingView} array.
 
 
@@ -9119,33 +9127,33 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:left_ball_color
+          @attr name com.netease.nim.teacher:left_ball_color
         */
         public static final int LoadingView_left_ball_color = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#need_animation}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#need_animation}
           attribute's value can be found in the {@link #LoadingView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.netease.nim.demo:need_animation
+          @attr name com.netease.nim.teacher:need_animation
         */
         public static final int LoadingView_need_animation = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#radius}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#radius}
           attribute's value can be found in the {@link #LoadingView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a floating point value, such as "<code>1.2</code>".
-          @attr name com.netease.nim.demo:radius
+          @attr name com.netease.nim.teacher:radius
         */
         public static final int LoadingView_radius = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#right_ball_color}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#right_ball_color}
           attribute's value can be found in the {@link #LoadingView} array.
 
 
@@ -9153,7 +9161,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:right_ball_color
+          @attr name com.netease.nim.teacher:right_ball_color
         */
         public static final int LoadingView_right_ball_color = 2;
         /** Attributes that can be used with a MenuGroup.
@@ -9222,9 +9230,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.netease.nim.demo:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.netease.nim.demo:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.netease.nim.demo:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.netease.nim.teacher:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.netease.nim.teacher:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.netease.nim.teacher:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -9238,7 +9246,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.netease.nim.demo:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.netease.nim.teacher:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -9266,17 +9274,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100d2
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionLayout
+          @attr name com.netease.nim.teacher:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -9286,11 +9294,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:actionProviderClass
+          @attr name com.netease.nim.teacher:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -9300,7 +9308,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:actionViewClass
+          @attr name com.netease.nim.teacher:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -9382,7 +9390,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -9398,7 +9406,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:showAsAction
+          @attr name com.netease.nim.teacher:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -9414,7 +9422,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.netease.nim.demo:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.netease.nim.teacher:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -9472,7 +9480,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -9482,7 +9490,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:preserveIconSpacing
+          @attr name com.netease.nim.teacher:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a NavigationView.
@@ -9494,13 +9502,13 @@ containing a value of this type.
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation com.netease.nim.demo:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout com.netease.nim.demo:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground com.netease.nim.demo:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint com.netease.nim.demo:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance com.netease.nim.demo:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor com.netease.nim.demo:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu com.netease.nim.demo:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation com.netease.nim.teacher:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout com.netease.nim.teacher:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground com.netease.nim.teacher:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint com.netease.nim.teacher:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance com.netease.nim.teacher:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor com.netease.nim.teacher:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu com.netease.nim.teacher:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -9537,7 +9545,7 @@ containing a value of this type.
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -9549,31 +9557,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:elevation
+          @attr name com.netease.nim.teacher:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:headerLayout
+          @attr name com.netease.nim.teacher:headerLayout
         */
         public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:itemBackground
+          @attr name com.netease.nim.teacher:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -9584,21 +9592,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:itemIconTint
+          @attr name com.netease.nim.teacher:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:itemTextAppearance
+          @attr name com.netease.nim.teacher:itemTextAppearance
         */
         public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -9609,17 +9617,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:itemTextColor
+          @attr name com.netease.nim.teacher:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#menu}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:menu
+          @attr name com.netease.nim.teacher:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PagerIndicator.
@@ -9628,28 +9636,28 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PagerIndicator_padding_bottom com.netease.nim.demo:padding_bottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_padding_left com.netease.nim.demo:padding_left}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_padding_right com.netease.nim.demo:padding_right}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_padding_top com.netease.nim.demo:padding_top}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_selected_color com.netease.nim.demo:selected_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_selected_drawable com.netease.nim.demo:selected_drawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_selected_height com.netease.nim.demo:selected_height}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_selected_padding_bottom com.netease.nim.demo:selected_padding_bottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_selected_padding_left com.netease.nim.demo:selected_padding_left}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_selected_padding_right com.netease.nim.demo:selected_padding_right}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_selected_padding_top com.netease.nim.demo:selected_padding_top}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_selected_width com.netease.nim.demo:selected_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_shape com.netease.nim.demo:shape}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_unselected_color com.netease.nim.demo:unselected_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_unselected_drawable com.netease.nim.demo:unselected_drawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_unselected_height com.netease.nim.demo:unselected_height}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_unselected_padding_bottom com.netease.nim.demo:unselected_padding_bottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_unselected_padding_left com.netease.nim.demo:unselected_padding_left}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_unselected_padding_right com.netease.nim.demo:unselected_padding_right}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_unselected_padding_top com.netease.nim.demo:unselected_padding_top}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_unselected_width com.netease.nim.demo:unselected_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerIndicator_visibility com.netease.nim.demo:visibility}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_padding_bottom com.netease.nim.teacher:padding_bottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_padding_left com.netease.nim.teacher:padding_left}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_padding_right com.netease.nim.teacher:padding_right}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_padding_top com.netease.nim.teacher:padding_top}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_selected_color com.netease.nim.teacher:selected_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_selected_drawable com.netease.nim.teacher:selected_drawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_selected_height com.netease.nim.teacher:selected_height}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_selected_padding_bottom com.netease.nim.teacher:selected_padding_bottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_selected_padding_left com.netease.nim.teacher:selected_padding_left}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_selected_padding_right com.netease.nim.teacher:selected_padding_right}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_selected_padding_top com.netease.nim.teacher:selected_padding_top}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_selected_width com.netease.nim.teacher:selected_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_shape com.netease.nim.teacher:shape}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_unselected_color com.netease.nim.teacher:unselected_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_unselected_drawable com.netease.nim.teacher:unselected_drawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_unselected_height com.netease.nim.teacher:unselected_height}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_unselected_padding_bottom com.netease.nim.teacher:unselected_padding_bottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_unselected_padding_left com.netease.nim.teacher:unselected_padding_left}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_unselected_padding_right com.netease.nim.teacher:unselected_padding_right}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_unselected_padding_top com.netease.nim.teacher:unselected_padding_top}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_unselected_width com.netease.nim.teacher:unselected_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerIndicator_visibility com.netease.nim.teacher:visibility}</code></td><td></td></tr>
            </table>
            @see #PagerIndicator_padding_bottom
            @see #PagerIndicator_padding_left
@@ -9683,7 +9691,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100ee, 0x7f0100ef
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#padding_bottom}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#padding_bottom}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9695,11 +9703,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:padding_bottom
+          @attr name com.netease.nim.teacher:padding_bottom
         */
         public static final int PagerIndicator_padding_bottom = 13;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#padding_left}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#padding_left}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9711,11 +9719,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:padding_left
+          @attr name com.netease.nim.teacher:padding_left
         */
         public static final int PagerIndicator_padding_left = 10;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#padding_right}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#padding_right}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9727,11 +9735,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:padding_right
+          @attr name com.netease.nim.teacher:padding_right
         */
         public static final int PagerIndicator_padding_right = 11;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#padding_top}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#padding_top}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9743,11 +9751,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:padding_top
+          @attr name com.netease.nim.teacher:padding_top
         */
         public static final int PagerIndicator_padding_top = 12;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#selected_color}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#selected_color}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9758,21 +9766,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:selected_color
+          @attr name com.netease.nim.teacher:selected_color
         */
         public static final int PagerIndicator_selected_color = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#selected_drawable}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#selected_drawable}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:selected_drawable
+          @attr name com.netease.nim.teacher:selected_drawable
         */
         public static final int PagerIndicator_selected_drawable = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#selected_height}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#selected_height}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9784,11 +9792,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:selected_height
+          @attr name com.netease.nim.teacher:selected_height
         */
         public static final int PagerIndicator_selected_height = 7;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#selected_padding_bottom}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#selected_padding_bottom}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9800,11 +9808,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:selected_padding_bottom
+          @attr name com.netease.nim.teacher:selected_padding_bottom
         */
         public static final int PagerIndicator_selected_padding_bottom = 17;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#selected_padding_left}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#selected_padding_left}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9816,11 +9824,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:selected_padding_left
+          @attr name com.netease.nim.teacher:selected_padding_left
         */
         public static final int PagerIndicator_selected_padding_left = 14;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#selected_padding_right}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#selected_padding_right}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9832,11 +9840,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:selected_padding_right
+          @attr name com.netease.nim.teacher:selected_padding_right
         */
         public static final int PagerIndicator_selected_padding_right = 15;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#selected_padding_top}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#selected_padding_top}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9848,11 +9856,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:selected_padding_top
+          @attr name com.netease.nim.teacher:selected_padding_top
         */
         public static final int PagerIndicator_selected_padding_top = 16;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#selected_width}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#selected_width}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9864,11 +9872,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:selected_width
+          @attr name com.netease.nim.teacher:selected_width
         */
         public static final int PagerIndicator_selected_width = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#shape}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#shape}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9881,11 +9889,11 @@ containing a value of this type.
 <tr><td><code>oval</code></td><td>0</td><td></td></tr>
 <tr><td><code>rect</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:shape
+          @attr name com.netease.nim.teacher:shape
         */
         public static final int PagerIndicator_shape = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#unselected_color}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#unselected_color}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9896,21 +9904,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:unselected_color
+          @attr name com.netease.nim.teacher:unselected_color
         */
         public static final int PagerIndicator_unselected_color = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#unselected_drawable}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#unselected_drawable}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:unselected_drawable
+          @attr name com.netease.nim.teacher:unselected_drawable
         */
         public static final int PagerIndicator_unselected_drawable = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#unselected_height}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#unselected_height}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9922,11 +9930,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:unselected_height
+          @attr name com.netease.nim.teacher:unselected_height
         */
         public static final int PagerIndicator_unselected_height = 9;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#unselected_padding_bottom}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#unselected_padding_bottom}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9938,11 +9946,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:unselected_padding_bottom
+          @attr name com.netease.nim.teacher:unselected_padding_bottom
         */
         public static final int PagerIndicator_unselected_padding_bottom = 21;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#unselected_padding_left}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#unselected_padding_left}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9954,11 +9962,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:unselected_padding_left
+          @attr name com.netease.nim.teacher:unselected_padding_left
         */
         public static final int PagerIndicator_unselected_padding_left = 18;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#unselected_padding_right}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#unselected_padding_right}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9970,11 +9978,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:unselected_padding_right
+          @attr name com.netease.nim.teacher:unselected_padding_right
         */
         public static final int PagerIndicator_unselected_padding_right = 19;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#unselected_padding_top}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#unselected_padding_top}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -9986,11 +9994,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:unselected_padding_top
+          @attr name com.netease.nim.teacher:unselected_padding_top
         */
         public static final int PagerIndicator_unselected_padding_top = 20;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#unselected_width}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#unselected_width}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -10002,11 +10010,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:unselected_width
+          @attr name com.netease.nim.teacher:unselected_width
         */
         public static final int PagerIndicator_unselected_width = 8;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#visibility}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#visibility}
           attribute's value can be found in the {@link #PagerIndicator} array.
 
 
@@ -10019,7 +10027,7 @@ containing a value of this type.
 <tr><td><code>visible</code></td><td>0</td><td></td></tr>
 <tr><td><code>invisible</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:visibility
+          @attr name com.netease.nim.teacher:visibility
         */
         public static final int PagerIndicator_visibility = 0;
         /** Attributes that can be used with a PagerSlidingTabStrip.
@@ -10028,19 +10036,19 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsCheckedTextColor com.netease.nim.demo:pstsCheckedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerColor com.netease.nim.demo:pstsDividerColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerPadding com.netease.nim.demo:pstsDividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorColor com.netease.nim.demo:pstsIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorHeight com.netease.nim.demo:pstsIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsScrollOffset com.netease.nim.demo:pstsScrollOffset}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsShouldExpand com.netease.nim.demo:pstsShouldExpand}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabBackground com.netease.nim.demo:pstsTabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabPaddingLeftRight com.netease.nim.demo:pstsTabPaddingLeftRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextAllCaps com.netease.nim.demo:pstsTextAllCaps}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUncheckedTextColor com.netease.nim.demo:pstsUncheckedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineColor com.netease.nim.demo:pstsUnderlineColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineHeight com.netease.nim.demo:pstsUnderlineHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsCheckedTextColor com.netease.nim.teacher:pstsCheckedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerColor com.netease.nim.teacher:pstsDividerColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerPadding com.netease.nim.teacher:pstsDividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorColor com.netease.nim.teacher:pstsIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorHeight com.netease.nim.teacher:pstsIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsScrollOffset com.netease.nim.teacher:pstsScrollOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsShouldExpand com.netease.nim.teacher:pstsShouldExpand}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabBackground com.netease.nim.teacher:pstsTabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabPaddingLeftRight com.netease.nim.teacher:pstsTabPaddingLeftRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextAllCaps com.netease.nim.teacher:pstsTextAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUncheckedTextColor com.netease.nim.teacher:pstsUncheckedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineColor com.netease.nim.teacher:pstsUnderlineColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineHeight com.netease.nim.teacher:pstsUnderlineHeight}</code></td><td></td></tr>
            </table>
            @see #PagerSlidingTabStrip_pstsCheckedTextColor
            @see #PagerSlidingTabStrip_pstsDividerColor
@@ -10063,17 +10071,17 @@ containing a value of this type.
             0x7f0100fc
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsCheckedTextColor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#pstsCheckedTextColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:pstsCheckedTextColor
+          @attr name com.netease.nim.teacher:pstsCheckedTextColor
         */
         public static final int PagerSlidingTabStrip_pstsCheckedTextColor = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsDividerColor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#pstsDividerColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -10084,11 +10092,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsDividerColor
+          @attr name com.netease.nim.teacher:pstsDividerColor
         */
         public static final int PagerSlidingTabStrip_pstsDividerColor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsDividerPadding}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#pstsDividerPadding}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -10100,11 +10108,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsDividerPadding
+          @attr name com.netease.nim.teacher:pstsDividerPadding
         */
         public static final int PagerSlidingTabStrip_pstsDividerPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsIndicatorColor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#pstsIndicatorColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -10115,11 +10123,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsIndicatorColor
+          @attr name com.netease.nim.teacher:pstsIndicatorColor
         */
         public static final int PagerSlidingTabStrip_pstsIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsIndicatorHeight}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#pstsIndicatorHeight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -10131,11 +10139,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsIndicatorHeight
+          @attr name com.netease.nim.teacher:pstsIndicatorHeight
         */
         public static final int PagerSlidingTabStrip_pstsIndicatorHeight = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsScrollOffset}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#pstsScrollOffset}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -10147,11 +10155,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsScrollOffset
+          @attr name com.netease.nim.teacher:pstsScrollOffset
         */
         public static final int PagerSlidingTabStrip_pstsScrollOffset = 9;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsShouldExpand}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#pstsShouldExpand}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -10161,21 +10169,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsShouldExpand
+          @attr name com.netease.nim.teacher:pstsShouldExpand
         */
         public static final int PagerSlidingTabStrip_pstsShouldExpand = 11;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsTabBackground}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#pstsTabBackground}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:pstsTabBackground
+          @attr name com.netease.nim.teacher:pstsTabBackground
         */
         public static final int PagerSlidingTabStrip_pstsTabBackground = 10;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsTabPaddingLeftRight}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#pstsTabPaddingLeftRight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -10187,11 +10195,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsTabPaddingLeftRight
+          @attr name com.netease.nim.teacher:pstsTabPaddingLeftRight
         */
         public static final int PagerSlidingTabStrip_pstsTabPaddingLeftRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsTextAllCaps}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#pstsTextAllCaps}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -10201,21 +10209,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsTextAllCaps
+          @attr name com.netease.nim.teacher:pstsTextAllCaps
         */
         public static final int PagerSlidingTabStrip_pstsTextAllCaps = 12;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsUncheckedTextColor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#pstsUncheckedTextColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:pstsUncheckedTextColor
+          @attr name com.netease.nim.teacher:pstsUncheckedTextColor
         */
         public static final int PagerSlidingTabStrip_pstsUncheckedTextColor = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsUnderlineColor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#pstsUnderlineColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -10226,11 +10234,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsUnderlineColor
+          @attr name com.netease.nim.teacher:pstsUnderlineColor
         */
         public static final int PagerSlidingTabStrip_pstsUnderlineColor = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsUnderlineHeight}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#pstsUnderlineHeight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -10242,7 +10250,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsUnderlineHeight
+          @attr name com.netease.nim.teacher:pstsUnderlineHeight
         */
         public static final int PagerSlidingTabStrip_pstsUnderlineHeight = 6;
         /** Attributes that can be used with a PopupWindow.
@@ -10252,7 +10260,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.netease.nim.demo:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.netease.nim.teacher:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -10267,7 +10275,7 @@ containing a value of this type.
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -10277,7 +10285,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:overlapAnchor
+          @attr name com.netease.nim.teacher:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -10286,7 +10294,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.netease.nim.demo:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.netease.nim.teacher:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -10294,7 +10302,7 @@ containing a value of this type.
             0x7f0100fe
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -10304,7 +10312,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:state_above_anchor
+          @attr name com.netease.nim.teacher:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RecyclerView.
@@ -10314,10 +10322,10 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager com.netease.nim.demo:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout com.netease.nim.demo:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount com.netease.nim.demo:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd com.netease.nim.demo:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager com.netease.nim.teacher:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout com.netease.nim.teacher:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount com.netease.nim.teacher:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd com.netease.nim.teacher:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_orientation
            @see #RecyclerView_layoutManager
@@ -10336,7 +10344,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -10346,11 +10354,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:layoutManager
+          @attr name com.netease.nim.teacher:layoutManager
         */
         public static final int RecyclerView_layoutManager = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -10360,11 +10368,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:reverseLayout
+          @attr name com.netease.nim.teacher:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -10374,11 +10382,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:spanCount
+          @attr name com.netease.nim.teacher:spanCount
         */
         public static final int RecyclerView_spanCount = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -10388,7 +10396,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:stackFromEnd
+          @attr name com.netease.nim.teacher:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 4;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -10397,7 +10405,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.netease.nim.demo:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.netease.nim.teacher:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
@@ -10405,7 +10413,7 @@ containing a value of this type.
             0x7f010103
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -10413,7 +10421,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:insetForeground
+          @attr name com.netease.nim.teacher:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Params.
@@ -10422,7 +10430,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop com.netease.nim.demo:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop com.netease.nim.teacher:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Params_behavior_overlapTop
          */
@@ -10430,7 +10438,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010104
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Params} array.
 
 
@@ -10442,7 +10450,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:behavior_overlapTop
+          @attr name com.netease.nim.teacher:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Params_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -10455,19 +10463,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.netease.nim.demo:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.netease.nim.demo:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint com.netease.nim.demo:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.netease.nim.demo:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.netease.nim.demo:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.netease.nim.demo:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.netease.nim.demo:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.netease.nim.demo:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon com.netease.nim.demo:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.netease.nim.demo:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.netease.nim.demo:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.netease.nim.demo:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.netease.nim.demo:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.netease.nim.teacher:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.netease.nim.teacher:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint com.netease.nim.teacher:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.netease.nim.teacher:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.netease.nim.teacher:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.netease.nim.teacher:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.netease.nim.teacher:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.netease.nim.teacher:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon com.netease.nim.teacher:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.netease.nim.teacher:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.netease.nim.teacher:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.netease.nim.teacher:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.netease.nim.teacher:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -10519,27 +10527,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:closeIcon
+          @attr name com.netease.nim.teacher:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:commitIcon
+          @attr name com.netease.nim.teacher:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -10549,21 +10557,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:defaultQueryHint
+          @attr name com.netease.nim.teacher:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:goIcon
+          @attr name com.netease.nim.teacher:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -10573,31 +10581,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:iconifiedByDefault
+          @attr name com.netease.nim.teacher:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:layout
+          @attr name com.netease.nim.teacher:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:queryBackground
+          @attr name com.netease.nim.teacher:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -10607,57 +10615,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:queryHint
+          @attr name com.netease.nim.teacher:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:searchHintIcon
+          @attr name com.netease.nim.teacher:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:searchIcon
+          @attr name com.netease.nim.teacher:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:submitBackground
+          @attr name com.netease.nim.teacher:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:suggestionRowLayout
+          @attr name com.netease.nim.teacher:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:voiceIcon
+          @attr name com.netease.nim.teacher:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a SliderLayout.
@@ -10666,10 +10674,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SliderLayout_auto_cycle com.netease.nim.demo:auto_cycle}</code></td><td></td></tr>
-           <tr><td><code>{@link #SliderLayout_indicator_visibility com.netease.nim.demo:indicator_visibility}</code></td><td></td></tr>
-           <tr><td><code>{@link #SliderLayout_pager_animation com.netease.nim.demo:pager_animation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SliderLayout_pager_animation_span com.netease.nim.demo:pager_animation_span}</code></td><td></td></tr>
+           <tr><td><code>{@link #SliderLayout_auto_cycle com.netease.nim.teacher:auto_cycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #SliderLayout_indicator_visibility com.netease.nim.teacher:indicator_visibility}</code></td><td></td></tr>
+           <tr><td><code>{@link #SliderLayout_pager_animation com.netease.nim.teacher:pager_animation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SliderLayout_pager_animation_span com.netease.nim.teacher:pager_animation_span}</code></td><td></td></tr>
            </table>
            @see #SliderLayout_auto_cycle
            @see #SliderLayout_indicator_visibility
@@ -10680,7 +10688,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010112, 0x7f010113, 0x7f010114, 0x7f010115
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#auto_cycle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#auto_cycle}
           attribute's value can be found in the {@link #SliderLayout} array.
 
 
@@ -10690,11 +10698,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:auto_cycle
+          @attr name com.netease.nim.teacher:auto_cycle
         */
         public static final int SliderLayout_auto_cycle = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#indicator_visibility}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#indicator_visibility}
           attribute's value can be found in the {@link #SliderLayout} array.
 
 
@@ -10707,11 +10715,11 @@ containing a value of this type.
 <tr><td><code>visible</code></td><td>0</td><td></td></tr>
 <tr><td><code>invisible</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:indicator_visibility
+          @attr name com.netease.nim.teacher:indicator_visibility
         */
         public static final int SliderLayout_indicator_visibility = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pager_animation}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#pager_animation}
           attribute's value can be found in the {@link #SliderLayout} array.
 
 
@@ -10738,11 +10746,11 @@ containing a value of this type.
 <tr><td><code>ZoomOutSlide</code></td><td>14</td><td></td></tr>
 <tr><td><code>ZoomOut</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:pager_animation
+          @attr name com.netease.nim.teacher:pager_animation
         */
         public static final int SliderLayout_pager_animation = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pager_animation_span}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#pager_animation_span}
           attribute's value can be found in the {@link #SliderLayout} array.
 
 
@@ -10752,7 +10760,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pager_animation_span
+          @attr name com.netease.nim.teacher:pager_animation_span
         */
         public static final int SliderLayout_pager_animation_span = 3;
         /** Attributes that can be used with a SnackbarLayout.
@@ -10762,8 +10770,8 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation com.netease.nim.demo:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.netease.nim.demo:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation com.netease.nim.teacher:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.netease.nim.teacher:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
@@ -10779,7 +10787,7 @@ containing a value of this type.
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -10791,11 +10799,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:elevation
+          @attr name com.netease.nim.teacher:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -10807,7 +10815,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:maxActionInlineWidth
+          @attr name com.netease.nim.teacher:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -10820,7 +10828,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme com.netease.nim.demo:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme com.netease.nim.teacher:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -10857,13 +10865,13 @@ containing a value of this type.
         */
         public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:popupTheme
+          @attr name com.netease.nim.teacher:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
@@ -10875,13 +10883,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.netease.nim.demo:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.netease.nim.demo:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.netease.nim.demo:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.netease.nim.demo:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.netease.nim.demo:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.netease.nim.demo:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.netease.nim.demo:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.netease.nim.teacher:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.netease.nim.teacher:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.netease.nim.teacher:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.netease.nim.teacher:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.netease.nim.teacher:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.netease.nim.teacher:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.netease.nim.teacher:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -10918,7 +10926,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -10928,11 +10936,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:showText
+          @attr name com.netease.nim.teacher:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -10942,11 +10950,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:splitTrack
+          @attr name com.netease.nim.teacher:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -10958,11 +10966,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:switchMinWidth
+          @attr name com.netease.nim.teacher:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -10974,21 +10982,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:switchPadding
+          @attr name com.netease.nim.teacher:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:switchTextAppearance
+          @attr name com.netease.nim.teacher:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11000,17 +11008,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:thumbTextPadding
+          @attr name com.netease.nim.teacher:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#track}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:track
+          @attr name com.netease.nim.teacher:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a TabItem.
@@ -11054,22 +11062,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground com.netease.nim.demo:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart com.netease.nim.demo:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity com.netease.nim.demo:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor com.netease.nim.demo:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.netease.nim.demo:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth com.netease.nim.demo:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth com.netease.nim.demo:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode com.netease.nim.demo:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding com.netease.nim.demo:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom com.netease.nim.demo:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd com.netease.nim.demo:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart com.netease.nim.demo:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop com.netease.nim.demo:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.netease.nim.demo:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance com.netease.nim.demo:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor com.netease.nim.demo:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground com.netease.nim.teacher:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart com.netease.nim.teacher:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity com.netease.nim.teacher:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor com.netease.nim.teacher:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.netease.nim.teacher:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth com.netease.nim.teacher:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth com.netease.nim.teacher:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode com.netease.nim.teacher:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding com.netease.nim.teacher:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom com.netease.nim.teacher:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd com.netease.nim.teacher:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart com.netease.nim.teacher:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop com.netease.nim.teacher:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.netease.nim.teacher:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance com.netease.nim.teacher:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor com.netease.nim.teacher:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -11095,17 +11103,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01012a, 0x7f01012b, 0x7f01012c, 0x7f01012d
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:tabBackground
+          @attr name com.netease.nim.teacher:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11117,11 +11125,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:tabContentStart
+          @attr name com.netease.nim.teacher:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11134,11 +11142,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:tabGravity
+          @attr name com.netease.nim.teacher:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11149,11 +11157,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:tabIndicatorColor
+          @attr name com.netease.nim.teacher:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11165,11 +11173,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:tabIndicatorHeight
+          @attr name com.netease.nim.teacher:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11181,11 +11189,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:tabMaxWidth
+          @attr name com.netease.nim.teacher:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11197,11 +11205,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:tabMinWidth
+          @attr name com.netease.nim.teacher:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11214,11 +11222,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:tabMode
+          @attr name com.netease.nim.teacher:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11230,11 +11238,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:tabPadding
+          @attr name com.netease.nim.teacher:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11246,11 +11254,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:tabPaddingBottom
+          @attr name com.netease.nim.teacher:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11262,11 +11270,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:tabPaddingEnd
+          @attr name com.netease.nim.teacher:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11278,11 +11286,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:tabPaddingStart
+          @attr name com.netease.nim.teacher:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11294,11 +11302,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:tabPaddingTop
+          @attr name com.netease.nim.teacher:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11309,21 +11317,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:tabSelectedTextColor
+          @attr name com.netease.nim.teacher:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:tabTextAppearance
+          @attr name com.netease.nim.teacher:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11334,7 +11342,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:tabTextColor
+          @attr name com.netease.nim.teacher:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -11351,7 +11359,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps com.netease.nim.demo:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps com.netease.nim.teacher:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -11417,14 +11425,14 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.netease.nim.demo:textAllCaps
+          @attr name com.netease.nim.teacher:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 8;
         /** Attributes that can be used with a TextInputLayout.
@@ -11435,15 +11443,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled com.netease.nim.demo:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength com.netease.nim.demo:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.netease.nim.demo:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.netease.nim.demo:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled com.netease.nim.demo:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.netease.nim.demo:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.netease.nim.demo:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintEnabled com.netease.nim.demo:hintEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.netease.nim.demo:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled com.netease.nim.teacher:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength com.netease.nim.teacher:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.netease.nim.teacher:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.netease.nim.teacher:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled com.netease.nim.teacher:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.netease.nim.teacher:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.netease.nim.teacher:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintEnabled com.netease.nim.teacher:hintEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.netease.nim.teacher:hintTextAppearance}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -11475,7 +11483,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11485,11 +11493,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:counterEnabled
+          @attr name com.netease.nim.teacher:counterEnabled
         */
         public static final int TextInputLayout_counterEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11499,31 +11507,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:counterMaxLength
+          @attr name com.netease.nim.teacher:counterMaxLength
         */
         public static final int TextInputLayout_counterMaxLength = 7;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:counterOverflowTextAppearance
+          @attr name com.netease.nim.teacher:counterOverflowTextAppearance
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:counterTextAppearance
+          @attr name com.netease.nim.teacher:counterTextAppearance
         */
         public static final int TextInputLayout_counterTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11533,21 +11541,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:errorEnabled
+          @attr name com.netease.nim.teacher:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:errorTextAppearance
+          @attr name com.netease.nim.teacher:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11557,11 +11565,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:hintAnimationEnabled
+          @attr name com.netease.nim.teacher:hintAnimationEnabled
         */
         public static final int TextInputLayout_hintAnimationEnabled = 10;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#hintEnabled}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#hintEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11571,17 +11579,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:hintEnabled
+          @attr name com.netease.nim.teacher:hintEnabled
         */
         public static final int TextInputLayout_hintEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:hintTextAppearance
+          @attr name com.netease.nim.teacher:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 2;
         /** Attributes that can be used with a Themes.
@@ -11590,8 +11598,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Themes_PagerIndicatorStyle com.netease.nim.demo:PagerIndicatorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Themes_SliderStyle com.netease.nim.demo:SliderStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Themes_PagerIndicatorStyle com.netease.nim.teacher:PagerIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Themes_SliderStyle com.netease.nim.teacher:SliderStyle}</code></td><td></td></tr>
            </table>
            @see #Themes_PagerIndicatorStyle
            @see #Themes_SliderStyle
@@ -11600,23 +11608,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010137, 0x7f010138
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#PagerIndicatorStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#PagerIndicatorStyle}
           attribute's value can be found in the {@link #Themes} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:PagerIndicatorStyle
+          @attr name com.netease.nim.teacher:PagerIndicatorStyle
         */
         public static final int Themes_PagerIndicatorStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#SliderStyle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#SliderStyle}
           attribute's value can be found in the {@link #Themes} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:SliderStyle
+          @attr name com.netease.nim.teacher:SliderStyle
         */
         public static final int Themes_SliderStyle = 0;
         /** Attributes that can be used with a Toolbar.
@@ -11627,29 +11635,29 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.netease.nim.demo:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.netease.nim.demo:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.netease.nim.demo:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.netease.nim.demo:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.netease.nim.demo:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.netease.nim.demo:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo com.netease.nim.demo:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription com.netease.nim.demo:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.netease.nim.demo:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.netease.nim.demo:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.netease.nim.demo:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.netease.nim.demo:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.netease.nim.demo:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.netease.nim.demo:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor com.netease.nim.demo:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.netease.nim.demo:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.netease.nim.demo:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.netease.nim.demo:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.netease.nim.demo:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.netease.nim.demo:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.netease.nim.demo:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.netease.nim.demo:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor com.netease.nim.demo:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.netease.nim.teacher:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.netease.nim.teacher:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.netease.nim.teacher:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.netease.nim.teacher:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.netease.nim.teacher:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.netease.nim.teacher:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo com.netease.nim.teacher:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription com.netease.nim.teacher:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.netease.nim.teacher:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.netease.nim.teacher:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.netease.nim.teacher:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.netease.nim.teacher:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.netease.nim.teacher:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.netease.nim.teacher:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor com.netease.nim.teacher:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.netease.nim.teacher:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.netease.nim.teacher:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.netease.nim.teacher:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.netease.nim.teacher:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.netease.nim.teacher:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.netease.nim.teacher:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.netease.nim.teacher:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor com.netease.nim.teacher:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -11699,7 +11707,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11709,21 +11717,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:collapseContentDescription
+          @attr name com.netease.nim.teacher:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:collapseIcon
+          @attr name com.netease.nim.teacher:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11735,11 +11743,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:contentInsetEnd
+          @attr name com.netease.nim.teacher:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11751,11 +11759,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:contentInsetLeft
+          @attr name com.netease.nim.teacher:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11767,11 +11775,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:contentInsetRight
+          @attr name com.netease.nim.teacher:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11783,21 +11791,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:contentInsetStart
+          @attr name com.netease.nim.teacher:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:logo
+          @attr name com.netease.nim.teacher:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11807,11 +11815,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:logoDescription
+          @attr name com.netease.nim.teacher:logoDescription
         */
         public static final int Toolbar_logoDescription = 22;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11823,11 +11831,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:maxButtonHeight
+          @attr name com.netease.nim.teacher:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 17;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11837,31 +11845,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:navigationContentDescription
+          @attr name com.netease.nim.teacher:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:navigationIcon
+          @attr name com.netease.nim.teacher:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:popupTheme
+          @attr name com.netease.nim.teacher:popupTheme
         */
         public static final int Toolbar_popupTheme = 9;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11871,21 +11879,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:subtitle
+          @attr name com.netease.nim.teacher:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:subtitleTextAppearance
+          @attr name com.netease.nim.teacher:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 11;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11896,11 +11904,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:subtitleTextColor
+          @attr name com.netease.nim.teacher:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 24;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#title}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11910,11 +11918,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:title
+          @attr name com.netease.nim.teacher:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11926,11 +11934,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:titleMarginBottom
+          @attr name com.netease.nim.teacher:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 16;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11942,11 +11950,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:titleMarginEnd
+          @attr name com.netease.nim.teacher:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 14;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11958,11 +11966,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:titleMarginStart
+          @attr name com.netease.nim.teacher:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 13;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11974,11 +11982,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:titleMarginTop
+          @attr name com.netease.nim.teacher:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 15;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11990,21 +11998,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:titleMargins
+          @attr name com.netease.nim.teacher:titleMargins
         */
         public static final int Toolbar_titleMargins = 12;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:titleTextAppearance
+          @attr name com.netease.nim.teacher:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12015,7 +12023,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:titleTextColor
+          @attr name com.netease.nim.teacher:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 23;
         /** Attributes that can be used with a TwoTextView.
@@ -12024,12 +12032,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TwoTextView_ttLeftText com.netease.nim.demo:ttLeftText}</code></td><td></td></tr>
-           <tr><td><code>{@link #TwoTextView_ttLeftTextColor com.netease.nim.demo:ttLeftTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TwoTextView_ttLeftTextSize com.netease.nim.demo:ttLeftTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #TwoTextView_ttRightText com.netease.nim.demo:ttRightText}</code></td><td></td></tr>
-           <tr><td><code>{@link #TwoTextView_ttRightTextColor com.netease.nim.demo:ttRightTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TwoTextView_ttRightTextSize com.netease.nim.demo:ttRightTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoTextView_ttLeftText com.netease.nim.teacher:ttLeftText}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoTextView_ttLeftTextColor com.netease.nim.teacher:ttLeftTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoTextView_ttLeftTextSize com.netease.nim.teacher:ttLeftTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoTextView_ttRightText com.netease.nim.teacher:ttRightText}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoTextView_ttRightTextColor com.netease.nim.teacher:ttRightTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoTextView_ttRightTextSize com.netease.nim.teacher:ttRightTextSize}</code></td><td></td></tr>
            </table>
            @see #TwoTextView_ttLeftText
            @see #TwoTextView_ttLeftTextColor
@@ -12043,28 +12051,28 @@ containing a value of this type.
             0x7f01014c, 0x7f01014d
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ttLeftText}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#ttLeftText}
           attribute's value can be found in the {@link #TwoTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name com.netease.nim.demo:ttLeftText
+          @attr name com.netease.nim.teacher:ttLeftText
         */
         public static final int TwoTextView_ttLeftText = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ttLeftTextColor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#ttLeftTextColor}
           attribute's value can be found in the {@link #TwoTextView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:ttLeftTextColor
+          @attr name com.netease.nim.teacher:ttLeftTextColor
         */
         public static final int TwoTextView_ttLeftTextColor = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ttLeftTextSize}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#ttLeftTextSize}
           attribute's value can be found in the {@link #TwoTextView} array.
 
 
@@ -12076,32 +12084,32 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:ttLeftTextSize
+          @attr name com.netease.nim.teacher:ttLeftTextSize
         */
         public static final int TwoTextView_ttLeftTextSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ttRightText}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#ttRightText}
           attribute's value can be found in the {@link #TwoTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name com.netease.nim.demo:ttRightText
+          @attr name com.netease.nim.teacher:ttRightText
         */
         public static final int TwoTextView_ttRightText = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ttRightTextColor}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#ttRightTextColor}
           attribute's value can be found in the {@link #TwoTextView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:ttRightTextColor
+          @attr name com.netease.nim.teacher:ttRightTextColor
         */
         public static final int TwoTextView_ttRightTextColor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ttRightTextSize}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#ttRightTextSize}
           attribute's value can be found in the {@link #TwoTextView} array.
 
 
@@ -12113,7 +12121,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:ttRightTextSize
+          @attr name com.netease.nim.teacher:ttRightTextSize
         */
         public static final int TwoTextView_ttRightTextSize = 3;
         /** Attributes that can be used with a View.
@@ -12124,9 +12132,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.netease.nim.demo:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.netease.nim.demo:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme com.netease.nim.demo:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.netease.nim.teacher:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.netease.nim.teacher:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme com.netease.nim.teacher:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -12151,7 +12159,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -12163,11 +12171,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:paddingEnd
+          @attr name com.netease.nim.teacher:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -12179,17 +12187,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:paddingStart
+          @attr name com.netease.nim.teacher:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:theme
+          @attr name com.netease.nim.teacher:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -12199,8 +12207,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.netease.nim.demo:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.netease.nim.demo:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.netease.nim.teacher:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.netease.nim.teacher:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
@@ -12216,7 +12224,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -12227,11 +12235,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:backgroundTint
+          @attr name com.netease.nim.teacher:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.netease.nim.teacher.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -12247,7 +12255,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:backgroundTintMode
+          @attr name com.netease.nim.teacher:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.

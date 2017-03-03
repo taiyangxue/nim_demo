@@ -1,7 +1,7 @@
 package com.netease.nim.demo.main.model;
 
 import com.netease.nim.demo.R;
-import com.netease.nim.demo.main.fragment.ChatRoomListFragment;
+import com.netease.nim.demo.chatroom.fragment.MyClassRoomFragment;
 import com.netease.nim.demo.main.fragment.ContactListFragment;
 import com.netease.nim.demo.main.fragment.MainTabFragment;
 import com.netease.nim.demo.main.fragment.MyHomeFragment;
@@ -10,7 +10,7 @@ import com.netease.nim.demo.main.reminder.ReminderId;
 
 public enum MainTab {
     HOME_ROOM(0, ReminderId.HOME, MyHomeFragment.class, R.string.my_home, R.layout.my_home_tab),
-    CHAT_ROOM(1, ReminderId.INVALID, ChatRoomListFragment.class, R.string.chat_room, R.layout.chat_room_tab),
+    CHAT_ROOM(1, ReminderId.INVALID, MyClassRoomFragment.class, R.string.chat_room, R.layout.chat_room_tab),
     RECENT_CONTACTS(2, ReminderId.SESSION, SessionListFragment.class, R.string.main_tab_session, R.layout.session_list),
     CONTACT(3, ReminderId.CONTACT, ContactListFragment.class, R.string.main_tab_contact, R.layout.contacts_list);
 

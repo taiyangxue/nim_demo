@@ -13,6 +13,7 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
+        applicationId "com.netease.nim.teacher"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         buildConfigField "String", "GIT_REVISION", "\"${getGitVersion()}\""

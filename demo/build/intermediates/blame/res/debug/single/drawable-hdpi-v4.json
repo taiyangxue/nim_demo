@@ -52,12 +52,12 @@
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\nim_demo\\uikit\\unspecified\\res\\drawable-hdpi-v4\\nim_watch_video_download_progress_background.9.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nemediacontroller_progressbar.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\nemediacontroller_progressbar.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bmob_update_btn_check_off_focused_holo_light.png",
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\cn.bmob.android\\bmob-sdk\\3.5.0\\res\\drawable-hdpi-v4\\bmob_update_btn_check_off_focused_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nemediacontroller_progressbar.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\nemediacontroller_progressbar.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_watch_video_download_progress_foreground.9.png",

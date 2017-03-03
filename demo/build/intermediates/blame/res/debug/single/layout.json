@@ -228,6 +228,10 @@
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\layout\\user_profile_set_activity.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_add_class_room.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\layout\\dialog_add_class_room.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\nim_demo\\uikit\\unspecified\\res\\layout\\nim_message_item.xml"
     },
@@ -910,6 +914,10 @@
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item_video.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\nim_demo\\uikit\\unspecified\\res\\layout\\nim_message_item_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\my_class_room.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\layout\\my_class_room.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\my_homes.xml",

@@ -147,21 +147,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\libs\Android_2DMap_V2.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d0d5d6f4c13f4b1002dcdd6cc79588e8a7ee995f">
-        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\Android_2DMap_V2.4.0_691238220a5ccde6297643a7f4ca1d237bd07065\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
         <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_dd460f45d27a359687729c3c169358b1eda3100b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\libs\Android_2DMap_V2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d0d5d6f4c13f4b1002dcdd6cc79588e8a7ee995f">
+        <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\Android_2DMap_V2.4.0_691238220a5ccde6297643a7f4ca1d237bd07065\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -187,7 +187,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="6c17ae64ae0701fa3f0f910b312183158f732616">
+        sha1="63e423b9f788f5dd21417e3c0cd8383b4fb29535">
         <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b34ce2d1b712c8a0a06bf286bc8455b5ce6a6e09\classes.dex" />
     </item>
     <item
@@ -250,7 +250,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="1350fff1138c376c1ffab08a9cc16a214dd90c0c">
+        sha1="b51ece5bdc2bbcc4a27c64f5df54b06f3faa60dd">
         <dex dex="C:\Users\Administrator\Desktop\zqxjava-ZqxChart-master\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8074fda98eaf97386b140d9e7a71ff3908f86673\classes.dex" />
     </item>
     <item

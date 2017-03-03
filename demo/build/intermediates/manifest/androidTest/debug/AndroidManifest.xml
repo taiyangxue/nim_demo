@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.netease.nim.demo.test" >
+    package="com.netease.nim.teacher.test" >
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -10,8 +10,8 @@
         android:name="com.android.test.runner.MultiDexTestRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.netease.nim.demo"
-        android:targetPackage="com.netease.nim.demo" />
+        android:label="Tests for com.netease.nim.teacher"
+        android:targetPackage="com.netease.nim.teacher" />
 
     <application>
         <uses-library android:name="android.test.runner" />

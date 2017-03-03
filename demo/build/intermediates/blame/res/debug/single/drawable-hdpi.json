@@ -172,12 +172,12 @@
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\t_ti.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\edittext_white_normal.9.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\edittext_white_normal.9.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_bg.png",
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\login_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\edittext_white_normal.9.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\edittext_white_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_guess_pressed.png",
@@ -512,12 +512,12 @@
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_zip.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\master_icon.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\master_icon.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_64.png",
         "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\room_cover_64.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\master_icon.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\res\\drawable-hdpi\\master_icon.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\zqxjava-ZqxChart-master\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_play_exit.png",

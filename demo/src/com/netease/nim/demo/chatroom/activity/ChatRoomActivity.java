@@ -16,7 +16,6 @@ import com.netease.nim.demo.chatroom.helper.ChatRoomMemberCache;
 import com.netease.nim.uikit.common.activity.UI;
 import com.netease.nim.uikit.common.ui.dialog.DialogMaker;
 import com.netease.nim.uikit.common.util.log.LogUtil;
-import com.netease.nim.uikit.session.module.ModuleProxy;
 import com.netease.nimlib.sdk.AbortableFuture;
 import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.Observer;
@@ -31,7 +30,6 @@ import com.netease.nimlib.sdk.chatroom.model.ChatRoomMember;
 import com.netease.nimlib.sdk.chatroom.model.ChatRoomStatusChangeData;
 import com.netease.nimlib.sdk.chatroom.model.EnterChatRoomData;
 import com.netease.nimlib.sdk.chatroom.model.EnterChatRoomResultData;
-import com.netease.nimlib.sdk.msg.model.IMMessage;
 
 import static android.provider.ContactsContract.QuickContact.EXTRA_MODE;
 
@@ -67,14 +65,14 @@ public class ChatRoomActivity extends UI {
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         intent.putExtra(EXTRA_ROOM_ID, roomId);
         intent.putExtra(EXTRA_MODE, isCreate);
-        intent.putExtra("rtmpPullUrl",rtmpPullUrl);
+        intent.putExtra("rtmpPullUrl", rtmpPullUrl);
         context.startActivity(intent);
     }
 
     private void parseIntent() {
         roomId = getIntent().getStringExtra(EXTRA_ROOM_ID);
         isCreate = getIntent().getBooleanExtra(EXTRA_MODE, false);
-        rtmpPullUrl=getIntent().getStringExtra("rtmpPullUrl");
+        rtmpPullUrl = getIntent().getStringExtra("rtmpPullUrl");
     }
 
     @Override
@@ -227,30 +225,6 @@ public class ChatRoomActivity extends UI {
         fragment = (ChatRoomFragment) getSupportFragmentManager().findFragmentById(R.id.chat_rooms_fragment);
         if (fragment != null) {
             fragment.initFragment(rtmpPullUrl);
-//            initFragment();
-            fragment.initLiveVideo(roomInfo, roomName, isCreate, shareUrl, new ModuleProxy() {
-                @Override
-                public boolean sendMessage(IMMessage msg) {
-                    return false;
-                }
-
-                @Override
-                public void onInputPanelExpand() {
-
-                }
-
-                @Override
-                public void shouldCollapseInputPanel() {
-                    if (messageFragment != null) {
-                        messageFragment.shouldCollapseInputPanel();
-                    }
-                }
-
-                @Override
-                public boolean isLongClickEnabled() {
-                    return false;
-                }
-            });
         } else {
             // 如果Fragment还未Create完成，延迟初始化
             getHandler().postDelayed(new Runnable() {

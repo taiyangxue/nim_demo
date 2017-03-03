@@ -8,13 +8,15 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.SimpleAdapter;
-import android.widget.Toast;
+
 import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
+import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.R;
-import com.netease.nim.demo.home.activity.ErrorAdminActivity;
+import com.netease.nim.demo.chatroom.thridparty.EduChatRoomHttpClient;
 import com.netease.nim.uikit.common.fragment.TFragment;
+import com.netease.nim.uikit.common.ui.dialog.DialogMaker;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -35,7 +37,7 @@ public class MyHomesFragment extends TFragment {
     private SimpleAdapter sim_adapter;
     // 图片封装为一个数组
     private int[] icon = {R.drawable.home_cuoti, R.drawable.home_yuyue};
-    private String[] iconName = {"错题管理", "预约老师"};
+    private String[] iconName = {"开始直播", "房间信息"};
     private Intent intent;
 
     @Override
@@ -83,12 +85,22 @@ public class MyHomesFragment extends TFragment {
 
                 switch (position){
                     case 0:
-                        intent=new Intent(getActivity(), ErrorAdminActivity.class);
-                        getActivity().startActivity(intent);
-                        Toast.makeText(getActivity(),"错题管理",Toast.LENGTH_SHORT).show();
+//                        intent=new Intent(getActivity(), ErrorAdminActivity.class);
+//                        getActivity().startActivity(intent);
+//                        Toast.makeText(getActivity(),"错题管理",Toast.LENGTH_SHORT).show();
+
                         break;
                     case 1:
-                        Toast.makeText(getActivity(),"预约",Toast.LENGTH_SHORT).show();
+//                        EduChatRoomHttpClient.getInstance().fetchChatRoomPullAddress(room.getCid(), new EduChatRoomHttpClient.ChatRoomHttpCallback<AddressResult>() {
+//                            @Override
+//                            public void onSuccess(AddressResult addressResult) {
+//
+//                            }
+//                            @Override
+//                            public void onFailed(int code, String errorMsg) {
+//                                MyUtils.showToast(getActivity(),errorMsg);
+//                            }
+//                        });
                         break;
                 }
             }
@@ -129,5 +141,19 @@ public class MyHomesFragment extends TFragment {
         sliderShow.addSlider(textSliderView3);
         sliderShow.setPresetTransformer(SliderLayout.Transformer.Accordion);
         sliderShow.setDuration(2000);
+    }
+    // 创建房间
+    private void createRoom(String name) {
+        EduChatRoomHttpClient.getInstance().createRoom(DemoCache.getAccount(), name, new EduChatRoomHttpClient.ChatRoomHttpCallback<String>() {
+            @Override
+            public void onSuccess(String s) {
+
+//                ChatRoomActivity.start(getActivity(), s, true,rtmpPullUrl);
+            }
+            @Override
+            public void onFailed(int code, String errorMsg) {
+                DialogMaker.dismissProgressDialog();
+            }
+        });
     }
 }

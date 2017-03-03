@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- chat room -->
-    <string name="chat_room">直播间</string>
+    <string name="chat_room">我的教室</string>
     <string name="my_home">主页</string>
     <string name="chat_room_message">直播互动</string>
     <string name="chat_room_master">主播</string>

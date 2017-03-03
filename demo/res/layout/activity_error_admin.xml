@@ -23,10 +23,10 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:background="@drawable/nim_message_button_bottom_send_selector"
+            android:textColor="@color/color_green_text_view_selector"
             android:gravity="center"
             android:paddingLeft="10dip"
             android:paddingRight="10dip"
             android:layout_margin="3dp"
-            android:textColor="@color/color_green_text_view_selector"
             android:text="拍照上传"/>
 </LinearLayout>
