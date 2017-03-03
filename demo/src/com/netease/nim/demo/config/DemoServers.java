@@ -8,6 +8,7 @@ public class DemoServers {
     private static final String API_SERVER_TEST = "http://223.252.220.238:8080/api/"; // 测试
 //    private static final String API_SERVER = "https://app.netease.im/api/"; // 线上
     private static final String API_SERVER = "https://api.netease.im/nimserver/"; // 线上
+    public static final String API_SERVER2 = "https://vcloud.163.com/app/"; // 线上
     public static final String apiServer() {
         return ServerConfig.testServer() ? API_SERVER_TEST : API_SERVER;
     }

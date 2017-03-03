@@ -13,8 +13,6 @@ import com.netease.nim.demo.R;
 import com.netease.nim.demo.chatroom.fragment.ChatRoomFragment;
 import com.netease.nim.demo.chatroom.fragment.ChatRoomMessageFragment;
 import com.netease.nim.demo.chatroom.helper.ChatRoomMemberCache;
-import com.netease.nim.demo.common.entity.ChatroomCreateResult;
-import com.netease.nim.demo.common.util.MyContactHttpClient;
 import com.netease.nim.uikit.common.activity.UI;
 import com.netease.nim.uikit.common.ui.dialog.DialogMaker;
 import com.netease.nim.uikit.common.util.log.LogUtil;
@@ -34,14 +32,6 @@ import com.netease.nimlib.sdk.chatroom.model.ChatRoomStatusChangeData;
 import com.netease.nimlib.sdk.chatroom.model.EnterChatRoomData;
 import com.netease.nimlib.sdk.chatroom.model.EnterChatRoomResultData;
 import com.netease.nimlib.sdk.msg.model.IMMessage;
-
-import org.apache.http.NameValuePair;
-import org.apache.http.message.BasicNameValuePair;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import static android.provider.ContactsContract.QuickContact.EXTRA_MODE;
 
@@ -69,24 +59,22 @@ public class ChatRoomActivity extends UI {
     private Gson gson;
     private boolean isCreate;
     private String shareUrl;
+    private String rtmpPullUrl;
 
-    public static void start(Context context, String roomId, boolean isCreate) {
-//        Intent intent = new Intent();
-//        intent.setClass(context, ChatRoomActivity.class);
-//        intent.putExtra(EXTRA_ROOM_ID, roomId);
-//        intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-//        context.startActivity(intent);
+    public static void start(Context context, String roomId, boolean isCreate, String rtmpPullUrl) {
         Intent intent = new Intent();
         intent.setClass(context, ChatRoomActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         intent.putExtra(EXTRA_ROOM_ID, roomId);
         intent.putExtra(EXTRA_MODE, isCreate);
+        intent.putExtra("rtmpPullUrl",rtmpPullUrl);
         context.startActivity(intent);
     }
 
     private void parseIntent() {
         roomId = getIntent().getStringExtra(EXTRA_ROOM_ID);
         isCreate = getIntent().getBooleanExtra(EXTRA_MODE, false);
+        rtmpPullUrl=getIntent().getStringExtra("rtmpPullUrl");
     }
 
     @Override
@@ -238,7 +226,7 @@ public class ChatRoomActivity extends UI {
     private void initChatRoomFragment(final String roomName) {
         fragment = (ChatRoomFragment) getSupportFragmentManager().findFragmentById(R.id.chat_rooms_fragment);
         if (fragment != null) {
-            fragment.initFragment();
+            fragment.initFragment(rtmpPullUrl);
 //            initFragment();
             fragment.initLiveVideo(roomInfo, roomName, isCreate, shareUrl, new ModuleProxy() {
                 @Override

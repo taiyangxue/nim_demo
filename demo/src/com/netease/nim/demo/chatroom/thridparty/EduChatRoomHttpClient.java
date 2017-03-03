@@ -2,12 +2,15 @@ package com.netease.nim.demo.chatroom.thridparty;
 
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
+import android.util.Log;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONException;
 import com.alibaba.fastjson.JSONObject;
 import com.google.gson.Gson;
 import com.netease.nim.demo.DemoCache;
+import com.netease.nim.demo.common.entity.AddressResult;
+import com.netease.nim.demo.common.entity.ChannelListResult;
 import com.netease.nim.demo.common.entity.ChatroomCreateResult;
 import com.netease.nim.demo.config.DemoServers;
 import com.netease.nim.demo.main.helper.CheckSumBuilder;
@@ -28,6 +31,7 @@ import java.util.Map;
 public class EduChatRoomHttpClient {
 
     private String errorMsg = "error";
+    private static Gson gson;
 
     public class EnterRoomParam {
         /**
@@ -56,7 +60,7 @@ public class EduChatRoomHttpClient {
         }
     }
 
-    private static final String TAG = ChatRoomHttpClient.class.getSimpleName();
+    private static final String TAG = EduChatRoomHttpClient.class.getSimpleName();
 
     // code
     private static final int RESULT_CODE_SUCCESS = 200;
@@ -69,7 +73,8 @@ public class EduChatRoomHttpClient {
     // header
     private static final String HEADER_KEY_APP_KEY = "appkey";
     private static final String HEADER_KEY_CONTENT_TYPE = "Content-type";
-
+    private static final String APP_SECRET = "16ba19d26ee84dbb82d4cc9c34bc208f";
+    private static final String NONCE = "12345";
     // result
     private static final String RESULT_KEY_ERROR_MSG = "errmsg";
     private static final String RESULT_KEY_RES = "res";
@@ -109,7 +114,7 @@ public class EduChatRoomHttpClient {
         if (instance == null) {
             instance = new EduChatRoomHttpClient();
         }
-
+        gson = new Gson();
         return instance;
     }
 
@@ -119,7 +124,6 @@ public class EduChatRoomHttpClient {
 
     /**
      * 主播创建房间
-     *
      * @param account  主播accid
      * @param roomName 房间名称
      * @param callback 回调
@@ -128,7 +132,6 @@ public class EduChatRoomHttpClient {
         String url = DemoServers.chatRoomAPIServer() + API_NAME_CREATE_ROOM;
         Map<String, String> headers = new HashMap<>(2);
         String appKey = readAppKey();
-        final Gson gson=new Gson();
 //        headers.put(HEADER_KEY_APP_KEY, appKey);
 //        headers.put(HEADER_KEY_CONTENT_TYPE, "application/json; charset=utf-8");
         String appSecret = "16ba19d26ee84dbb82d4cc9c34bc208f";
@@ -165,8 +168,6 @@ public class EduChatRoomHttpClient {
                     return;
                 }
                 try {
-                    // ret 0
-                    // res 1
                     int resCode = chatroomCreateResult.getCode();
                     if (resCode == RESULT_CODE_SUCCESS) {
                         callback.onSuccess(chatroomCreateResult.getChatroom().getRoomid()+"");
@@ -181,7 +182,95 @@ public class EduChatRoomHttpClient {
 
         });
     }
-
+    /**
+     * 向服务器请求直播拉流地址
+     */
+    public void fetchChatRoomPullAddress(String cid,final ChatRoomHttpCallback<String> callback) {
+        String url = DemoServers.API_SERVER2 + "address";
+        Map<String, String> headers = new HashMap<>(2);
+        String appKey = readAppKey();
+        String curTime = String.valueOf((new Date()).getTime() / 1000L);
+        String checkSum = CheckSumBuilder.getCheckSum(APP_SECRET, NONCE, curTime);//参考 计算CheckSum的java代码
+        // 设置请求的header
+        headers.put("AppKey", appKey);
+        headers.put("Nonce", NONCE);
+        headers.put("CurTime", curTime);
+        headers.put("CheckSum", checkSum);
+        headers.put("Content-Type", "application/json;charset=utf-8");
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("cid", cid);
+        NimHttpClient.getInstance().execute(url, headers, jsonObject.toString(), new NimHttpClient.NimHttpCallback() {
+            @Override
+            public void onResponse(String response, int code, Throwable e) {
+                Log.e(TAG,response);
+                AddressResult addressResult = gson.fromJson(response, AddressResult.class);
+                if (code != 200) {
+                    LogUtil.e(TAG, "fetchChatRoomAddress failed : code = " + code + ", errorMsg = " + errorMsg);
+                    if (callback != null) {
+                        callback.onFailed(code, addressResult.getMsg());
+                    }
+                    return;
+                }
+                try {
+                    if (code == RESULT_CODE_SUCCESS) {
+                        // reply
+                        callback.onSuccess(addressResult.getRet().getRtmpPullUrl());
+                    } else {
+                        callback.onFailed(code, null);
+                    }
+                } catch (JSONException e1) {
+                    callback.onFailed(-1, e1.getMessage());
+                }
+            }
+        });
+    }
+    /**
+     * 向服务器请求直播拉流地址
+     * @param callback
+     */
+    public void fetchChatRoomList(final ChatRoomHttpClient.ChatRoomHttpCallback<List<ChannelListResult.RetBean.ListBean>> callback) {
+        String url = DemoServers.API_SERVER2 + "channellist";
+        Map<String, String> headers = new HashMap<>(2);
+        String appKey = readAppKey();
+        String curTime = String.valueOf((new Date()).getTime() / 1000L);
+        String checkSum = CheckSumBuilder.getCheckSum(APP_SECRET, NONCE, curTime);//参考 计算CheckSum的java代码
+        // 设置请求的header
+        headers.put("AppKey", appKey);
+        headers.put("Nonce", NONCE);
+        headers.put("CurTime", curTime);
+        headers.put("CheckSum", checkSum);
+        headers.put("Content-Type", "application/json;charset=utf-8");
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("records", 100);
+        jsonObject.put("pnum", 1);
+        jsonObject.put("ofield", "ctime");
+        jsonObject.put("sort", 0);
+        NimHttpClient.getInstance().execute(url, headers, jsonObject.toString(), new NimHttpClient.NimHttpCallback() {
+            @Override
+            public void onResponse(String response, int code, Throwable e) {
+                Log.e(TAG,response);
+                ChannelListResult channelListResult = gson.fromJson(response, ChannelListResult.class);
+                if (code != 200) {
+                    errorMsg=channelListResult.getMsg();
+                    LogUtil.e(TAG, "fetchChatRoomAddress failed : code = " + code + ", errorMsg = " + errorMsg);
+                    if (callback != null) {
+                        callback.onFailed(code, errorMsg);
+                    }
+                    return;
+                }
+                try {
+                    if (code == RESULT_CODE_SUCCESS) {
+                        // reply
+                        callback.onSuccess(channelListResult.getRet().getList());
+                    } else {
+                        callback.onFailed(code, null);
+                    }
+                } catch (JSONException e1) {
+                    callback.onFailed(-1, e1.getMessage());
+                }
+            }
+        });
+    }
     /**
      * 向网易云信Demo应用服务器请求聊天室地址
      */
@@ -220,7 +309,7 @@ public class EduChatRoomHttpClient {
                             }
                         }
                         // reply
-                        callback.onSuccess(roomAddrs);
+//                        callback.onSuccess(roomAddrs);
                     } else {
                         callback.onFailed(resCode, null);
                     }

@@ -16,7 +16,6 @@ import android.widget.Toast;
 import com.netease.neliveplayer.NEMediaPlayer;
 import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.R;
-import com.netease.nim.demo.chatroom.activity.ChatRoomActivity;
 import com.netease.nim.demo.chatroom.adapter.ChatRoomTabPagerAdapter;
 import com.netease.nim.demo.chatroom.fragment.tab.ChatRoomTabFragment;
 import com.netease.nim.demo.chatroom.helper.NEMediaController;
@@ -27,7 +26,6 @@ import com.netease.nim.demo.common.ui.viewpager.PagerSlidingTabStrip;
 import com.netease.nim.demo.common.util.Preferences;
 import com.netease.nim.uikit.common.util.log.LogUtil;
 import com.netease.nim.uikit.session.module.ModuleProxy;
-import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.avchat.AVChatCallback;
 import com.netease.nimlib.sdk.avchat.AVChatManager;
 import com.netease.nimlib.sdk.avchat.AVChatStateObserver;
@@ -40,7 +38,6 @@ import com.netease.nimlib.sdk.avchat.model.AVChatOptionalConfig;
 import com.netease.nimlib.sdk.avchat.model.AVChatParameters;
 import com.netease.nimlib.sdk.avchat.model.AVChatVideoFrame;
 import com.netease.nimlib.sdk.avchat.model.AVChatVideoRender;
-import com.netease.nimlib.sdk.chatroom.ChatRoomService;
 import com.netease.nimlib.sdk.chatroom.model.ChatRoomInfo;
 import com.netease.nrtc.sdk.NRtcParameters;
 
@@ -109,10 +106,10 @@ public class ChatRoomFragment extends ChatRoomTabFragment implements ViewPager.O
     }
 
 
-    public void initFragment() {
+    public void initFragment(String rtmpPullUrl) {
         mMediaType   = "livestream";
         mDecodeType = "software";
-        mVideoPath = "rtmp://v2220e357.live.126.net/live/e1f3a464831c45b6bb3dd18d6a762993";
+        mVideoPath = rtmpPullUrl;
 //        mVideoPath  = getIntent().getStringExtra("videoPath");
 //        private String decodeType = "software";  //解码类型，默认软件解码
 //        private String mediaType = "livestream"; //媒体类型，默认网络直播
@@ -235,8 +232,32 @@ public class ChatRoomFragment extends ChatRoomTabFragment implements ViewPager.O
     @Override
     public void onDestroy() {
         super.onDestroy();
+        mVideoView.release_resource();
     }
 
+    @Override
+    public void onStop() {
+        super.onStop();
+    }
+
+    @Override
+    public void onPause() {
+        if (pauseInBackgroud)
+            mVideoView.pause(); //锁屏时暂停
+        super.onPause();
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+    }
+    @Override
+    public void onResume() {
+        if (pauseInBackgroud && !mVideoView.isPaused()) {
+            mVideoView.start(); //锁屏打开后恢复播放
+        }
+        super.onResume();
+    }
     private void findViews() {
         masterVideoLayout = findView(R.id.master_video_layout);
 //        statusText = findView(R.id.online_status);
@@ -334,7 +355,6 @@ public class ChatRoomFragment extends ChatRoomTabFragment implements ViewPager.O
             if (v.getId() == R.id.player_exit) {
                 mVideoView.release_resource();
                 onDestroy();
-//                finish();
             }
         }
     };
