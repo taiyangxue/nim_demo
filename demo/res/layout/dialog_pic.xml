@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/camera_camera"
+        style="@style/My_Button_Match"
+        android:layout_marginBottom="10dp"
+        android:text="直接拍照上传" />
+    <Button
+        android:id="@+id/camera_phone"
+        style="@style/My_Button_Match"
+        android:layout_marginBottom="10dp"
+        android:text="从手机相片选择" />
+
+    <Button
+        android:id="@+id/camera_cancel"
+        style="@style/My_Button_Match"
+        android:text="取消" />
+
+</LinearLayout>

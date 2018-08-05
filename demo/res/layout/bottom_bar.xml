@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_main_tab_bottom"
+    android:layout_width="fill_parent"
+    android:layout_height="55dp"
+    android:layout_alignParentBottom="true">
+
+    <LinearLayout
+        android:id="@+id/ll_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp">
+
+        <LinearLayout
+            android:id="@+id/id_tab_bottom_weixin"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_tab_bottom_weixin"
+                android:layout_width="@dimen/icon_w"
+                android:layout_height="@dimen/icon_w"
+                android:background="#0000"
+                android:clickable="false"
+                android:src="@drawable/yidu_home_n" />
+
+            <TextView
+                android:id="@+id/tv_xiaoxi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="课程"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@drawable/selector_tabtext" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/id_tab_bottom_contact"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/faxian"
+                android:layout_width="@dimen/icon_w"
+                android:layout_height="@dimen/icon_w"
+                android:background="#0000"
+                android:clickable="false"
+                android:src="@drawable/yidu_kecheng_n" />
+            <TextView
+                android:id="@+id/tv_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@drawable/selector_tabtext2"
+                android:text="工具" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_tab_bottom_setting"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:descendantFocusability="beforeDescendants"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_tab_bottom_setting"
+                android:layout_width="@dimen/icon_w"
+                android:layout_height="@dimen/icon_w"
+                android:background="#0000"
+                android:clickable="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/yidu_shipin_n" />
+
+            <TextView
+                android:id="@+id/tv_wo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/selector_tabtext3"
+                android:text="教室" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/id_tab_bottom_friend"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_tab_bottom_friend"
+                android:layout_width="@dimen/icon_w"
+                android:layout_height="@dimen/icon_w"
+                android:background="#0000"
+                android:clickable="false"
+                android:src="@drawable/yidu_cuoti_n" />
+
+            <TextView
+                android:id="@+id/tv_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/selector_tabtext4"
+                android:text="错题" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/id_tab_bottom_mine"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_tab_bottom_mine"
+                android:layout_width="@dimen/icon_w"
+                android:layout_height="@dimen/icon_w"
+                android:background="#0000"
+                android:clickable="false"
+                android:src="@drawable/yidu_mine_n" />
+
+            <TextView
+                android:id="@+id/tv_mine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/selector_tabtext5"
+                android:text="我的" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

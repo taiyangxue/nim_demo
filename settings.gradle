@@ -1,0 +1,4 @@
+include ':uikit', ':teacher'
+include ':demo'
+include ':image'
+include ':FlycoTabLayout_Lib'

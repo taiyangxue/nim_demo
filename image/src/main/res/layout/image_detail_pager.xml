@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <com.loveplusplus.demo.image.HackyViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black" />
+    <TextView
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:text="@string/viewpager_indicator"
+        android:background="@android:color/transparent" />
+    <ImageView
+        android:id="@+id/iv_caogao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:src="@drawable/yidu_caogao"
+        />
+    <ImageView
+        android:id="@+id/iv_daan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:src="@drawable/icon_daan"
+        />
+    <ImageView
+        android:id="@+id/iv_shipin"
+        android:layout_toLeftOf="@+id/iv_daan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:padding="10dp"
+        android:src="@drawable/icon_menu_paly_press"
+        />
+</RelativeLayout>

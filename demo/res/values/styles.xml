@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="My_Button_Match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/nim_message_button_bottom_send_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_green_text_view_selector</item>
+    </style>
+</resources>
