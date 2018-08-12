@@ -67,7 +67,11 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
             rl_videotype.setVisibility(View.GONE);
             coverImage.setVisibility(View.GONE);
             coverImage_video.setVisibility(View.VISIBLE);
-            utils.display(coverImage_video,video.getSnapshotUrl_image());
+            if(video.getSnapshotUrl_image().startsWith("http")){
+                utils.display(coverImage_video,video.getSnapshotUrl_image());
+            }else {
+                utils.display(coverImage_video,ApiUtils.STATIC_HOST+video.getSnapshotUrl_image());
+            }
         }
         holder.addOnClickListener(R.id.cover_image_video);
         holder.addOnClickListener(R.id.iv_open);
@@ -81,13 +85,26 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
                 if (!TextUtils.isEmpty(video.getSnapshotUrl_image())) {
                     Intent intent = new Intent(mContext, ImagePagerActivity.class);
                     // 图片url,为了演示这里使用常量，一般从数据库中或网络中获取
-                    intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, new String[]{video.getSnapshotUrl_image()});
+                    String imgurl="";
+                    String ans_imgurl="";
+                    if(video.getSnapshotUrl_image().startsWith("http")){
+                        imgurl=video.getSnapshotUrl_image();
+                    }else {
+                        imgurl=ApiUtils.STATIC_HOST+video.getSnapshotUrl_image();
+                    }
+
+                    intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, new String[]{imgurl});
                     intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, position);
                     if(!TextUtils.isEmpty(video.getAnswer_text())){
                         intent.putExtra(ImagePagerActivity.EXTRA_DAAN ,video.getAnswer_text());
                     }
                     if(!TextUtils.isEmpty(video.getAnswer_image())){
-                        intent.putExtra(ImagePagerActivity.EXTRA_DAAN_URL,video.getAnswer_image());
+                        if(video.getAnswer_image().startsWith("http")){
+                            ans_imgurl=video.getAnswer_image();
+                        }else {
+                            ans_imgurl=ApiUtils.STATIC_HOST+video.getAnswer_image();
+                        }
+                        intent.putExtra(ImagePagerActivity.EXTRA_DAAN_URL,ans_imgurl);
                     }
                     intent.putExtra(ImagePagerActivity.EXTRA_VIDEO_URL,video.getOrigUrl());
                     intent.putExtra(ImagePagerActivity.EXTRA_IS_VIDEO,true);
@@ -133,9 +150,15 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
                 }else {
                     //展示答案
                     if(!TextUtils.isEmpty(video.getAnswer_image())){
+                        String ans_imgurl="";
+                        if(video.getAnswer_image().startsWith("http")){
+                            ans_imgurl=video.getAnswer_image();
+                        }else {
+                            ans_imgurl=ApiUtils.STATIC_HOST+video.getAnswer_image();
+                        }
                         Intent intent = new Intent(mContext, ImagePagerActivity.class);
                         // 图片url,为了演示这里使用常量，一般从数据库中或网络中获取
-                        intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, new String[]{video.getAnswer_image()});
+                        intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, new String[]{ans_imgurl});
                         intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, 1);
                         mContext.startActivity(intent);
                     }else {

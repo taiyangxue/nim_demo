@@ -31,7 +31,7 @@ public class ApiUtils {
     private static Gson gson;
     private static ApiUtils instance;
     private static final String HOST = "http://47.105.59.105/api";
-//    private static final String HOST = "binsso.api.dyzhx.net";
+    public static final String STATIC_HOST = "http://47.105.59.105/";
 
     public static synchronized ApiUtils getInstance() {
         if (instance == null) {
