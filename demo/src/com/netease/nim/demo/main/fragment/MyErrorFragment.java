@@ -32,18 +32,13 @@ import com.lidroid.xutils.exception.HttpException;
 import com.lidroid.xutils.http.ResponseInfo;
 import com.lidroid.xutils.http.callback.RequestCallBack;
 import com.loveplusplus.demo.image.ImagePagerActivity;
-import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.common.entity.ErrorPicRet;
-import com.netease.nim.demo.common.entity.SectionRet;
-import com.netease.nim.demo.common.entity.bmob.ErrorPic;
-import com.netease.nim.demo.common.entity.bmob.Section;
 import com.netease.nim.demo.common.util.ApiListener;
 import com.netease.nim.demo.common.util.ApiUtils;
 import com.netease.nim.demo.common.util.MyUtils;
 import com.netease.nim.demo.common.util.PictureUtil;
-import com.netease.nim.demo.common.util.SharedPreferencesUtils;
-import com.netease.nim.demo.home.activity.ErrorAdminActivity;
+import com.netease.nim.demo.home.activity.ErrorAdminNewActivity;
 import com.netease.nim.demo.home.activity.SectionSelectActivity;
 import com.netease.nim.demo.home.adapter.MyErrorPicAdapter;
 import com.netease.nim.demo.main.model.MainTab;
@@ -74,12 +69,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.datatype.BmobFile;
 import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.FindListener;
-import cn.bmob.v3.listener.SaveListener;
-import cn.bmob.v3.listener.UpdateListener;
 import cn.bmob.v3.listener.UploadFileListener;
 
 import static com.netease.nim.uikit.session.constant.RequestCode.PICK_IMAGE;
@@ -197,8 +188,9 @@ public class MyErrorFragment extends MainTabFragment {
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent=new Intent(getActivity(), ErrorAdminActivity.class);
-                intent.putExtra("course_id",position+1);
+                Intent intent = new Intent(getActivity(),ErrorAdminNewActivity.class);
+                intent.putExtra("title",iconName[position]);
+                intent.putExtra("course",position+1);
                 getActivity().startActivity(intent);
             }
         });
@@ -408,19 +400,19 @@ public class MyErrorFragment extends MainTabFragment {
                         //bmobFile.getFileUrl()--返回的上传文件的完整地址
 //                        toast("上传文件成功:" + bmobFile.getFileUrl());
 //                        MyUtils.showToast(getActivity(), "上传文件成功:" + bmobFile.getFileUrl());
-                        ApiUtils.getInstance().errorpic_add(SharedPreferencesUtils.getInt(getActivity(), "account_id", 0), 0,
-                                bmobFile.getFileUrl(), new ApiListener<ErrorPicRet.DataBean>() {
-                                    @Override
-                                    public void onSuccess(ErrorPicRet.DataBean dataBean) {
-                                        refresh(dataBean);
-                                        MyUtils.showToast(getActivity(), "上传成功");
-                                    }
-
-                                    @Override
-                                    public void onFailed(String errorMsg) {
-                                    MyUtils.showToast(getActivity(), errorMsg);
-                                    }
-                                });
+//                        ApiUtils.getInstance().errorpic_add(SharedPreferencesUtils.getInt(getActivity(), "account_id", 0), 0,
+//                                bmobFile.getFileUrl(), new ApiListener<ErrorPicRet.DataBean>() {
+//                                    @Override
+//                                    public void onSuccess(ErrorPicRet.DataBean dataBean) {
+//                                        refresh(dataBean);
+//                                        MyUtils.showToast(getActivity(), "上传成功");
+//                                    }
+//
+//                                    @Override
+//                                    public void onFailed(String errorMsg) {
+//                                    MyUtils.showToast(getActivity(), errorMsg);
+//                                    }
+//                                });
 //                        final ErrorPic errorPic=new ErrorPic();
 //                        errorPic.setPicUrl(bmobFile.getFileUrl());
 //                        errorPic.setAccount(DemoCache.getAccount());

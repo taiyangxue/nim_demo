@@ -13,6 +13,7 @@ import com.lidroid.xutils.http.client.HttpRequest;
 import com.netease.nim.demo.common.entity.AddVideocomment;
 import com.netease.nim.demo.common.entity.CommonBean;
 import com.netease.nim.demo.common.entity.ErrorPicAdd;
+import com.netease.nim.demo.common.entity.ErrorPicResult;
 import com.netease.nim.demo.common.entity.ErrorPicRet;
 import com.netease.nim.demo.common.entity.NodeRet;
 import com.netease.nim.demo.common.entity.SectionRet;
@@ -495,6 +496,32 @@ public class ApiUtils {
             }
         });
     }
+    public void errorpic_geterrorpictype(String user_id, String course,  int pid, final ApiListener<List<ErrorPicResult.DataBean>> listener) {
+        String path = "/errorpic/geterrorpictype";
+        final RequestParams params = new RequestParams();
+        params.addBodyParameter("user_id", user_id);
+        params.addBodyParameter("course", course);
+        params.addBodyParameter("pid", pid + "");
+        Log.e(TAG, gson.toJson(params));
+        httpUtils.send(HttpRequest.HttpMethod.POST, HOST + path, params, new RequestCallBack<String>() {
+            @Override
+            public void onSuccess(ResponseInfo<String> responseInfo) {
+                Log.e(TAG, responseInfo.result);
+                ErrorPicResult result = gson.fromJson(responseInfo.result, ErrorPicResult.class);
+                if (result.getCode() == 1) {
+                    listener.onSuccess(result.getData());
+                } else {
+                    listener.onFailed(result.getMsg());
+                }
+            }
+
+            @Override
+            public void onFailure(HttpException e, String s) {
+                Log.e(TAG, s);
+                listener.onFailed(s);
+            }
+        });
+    }
     public void errorpic_getsection(int course, String grade,  final ApiListener<List<SectionRet.DataBean>> listener) {
         String path = "/errorpic/getsection";
         final RequestParams params = new RequestParams();
@@ -545,11 +572,12 @@ public class ApiUtils {
             }
         });
     }
-    public void errorpic_add(int user_id,int section_id,String pic_image, final ApiListener<ErrorPicRet.DataBean> listener) {
+    public void errorpic_add(int user_id,int category_id,String pic_image, final ApiListener<ErrorPicResult.DataBean> listener) {
         String path = "/errorpic/add";
         final RequestParams params = new RequestParams();
         params.addBodyParameter("user_id", user_id+"");
-        params.addBodyParameter("section_id", section_id+"");
+//        params.addBodyParameter("section_id", section_id+"");
+        params.addBodyParameter("category_id", category_id+"");
         params.addBodyParameter("pic_image", pic_image);
         Log.e(TAG, gson.toJson(params));
         httpUtils.send(HttpRequest.HttpMethod.POST, HOST + path, params, new RequestCallBack<String>() {

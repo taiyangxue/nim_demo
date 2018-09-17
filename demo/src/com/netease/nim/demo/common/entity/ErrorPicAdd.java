@@ -15,7 +15,7 @@ public class ErrorPicAdd {
     private int code;
     private String msg;
     private String time;
-    private ErrorPicRet.DataBean data;
+    private ErrorPicResult.DataBean data;
 
     public int getCode() {
         return code;
@@ -41,11 +41,11 @@ public class ErrorPicAdd {
         this.time = time;
     }
 
-    public ErrorPicRet.DataBean getData() {
+    public ErrorPicResult.DataBean getData() {
         return data;
     }
 
-    public void setData(ErrorPicRet.DataBean data) {
+    public void setData(ErrorPicResult.DataBean data) {
         this.data = data;
     }
 

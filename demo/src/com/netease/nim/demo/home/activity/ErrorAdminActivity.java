@@ -24,13 +24,9 @@ import com.lidroid.xutils.http.ResponseInfo;
 import com.lidroid.xutils.http.callback.RequestCallBack;
 import com.lidroid.xutils.view.annotation.ViewInject;
 import com.loveplusplus.demo.image.ImagePagerActivity;
-import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.R;
-import com.netease.nim.demo.common.entity.ErrorPicAdd;
 import com.netease.nim.demo.common.entity.ErrorPicRet;
 import com.netease.nim.demo.common.entity.SectionRet;
-import com.netease.nim.demo.common.entity.bmob.ErrorPic;
-import com.netease.nim.demo.common.entity.bmob.Section;
 import com.netease.nim.demo.common.util.ApiListener;
 import com.netease.nim.demo.common.util.ApiUtils;
 import com.netease.nim.demo.common.util.MyUtils;
@@ -64,13 +60,8 @@ import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.bmob.v3.BmobQuery;
-import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.datatype.BmobFile;
 import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.FindListener;
-import cn.bmob.v3.listener.SaveListener;
-import cn.bmob.v3.listener.UpdateListener;
 import cn.bmob.v3.listener.UploadFileListener;
 
 import static com.netease.nim.uikit.session.constant.RequestCode.PICK_IMAGE;
@@ -421,20 +412,20 @@ public class ErrorAdminActivity extends UI {
                         //bmobFile.getFileUrl()--返回的上传文件的完整地址
 //                        toast("上传文件成功:" + bmobFile.getFileUrl());
 //                        MyUtils.showToast(getActivity(), "上传文件成功:" + bmobFile.getFileUrl());
-                        ApiUtils.getInstance().errorpic_add(SharedPreferencesUtils.getInt(ErrorAdminActivity.this, "account_id", 0),
-                                current_section.getId(), bmobFile.getFileUrl(), new ApiListener<ErrorPicRet.DataBean>() {
-                                    @Override
-                                    public void onSuccess(ErrorPicRet.DataBean s) {
-                                        refresh(s);
-                                        MyUtils.showToast(ErrorAdminActivity.this, "上传成功");
-                                    }
-
-                                    @Override
-                                    public void onFailed(String errorMsg) {
-                                        MyUtils.showToast(ErrorAdminActivity.this, errorMsg);
-
-                                    }
-                                });
+//                        ApiUtils.getInstance().errorpic_add(SharedPreferencesUtils.getInt(ErrorAdminActivity.this, "account_id", 0),
+//                                current_section.getId(), bmobFile.getFileUrl(), new ApiListener<ErrorPicRet.DataBean>() {
+//                                    @Override
+//                                    public void onSuccess(ErrorPicRet.DataBean s) {
+//                                        refresh(s);
+//                                        MyUtils.showToast(ErrorAdminActivity.this, "上传成功");
+//                                    }
+//
+//                                    @Override
+//                                    public void onFailed(String errorMsg) {
+//                                        MyUtils.showToast(ErrorAdminActivity.this, errorMsg);
+//
+//                                    }
+//                                });
 //                        final ErrorPic errorPic=new ErrorPic();
 //                        errorPic.setPicUrl(bmobFile.getFileUrl());
 //                        errorPic.setAccount(DemoCache.getAccount());
