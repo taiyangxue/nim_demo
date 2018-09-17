@@ -49,6 +49,7 @@ public class AddFriendActivity extends UI {
     private void findViews() {
         searchEdit = findView(R.id.search_friend_edit);
         searchEdit.setDeleteImage(R.drawable.nim_grey_delete_icon);
+        searchEdit.setText(getIntent().getStringExtra("user_mobile"));
     }
 
     private void initActionbar() {

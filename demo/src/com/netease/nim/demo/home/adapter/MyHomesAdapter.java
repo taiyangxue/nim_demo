@@ -170,7 +170,9 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
         iv_hudong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mContext.startActivity(new Intent(mContext,HudongActivity.class));
+                Intent intent=new Intent(mContext,HudongActivity.class);
+                intent.putExtra("video_id",video.getId());
+                mContext.startActivity(intent);
             }
         });
     }

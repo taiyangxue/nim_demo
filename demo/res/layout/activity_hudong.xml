@@ -23,74 +23,39 @@
 
         </android.support.v7.widget.Toolbar>
     </android.support.design.widget.AppBarLayout>
-
-    <LinearLayout
+    <com.netease.nim.uikit.common.ui.ptr2.PullToRefreshLayout
+        android:id="@+id/swipe_refresh"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="vertical">
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/app_bar_layout">
 
-
-        <LinearLayout
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="10dp">
+            android:layout_height="match_parent" />
+    </com.netease.nim.uikit.common.ui.ptr2.PullToRefreshLayout>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="解法（1）作PQ∥AM，由∠APB+∠APQ+∠BPQ=360°、∠PAM=∠APQ、∠PBN=∠BPQ得∠APB+∠PAM+∠PBN=360°。"
-                android:textColor="@color/black" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="right"
-                android:text="sun 2018-03-11 16:31:20"
-                android:textSize="12sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="10dp">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="解法（2）作PQ∥AM，由∠APB+∠APQ+∠BPQ=360°、∠PAM=∠APQ、∠PBN=∠BPQ得∠APB+∠PAM+∠PBN=360°。"
-                android:textColor="@color/black" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="right"
-                android:text="sun 2018-03-11 16:31:20"
-                android:textSize="12sp" />
-        </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            android:background="@drawable/blue_edit_text_bg"
-            android:padding="5dp" />
-
-        <Button
-            style="@style/My_Button_Match"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:text="发表"
-            android:textColor="@color/white" />
-    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<Button-->
+            <!--style="@style/My_Button_Match"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:text="发表"-->
+            <!--android:textColor="@color/white" />-->
+    <!--</LinearLayout>-->
+    <Button
+        android:id="@+id/btn_push"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:layout_margin="3dp"
+        android:text="拍照上传"
+        style="@style/My_Button_Match" />
 </LinearLayout>

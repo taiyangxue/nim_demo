@@ -10,6 +10,7 @@ import com.lidroid.xutils.http.RequestParams;
 import com.lidroid.xutils.http.ResponseInfo;
 import com.lidroid.xutils.http.callback.RequestCallBack;
 import com.lidroid.xutils.http.client.HttpRequest;
+import com.netease.nim.demo.common.entity.AddVideocomment;
 import com.netease.nim.demo.common.entity.CommonBean;
 import com.netease.nim.demo.common.entity.ErrorPicAdd;
 import com.netease.nim.demo.common.entity.ErrorPicRet;
@@ -17,6 +18,7 @@ import com.netease.nim.demo.common.entity.NodeRet;
 import com.netease.nim.demo.common.entity.SectionRet;
 import com.netease.nim.demo.common.entity.UserLoginBean;
 import com.netease.nim.demo.common.entity.VideoRet;
+import com.netease.nim.demo.common.entity.Videocomment;
 
 import java.util.List;
 
@@ -416,6 +418,69 @@ public class ApiUtils {
             public void onSuccess(ResponseInfo<String> responseInfo) {
                 Log.e(TAG, responseInfo.result);
                 VideoRet result = gson.fromJson(responseInfo.result, VideoRet.class);
+                if (result.getCode() == 1) {
+                    listener.onSuccess(result.getData());
+                } else {
+                    listener.onFailed(result.getMsg());
+                }
+            }
+
+            @Override
+            public void onFailure(HttpException e, String s) {
+                Log.e(TAG, s);
+                listener.onFailed(s);
+            }
+        });
+    }
+
+    /**
+     * 获取一题多解内容
+     * @param offset
+     * @param limit
+     * @param video_id
+     * @param listener
+     */
+    public void videocomment_select(String video_id,  int offset, int limit, final ApiListener<List<Videocomment.DataBean>> listener) {
+        String path = "/videocomment/select";
+        final RequestParams params = new RequestParams();
+        params.addBodyParameter("video_id", video_id);
+        params.addBodyParameter("offset", offset + "");
+        params.addBodyParameter("limit", limit + "");
+        Log.e(TAG, gson.toJson(params));
+        httpUtils.send(HttpRequest.HttpMethod.POST, HOST + path, params, new RequestCallBack<String>() {
+            @Override
+            public void onSuccess(ResponseInfo<String> responseInfo) {
+                Log.e(TAG, responseInfo.result);
+                Videocomment result = gson.fromJson(responseInfo.result, Videocomment.class);
+                if (result.getCode() == 1) {
+                    listener.onSuccess(result.getData());
+                } else {
+                    listener.onFailed(result.getMsg());
+                }
+            }
+
+            @Override
+            public void onFailure(HttpException e, String s) {
+                Log.e(TAG, s);
+                listener.onFailed(s);
+            }
+        });
+    }
+    /**
+     * 提交一题多解内容
+     */
+    public void videocomment_add(String video_id, String user_id,String image,  final ApiListener<Videocomment.DataBean> listener) {
+        String path = "/videocomment/add";
+        final RequestParams params = new RequestParams();
+        params.addBodyParameter("video_id", video_id);
+        params.addBodyParameter("user_id", user_id);
+        params.addBodyParameter("image", image);
+//        Log.e(TAG, gson.toJson(params));
+        httpUtils.send(HttpRequest.HttpMethod.POST, HOST + path, params, new RequestCallBack<String>() {
+            @Override
+            public void onSuccess(ResponseInfo<String> responseInfo) {
+                Log.e(TAG, responseInfo.result);
+                AddVideocomment result = gson.fromJson(responseInfo.result, AddVideocomment.class);
                 if (result.getCode() == 1) {
                     listener.onSuccess(result.getData());
                 } else {
