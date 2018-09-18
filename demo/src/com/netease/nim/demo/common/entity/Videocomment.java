@@ -72,6 +72,15 @@ public class Videocomment {
         private int updatetime;
         private String user_name;
         private String user_mobile;
+        private int upcount;
+
+        public int getUpcount() {
+            return upcount;
+        }
+
+        public void setUpcount(int upcount) {
+            this.upcount = upcount;
+        }
 
         public String getUser_mobile() {
             return user_mobile;

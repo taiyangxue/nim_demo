@@ -18,6 +18,14 @@
         android:layout_width="match_parent"
         android:padding="8dp"
         android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_createtime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="left"
+            />
         <TextView
             android:id="@+id/tv_username"
             android:layout_width="0dp"
@@ -25,11 +33,12 @@
             android:layout_weight="1"
             />
         <TextView
-            android:id="@+id/tv_createtime"
-            android:layout_width="0dp"
+            android:id="@+id/tv_upcount"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:gravity="right"
+            android:padding="5dp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/icon_upcount"
             />
     </LinearLayout>
 

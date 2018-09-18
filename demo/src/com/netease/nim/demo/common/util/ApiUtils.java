@@ -496,6 +496,32 @@ public class ApiUtils {
             }
         });
     }
+    /**
+     * 点赞接口
+     */
+    public void videocomment_upcount(String id, final ApiListener<String> listener) {
+        String path = "/videocomment/upcount";
+        final RequestParams params = new RequestParams();
+        params.addBodyParameter("id", id);
+        httpUtils.send(HttpRequest.HttpMethod.POST, HOST + path, params, new RequestCallBack<String>() {
+            @Override
+            public void onSuccess(ResponseInfo<String> responseInfo) {
+                Log.e(TAG, responseInfo.result);
+                CommonBean result = gson.fromJson(responseInfo.result, CommonBean.class);
+                if (result.getCode() == 1) {
+                    listener.onSuccess(result.getMsg());
+                } else {
+                    listener.onFailed(result.getMsg());
+                }
+            }
+
+            @Override
+            public void onFailure(HttpException e, String s) {
+                Log.e(TAG, s);
+                listener.onFailed(s);
+            }
+        });
+    }
     public void errorpic_geterrorpictype(String user_id, String course,  int pid, final ApiListener<List<ErrorPicResult.DataBean>> listener) {
         String path = "/errorpic/geterrorpictype";
         final RequestParams params = new RequestParams();

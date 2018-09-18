@@ -1,21 +1,20 @@
 package com.netease.nim.demo.home.adapter;
 
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
 import com.lidroid.xutils.BitmapUtils;
 import com.loveplusplus.demo.image.ImagePagerActivity;
 import com.netease.nim.demo.R;
-import com.netease.nim.demo.common.entity.ErrorPicRet;
 import com.netease.nim.demo.common.entity.Videocomment;
+import com.netease.nim.demo.common.util.ApiListener;
 import com.netease.nim.demo.common.util.ApiUtils;
 import com.netease.nim.demo.common.util.MyUtils;
 import com.netease.nim.demo.contact.activity.AddFriendActivity;
-import com.netease.nim.demo.main.activity.MyMainActivity;
 import com.netease.nim.uikit.common.ui.imageview.ImageViewEx;
 import com.netease.nim.uikit.common.ui.recyclerview.adapter.BaseQuickAdapter;
 import com.netease.nim.uikit.common.ui.recyclerview.holder.BaseViewHolder;
@@ -38,6 +37,7 @@ public class VideocommentAdapter extends BaseQuickAdapter<Videocomment.DataBean,
         // cover
         ImageViewEx coverImage = holder.getView(R.id.cover_image);
         TextView tv_username = holder.getView(R.id.tv_username);
+        final TextView tv_upcount = holder.getView(R.id.tv_upcount);
         // 加载本地图片(路径以/开头， 绝对路径)
 //        bitmapUtils.display(testImageView, "/sdcard/test.jpg");
         bitmapUtils.display(coverImage,item.getImage());
@@ -46,6 +46,28 @@ public class VideocommentAdapter extends BaseQuickAdapter<Videocomment.DataBean,
 
         holder.addOnClickListener(R.id.cover_image);
         holder.addOnClickListener(R.id.tv_username);
+        holder.addOnClickListener(R.id.tv_upcount);
+        tv_upcount.setText(item.getUpcount()+"");
+        tv_upcount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ApiUtils.getInstance().videocomment_upcount(item.getId() + "", new ApiListener<String>() {
+                    @Override
+                    public void onSuccess(String s) {
+                        MyUtils.showToast(mContext,"点赞成功");
+                        tv_upcount.setText((item.getUpcount()+1)+"");
+                        Drawable nav_up=mContext.getResources().getDrawable(R.drawable.icon_upcount_press);
+                        nav_up.setBounds(0, 0, nav_up.getMinimumWidth(), nav_up.getMinimumHeight());
+                        tv_upcount.setCompoundDrawables(nav_up,null,null,null);
+                    }
+
+                    @Override
+                    public void onFailed(String errorMsg) {
+                        MyUtils.showToast(mContext,errorMsg);
+                    }
+                });
+            }
+        });
         tv_username.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
