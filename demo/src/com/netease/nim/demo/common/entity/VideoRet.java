@@ -81,6 +81,7 @@ public class VideoRet {
         private int updatetime;
         private int category_id;
         private int new_category_id;
+        private boolean iscollect;
         /**
          * pid : 6182
          * image :
@@ -96,6 +97,14 @@ public class VideoRet {
         private String description;
         private int weigh;
         private int create_admin_id;
+
+        public boolean isIscollect() {
+            return iscollect;
+        }
+
+        public void setIscollect(boolean iscollect) {
+            this.iscollect = iscollect;
+        }
 
         public int getId() {
             return id;

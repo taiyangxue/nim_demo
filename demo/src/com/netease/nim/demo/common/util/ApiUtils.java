@@ -399,6 +399,32 @@ public class ApiUtils {
             }
         });
     }
+    public void video_canclecollect(String user_id, String video_id, int course, final ApiListener<String> listener) {
+        String path = "/video/canclecollect";
+        final RequestParams params = new RequestParams();
+        params.addBodyParameter("user_id", user_id);
+        params.addBodyParameter("video_id", video_id);
+        params.addBodyParameter("course_id", course + "");
+        Log.e(TAG, gson.toJson(params));
+        httpUtils.send(HttpRequest.HttpMethod.POST, HOST + path, params, new RequestCallBack<String>() {
+            @Override
+            public void onSuccess(ResponseInfo<String> responseInfo) {
+                Log.e(TAG, responseInfo.result);
+                CommonBean result = gson.fromJson(responseInfo.result, CommonBean.class);
+                if (result.getCode() == 1) {
+                    listener.onSuccess(result.getData());
+                } else {
+                    listener.onFailed(result.getMsg());
+                }
+            }
+
+            @Override
+            public void onFailure(HttpException e, String s) {
+                Log.e(TAG, s);
+                listener.onFailed(s);
+            }
+        });
+    }
 
     public void video_getcollects(String user_id, int course, int offset, int limit, String time, String search, final ApiListener<List<VideoRet.DataBean>> listener) {
         String path = "/video/getcollects";

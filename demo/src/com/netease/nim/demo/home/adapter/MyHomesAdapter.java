@@ -30,6 +30,7 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
     private final static int COUNT_LIMIT = 10000;
     private BitmapUtils utils;
     private int course;
+    private int type_id;
     public MyHomesAdapter(BitmapUtils utils, RecyclerView recyclerView, int course) {
         super(recyclerView, R.layout.video_item2, null);
         this.utils=utils;
@@ -39,7 +40,8 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
     public MyHomesAdapter(BitmapUtils utils, RecyclerView recyclerView) {
         super(recyclerView, R.layout.video_item2, null);
         this.utils=utils;
-
+//        this.course=course;
+//        this.type_id=type_id;
     }
     @Override
     protected void convert(BaseViewHolder holder, final VideoRet.DataBean video, final int position, boolean isScrolling) {
@@ -55,6 +57,8 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
         ImageView iv_shoucang = holder.getView(R.id.iv_shoucang);
         ImageView iv_hudong = holder.getView(R.id.iv_hudong);
         holder.setText(R.id.tv_title,video.getName());
+
+
         if(video.getPid()!=0){
             //文件夹,隐藏视频相关操作
             rl_video.setVisibility(View.GONE);
@@ -63,22 +67,66 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
                 rl_videotype.setVisibility(View.GONE);
             }
         }else {
+//            if(type_id==99){
+//                iv_shoucang.setImageResource();
+//            }
             rl_video.setVisibility(View.VISIBLE);
             rl_videotype.setVisibility(View.GONE);
             coverImage.setVisibility(View.GONE);
             coverImage_video.setVisibility(View.VISIBLE);
+            if(TextUtils.isEmpty(video.getOrigUrl())){
+               iv_play.setVisibility(View.GONE);
+            }
+            if(video.isIscollect()){
+                iv_shoucang.setImageResource(R.drawable.ali_shoucang2);
+            }else {
+                iv_shoucang.setImageResource(R.drawable.ali_shoucang);
+            }
             if(video.getSnapshotUrl_image().startsWith("http")){
                 utils.display(coverImage_video,video.getSnapshotUrl_image());
             }else {
                 utils.display(coverImage_video,ApiUtils.STATIC_HOST+video.getSnapshotUrl_image());
             }
         }
+
         holder.addOnClickListener(R.id.cover_image_video);
         holder.addOnClickListener(R.id.iv_open);
         holder.addOnClickListener(R.id.iv_play);
         holder.addOnClickListener(R.id.iv_shoucang);
         holder.addOnClickListener(R.id.iv_hudong);
+        iv_shoucang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(video.isIscollect()){
+                    ApiUtils.getInstance().video_canclecollect(SharedPreferencesUtils.getInt(mContext, "account_id", 0)+"",
+                            video.getId()+"",course, new ApiListener<String>() {
+                                @Override
+                                public void onSuccess(String s) {
+                                    MyUtils.showToast(mContext,"取消成功");
+                                }
 
+                                @Override
+                                public void onFailed(String errorMsg) {
+                                    MyUtils.showToast(mContext,errorMsg);
+                                }
+                            });
+                }else {
+                    ApiUtils.getInstance().video_collect(SharedPreferencesUtils.getInt(mContext, "account_id", 0)+"",
+                            video.getId()+"",course, new ApiListener<String>() {
+                                @Override
+                                public void onSuccess(String s) {
+                                    MyUtils.showToast(mContext,"收藏成功");
+                                }
+
+                                @Override
+                                public void onFailed(String errorMsg) {
+                                    MyUtils.showToast(mContext,errorMsg);
+                                }
+                            });
+                }
+
+            }
+        });
         coverImage_video.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -125,23 +173,7 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
                 mContext.startActivity(intent);
             }
         });
-        iv_shoucang.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ApiUtils.getInstance().video_collect(SharedPreferencesUtils.getInt(mContext, "account_id", 0)+"",
-                        video.getId()+"",course, new ApiListener<String>() {
-                            @Override
-                            public void onSuccess(String s) {
-                                MyUtils.showToast(mContext,"收藏成功");
-                            }
 
-                            @Override
-                            public void onFailed(String errorMsg) {
-                                MyUtils.showToast(mContext,errorMsg);
-                            }
-                        });
-            }
-        });
         iv_open.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

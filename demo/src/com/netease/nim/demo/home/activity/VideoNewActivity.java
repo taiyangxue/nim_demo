@@ -25,13 +25,11 @@ import com.netease.nim.demo.common.util.ApiUtils;
 import com.netease.nim.demo.common.util.MyUtils;
 import com.netease.nim.demo.common.util.SharedPreferencesUtils;
 import com.netease.nim.demo.home.adapter.MyHomesAdapter;
-import com.netease.nim.demo.home.adapter.VideoDirAdapter;
 import com.netease.nim.uikit.common.activity.UI;
 import com.netease.nim.uikit.common.ui.ptr2.PullToRefreshLayout;
 import com.netease.nim.uikit.common.ui.recyclerview.adapter.BaseQuickAdapter;
 import com.netease.nim.uikit.common.ui.recyclerview.decoration.SpacingDecoration;
 import com.netease.nim.uikit.common.ui.recyclerview.listener.OnItemClickListener;
-import com.netease.nim.uikit.common.util.log.LogUtil;
 import com.netease.nim.uikit.common.util.sys.ScreenUtil;
 import com.netease.nim.uikit.model.ToolBarOptions;
 

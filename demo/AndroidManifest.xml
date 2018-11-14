@@ -533,6 +533,7 @@
 
         <activity android:name=".home.activity.FankuiActivity" />
         <activity android:name=".home.activity.CourseActivity" />
+        <activity android:name=".home.activity.KechengActivity" />
         <activity android:name=".home.activity.NodeDetailActivity" />
         <activity android:name=".home.activity.NodeDetailActivity2" />
         <activity android:name=".home.activity.VideoNewActivity" />

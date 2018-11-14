@@ -6,6 +6,8 @@ import android.telephony.TelephonyManager;
 import android.util.TypedValue;
 import android.widget.Toast;
 
+import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -43,6 +45,43 @@ public class MyUtils {
         mToast.setText(msg);
         mToast.show();
     }
+    /**
+     * 两个时间相差距离多少天多少小时多少分多少秒
+     * @param timeFormat 日期格式 yyyy-MM-dd HH:mm:ss    毫秒(yyyy-MM-dd HH:mm:ss.SSS)
+     * @return String 返回值为：xx天xx小时xx分xx秒xx毫秒
+     */
+    public static String getDifferenceTime(String strTime,  String timeFormat) {
+        DateFormat df = new SimpleDateFormat(timeFormat);
+        Date one;
+        Date two;
+        long day = 0;
+        long hour = 0;
+        long min = 0;
+        long sec = 0;
+        long ms = 0;
+        try {
+            one = df.parse(strTime);
+//            two = df.parse(strTime2);
+            long time1 = one.getTime();
+//            long time2 = two.getTime();
+            long time2 = System.currentTimeMillis();
+            long diff ;
+            if(time1 < time2) {
+                diff = time2 - time1;
+            } else {
+                diff = time1 - time2;
+            }
+            day = diff / (24 * 60 * 60 * 1000);
+            hour = (diff / (60 * 60 * 1000) - day * 24);
+            min = ((diff / (60 * 1000)) - day * 24 * 60 - hour * 60);
+            sec = (diff/1000-day*24*60*60-hour*60*60-min*60);
+            ms = (diff - day * 24 * 60 * 60 * 1000 - hour * 60 * 60 * 1000 - min * 60 * 1000 - sec * 1000);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return day + "," + hour + "," + min + "," + sec ;
+    }
+
     /*
     判断是否是手机号
      */

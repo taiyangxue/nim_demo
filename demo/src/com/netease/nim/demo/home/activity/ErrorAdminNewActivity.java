@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.lidroid.xutils.BitmapUtils;
+import com.loveplusplus.demo.image.ImagePagerActivity;
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.common.entity.ErrorPicResult;
 import com.netease.nim.demo.common.util.ApiListener;
@@ -69,6 +70,7 @@ public class ErrorAdminNewActivity extends UI {
     private int limit;
     private int offset;
     private Button btn_push;
+    private String[] urls;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -125,14 +127,30 @@ public class ErrorAdminNewActivity extends UI {
             @Override
             public void onItemClick(MyNewErrorPicAdapter adapter, View vew, int position) {
                 ErrorPicResult.DataBean item = adapter.getItem(position);
-                if (item.getPid() != 0) {
+                if (!TextUtils.isEmpty(item.getPic_image())) {
+//                    Intent intent = new Intent(ErrorAdminNewActivity.this, ErrorAdminNewActivity.class);
+//                    intent.putExtra("pid", item.getId());
+//                    intent.putExtra("title", item.getName());
+//                    intent.putExtra("course", course);
+////                    if(item.getPic_image()!=null){
+//                        intent.putExtra("type", 2);
+////                    }
+//                    startActivity(intent);
+                    Intent intent = new Intent(ErrorAdminNewActivity.this, ImagePagerActivity.class);
+                    // 图片url,为了演示这里使用常量，一般从数据库中或网络中获取
+                    urls=new String[adapter.getData().size()];
+                    for (int i=0;i<adapter.getData().size();i++) {
+                        urls[i]=adapter.getData().get(i).getPic_image();
+                    }
+                    intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, urls);
+                    intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, position);
+                    startActivity(intent);
+                }else {
                     Intent intent = new Intent(ErrorAdminNewActivity.this, ErrorAdminNewActivity.class);
                     intent.putExtra("pid", item.getId());
                     intent.putExtra("title", item.getName());
                     intent.putExtra("course", course);
-//                    if(item.getPic_image()!=null){
-                        intent.putExtra("type", 2);
-//                    }
+//                    intent.putExtra("type", 1);
                     startActivity(intent);
                 }
             }
@@ -166,6 +184,14 @@ public class ErrorAdminNewActivity extends UI {
                     public void onFailed(String errorMsg) {
                         onFetchDataDone(false, isLoadMore, null);
                         MyUtils.showToast(ErrorAdminNewActivity.this, errorMsg);
+                        recyclerView.setLayoutManager(new GridLayoutManager(ErrorAdminNewActivity.this, 2));
+                        btn_push.setVisibility(View.VISIBLE);
+                        btn_push.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                showSelector(R.string.app_name, PICK_IMAGE, multiSelect, tempFile());
+                            }
+                        });
                     }
                 });
     }
@@ -183,6 +209,16 @@ public class ErrorAdminNewActivity extends UI {
                         adapter.addData(data);
                     } else {
                         adapter.setNewData(data); // 刷新数据源
+                        if(data!=null&&!TextUtils.isEmpty(data.get(0).getPic_image())){
+                            recyclerView.setLayoutManager(new GridLayoutManager(ErrorAdminNewActivity.this, 2));
+                            btn_push.setVisibility(View.VISIBLE);
+                            btn_push.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    showSelector(R.string.app_name, PICK_IMAGE, multiSelect, tempFile());
+                                }
+                            });
+                        }
                     }
                     adapter.closeLoadAnimation();
                 }

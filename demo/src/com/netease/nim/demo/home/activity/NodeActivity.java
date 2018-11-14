@@ -71,9 +71,9 @@ public class NodeActivity extends UI {
             case R.id.add_search:
                 showSearch();
                 break;
-            case R.id.add_time:
-                showDataPicker();
-                break;
+//            case R.id.add_time:
+//                showDataPicker();
+//                break;
             case R.id.add_add:
 //                showDataPicker();
                 intent=new Intent(NodeActivity.this,NodeDetailActivity2.class);

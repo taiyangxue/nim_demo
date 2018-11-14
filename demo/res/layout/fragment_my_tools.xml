@@ -14,13 +14,100 @@
             android:layout_height="300dp"
             />
         <TextView
+            android:id="@+id/tv_title"
             android:layout_width="match_parent"
-            android:layout_centerInParent="true"
-            android:padding="20dp"
-            android:text="测试文字"
-            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
+            android:text="距离2019年6月20日中考还有："
             android:gravity="center"
             android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@+id/ll_time"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/tv_title"
+            android:padding="20dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="155"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="@color/title_color_01d9ae"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="天"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                 />
+            <TextView
+                android:id="@+id/tv_hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="@color/title_color_01d9ae"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="时"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                 />
+            <TextView
+                android:id="@+id/tv_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="@color/title_color_01d9ae"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="分"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                 />
+            <TextView
+                android:id="@+id/tv_sec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="@color/title_color_01d9ae"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="秒"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                 />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/ll_time"
+            android:padding="20dp"
+            android:text="加油！"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
             android:textColor="@color/white"
             android:layout_height="wrap_content" />
     </RelativeLayout>
