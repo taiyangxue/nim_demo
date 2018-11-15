@@ -31,10 +31,8 @@ import com.netease.nim.demo.common.util.MyUtils;
 import com.netease.nim.demo.common.util.SharedPreferencesUtils;
 import com.netease.nim.demo.config.preference.Preferences;
 import com.netease.nim.demo.config.preference.UserPreferences;
-import com.netease.nim.demo.contact.MyContactHttpClient;
 import com.netease.nim.demo.home.activity.FindPwdActivity;
 import com.netease.nim.demo.main.activity.MyMainActivity;
-import com.netease.nim.uikit.NimUIKit;
 import com.netease.nim.uikit.cache.DataCacheManager;
 import com.netease.nim.uikit.common.activity.UI;
 import com.netease.nim.uikit.common.ui.dialog.DialogMaker;
@@ -49,29 +47,12 @@ import com.netease.nim.uikit.permission.annotation.OnMPermissionDenied;
 import com.netease.nim.uikit.permission.annotation.OnMPermissionGranted;
 import com.netease.nimlib.sdk.AbortableFuture;
 import com.netease.nimlib.sdk.NIMClient;
-import com.netease.nimlib.sdk.RequestCallback;
 import com.netease.nimlib.sdk.RequestCallbackWrapper;
 import com.netease.nimlib.sdk.ResponseCode;
 import com.netease.nimlib.sdk.StatusBarNotificationConfig;
 import com.netease.nimlib.sdk.auth.AuthService;
 import com.netease.nimlib.sdk.auth.ClientType;
 import com.netease.nimlib.sdk.auth.LoginInfo;
-
-import org.apache.http.NameValuePair;
-import org.apache.http.message.BasicNameValuePair;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import cn.bmob.sms.BmobSMS;
-import cn.bmob.sms.listener.RequestSMSCodeListener;
-import cn.bmob.sms.listener.VerifySMSCodeListener;
-import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.LogInListener;
-import cn.bmob.v3.listener.SaveListener;
-import cn.bmob.v3.listener.UpdateListener;
 
 
 /**
@@ -320,11 +301,11 @@ public class LoginActivity extends UI implements OnKeyListener {
         // 如果开发者直接使用这个demo，只更改appkey，然后就登入自己的账户体系的话，需要传入同步到云信服务器的token，而不是用户密码。
         final String account = loginAccountEdit.getEditableText().toString().toLowerCase();
         final String token = tokenFromPassword(loginPasswordEdit.getEditableText().toString());
-        // 登录
-        loginRequest = NimUIKit.doLogin(new LoginInfo(account, token), new RequestCallback<LoginInfo>() {
-            @Override
-            public void onSuccess(LoginInfo param) {
-                Log.i(TAG, "login success");
+//        // 登录
+//        loginRequest = NimUIKit.doLogin(new LoginInfo(account, token), new RequestCallback<LoginInfo>() {
+//            @Override
+//            public void onSuccess(LoginInfo param) {
+//                Log.i(TAG, "login success");
                 ApiUtils.getInstance().user_login(account, token, new ApiListener<UserLoginBean.DataBean.UserinfoBean>() {
                     @Override
                     public void onSuccess(UserLoginBean.DataBean.UserinfoBean userinfoBean) {
@@ -333,7 +314,6 @@ public class LoginActivity extends UI implements OnKeyListener {
                         SharedPreferencesUtils.setString(LoginActivity.this, "grade", userinfoBean.getGrade());
                         SharedPreferencesUtils.setInt(LoginActivity.this, "account_id", userinfoBean.getId());
                         saveLoginInfo(account, token);
-
                         // 初始化消息提醒配置
                         initNotificationConfig();
                         // 进入主界面
@@ -389,23 +369,23 @@ public class LoginActivity extends UI implements OnKeyListener {
             }
 
             //
-            @Override
-            public void onFailed(int code) {
-                onLoginDone();
-                if (code == 302 || code == 404) {
-                    Toast.makeText(LoginActivity.this, R.string.login_failed, Toast.LENGTH_SHORT).show();
-                } else {
-                    Toast.makeText(LoginActivity.this, "登录失败: " + code, Toast.LENGTH_SHORT).show();
-                }
-            }
-
-            @Override
-            public void onException(Throwable exception) {
-                Toast.makeText(LoginActivity.this, R.string.login_exception, Toast.LENGTH_LONG).show();
-                onLoginDone();
-            }
-        });
-    }
+//            @Override
+//            public void onFailed(int code) {
+//                onLoginDone();
+//                if (code == 302 || code == 404) {
+//                    Toast.makeText(LoginActivity.this, R.string.login_failed, Toast.LENGTH_SHORT).show();
+//                } else {
+//                    Toast.makeText(LoginActivity.this, "登录失败: " + code, Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//
+//            @Override
+//            public void onException(Throwable exception) {
+//                Toast.makeText(LoginActivity.this, R.string.login_exception, Toast.LENGTH_LONG).show();
+//                onLoginDone();
+//            }
+//        });
+//    }
 
     private void initNotificationConfig() {
         // 初始化消息提醒
