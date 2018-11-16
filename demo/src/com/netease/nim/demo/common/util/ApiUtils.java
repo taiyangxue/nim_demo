@@ -496,12 +496,13 @@ public class ApiUtils {
     /**
      * 提交一题多解内容
      */
-    public void videocomment_add(String video_id, String user_id,String image,  final ApiListener<Videocomment.DataBean> listener) {
+    public void videocomment_add(String video_id, String user_id,String image,String content,  final ApiListener<Videocomment.DataBean> listener) {
         String path = "/videocomment/add";
         final RequestParams params = new RequestParams();
         params.addBodyParameter("video_id", video_id);
         params.addBodyParameter("user_id", user_id);
         params.addBodyParameter("image", image);
+        params.addBodyParameter("content", content);
 //        Log.e(TAG, gson.toJson(params));
         httpUtils.send(HttpRequest.HttpMethod.POST, HOST + path, params, new RequestCallBack<String>() {
             @Override
@@ -525,10 +526,11 @@ public class ApiUtils {
     /**
      * 点赞接口
      */
-    public void videocomment_upcount(String id, final ApiListener<String> listener) {
+    public void videocomment_upcount(String id,String user_id, final ApiListener<String> listener) {
         String path = "/videocomment/upcount";
         final RequestParams params = new RequestParams();
         params.addBodyParameter("id", id);
+        params.addBodyParameter("user_id", user_id);
         httpUtils.send(HttpRequest.HttpMethod.POST, HOST + path, params, new RequestCallBack<String>() {
             @Override
             public void onSuccess(ResponseInfo<String> responseInfo) {

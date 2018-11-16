@@ -64,14 +64,14 @@ public class SessionListFragment extends MainTabFragment {
 
     @Override
     public void onDestroy() {
-        registerObservers(false);
+//        registerObservers(false);
         super.onDestroy();
     }
 
     @Override
     protected void onInit() {
         findViews();
-        registerObservers(true);
+//        registerObservers(true);
 
         addRecentContactsFragment();
     }

@@ -14,6 +14,7 @@ import com.netease.nim.demo.common.entity.Videocomment;
 import com.netease.nim.demo.common.util.ApiListener;
 import com.netease.nim.demo.common.util.ApiUtils;
 import com.netease.nim.demo.common.util.MyUtils;
+import com.netease.nim.demo.common.util.SharedPreferencesUtils;
 import com.netease.nim.demo.contact.activity.AddFriendActivity;
 import com.netease.nim.uikit.common.ui.imageview.ImageViewEx;
 import com.netease.nim.uikit.common.ui.recyclerview.adapter.BaseQuickAdapter;
@@ -42,8 +43,7 @@ public class VideocommentAdapter extends BaseQuickAdapter<Videocomment.DataBean,
 //        bitmapUtils.display(testImageView, "/sdcard/test.jpg");
         bitmapUtils.display(coverImage,item.getImage());
         holder.setText(R.id.tv_username,item.getUser_name());
-        holder.setText(R.id.tv_createtime, "发表时间："+ MyUtils.timeStamp2Date(item.getCreatetime()+"",null));
-
+        holder.setText(R.id.tv_createtime, item.getContent());
         holder.addOnClickListener(R.id.cover_image);
         holder.addOnClickListener(R.id.tv_username);
         holder.addOnClickListener(R.id.tv_upcount);
@@ -51,7 +51,7 @@ public class VideocommentAdapter extends BaseQuickAdapter<Videocomment.DataBean,
         tv_upcount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ApiUtils.getInstance().videocomment_upcount(item.getId() + "", new ApiListener<String>() {
+                ApiUtils.getInstance().videocomment_upcount(item.getId() + "", SharedPreferencesUtils.getInt(mContext, "account_id", 0) + "", new ApiListener<String>() {
                     @Override
                     public void onSuccess(String s) {
                         MyUtils.showToast(mContext,"点赞成功");

@@ -59,7 +59,6 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
         holder.setText(R.id.tv_title,video.getName());
 
         if(!TextUtils.isEmpty(video.getAnswer_text())||!TextUtils.isEmpty(video.getAnswer_image())){
-            showDaan(video.getAnswer_text());
             iv_open.setImageResource(R.drawable.yitiduojie_press);
         }
         if(video.getVid()==0){

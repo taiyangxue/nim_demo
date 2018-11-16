@@ -16,6 +16,7 @@
         android:gravity="center"
         android:paddingLeft="10dip"
         android:paddingRight="10dip"
+        android:visibility="gone"
         android:textColor="@color/color_green_text_view_selector"
         android:textSize="14sp" />
 

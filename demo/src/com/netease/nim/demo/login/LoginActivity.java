@@ -36,7 +36,6 @@ import com.netease.nim.demo.main.activity.MyMainActivity;
 import com.netease.nim.uikit.cache.DataCacheManager;
 import com.netease.nim.uikit.common.activity.UI;
 import com.netease.nim.uikit.common.ui.dialog.DialogMaker;
-import com.netease.nim.uikit.common.ui.dialog.EasyAlertDialogHelper;
 import com.netease.nim.uikit.common.ui.widget.ClearableEditTextWithIcon;
 import com.netease.nim.uikit.common.util.string.MD5;
 import com.netease.nim.uikit.common.util.sys.NetworkUtil;
@@ -51,7 +50,6 @@ import com.netease.nimlib.sdk.RequestCallbackWrapper;
 import com.netease.nimlib.sdk.ResponseCode;
 import com.netease.nimlib.sdk.StatusBarNotificationConfig;
 import com.netease.nimlib.sdk.auth.AuthService;
-import com.netease.nimlib.sdk.auth.ClientType;
 import com.netease.nimlib.sdk.auth.LoginInfo;
 
 
@@ -158,26 +156,26 @@ public class LoginActivity extends UI implements OnKeyListener {
     }
 
     private void onParseIntent() {
-        if (getIntent().getBooleanExtra(KICK_OUT, false)) {
-            int type = NIMClient.getService(AuthService.class).getKickedClientType();
-            String client;
-            switch (type) {
-                case ClientType.Web:
-                    client = "网页端";
-                    break;
-                case ClientType.Windows:
-                    client = "电脑端";
-                    break;
-                case ClientType.REST:
-                    client = "服务端";
-                    break;
-                default:
-                    client = "移动端";
-                    break;
-            }
-            EasyAlertDialogHelper.showOneButtonDiolag(LoginActivity.this, getString(R.string.kickout_notify),
-                    String.format(getString(R.string.kickout_content), client), getString(R.string.ok), true, null);
-        }
+//        if (getIntent().getBooleanExtra(KICK_OUT, false)) {
+//            int type = NIMClient.getService(AuthService.class).getKickedClientType();
+//            String client;
+//            switch (type) {
+//                case ClientType.Web:
+//                    client = "网页端";
+//                    break;
+//                case ClientType.Windows:
+//                    client = "电脑端";
+//                    break;
+//                case ClientType.REST:
+//                    client = "服务端";
+//                    break;
+//                default:
+//                    client = "移动端";
+//                    break;
+//            }
+//            EasyAlertDialogHelper.showOneButtonDiolag(LoginActivity.this, getString(R.string.kickout_notify),
+//                    String.format(getString(R.string.kickout_content), client), getString(R.string.ok), true, null);
+//        }
     }
 
     /**

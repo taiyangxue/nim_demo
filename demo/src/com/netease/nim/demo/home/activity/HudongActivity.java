@@ -1,5 +1,6 @@
 package com.netease.nim.demo.home.activity;
 
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
@@ -9,20 +10,17 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.lidroid.xutils.BitmapUtils;
-import com.lidroid.xutils.view.annotation.ViewInject;
 import com.netease.nim.demo.R;
-import com.netease.nim.demo.common.entity.AddVideocomment;
-import com.netease.nim.demo.common.entity.ErrorPicRet;
 import com.netease.nim.demo.common.entity.Videocomment;
 import com.netease.nim.demo.common.util.ApiListener;
 import com.netease.nim.demo.common.util.ApiUtils;
 import com.netease.nim.demo.common.util.MyUtils;
 import com.netease.nim.demo.common.util.PictureUtil;
 import com.netease.nim.demo.common.util.SharedPreferencesUtils;
-import com.netease.nim.demo.home.adapter.CollectionAdapter;
 import com.netease.nim.demo.home.adapter.VideocommentAdapter;
 import com.netease.nim.uikit.common.activity.UI;
 import com.netease.nim.uikit.common.media.picker.PickImageHelper;
@@ -33,9 +31,7 @@ import com.netease.nim.uikit.common.media.picker.model.PickerContract;
 import com.netease.nim.uikit.common.ui.ptr2.PullToRefreshLayout;
 import com.netease.nim.uikit.common.ui.recyclerview.adapter.BaseQuickAdapter;
 import com.netease.nim.uikit.common.ui.recyclerview.decoration.SpacingDecoration;
-import com.netease.nim.uikit.common.ui.recyclerview.listener.OnItemClickListener;
 import com.netease.nim.uikit.common.util.file.AttachmentStore;
-import com.netease.nim.uikit.common.util.log.LogUtil;
 import com.netease.nim.uikit.common.util.media.ImageUtil;
 import com.netease.nim.uikit.common.util.storage.StorageType;
 import com.netease.nim.uikit.common.util.storage.StorageUtil;
@@ -322,20 +318,7 @@ public class HudongActivity extends UI {
                 @Override
                 public void done(BmobException e) {
                     if (e == null) {
-                        ApiUtils.getInstance().videocomment_add(video_id+"", SharedPreferencesUtils.getInt(HudongActivity.this, "account_id", 0)+""
-                                , bmobFile.getFileUrl(), new ApiListener<Videocomment.DataBean>() {
-                                    @Override
-                                    public void onSuccess(Videocomment.DataBean s) {
-                                        refresh(s);
-                                        MyUtils.showToast(HudongActivity.this, "上传成功");
-                                    }
-
-                                    @Override
-                                    public void onFailed(String errorMsg) {
-                                        MyUtils.showToast(HudongActivity.this, errorMsg);
-
-                                    }
-                                });
+                        showAddContent(bmobFile.getFileUrl());
                     } else {
 //                        toast("上传文件失败：" + e.getMessage());
                         MyUtils.showToast(HudongActivity.this, e.getErrorCode() + e.getMessage());
@@ -355,5 +338,50 @@ public class HudongActivity extends UI {
     private void refresh(Videocomment.DataBean item) {
         Log.e("TAG", "refresh" + adapter);
         adapter.add(0, item);
+    }
+
+    /**
+     * 创建目录对话框
+     * @param fileUrl
+     */
+    public void showAddContent(final String fileUrl) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        View dView = View.inflate(this, R.layout.dialog_content, null);
+        final AlertDialog dialog = builder.create();
+        final EditText et_content = (EditText) dView.findViewById(R.id.et_content);
+        dialog.setView(dView, 0, 0, 0, 0);
+        dialog.show();
+        //确认按钮监听
+        dView.findViewById(R.id.bt_ok).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final String content = et_content.getText().toString().trim();
+                if (!TextUtils.isEmpty(content)) {
+
+                    ApiUtils.getInstance().videocomment_add(video_id + "", SharedPreferencesUtils.getInt(HudongActivity.this, "account_id", 0) + ""
+                            ,fileUrl,content, new ApiListener<Videocomment.DataBean>() {
+                                @Override
+                                public void onSuccess(Videocomment.DataBean s) {
+                                    dialog.dismiss();
+                                    refresh(s);
+                                    MyUtils.showToast(HudongActivity.this, "上传成功");
+                                }
+
+                                @Override
+                                public void onFailed(String errorMsg) {
+                                    MyUtils.showToast(HudongActivity.this, errorMsg);
+                                }
+                            });
+                } else {
+                    MyUtils.showToast(HudongActivity.this, "内容不能为空");
+                }
+            }
+        });
+        dView.findViewById(R.id.bt_cancle).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
     }
 }
