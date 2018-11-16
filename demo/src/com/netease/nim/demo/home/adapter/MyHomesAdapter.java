@@ -54,10 +54,20 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
         RelativeLayout rl_videotype = holder.getView(R.id.rl_videotype);
         ImageView iv_play = holder.getView(R.id.iv_play);
         ImageView iv_open = holder.getView(R.id.iv_open);
-        ImageView iv_shoucang = holder.getView(R.id.iv_shoucang);
+        final ImageView iv_shoucang = holder.getView(R.id.iv_shoucang);
         ImageView iv_hudong = holder.getView(R.id.iv_hudong);
         holder.setText(R.id.tv_title,video.getName());
 
+        if(!TextUtils.isEmpty(video.getAnswer_text())||!TextUtils.isEmpty(video.getAnswer_image())){
+            showDaan(video.getAnswer_text());
+            iv_open.setImageResource(R.drawable.yitiduojie_press);
+        }
+        if(video.getVid()==0){
+            iv_play.setVisibility(View.GONE);
+        }
+        if(video.isIscomment()){
+            iv_hudong.setImageResource(R.drawable.daan_press);
+        }
 
         if(video.getPid()!=0){
             //文件夹,隐藏视频相关操作
@@ -103,6 +113,7 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
                                 @Override
                                 public void onSuccess(String s) {
                                     MyUtils.showToast(mContext,"取消成功");
+                                    iv_shoucang.setImageResource(R.drawable.ali_shoucang);
                                 }
 
                                 @Override
@@ -116,6 +127,7 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
                                 @Override
                                 public void onSuccess(String s) {
                                     MyUtils.showToast(mContext,"收藏成功");
+                                    iv_shoucang.setImageResource(R.drawable.ali_shoucang2);
                                 }
 
                                 @Override

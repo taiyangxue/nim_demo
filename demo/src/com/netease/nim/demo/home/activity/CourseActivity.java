@@ -20,7 +20,7 @@ public class CourseActivity extends UI {
     // 图片封装为一个数组
     private int[] icon = {R.drawable.tuike, R.drawable.weike, R.drawable.biji, R.drawable.zhuanxiang,
             R.drawable.zhenti, R.drawable.shoucang};
-    private String[] iconName = {"推课", "微课堂", "笔记", "专项练习",
+    private String[] iconName = {"推课", "微课堂", "思维导图", "专项练习",
             "真题试卷", "收藏"};
     private String[] courses = {"英语", "语文", "历史", "数学", "物理", "化学", "地理", "政治", "生物"};
     private String select_course;

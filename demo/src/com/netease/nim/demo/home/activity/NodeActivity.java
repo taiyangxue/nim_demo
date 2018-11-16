@@ -32,7 +32,7 @@ import java.util.Calendar;
 public class NodeActivity extends UI {
     private ArrayList<Fragment> mFragments;
 
-    private String[] mTitles_3 = {"自建笔记", "云笔记"};
+    private String[] mTitles_3 = {"自建思维导图", "云思维导图"};
     private SegmentTabLayout mTabLayout_3;
     private ViewPager vp_3;
     private int mYear;
@@ -49,7 +49,7 @@ public class NodeActivity extends UI {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_node);
         ToolBarOptions options = new ToolBarOptions();
-        options.titleString = "笔记";
+        options.titleString = "思维导图";
         setToolBar(R.id.toolbar, options);
         mFragments = new ArrayList<>();
         mFragments.add(new MyNodeFragment(this,getIntent().getIntExtra("course",0),1));
@@ -77,7 +77,7 @@ public class NodeActivity extends UI {
             case R.id.add_add:
 //                showDataPicker();
                 intent=new Intent(NodeActivity.this,NodeDetailActivity2.class);
-                intent.putExtra("title","添加笔记");
+                intent.putExtra("title","添加思维导图");
                 intent.putExtra("course",getIntent().getIntExtra("course", 0));
                 startActivity(intent);
                 break;

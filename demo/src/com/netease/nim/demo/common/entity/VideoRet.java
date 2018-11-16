@@ -66,6 +66,7 @@ public class VideoRet {
          * updatetime : 1524111597
          * category_id : 6105
          * new_category_id : 6104
+         *
          */
 
         private int id;
@@ -82,6 +83,7 @@ public class VideoRet {
         private int category_id;
         private int new_category_id;
         private boolean iscollect;
+        private boolean iscomment;
         /**
          * pid : 6182
          * image :
@@ -97,6 +99,14 @@ public class VideoRet {
         private String description;
         private int weigh;
         private int create_admin_id;
+
+        public boolean isIscomment() {
+            return iscomment;
+        }
+
+        public void setIscomment(boolean iscomment) {
+            this.iscomment = iscomment;
+        }
 
         public boolean isIscollect() {
             return iscollect;
