@@ -38,7 +38,7 @@ public class CollectionAdapter extends BaseQuickAdapter<Collection, BaseViewHold
 //        ChatRoomHelper.setCoverImage(room.getRoomId(), coverImage);
         // name
         coverImage.load(collection.getSnapshotUrl());
-        holder.setText(R.id.tv_creat_time,"收藏时间："+collection.getCreatedAt());
+//        holder.setText(R.id.tv_creat_time,"收藏时间："+collection.getCreatedAt());
         holder.setText(R.id.tv_name,collection.getVideoName());
         holder.addOnClickListener(R.id.iv_open);
         holder.addOnClickListener(R.id.cover_image);

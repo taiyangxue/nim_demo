@@ -18,6 +18,7 @@ import com.netease.nim.demo.common.entity.ErrorPicRet;
 import com.netease.nim.demo.common.entity.NodeRet;
 import com.netease.nim.demo.common.entity.SectionRet;
 import com.netease.nim.demo.common.entity.UserLoginBean;
+import com.netease.nim.demo.common.entity.VersionUpdateBean;
 import com.netease.nim.demo.common.entity.VideoRet;
 import com.netease.nim.demo.common.entity.Videocomment;
 
@@ -45,7 +46,32 @@ public class ApiUtils {
         httpUtils.configCurrentHttpCacheExpiry(1000);
         return instance;
     }
+    /**
+     * 获取版本信息
+     *
+     * @param listener
+     */
+    public void index_versionupdate(final ApiListener<VersionUpdateBean.DataBean> listener) {
+        String path = "/index/versionupdate";
+        httpUtils.send(HttpRequest.HttpMethod.GET, HOST + path, new RequestCallBack<String>() {
+            @Override
+            public void onSuccess(ResponseInfo<String> responseInfo) {
+                Log.e(TAG, responseInfo.result);
+                VersionUpdateBean result = gson.fromJson(responseInfo.result, VersionUpdateBean.class);
+                if (result.getCode() == 1) {
+                    listener.onSuccess(result.getData());
+                } else {
+                    listener.onFailed(result.getMsg());
+                }
+            }
 
+            @Override
+            public void onFailure(HttpException e, String s) {
+                Log.e(TAG, s);
+                listener.onFailed(s);
+            }
+        });
+    }
     public void sms_send(String mobile, String event, final ApiListener<String> listener) {
         String path = "/sms/send";
         RequestParams params = new RequestParams();

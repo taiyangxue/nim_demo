@@ -6,6 +6,8 @@ import android.telephony.TelephonyManager;
 import android.util.TypedValue;
 import android.widget.Toast;
 
+import com.netease.nim.demo.common.entity.Common;
+
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -35,7 +37,17 @@ public class MyUtils {
         }
         return mImei;
     }
-
+    public static String formatUrl(String url){
+        String path;
+        if (url.startsWith("http")) {
+            path = url;
+        } else if (url.startsWith("/alioss")) {
+            path = Common.OOS_HOST_MY1 + url;
+        } else {
+            path = Common.API_HOST + url;
+        }
+        return path;
+    }
     public static Toast mToast;
 
     public static void showToast(Context mContext, String msg) {

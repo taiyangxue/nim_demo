@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -26,6 +27,7 @@ import com.netease.nim.demo.avchat.AVChatProfile;
 import com.netease.nim.demo.avchat.activity.AVChatActivity;
 import com.netease.nim.demo.chatroom.fragment.ChatRoomsFragment;
 import com.netease.nim.demo.chatroom.helper.ChatRoomHelper;
+import com.netease.nim.demo.common.entity.VersionUpdateBean;
 import com.netease.nim.demo.common.util.ApiListener;
 import com.netease.nim.demo.common.util.ApiUtils;
 import com.netease.nim.demo.common.util.MyUtils;
@@ -64,7 +66,7 @@ import com.netease.nimlib.sdk.msg.model.IMMessage;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.bmob.v3.BmobUser;
+import util.UpdateAppUtils;
 
 public class MyMainActivity extends UI implements View.OnClickListener {
     private static final String EXTRA_APP_QUIT = "APP_QUIT";
@@ -93,7 +95,7 @@ public class MyMainActivity extends UI implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_main);
-        userInfo = BmobUser.getCurrentUser(MyUser.class);
+//        userInfo = BmobUser.getCurrentUser(MyUser.class);
         requestBasicPermission();
 
         onParseIntent();
@@ -117,7 +119,28 @@ public class MyMainActivity extends UI implements View.OnClickListener {
         }
 
         onInit();
+        ApiUtils.getInstance().index_versionupdate(new ApiListener<VersionUpdateBean.DataBean>() {
+            @Override
+            public void onSuccess(VersionUpdateBean.DataBean dataBean) {
+                String path= MyUtils.formatUrl(dataBean.getUpload_file());
+                Log.e(TAG,path);
+                UpdateAppUtils.from(MyMainActivity.this)
+                        .checkBy(UpdateAppUtils.CHECK_BY_VERSION_NAME) //更新检测方式，默认为VersionCode
+                        .serverVersionCode(dataBean.getVersion_code())
+                        .serverVersionName(dataBean.getVersion())
+                        .apkPath(path)
+                        .showNotification(true) //是否显示下载进度到通知栏，默认为true
+                        .updateInfo(dataBean.getDescription())  //更新日志信息 String
+                        .downloadBy(UpdateAppUtils.DOWNLOAD_BY_APP) //下载方式：app下载、手机浏览器下载。默认app下载
+                        .isForce(false) //是否强制更新，默认false 强制更新情况下用户不同意更新则不能使用app
+                        .update();
+            }
 
+            @Override
+            public void onFailed(String errorMsg) {
+                Log.e(TAG, errorMsg);
+            }
+        });
     }
 
     public static void start(Context context) {
@@ -585,7 +608,7 @@ public class MyMainActivity extends UI implements View.OnClickListener {
      * 显示操作对话框
      */
     private void showSelectDialog() {
-        userInfo = BmobUser.getCurrentUser(MyUser.class);
+//        userInfo = BmobUser.getCurrentUser(MyUser.class);
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("选择年级");
         //    指定下拉列表的显示数据

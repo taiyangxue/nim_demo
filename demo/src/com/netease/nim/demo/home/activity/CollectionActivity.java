@@ -24,11 +24,6 @@ import com.netease.nim.uikit.model.ToolBarOptions;
 
 import java.util.List;
 
-import cn.bmob.v3.BmobQuery;
-import cn.bmob.v3.BmobUser;
-import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.FindListener;
-import cn.bmob.v3.listener.UpdateListener;
 
 public class CollectionActivity extends UI {
     private static final String TAG = "CollectionActivity";
@@ -91,26 +86,26 @@ public class CollectionActivity extends UI {
         startActivity(intent);
     }
     private void fetchData() {
-        MyUser userInfo = BmobUser.getCurrentUser(MyUser.class);
-        if (userInfo != null) {
-            //获取目录数据
-            BmobQuery<Collection> query = new BmobQuery<>();
-            query.addWhereEqualTo("user",userInfo.getUsername());
-            query.order("-updatedAt");
-            query.findObjects(new FindListener<Collection>() {
-                @Override
-                public void done(List<Collection> list, BmobException e) {
-                    if (e == null) {
-                        onFetchDataDone(true, list);
-                    }else {
-                        onFetchDataDone(false, null);
-                    }
-                }
-            });
-        } else {
-            //缓存用户对象为空时， 可打开用户注册界面…
-            MyUtils.showToast(this, "当前用户尚未登录");
-        }
+//        MyUser userInfo = BmobUser.getCurrentUser(MyUser.class);
+//        if (userInfo != null) {
+//            //获取目录数据
+//            BmobQuery<Collection> query = new BmobQuery<>();
+//            query.addWhereEqualTo("user",userInfo.getUsername());
+//            query.order("-updatedAt");
+//            query.findObjects(new FindListener<Collection>() {
+//                @Override
+//                public void done(List<Collection> list, BmobException e) {
+//                    if (e == null) {
+//                        onFetchDataDone(true, list);
+//                    }else {
+//                        onFetchDataDone(false, null);
+//                    }
+//                }
+//            });
+//        } else {
+//            //缓存用户对象为空时， 可打开用户注册界面…
+//            MyUtils.showToast(this, "当前用户尚未登录");
+//        }
 
     }
     private void onFetchDataDone(final boolean success, final List<Collection> data) {
@@ -143,17 +138,17 @@ public class CollectionActivity extends UI {
                 switch (which) {
                     case 0:
                         //添加到收藏列表
-                        collection.delete(new UpdateListener() {
-                            @Override
-                            public void done(BmobException e) {
-                                if(e==null){
-                                    MyUtils.showToast(CollectionActivity.this,"取消成功");
-                                    adapter.remove(position);
-                                }else {
-                                    MyUtils.showToast(CollectionActivity.this,"取消失败，请重试");
-                                }
-                            }
-                        });
+//                        collection.delete(new UpdateListener() {
+//                            @Override
+//                            public void done(BmobException e) {
+//                                if(e==null){
+//                                    MyUtils.showToast(CollectionActivity.this,"取消成功");
+//                                    adapter.remove(position);
+//                                }else {
+//                                    MyUtils.showToast(CollectionActivity.this,"取消失败，请重试");
+//                                }
+//                            }
+//                        });
                         break;
                 }
             }

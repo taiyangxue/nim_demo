@@ -24,6 +24,7 @@ import android.widget.Toast;
 import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.common.entity.UserLoginBean;
+import com.netease.nim.demo.common.entity.VersionUpdateBean;
 import com.netease.nim.demo.common.util.ApiListener;
 import com.netease.nim.demo.common.util.ApiUtils;
 import com.netease.nim.demo.common.util.CountDownTimerUtils;
@@ -51,6 +52,8 @@ import com.netease.nimlib.sdk.ResponseCode;
 import com.netease.nimlib.sdk.StatusBarNotificationConfig;
 import com.netease.nimlib.sdk.auth.AuthService;
 import com.netease.nimlib.sdk.auth.LoginInfo;
+
+import util.UpdateAppUtils;
 
 
 /**
@@ -312,6 +315,7 @@ public class LoginActivity extends UI implements OnKeyListener {
                         SharedPreferencesUtils.setString(LoginActivity.this, "grade", userinfoBean.getGrade());
                         SharedPreferencesUtils.setInt(LoginActivity.this, "account_id", userinfoBean.getId());
                         saveLoginInfo(account, token);
+                        SharedPreferencesUtils.setBoolean(LoginActivity.this,"isLogin",true);
                         // 初始化消息提醒配置
                         initNotificationConfig();
                         // 进入主界面

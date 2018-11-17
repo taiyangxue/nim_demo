@@ -1,12 +1,11 @@
 package com.netease.nim.demo.common.entity.bmob;
 
-import cn.bmob.v3.BmobObject;
 
 /**
  * Created by sunjj on 2017/10/20.
  */
 
-public class Fankui extends BmobObject {
+public class Fankui  {
     private String videoName;
     private String msg;
     private Video video;

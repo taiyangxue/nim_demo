@@ -29,7 +29,7 @@ public class MyHomesAdapter2 extends BaseQuickAdapter<VideoDir, BaseViewHolder> 
         ImageView iv_play = holder.getView(R.id.iv_play);
         ImageView iv_open = holder.getView(R.id.iv_open);
         holder.setText(R.id.tv_name,videoDir.getName());
-        holder.setText(R.id.tv_creat_time,videoDir.getCreatedAt());
+//        holder.setText(R.id.tv_creat_time,videoDir.getCreatedAt());
     }
 }
 

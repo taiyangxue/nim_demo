@@ -237,69 +237,69 @@ public class VideoNewActivity extends UI {
         });
     }
 
-    /**
-     * 显示操作对话框
-     *
-     * @param videoDir
-     */
-    private void showSelectDialog(final Object videoDir) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("选择操作");
-        builder.setItems(new String[]{"收藏", "移动到", "反馈"}, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                switch (which) {
-                    case 0:
-                        //添加到收藏列表
-                        break;
-                    case 1:
-                        Intent intent = new Intent(VideoNewActivity.this, VideoNewActivity.class);
-                        intent.putExtra("isSelect", true);
-                        intent.putExtra("isFirst", true);
-                        if (videoDir instanceof VideoDir) {
-                            intent.putExtra("id", ((VideoDir) videoDir).getObjectId());
-                        }
-                        startActivityForResult(intent, SELECT_VIDEO_DIR2);
-                        break;
-                    case 2:
-                        Intent intent1 = new Intent(VideoNewActivity.this, FankuiActivity.class);
-                        intent1.putExtra("video", (Video) videoDir);
-                        startActivity(intent1);
-                        break;
-                }
-            }
-        });
-        builder.show();
-    }
-
-    /**
-     * 显示收藏对话框
-     *
-     * @param videoDir
-     */
-    private void showCollectionDialog(final Object videoDir) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("选择操作");
-        //    指定下拉列表的显示数据
-        //    设置一个下拉的列表选择项
-        builder.setItems(new String[]{"收藏", "反馈"}, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                switch (which) {
-                    case 0:
-                        //添加到收藏列表
-                        break;
-                    case 1:
-//                        addFankui((Video) videoDir);
-                        Intent intent = new Intent(VideoNewActivity.this, FankuiActivity.class);
-                        intent.putExtra("video", (Video) videoDir);
-                        startActivity(intent);
-                        break;
-                }
-            }
-        });
-        builder.show();
-    }
+//    /**
+//     * 显示操作对话框
+//     *
+//     * @param videoDir
+//     */
+//    private void showSelectDialog(final Object videoDir) {
+//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+//        builder.setTitle("选择操作");
+//        builder.setItems(new String[]{"收藏", "移动到", "反馈"}, new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                switch (which) {
+//                    case 0:
+//                        //添加到收藏列表
+//                        break;
+//                    case 1:
+//                        Intent intent = new Intent(VideoNewActivity.this, VideoNewActivity.class);
+//                        intent.putExtra("isSelect", true);
+//                        intent.putExtra("isFirst", true);
+//                        if (videoDir instanceof VideoDir) {
+////                            intent.putExtra("id", ((VideoDir) videoDir).getObjectId());
+//                        }
+//                        startActivityForResult(intent, SELECT_VIDEO_DIR2);
+//                        break;
+//                    case 2:
+//                        Intent intent1 = new Intent(VideoNewActivity.this, FankuiActivity.class);
+//                        intent1.putExtra("video", (Video) videoDir);
+//                        startActivity(intent1);
+//                        break;
+//                }
+//            }
+//        });
+//        builder.show();
+//    }
+//
+//    /**
+//     * 显示收藏对话框
+//     *
+//     * @param videoDir
+//     */
+//    private void showCollectionDialog(final Object videoDir) {
+//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+//        builder.setTitle("选择操作");
+//        //    指定下拉列表的显示数据
+//        //    设置一个下拉的列表选择项
+//        builder.setItems(new String[]{"收藏", "反馈"}, new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                switch (which) {
+//                    case 0:
+//                        //添加到收藏列表
+//                        break;
+//                    case 1:
+////                        addFankui((Video) videoDir);
+//                        Intent intent = new Intent(VideoNewActivity.this, FankuiActivity.class);
+//                        intent.putExtra("video", (Video) videoDir);
+//                        startActivity(intent);
+//                        break;
+//                }
+//            }
+//        });
+//        builder.show();
+//    }
     /**
      * 搜索对话框
      */

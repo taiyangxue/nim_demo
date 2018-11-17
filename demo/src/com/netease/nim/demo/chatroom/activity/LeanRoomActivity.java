@@ -59,9 +59,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import cn.bmob.v3.BmobQuery;
-import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.FindListener;
 
 
 public class LeanRoomActivity extends UI {
@@ -149,7 +146,7 @@ public class LeanRoomActivity extends UI {
                 if (teacher.isOnline()) {
                     if (teacher.isFree()) {
                         //与老师视频连线或进入该老师的直播间
-                        sendMessage(teacher.getUsername(), DemoCache.getAccount(), NimUserInfoCache.getInstance().getUserName(DemoCache.getAccount()));
+//                        sendMessage(teacher.getUsername(), DemoCache.getAccount(), NimUserInfoCache.getInstance().getUserName(DemoCache.getAccount()));
 //                        "{name:msg}"
                         current_teacher=teacher;
                     } else {
@@ -162,27 +159,27 @@ public class LeanRoomActivity extends UI {
         });
     }
 
-    /**
-     * 进入教师的自习直播间
-     *
-     * @param teacher
-     */
-    private void enterTeacherRoom(MyUser teacher) {
-        BmobQuery<ClassRoom> query = new BmobQuery<>();
-        query.addWhereEqualTo("account", teacher.getUsername());
-        query.findObjects(new FindListener<ClassRoom>() {
-            @Override
-            public void done(List<ClassRoom> list, BmobException e) {
-                if (e == null && list != null && list.size() > 0) {
-                    ClassRoom room = list.get(0);
-                    MyP2PMessageActivity.start(LeanRoomActivity.this,room.getAccount(),null,null,room.getRtmpPullUrl());
-//                    ChatRoomActivity.start(LeanRoomActivity.this, room.getRoomId(), true, room.getRtmpPullUrl());
-                } else {
-                    MyUtils.showToast(LeanRoomActivity.this, e.getErrorCode() + e.getMessage());
-                }
-            }
-        });
-    }
+//    /**
+//     * 进入教师的自习直播间
+//     *
+//     * @param teacher
+//     */
+//    private void enterTeacherRoom(MyUser teacher) {
+//        BmobQuery<ClassRoom> query = new BmobQuery<>();
+//        query.addWhereEqualTo("account", teacher.getUsername());
+//        query.findObjects(new FindListener<ClassRoom>() {
+//            @Override
+//            public void done(List<ClassRoom> list, BmobException e) {
+//                if (e == null && list != null && list.size() > 0) {
+//                    ClassRoom room = list.get(0);
+//                    MyP2PMessageActivity.start(LeanRoomActivity.this,room.getAccount(),null,null,room.getRtmpPullUrl());
+////                    ChatRoomActivity.start(LeanRoomActivity.this, room.getRoomId(), true, room.getRtmpPullUrl());
+//                } else {
+//                    MyUtils.showToast(LeanRoomActivity.this, e.getErrorCode() + e.getMessage());
+//                }
+//            }
+//        });
+//    }
 
     @Override
     protected void onDestroy() {
@@ -262,7 +259,7 @@ public class LeanRoomActivity extends UI {
                 }
             }
         });
-        initBmob();
+//        initBmob();
     }
 
     private void getData(final boolean fetching, final SimpleCallback<List<ChatRoomMember>> callback) {
@@ -338,7 +335,7 @@ public class LeanRoomActivity extends UI {
 //                if(current_teacher!=null){
 //
 //                }
-                initBmob();
+//                initBmob();
                 hasEnterSuccess = true;
             }
 
@@ -366,23 +363,23 @@ public class LeanRoomActivity extends UI {
         });
     }
 //    private List<MyUser> teachers;
-    private void initBmob() {
-        //获取教师列表数据
-        BmobQuery<MyUser> query = new BmobQuery<>();
-        query.addWhereEqualTo("userType", 1);
-        query.findObjects(new FindListener<MyUser>() {
-            @Override
-            public void done(List<MyUser> list, BmobException e) {
-                if (e == null && list != null && list.size() > 0) {
-                    //设置适配器
-                    Log.e(TAG, list.size() + "");
-                    mAdapter.setNewData(list);
-                } else {
-                    Log.e(TAG, e.getErrorCode() + e.getMessage());
-                }
-            }
-        });
-    }
+//    private void initBmob() {
+//        //获取教师列表数据
+//        BmobQuery<MyUser> query = new BmobQuery<>();
+//        query.addWhereEqualTo("userType", 1);
+//        query.findObjects(new FindListener<MyUser>() {
+//            @Override
+//            public void done(List<MyUser> list, BmobException e) {
+//                if (e == null && list != null && list.size() > 0) {
+//                    //设置适配器
+//                    Log.e(TAG, list.size() + "");
+//                    mAdapter.setNewData(list);
+//                } else {
+//                    Log.e(TAG, e.getErrorCode() + e.getMessage());
+//                }
+//            }
+//        });
+//    }
 
     private void onLoginDone() {
         enterRequest = null;
@@ -461,7 +458,7 @@ public class LeanRoomActivity extends UI {
                             case "002":
                                 //同意
                                 if(current_teacher!=null){
-                                    enterTeacherRoom(current_teacher);
+//                                    enterTeacherRoom(current_teacher);
                                 }
                                 break;
 
@@ -469,7 +466,7 @@ public class LeanRoomActivity extends UI {
                     }else {
                         Log.e(TAG, "initBmob()"+message.getContent());
                     }
-                    initBmob();
+//                    initBmob();
                 }
             }
 

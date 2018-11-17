@@ -32,12 +32,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.bmob.v3.BmobQuery;
-import cn.bmob.v3.datatype.BmobFile;
-import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.DownloadFileListener;
-import cn.bmob.v3.listener.FindListener;
-import cn.bmob.v3.listener.SaveListener;
 
 /**
  * 欢迎/导航页（app启动Activity）
@@ -82,29 +76,29 @@ public class WelcomeActivity extends UI {
         } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();
         }
-        BmobQuery<Update> query = new BmobQuery<>();
-        query.addWhereEqualTo("packageName", pkName);
-        query.findObjects(new FindListener<Update>() {
-            @Override
-            public void done(List<Update> list, BmobException e) {
-                if (e == null) {
-                    if (list != null && list.size() > 0) {
-                        Update update = list.get(0);
-                        if (update.isUpdate()) {
-                            showUpdateDialog(update);
-                        } else {
-                            //进入主页
-                            enterHome();
-                        }
-                    } else {
-                        creatVersionUpdate(pkName, versionName);
-                    }
-                } else {
-                    enterHome();
-
-                }
-            }
-        });
+//        BmobQuery<Update> query = new BmobQuery<>();
+//        query.addWhereEqualTo("packageName", pkName);
+//        query.findObjects(new FindListener<Update>() {
+//            @Override
+//            public void done(List<Update> list, BmobException e) {
+//                if (e == null) {
+//                    if (list != null && list.size() > 0) {
+//                        Update update = list.get(0);
+//                        if (update.isUpdate()) {
+//                            showUpdateDialog(update);
+//                        } else {
+//                            //进入主页
+//                            enterHome();
+//                        }
+//                    } else {
+//                        creatVersionUpdate(pkName, versionName);
+//                    }
+//                } else {
+//                    enterHome();
+//
+//                }
+//            }
+//        });
     }
 
     @Override
@@ -252,35 +246,35 @@ public class WelcomeActivity extends UI {
                 if (Environment.getExternalStorageState().equals(
                         Environment.MEDIA_MOUNTED)) {
                     //下载文件
-                    BmobFile file = update.getFile();
-                    final File saveFile = new File(Environment.getExternalStorageDirectory(), file.getFilename());
-                    file.download(saveFile, new DownloadFileListener() {
-
-                        @Override
-                        public void onStart() {
-//                            toast("开始下载...");
-                            progressBar.setVisibility(View.VISIBLE);
-                        }
-
-                        @Override
-                        public void done(String savePath, BmobException e) {
-                            if (e == null) {
-                                Log.e(TAG, "下载成功,保存路径:" + savePath);
-//                                下载成功,保存路径:/data/data/com.sst.admin/cache/bmob/app-debug.apk
-                                install(saveFile);
-                                finish();
-                            } else {
-                                Log.e(TAG, "下载失败：" + e.getErrorCode() + "," + e.getMessage());
-                            }
-                        }
-
-                        @Override
-                        public void onProgress(Integer value, long newworkSpeed) {
-//                            Log.i("bmob","下载进度："+value+","+newworkSpeed);
-                            progressBar.setMax(100);
-                            progressBar.setProgress(value);
-                        }
-                    });
+//                    BmobFile file = update.getFile();
+//                    final File saveFile = new File(Environment.getExternalStorageDirectory(), file.getFilename());
+//                    file.download(saveFile, new DownloadFileListener() {
+//
+//                        @Override
+//                        public void onStart() {
+////                            toast("开始下载...");
+//                            progressBar.setVisibility(View.VISIBLE);
+//                        }
+//
+//                        @Override
+//                        public void done(String savePath, BmobException e) {
+//                            if (e == null) {
+//                                Log.e(TAG, "下载成功,保存路径:" + savePath);
+////                                下载成功,保存路径:/data/data/com.sst.admin/cache/bmob/app-debug.apk
+//                                install(saveFile);
+//                                finish();
+//                            } else {
+//                                Log.e(TAG, "下载失败：" + e.getErrorCode() + "," + e.getMessage());
+//                            }
+//                        }
+//
+//                        @Override
+//                        public void onProgress(Integer value, long newworkSpeed) {
+////                            Log.i("bmob","下载进度："+value+","+newworkSpeed);
+//                            progressBar.setMax(100);
+//                            progressBar.setProgress(value);
+//                        }
+//                    });
                 } else {
                     Toast.makeText(WelcomeActivity.this, "未检测到sd卡", Toast.LENGTH_SHORT);
                 }
@@ -312,20 +306,20 @@ public class WelcomeActivity extends UI {
         startActivity(intent);
     }
 
-    private void creatVersionUpdate(String pkName, String versionName) {
-        Update update = new Update();
-        update.setPackageName(pkName);
-        update.setVersion(versionName);
-        update.setUpdate(false);
-        update.save(new SaveListener<String>() {
-            @Override
-            public void done(String s, BmobException e) {
-                if (e == null) {
-                    enterHome();
-                } else {
-                    Log.e(TAG, e.getErrorCode() + e.getMessage());
-                }
-            }
-        });
-    }
+//    private void creatVersionUpdate(String pkName, String versionName) {
+//        Update update = new Update();
+//        update.setPackageName(pkName);
+//        update.setVersion(versionName);
+//        update.setUpdate(false);
+//        update.save(new SaveListener<String>() {
+//            @Override
+//            public void done(String s, BmobException e) {
+//                if (e == null) {
+//                    enterHome();
+//                } else {
+//                    Log.e(TAG, e.getErrorCode() + e.getMessage());
+//                }
+//            }
+//        });
+//    }
 }

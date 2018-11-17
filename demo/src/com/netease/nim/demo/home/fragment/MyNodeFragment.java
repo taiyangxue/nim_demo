@@ -122,11 +122,12 @@ public class MyNodeFragment extends TFragment {
                 Intent intent = new Intent(getActivity(), ImagePagerActivity.class);
                 // 图片url,为了演示这里使用常量，一般从数据库中或网络中获取
                 String url;
-                if(node.getContent_image().startsWith("http")){
-                    url=node.getContent_image();
-                }else {
-                    url=ApiUtils.STATIC_HOST+node.getContent_image();
-                }
+//                if(node.getContent_image().startsWith("http")){
+//                    url=node.getContent_image();
+//                }else {
+//                    url=ApiUtils.STATIC_HOST+node.getContent_image();
+//                }
+                url=MyUtils.formatUrl(node.getContent_image());
                 intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, new String[]{url});
                 intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, position);
                 startActivity(intent);

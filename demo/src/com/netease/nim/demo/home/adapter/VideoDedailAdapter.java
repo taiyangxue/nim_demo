@@ -48,7 +48,7 @@ public class VideoDedailAdapter extends BaseQuickAdapter<Video, BaseViewHolder> 
             coverImage.setBackgroundResource(R.drawable.video_default);
         }
         holder.setText(R.id.tv_name, video.getVideoName());
-        holder.setText(R.id.tv_creat_time, video.getCreatedAt());
+//        holder.setText(R.id.tv_creat_time, video.getCreatedAt());
         iv_open.setVisibility(View.VISIBLE);
         iv_play.setVisibility(View.VISIBLE);
         holder.addOnClickListener(R.id.cover_image);

@@ -1,18 +1,15 @@
 package com.netease.nim.demo.common.entity.bmob;
 
-import cn.bmob.v3.BmobObject;
-import cn.bmob.v3.datatype.BmobFile;
 
 /**
  * Created by sun on 2017/5/14.
  */
 
-public class Update extends BmobObject {
+public class Update  {
     private String version;
     private String packageName;
     private String name;
     private boolean isUpdate;
-    private BmobFile file;
     private String desc;
 
     public String getVersion() {
@@ -47,13 +44,7 @@ public class Update extends BmobObject {
         isUpdate = update;
     }
 
-    public BmobFile getFile() {
-        return file;
-    }
 
-    public void setFile(BmobFile file) {
-        this.file = file;
-    }
 
     public String getDesc() {
         return desc;

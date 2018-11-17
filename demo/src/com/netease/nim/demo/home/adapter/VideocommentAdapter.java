@@ -84,11 +84,12 @@ public class VideocommentAdapter extends BaseQuickAdapter<Videocomment.DataBean,
                     // 图片url,为了演示这里使用常量，一般从数据库中或网络中获取
                     String imgurl="";
                     String ans_imgurl="";
-                    if(item.getImage().startsWith("http")){
-                        imgurl=item.getImage();
-                    }else {
-                        imgurl= ApiUtils.STATIC_HOST+item.getImage();
-                    }
+//                    if(item.getImage().startsWith("http")){
+//                        imgurl=item.getImage();
+//                    }else {
+//                        imgurl= ApiUtils.STATIC_HOST+item.getImage();
+//                    }
+                    imgurl=MyUtils.formatUrl(item.getImage());
                     intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, new String[]{imgurl});
                     intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, position);
                     intent.putExtra(ImagePagerActivity.EXTRA_IS_VIDEO,false);

@@ -1,35 +1,23 @@
 package com.netease.nim.demo.common.entity.bmob;
 
-import cn.bmob.v3.BmobObject;
-import cn.bmob.v3.datatype.BmobFile;
-import cn.bmob.v3.datatype.BmobRelation;
 
 /**
  * Created by Administrator on 2017/3/17.
  */
 
-public class Video extends BmobObject {
+public class Video  {
     private String origUrl;
     private String downloadOrigUrl;
     private String description;
     private String snapshotUrl;
     private String videoName;
-    private BmobRelation likes;
     private boolean isOpen;
     private boolean isSubscribe;
     private String typeId;
     private VideoDir videoDir;
     private VideoDir videoDirTea;
-    private BmobRelation videoDirStu;
-    private BmobFile answer;
 
-    public BmobFile getAnswer() {
-        return answer;
-    }
 
-    public void setAnswer(BmobFile answer) {
-        this.answer = answer;
-    }
 
     public VideoDir getVideoDirTea() {
         return videoDirTea;
@@ -39,13 +27,7 @@ public class Video extends BmobObject {
         this.videoDirTea = videoDirTea;
     }
 
-    public BmobRelation getVideoDirStu() {
-        return videoDirStu;
-    }
 
-    public void setVideoDirStu(BmobRelation videoDirStu) {
-        this.videoDirStu = videoDirStu;
-    }
 
     public boolean isSubscribe() {
         return isSubscribe;
@@ -119,11 +101,5 @@ public class Video extends BmobObject {
         this.videoName = videoName;
     }
 
-    public BmobRelation getLikes() {
-        return likes;
-    }
 
-    public void setLikes(BmobRelation likes) {
-        this.likes = likes;
-    }
 }

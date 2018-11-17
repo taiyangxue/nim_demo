@@ -46,9 +46,6 @@ import com.netease.nimlib.sdk.msg.model.IMMessage;
 
 import java.util.ArrayList;
 
-import cn.bmob.v3.BmobUser;
-import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.UpdateListener;
 
 /**
  * 主界面
@@ -240,7 +237,7 @@ public class MainActivity extends UI {
                 break;
             case R.id.grade:
 //                ContantListActivity.start(MainActivity.this);
-                showSelectDialog();
+//                showSelectDialog();
                 break;
             default:
                 break;
@@ -248,32 +245,32 @@ public class MainActivity extends UI {
         return super.onOptionsItemSelected(item);
     }
 
-    /**
-     * 显示操作对话框
-     */
-    private void showSelectDialog() {
-        userInfo = BmobUser.getCurrentUser(MyUser.class);
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("选择年级");
-        //    指定下拉列表的显示数据
-        //    设置一个下拉的列表选择项
-        final String[] grades={"四年级", "五年级", "六年级", "初一", "初二", "初三", "高一", "高二", "高三"};
-        builder.setItems(grades, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                userInfo.setGrade(grades[which]);
-                userInfo.update(new UpdateListener() {
-                    @Override
-                    public void done(BmobException e) {
-                        if(e==null){
-                            MyUtils.showToast(MainActivity.this,"年级切换成功");
-                        }
-                    }
-                });
-            }
-        });
-        builder.show();
-    }
+//    /**
+//     * 显示操作对话框
+//     */
+//    private void showSelectDialog() {
+//        userInfo = BmobUser.getCurrentUser(MyUser.class);
+//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+//        builder.setTitle("选择年级");
+//        //    指定下拉列表的显示数据
+//        //    设置一个下拉的列表选择项
+//        final String[] grades={"四年级", "五年级", "六年级", "初一", "初二", "初三", "高一", "高二", "高三"};
+//        builder.setItems(grades, new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                userInfo.setGrade(grades[which]);
+//                userInfo.update(new UpdateListener() {
+//                    @Override
+//                    public void done(BmobException e) {
+//                        if(e==null){
+//                            MyUtils.showToast(MainActivity.this,"年级切换成功");
+//                        }
+//                    }
+//                });
+//            }
+//        });
+//        builder.show();
+//    }
 
     private void onParseIntent() {
         Intent intent = getIntent();

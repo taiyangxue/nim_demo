@@ -60,9 +60,6 @@ import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.bmob.v3.datatype.BmobFile;
-import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.UploadFileListener;
 
 import static com.netease.nim.uikit.session.constant.RequestCode.PICK_IMAGE;
 import static com.netease.nim.uikit.session.constant.RequestCode.PREVIEW_IMAGE_FROM_CAMERA;
@@ -403,63 +400,6 @@ public class ErrorAdminActivity extends UI {
 
 //            Toast.makeText(getActivity(), "压缩成功，已保存至" + PictureUtil.getAlbumDir(), Toast.LENGTH_SHORT).show();
             String picPath = PictureUtil.getAlbumDir() + "/small_" + f.getName();
-            final BmobFile bmobFile = new BmobFile(new File(picPath));
-            bmobFile.uploadblock(new UploadFileListener() {
-
-                @Override
-                public void done(BmobException e) {
-                    if (e == null) {
-                        //bmobFile.getFileUrl()--返回的上传文件的完整地址
-//                        toast("上传文件成功:" + bmobFile.getFileUrl());
-//                        MyUtils.showToast(getActivity(), "上传文件成功:" + bmobFile.getFileUrl());
-//                        ApiUtils.getInstance().errorpic_add(SharedPreferencesUtils.getInt(ErrorAdminActivity.this, "account_id", 0),
-//                                current_section.getId(), bmobFile.getFileUrl(), new ApiListener<ErrorPicRet.DataBean>() {
-//                                    @Override
-//                                    public void onSuccess(ErrorPicRet.DataBean s) {
-//                                        refresh(s);
-//                                        MyUtils.showToast(ErrorAdminActivity.this, "上传成功");
-//                                    }
-//
-//                                    @Override
-//                                    public void onFailed(String errorMsg) {
-//                                        MyUtils.showToast(ErrorAdminActivity.this, errorMsg);
-//
-//                                    }
-//                                });
-//                        final ErrorPic errorPic=new ErrorPic();
-//                        errorPic.setPicUrl(bmobFile.getFileUrl());
-//                        errorPic.setAccount(DemoCache.getAccount());
-//                        errorPic.setCourse(select_course);
-//                        errorPic.setSectionId(current_section);
-//                        errorPic.save(new SaveListener<String>() {
-//                            @Override
-//                            public void done(String s, BmobException e) {
-//                                if(e==null){
-//
-//                                    Log.e(TAG,errorPic.getPicUrl());
-////                                    refreshData();
-//                                }else {
-//                                    MyUtils.showToast(ErrorAdminActivity.this, e.getErrorCode() + e.getMessage());
-//                                }
-//                            }
-//                        });
-                    } else {
-//                        toast("上传文件失败：" + e.getMessage());
-                        MyUtils.showToast(ErrorAdminActivity.this, e.getErrorCode() + e.getMessage());
-                    }
-                }
-
-                @Override
-                public void onProgress(Integer value) {
-                    // 返回的上传进度（百分比）
-                }
-            });
-//            FileBean filebean = new FileBean();
-//            filebean.setFileName(f.getName());
-//            filebean.setFileContent(PictureUtil.bitmapToString(photoPath));
-//            new MyService(this).uploadFile(filebean);//上传身份证的保存路径
-//            idcard_url="fileUpload/"+filebean.getFileName();
-//            System.out.println(filebean.getFileName());
         } catch (Exception e) {
 
         }

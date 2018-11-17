@@ -91,11 +91,12 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
             }else {
                 iv_shoucang.setImageResource(R.drawable.ali_shoucang);
             }
-            if(video.getSnapshotUrl_image().startsWith("http")){
-                utils.display(coverImage_video,video.getSnapshotUrl_image());
-            }else {
-                utils.display(coverImage_video,ApiUtils.STATIC_HOST+video.getSnapshotUrl_image());
-            }
+//            MyUtils.formatUrl()
+//            if(video.getSnapshotUrl_image().startsWith("http")){
+                utils.display(coverImage_video,MyUtils.formatUrl(video.getSnapshotUrl_image()));
+//            }else {
+//                utils.display(coverImage_video,ApiUtils.STATIC_HOST+video.getSnapshotUrl_image());
+//            }
         }
 
         holder.addOnClickListener(R.id.cover_image_video);
@@ -146,11 +147,12 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
                     // 图片url,为了演示这里使用常量，一般从数据库中或网络中获取
                     String imgurl="";
                     String ans_imgurl="";
-                    if(video.getSnapshotUrl_image().startsWith("http")){
-                        imgurl=video.getSnapshotUrl_image();
-                    }else {
-                        imgurl=ApiUtils.STATIC_HOST+video.getSnapshotUrl_image();
-                    }
+//                    if(video.getSnapshotUrl_image().startsWith("http")){
+//                        imgurl=video.getSnapshotUrl_image();
+//                    }else {
+//                        imgurl=ApiUtils.STATIC_HOST+video.getSnapshotUrl_image();
+//                    }
+                    imgurl=MyUtils.formatUrl(video.getSnapshotUrl_image());
 
                     intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, new String[]{imgurl});
                     intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, position);
@@ -158,11 +160,12 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
                         intent.putExtra(ImagePagerActivity.EXTRA_DAAN ,video.getAnswer_text());
                     }
                     if(!TextUtils.isEmpty(video.getAnswer_image())){
-                        if(video.getAnswer_image().startsWith("http")){
-                            ans_imgurl=video.getAnswer_image();
-                        }else {
-                            ans_imgurl=ApiUtils.STATIC_HOST+video.getAnswer_image();
-                        }
+//                        if(video.getAnswer_image().startsWith("http")){
+//                            ans_imgurl=video.getAnswer_image();
+//                        }else {
+//                            ans_imgurl=ApiUtils.STATIC_HOST+video.getAnswer_image();
+//                        }
+                        ans_imgurl=MyUtils.formatUrl(video.getAnswer_image());
                         intent.putExtra(ImagePagerActivity.EXTRA_DAAN_URL,ans_imgurl);
                     }
                     intent.putExtra(ImagePagerActivity.EXTRA_VIDEO_URL,video.getOrigUrl());
@@ -194,11 +197,12 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
                     //展示答案
                     if(!TextUtils.isEmpty(video.getAnswer_image())){
                         String ans_imgurl="";
-                        if(video.getAnswer_image().startsWith("http")){
-                            ans_imgurl=video.getAnswer_image();
-                        }else {
-                            ans_imgurl=ApiUtils.STATIC_HOST+video.getAnswer_image();
-                        }
+//                        if(video.getAnswer_image().startsWith("http")){
+//                            ans_imgurl=video.getAnswer_image();
+//                        }else {
+//                            ans_imgurl=ApiUtils.STATIC_HOST+video.getAnswer_image();
+//                        }
+                        ans_imgurl=MyUtils.formatUrl(video.getAnswer_image());
                         Intent intent = new Intent(mContext, ImagePagerActivity.class);
                         // 图片url,为了演示这里使用常量，一般从数据库中或网络中获取
                         intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, new String[]{ans_imgurl});

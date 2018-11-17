@@ -1,12 +1,11 @@
 package com.netease.nim.demo.common.entity.bmob;
 
-import cn.bmob.v3.BmobObject;
 
 /**
  * Created by Administrator on 2017/3/9.
  */
 
-public class ErrorPic extends BmobObject {
+public class ErrorPic {
     //图片文件的存储地址
     private String picUrl;
     //所属用户

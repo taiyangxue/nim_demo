@@ -24,10 +24,6 @@ import com.netease.nim.uikit.model.ToolBarOptions;
 
 import java.util.List;
 
-import cn.bmob.v3.BmobQuery;
-import cn.bmob.v3.BmobUser;
-import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.FindListener;
 
 public class VideoDedailActivity extends UI {
     private static final String TAG = "VideoDedailActivity";
@@ -99,34 +95,34 @@ public class VideoDedailActivity extends UI {
         startActivity(intent);
     }
     private void fetchData() {
-        MyUser userInfo = BmobUser.getCurrentUser(MyUser.class);
-        if (userInfo != null) {
-            BmobQuery<Video> query = new BmobQuery<Video>();
-            if(isOpen){
-                query.addWhereEqualTo("isOpen",isOpen);
-            }
-            if(isSubscribe){
-                query.addWhereEqualTo("isSubscribe",isSubscribe);
-            }
-            query.order("-updatedAt");
-            query.findObjects(new FindListener<Video>() {
-
-
-                @Override
-                public void done(List<Video> list, BmobException e) {
-                    if (e == null && list != null && list.size() > 0) {
-                        onFetchDataDone(true, list);
-                   } else {
-                        onFetchDataDone(false, null);
-                        MyUtils.showToast(VideoDedailActivity.this, "该分类暂无数据");
-                        LogUtil.e(TAG,isSubscribe+""+e.getErrorCode()+e.getMessage());
-                    }
-                }
-            });
-        } else {
-            //缓存用户对象为空时， 可打开用户注册界面…
-            MyUtils.showToast(this, "当前用户尚未登录");
-        }
+//        MyUser userInfo = BmobUser.getCurrentUser(MyUser.class);
+//        if (userInfo != null) {
+//            BmobQuery<Video> query = new BmobQuery<Video>();
+//            if(isOpen){
+//                query.addWhereEqualTo("isOpen",isOpen);
+//            }
+//            if(isSubscribe){
+//                query.addWhereEqualTo("isSubscribe",isSubscribe);
+//            }
+//            query.order("-updatedAt");
+//            query.findObjects(new FindListener<Video>() {
+//
+//
+//                @Override
+//                public void done(List<Video> list, BmobException e) {
+//                    if (e == null && list != null && list.size() > 0) {
+//                        onFetchDataDone(true, list);
+//                   } else {
+//                        onFetchDataDone(false, null);
+//                        MyUtils.showToast(VideoDedailActivity.this, "该分类暂无数据");
+//                        LogUtil.e(TAG,isSubscribe+""+e.getErrorCode()+e.getMessage());
+//                    }
+//                }
+//            });
+//        } else {
+//            //缓存用户对象为空时， 可打开用户注册界面…
+//            MyUtils.showToast(this, "当前用户尚未登录");
+//        }
     }
     private void onFetchDataDone(final boolean success, final List<Video> data) {
         this.runOnUiThread(new Runnable() {

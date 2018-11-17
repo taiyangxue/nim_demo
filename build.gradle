@@ -3,10 +3,16 @@ buildscript {
     apply from: 'script.gradle', to: buildscript
 
     repositories {
+        jcenter()
         maven {
             url 'https://maven.google.com/'
             name 'Google'
         }
+    }
+    dependencies {
+//        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
     }
 }
 
@@ -16,12 +22,15 @@ allprojects {
 //        url 'http://maven.oschina.net/content/groups/public/'
 //    }
         jcenter()
-        maven { url "https://raw.github.com/bmob/bmob-android-sdk/master" }
-
+//        maven { url "https://raw.github.com/bmob/bmob-android-sdk/master" }
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
+        }
         maven {
             url 'https://maven.google.com/'
             name 'Google'
         }
+//        maven { url 'https://jitpack.io' }
     }
 }
 

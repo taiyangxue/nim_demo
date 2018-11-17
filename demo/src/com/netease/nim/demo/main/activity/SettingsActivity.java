@@ -14,10 +14,12 @@ import android.widget.Toast;
 import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.avchat.activity.AVChatSettingsActivity;
+import com.netease.nim.demo.common.util.SharedPreferencesUtils;
 import com.netease.nim.demo.config.preference.Preferences;
 import com.netease.nim.demo.config.preference.UserPreferences;
 import com.netease.nim.demo.contact.activity.UserProfileSettingActivity;
 import com.netease.nim.demo.jsbridge.JsBridgeActivity;
+import com.netease.nim.demo.login.LoginActivity;
 import com.netease.nim.demo.main.adapter.SettingsAdapter;
 import com.netease.nim.demo.main.model.SettingTemplate;
 import com.netease.nim.demo.main.model.SettingType;
@@ -275,7 +277,7 @@ public class SettingsActivity extends UI implements SettingsAdapter.SwitchChange
     private void logout() {
         removeLoginState();
         MainActivity.logout(SettingsActivity.this, false);
-
+        SharedPreferencesUtils.setBoolean(SettingsActivity.this,"isLogin",false);
         finish();
         NIMClient.getService(AuthService.class).logout();
     }

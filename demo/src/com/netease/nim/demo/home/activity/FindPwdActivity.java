@@ -26,11 +26,6 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.bmob.sms.BmobSMS;
-import cn.bmob.sms.listener.RequestSMSCodeListener;
-import cn.bmob.v3.BmobUser;
-import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.UpdateListener;
 
 public class FindPwdActivity extends UI {
     private static final String TAG = "FindPwdActivity";

@@ -16,8 +16,6 @@ import com.netease.nim.demo.common.util.MyUtils;
 import com.netease.nim.uikit.common.activity.UI;
 import com.netease.nim.uikit.model.ToolBarOptions;
 
-import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.SaveListener;
 
 
 public class FankuiActivity extends UI {
@@ -57,15 +55,15 @@ public class FankuiActivity extends UI {
                 fankui.setVideoName(video.getVideoName());
                 fankui.setMsg(msg);
                 fankui.setVideo(video);
-                fankui.save(new SaveListener<String>() {
-                    @Override
-                    public void done(String s, BmobException e) {
-                        if(e==null){
-                            MyUtils.showToast(FankuiActivity.this,"提交成功");
-                            finish();
-                        }
-                    }
-                });
+//                fankui.save(new SaveListener<String>() {
+//                    @Override
+//                    public void done(String s, BmobException e) {
+//                        if(e==null){
+//                            MyUtils.showToast(FankuiActivity.this,"提交成功");
+//                            finish();
+//                        }
+//                    }
+//                });
                 break;
         }
     }

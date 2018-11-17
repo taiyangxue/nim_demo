@@ -1,8 +1,8 @@
 package com.netease.nim.demo.login;
 
-import cn.bmob.v3.BmobUser;
+//import cn.bmob.v3.BmobUser;
 
-public class MyUser extends BmobUser {
+public class MyUser {
 
     private Boolean sex;
     private String nick;

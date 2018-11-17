@@ -1,15 +1,12 @@
 package com.netease.nim.demo.common.entity.bmob;
 
-import cn.bmob.v3.BmobObject;
-import cn.bmob.v3.datatype.BmobFile;
 
 /**
  * Created by sunjj on 2017/5/23.
  */
 
-public class Banner extends BmobObject{
+public class Banner {
     private String title;
-    private BmobFile file;
     private String content;
 
     public String getTitle() {
@@ -20,13 +17,13 @@ public class Banner extends BmobObject{
         this.title = title;
     }
 
-    public BmobFile getFile() {
-        return file;
-    }
-
-    public void setFile(BmobFile file) {
-        this.file = file;
-    }
+//    public BmobFile getFile() {
+//        return file;
+//    }
+//
+//    public void setFile(BmobFile file) {
+//        this.file = file;
+//    }
 
     public String getContent() {
         return content;

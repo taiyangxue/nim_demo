@@ -1,13 +1,12 @@
 package com.netease.nim.demo.common.entity.bmob;
 
-import cn.bmob.v3.BmobObject;
 
 /**
  * Created by Administrator on 2017/3/27.
  * 错题分类章节实体类
  */
 
-public class Section extends BmobObject{
+public class Section {
     private String name;
     private String desc;
     private String grade;

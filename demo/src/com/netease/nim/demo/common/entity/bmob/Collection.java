@@ -1,12 +1,11 @@
 package com.netease.nim.demo.common.entity.bmob;
 
-import cn.bmob.v3.BmobObject;
 
 /**
  * Created by sunjj on 2017/8/17.
  */
 
-public class Collection extends BmobObject{
+public class Collection {
     private String origUrl;
     private String downloadOrigUrl;
     private String description;

@@ -51,10 +51,6 @@ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 
 import java.util.Map;
 
-import cn.bmob.push.BmobPush;
-import cn.bmob.sms.BmobSMS;
-import cn.bmob.v3.Bmob;
-import cn.bmob.v3.BmobInstallation;
 
 public class NimApplication extends Application {
 
@@ -69,12 +65,12 @@ public class NimApplication extends Application {
         DemoCache.setContext(this);
         // 注册小米推送appID 、appKey 以及在云信管理后台添加的小米推送证书名称，该逻辑放在 NIMClient init 之前
         NIMPushClient.registerMiPush(this, "DEMO_MI_PUSH", "2882303761517502883", "5671750254883");
-        Bmob.initialize(this, "58f11fc42fcfa78a75e0f3f2ae124485");
-        BmobSMS.initialize(this,"58f11fc42fcfa78a75e0f3f2ae124485");
+//        Bmob.initialize(this, "58f11fc42fcfa78a75e0f3f2ae124485");
+//        BmobSMS.initialize(this,"58f11fc42fcfa78a75e0f3f2ae124485");
         // 使用推送服务时的初始化操作
-        BmobInstallation.getCurrentInstallation().save();
+//        BmobInstallation.getCurrentInstallation().save();
         // 启动推送服务
-        BmobPush.startWork(this);
+//        BmobPush.startWork(this);
         // 注册自定义小米推送消息处理，这个是可选项
         //NIMPushClient.registerMixPushMessageHandler(new DemoMixPushMessageHandler());
         NIMClient.init(this, getLoginInfo(), getOptions());

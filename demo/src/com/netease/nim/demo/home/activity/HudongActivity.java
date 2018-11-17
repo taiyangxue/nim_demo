@@ -1,6 +1,7 @@
 package com.netease.nim.demo.home.activity;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
@@ -13,8 +14,19 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.alibaba.sdk.android.oss.ClientException;
+import com.alibaba.sdk.android.oss.OSS;
+import com.alibaba.sdk.android.oss.OSSClient;
+import com.alibaba.sdk.android.oss.ServiceException;
+import com.alibaba.sdk.android.oss.callback.OSSCompletedCallback;
+import com.alibaba.sdk.android.oss.callback.OSSProgressCallback;
+import com.alibaba.sdk.android.oss.common.auth.OSSCustomSignerCredentialProvider;
+import com.alibaba.sdk.android.oss.internal.OSSAsyncTask;
+import com.alibaba.sdk.android.oss.model.PutObjectRequest;
+import com.alibaba.sdk.android.oss.model.PutObjectResult;
 import com.lidroid.xutils.BitmapUtils;
 import com.netease.nim.demo.R;
+import com.netease.nim.demo.common.entity.Common;
 import com.netease.nim.demo.common.entity.Videocomment;
 import com.netease.nim.demo.common.util.ApiListener;
 import com.netease.nim.demo.common.util.ApiUtils;
@@ -40,15 +52,19 @@ import com.netease.nim.uikit.common.util.sys.ScreenUtil;
 import com.netease.nim.uikit.model.ToolBarOptions;
 import com.netease.nim.uikit.session.constant.Extras;
 
+import org.apache.commons.codec.binary.Base64;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.bmob.v3.datatype.BmobFile;
-import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.UploadFileListener;
+import javax.crypto.Mac;
+import javax.crypto.SecretKey;
+import javax.crypto.spec.SecretKeySpec;
 
+
+import static com.netease.nim.demo.common.entity.Common.OOS_HOST_MY;
 import static com.netease.nim.uikit.session.constant.RequestCode.PICK_IMAGE;
 import static com.netease.nim.uikit.session.constant.RequestCode.PREVIEW_IMAGE_FROM_CAMERA;
 
@@ -312,24 +328,25 @@ public class HudongActivity extends UI {
 
 //            Toast.makeText(getActivity(), "压缩成功，已保存至" + PictureUtil.getAlbumDir(), Toast.LENGTH_SHORT).show();
             String picPath = PictureUtil.getAlbumDir() + "/small_" + f.getName();
-            final BmobFile bmobFile = new BmobFile(new File(picPath));
-            bmobFile.uploadblock(new UploadFileListener() {
-
-                @Override
-                public void done(BmobException e) {
-                    if (e == null) {
-                        showAddContent(bmobFile.getFileUrl());
-                    } else {
-//                        toast("上传文件失败：" + e.getMessage());
-                        MyUtils.showToast(HudongActivity.this, e.getErrorCode() + e.getMessage());
-                    }
-                }
-
-                @Override
-                public void onProgress(Integer value) {
-                    // 返回的上传进度（百分比）
-                }
-            });
+            oosUpfile(HudongActivity.this,new File(picPath));
+//            final BmobFile bmobFile = new BmobFile(new File(picPath));
+//            bmobFile.uploadblock(new UploadFileListener() {
+//
+//                @Override
+//                public void done(BmobException e) {
+//                    if (e == null) {
+//                        showAddContent(bmobFile.getFileUrl());
+//                    } else {
+////                        toast("上传文件失败：" + e.getMessage());
+//                        MyUtils.showToast(HudongActivity.this, e.getErrorCode() + e.getMessage());
+//                    }
+//                }
+//
+//                @Override
+//                public void onProgress(Integer value) {
+//                    // 返回的上传进度（百分比）
+//                }
+//            });
         } catch (Exception e) {
 
         }
@@ -350,7 +367,6 @@ public class HudongActivity extends UI {
         final AlertDialog dialog = builder.create();
         final EditText et_content = (EditText) dView.findViewById(R.id.et_content);
         dialog.setView(dView, 0, 0, 0, 0);
-        dialog.show();
         //确认按钮监听
         dView.findViewById(R.id.bt_ok).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -383,5 +399,86 @@ public class HudongActivity extends UI {
                 dialog.dismiss();
             }
         });
+        Log.e(TAG,"show");
+        dialog.show();
+
+    }
+    private OSSCustomSignerCredentialProvider credentialProvider;
+
+    private void oosUpfile(Context context, final File file) {
+        credentialProvider = new OSSCustomSignerCredentialProvider() {
+            @Override
+            public String signContent(String content) {
+                String signature = hmac_sha1(Common.OOS_ACCESS_KEY_SECRET, content);
+                return "OSS " + Common.OOS_ACCESS_KEY_ID + ":" + signature;
+            }
+        };
+        OSS oss = new OSSClient(context, Common.OOS_HOST, credentialProvider);
+        // 构造上传请求
+        PutObjectRequest put = new PutObjectRequest("yidu-app", "opendoor_img/" + file.getName(), file.getAbsolutePath());
+        // 异步上传时可以设置进度回调
+        put.setProgressCallback(new OSSProgressCallback<PutObjectRequest>() {
+            @Override
+            public void onProgress(PutObjectRequest request, final long currentSize, final long totalSize) {
+//                Log.e("PutObject", "currentSize: " + currentSize + " totalSize: " + totalSize);
+                //进度百分比
+//                int progress = (int) (current * 100 / totalSize);
+//                tv_update.setVisibility(View.VISIBLE);
+//                tv_update.setText(progress
+//                        + "%");
+            }
+        });
+        OSSAsyncTask task = oss.asyncPutObject(put, new OSSCompletedCallback<PutObjectRequest, PutObjectResult>() {
+            @Override
+            public void onSuccess(PutObjectRequest request, PutObjectResult result) {
+
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Log.e("PutObject", "UploadSuccess");
+                        showAddContent(OOS_HOST_MY+file.getName());
+                    }
+                });
+
+            }
+
+            @Override
+            public void onFailure(PutObjectRequest request, ClientException clientExcepion, ServiceException serviceException) {
+                // 请求异常
+                if (clientExcepion != null) {
+                    // 本地异常如网络异常等
+                    clientExcepion.printStackTrace();
+                }
+                if (serviceException != null) {
+                    // 服务异常
+                    Log.e("ErrorCode", serviceException.getErrorCode());
+                    Log.e("RequestId", serviceException.getRequestId());
+                    Log.e("HostId", serviceException.getHostId());
+                    Log.e("RawMessage", serviceException.getRawMessage());
+                }
+            }
+        });
+    }
+
+    private String hmac_sha1(String key, String datas) {
+        String reString = "";
+
+        try {
+            byte[] data = key.getBytes("UTF-8");
+            //根据给定的字节数组构造一个密钥,第二参数指定一个密钥算法的名称
+            SecretKey secretKey = new SecretKeySpec(data, "HmacSHA1");
+            //生成一个指定 Mac 算法 的 Mac 对象
+            Mac mac = Mac.getInstance("HmacSHA1");
+            //用给定密钥初始化 Mac 对象
+            mac.init(secretKey);
+
+            byte[] text = datas.getBytes("UTF-8");
+            //完成 Mac 操作
+            byte[] text1 = mac.doFinal(text);
+            return new String(Base64.encodeBase64(text1), "UTF-8");
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
+        return reString;
     }
 }

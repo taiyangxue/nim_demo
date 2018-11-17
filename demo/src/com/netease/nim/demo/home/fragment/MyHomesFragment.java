@@ -36,10 +36,6 @@ import com.netease.nim.uikit.common.util.sys.ScreenUtil;
 
 import java.util.List;
 
-import cn.bmob.v3.BmobQuery;
-import cn.bmob.v3.BmobUser;
-import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.FindListener;
 
 
 /**
@@ -69,9 +65,9 @@ public class MyHomesFragment extends TFragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        userInfo = BmobUser.getCurrentUser(MyUser.class);
+//        userInfo = BmobUser.getCurrentUser(MyUser.class);
         findViews();
-        init();
+//        init();
     }
 
     public void onCurrent() {
@@ -204,59 +200,59 @@ public class MyHomesFragment extends TFragment {
         startActivity(intent);
     }
 
-    /**
-     * 是否加载的是公开课
-     */
-    private void fetchData() {
-        if (userInfo != null) {
-            // 查询喜欢这个帖子的所有用户，因此查询的是用户表
-            BmobQuery<Video> query = new BmobQuery<Video>();
-            BmobQuery<MyUser> inQuery = new BmobQuery<MyUser>();
-            Log.e(TAG, userInfo.getUsername());
-            inQuery.addWhereEqualTo("username", userInfo.getUsername());
-            query.addWhereMatchesQuery("likes", "_User", inQuery);
-            query.order("-updatedAt");
-            query.findObjects(new FindListener<Video>() {
-
-                @Override
-                public void done(List<Video> list, BmobException e) {
-                    if (e == null) {
-                        if(list.size()>4){
-                            onFetchDataDone(true, list.subList(0,4));
-                        }else {
-                            onFetchDataDone(true, list);
-                        }
-                    } else {
-                        onFetchDataDone(false, null);
-                        Log.e(TAG, e.getErrorCode() + e.getMessage());
-                        e.printStackTrace();
-                    }
-                }
-            });
-            BmobQuery<VideoDir> videoDirBmobQuery = new BmobQuery<>();
-            videoDirBmobQuery.addWhereMatchesQuery("dingYueUser", "_User", inQuery);
-            videoDirBmobQuery.order("-updatedAt");
-            videoDirBmobQuery.findObjects(new FindListener<VideoDir>() {
-                @Override
-                public void done(List<VideoDir> list, BmobException e) {
-                    if (e == null) {
-                        if(list.size()>3){
-                            onFetchDataDoneDir(true, list.subList(0,3));
-                        }else {
-                            onFetchDataDoneDir(true, list);
-                        }
-                    } else {
-                        onFetchDataDoneDir(false, null);
-                        Log.e(TAG, e.getErrorCode() + e.getMessage());
-                        e.printStackTrace();
-                    }
-                }
-            });
-        } else {
-            //缓存用户对象为空时， 可打开用户注册界面…
-            MyUtils.showToast(getActivity(), "当前用户尚未登录");
-        }
-    }
+//    /**
+//     * 是否加载的是公开课
+//     */
+//    private void fetchData() {
+//        if (userInfo != null) {
+//            // 查询喜欢这个帖子的所有用户，因此查询的是用户表
+//            BmobQuery<Video> query = new BmobQuery<Video>();
+//            BmobQuery<MyUser> inQuery = new BmobQuery<MyUser>();
+//            Log.e(TAG, userInfo.getUsername());
+//            inQuery.addWhereEqualTo("username", userInfo.getUsername());
+//            query.addWhereMatchesQuery("likes", "_User", inQuery);
+//            query.order("-updatedAt");
+//            query.findObjects(new FindListener<Video>() {
+//
+//                @Override
+//                public void done(List<Video> list, BmobException e) {
+//                    if (e == null) {
+//                        if(list.size()>4){
+//                            onFetchDataDone(true, list.subList(0,4));
+//                        }else {
+//                            onFetchDataDone(true, list);
+//                        }
+//                    } else {
+//                        onFetchDataDone(false, null);
+//                        Log.e(TAG, e.getErrorCode() + e.getMessage());
+//                        e.printStackTrace();
+//                    }
+//                }
+//            });
+//            BmobQuery<VideoDir> videoDirBmobQuery = new BmobQuery<>();
+//            videoDirBmobQuery.addWhereMatchesQuery("dingYueUser", "_User", inQuery);
+//            videoDirBmobQuery.order("-updatedAt");
+//            videoDirBmobQuery.findObjects(new FindListener<VideoDir>() {
+//                @Override
+//                public void done(List<VideoDir> list, BmobException e) {
+//                    if (e == null) {
+//                        if(list.size()>3){
+//                            onFetchDataDoneDir(true, list.subList(0,3));
+//                        }else {
+//                            onFetchDataDoneDir(true, list);
+//                        }
+//                    } else {
+//                        onFetchDataDoneDir(false, null);
+//                        Log.e(TAG, e.getErrorCode() + e.getMessage());
+//                        e.printStackTrace();
+//                    }
+//                }
+//            });
+//        } else {
+//            //缓存用户对象为空时， 可打开用户注册界面…
+//            MyUtils.showToast(getActivity(), "当前用户尚未登录");
+//        }
+//    }
     private void onFetchDataDone(final boolean success, final List<Video> data) {
         Activity context = getActivity();
         if (context != null) {
@@ -298,65 +294,65 @@ public class MyHomesFragment extends TFragment {
         }
     }
 
-    public void init() {
-        initSlider();
-        fetchData();
-    }
-
-    private void initSlider() {
-        BmobQuery<Banner> bannerBmobQuery = new BmobQuery<>();
-        bannerBmobQuery.findObjects(new FindListener<Banner>() {
-            @Override
-            public void done(List<Banner> list, BmobException e) {
-                if (e == null) {
-                    for (final Banner banner : list) {
-                        DefaultSliderView defaultSliderView=new DefaultSliderView(getActivity());
-//                        TextSliderView textSliderView = new TextSliderView(getActivity());
-                        if (banner.getFile() != null && banner.getFile().getUrl() != null) {
-                            defaultSliderView.image(banner.getFile().getUrl()).setOnSliderClickListener(new BaseSliderView.OnSliderClickListener() {
-                                @Override
-                                public void onSliderClick(BaseSliderView slider) {
-                                    Intent intent = new Intent(getActivity(), ImagePagerActivity.class);
-                                    // 图片url,为了演示这里使用常量，一般从数据库中或网络中获取
-                                    intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, new String[]{banner.getFile().getUrl()});
-                                    intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, 1);
-                                    getActivity().startActivity(intent);
-                                }
-                            });
-//                            textSliderView
-//                                    .description(banner.getTitle())
-//                                    .image(banner.getFile().getUrl())
-//                                    .setOnSliderClickListener(new BaseSliderView.OnSliderClickListener() {
-//                                        @Override
-//                                        public void onSliderClick(BaseSliderView slider) {
-////                                          startVideo(video);
-////                                            Intent intent=new Intent(getActivity(), HtmlActivity.class);
-////                                            intent.putExtra("url",banner.getFile().getUrl());
-////                                            startActivity(intent);
-//                                            Intent intent = new Intent(getActivity(), ImagePagerActivity.class);
-//                                            // 图片url,为了演示这里使用常量，一般从数据库中或网络中获取
-//                                            intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, new String[]{banner.getFile().getUrl()});
-//                                            intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, 1);
-//                                            getActivity().startActivity(intent);
-//                                        }
-//                                    });
-                        } else {
-                            defaultSliderView
-                                    .image(R.drawable.fengmian);
-                        }
-                        sliderShow.addSlider(defaultSliderView);
-                    }
-                } else {
-                    sliderShow.removeAllSliders();
-                    findView(R.id.tv_history).setVisibility(View.GONE);
-                    DefaultSliderView textSliderView = new DefaultSliderView(getActivity());
-                    textSliderView
-                            .image(R.drawable.fengmian);
-                    sliderShow.addSlider(textSliderView);
-                }
-            }
-        });
-        sliderShow.setPresetTransformer(SliderLayout.Transformer.Accordion);
-        sliderShow.setDuration(2000*60);
-    }
+//    public void init() {
+//        initSlider();
+//        fetchData();
+//    }
+//
+//    private void initSlider() {
+//        BmobQuery<Banner> bannerBmobQuery = new BmobQuery<>();
+//        bannerBmobQuery.findObjects(new FindListener<Banner>() {
+//            @Override
+//            public void done(List<Banner> list, BmobException e) {
+//                if (e == null) {
+//                    for (final Banner banner : list) {
+//                        DefaultSliderView defaultSliderView=new DefaultSliderView(getActivity());
+////                        TextSliderView textSliderView = new TextSliderView(getActivity());
+//                        if (banner.getFile() != null && banner.getFile().getUrl() != null) {
+//                            defaultSliderView.image(banner.getFile().getUrl()).setOnSliderClickListener(new BaseSliderView.OnSliderClickListener() {
+//                                @Override
+//                                public void onSliderClick(BaseSliderView slider) {
+//                                    Intent intent = new Intent(getActivity(), ImagePagerActivity.class);
+//                                    // 图片url,为了演示这里使用常量，一般从数据库中或网络中获取
+//                                    intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, new String[]{banner.getFile().getUrl()});
+//                                    intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, 1);
+//                                    getActivity().startActivity(intent);
+//                                }
+//                            });
+////                            textSliderView
+////                                    .description(banner.getTitle())
+////                                    .image(banner.getFile().getUrl())
+////                                    .setOnSliderClickListener(new BaseSliderView.OnSliderClickListener() {
+////                                        @Override
+////                                        public void onSliderClick(BaseSliderView slider) {
+//////                                          startVideo(video);
+//////                                            Intent intent=new Intent(getActivity(), HtmlActivity.class);
+//////                                            intent.putExtra("url",banner.getFile().getUrl());
+//////                                            startActivity(intent);
+////                                            Intent intent = new Intent(getActivity(), ImagePagerActivity.class);
+////                                            // 图片url,为了演示这里使用常量，一般从数据库中或网络中获取
+////                                            intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, new String[]{banner.getFile().getUrl()});
+////                                            intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, 1);
+////                                            getActivity().startActivity(intent);
+////                                        }
+////                                    });
+//                        } else {
+//                            defaultSliderView
+//                                    .image(R.drawable.fengmian);
+//                        }
+//                        sliderShow.addSlider(defaultSliderView);
+//                    }
+//                } else {
+//                    sliderShow.removeAllSliders();
+//                    findView(R.id.tv_history).setVisibility(View.GONE);
+//                    DefaultSliderView textSliderView = new DefaultSliderView(getActivity());
+//                    textSliderView
+//                            .image(R.drawable.fengmian);
+//                    sliderShow.addSlider(textSliderView);
+//                }
+//            }
+//        });
+//        sliderShow.setPresetTransformer(SliderLayout.Transformer.Accordion);
+//        sliderShow.setDuration(2000*60);
+//    }
 }

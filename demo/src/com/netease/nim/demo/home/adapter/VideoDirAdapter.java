@@ -68,7 +68,7 @@ public class VideoDirAdapter extends BaseQuickAdapter<Object, BaseViewHolder> {
         holder.addOnLongClickListener(R.id.cover_image);
         if (videoDir instanceof VideoDir) {
             holder.setText(R.id.tv_name, ((VideoDir) videoDir).getName());
-            holder.setText(R.id.tv_creat_time, ((VideoDir) videoDir).getCreatedAt());
+//            holder.setText(R.id.tv_creat_time, ((VideoDir) videoDir).getCreatedAt());
             coverImage.setImageResource(R.drawable.directory3);
             iv_open.setVisibility(View.GONE);
             iv_play.setVisibility(View.GONE);
@@ -80,7 +80,7 @@ public class VideoDirAdapter extends BaseQuickAdapter<Object, BaseViewHolder> {
 //                coverImage.setBackgroundResource(R.drawable.video_default);
             }
             holder.setText(R.id.tv_name, ((Video) videoDir).getVideoName());
-            holder.setText(R.id.tv_creat_time, ((Video) videoDir).getCreatedAt());
+//            holder.setText(R.id.tv_creat_time, ((Video) videoDir).getCreatedAt());
             iv_open.setVisibility(View.VISIBLE);
             iv_play.setVisibility(View.VISIBLE);
             coverImage.setOnClickListener(new View.OnClickListener() {
@@ -94,9 +94,9 @@ public class VideoDirAdapter extends BaseQuickAdapter<Object, BaseViewHolder> {
                         if(!TextUtils.isEmpty(((Video) videoDir).getDescription())){
                             intent.putExtra(ImagePagerActivity.EXTRA_DAAN ,((Video) videoDir).getDescription());
                         }
-                        if(((Video) videoDir).getAnswer()!=null){
-                            intent.putExtra(ImagePagerActivity.EXTRA_DAAN_URL,((Video) videoDir).getAnswer().getUrl());
-                        }
+//                        if(((Video) videoDir).getAnswer()!=null){
+//                            intent.putExtra(ImagePagerActivity.EXTRA_DAAN_URL,((Video) videoDir).getAnswer().getUrl());
+//                        }
                         intent.putExtra(ImagePagerActivity.EXTRA_VIDEO_URL,((Video) videoDir).getOrigUrl());
                         intent.putExtra(ImagePagerActivity.EXTRA_IS_VIDEO,true);
                         mContext.startActivity(intent);
@@ -135,15 +135,15 @@ public class VideoDirAdapter extends BaseQuickAdapter<Object, BaseViewHolder> {
                         showDaan(((Video) videoDir).getDescription());
                     }else {
                         //展示答案
-                        if(((Video) videoDir).getAnswer()!=null&&((Video) videoDir).getAnswer().getUrl()!=null){
-                            Intent intent = new Intent(mContext, ImagePagerActivity.class);
-                            // 图片url,为了演示这里使用常量，一般从数据库中或网络中获取
-                            intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, new String[]{((Video) videoDir).getAnswer().getUrl()});
-                            intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, 1);
-                            mContext.startActivity(intent);
-                        }else {
-                            MyUtils.showToast(mContext,"该视频未上传答案");
-                        }
+//                        if(((Video) videoDir).getAnswer()!=null&&((Video) videoDir).getAnswer().getUrl()!=null){
+//                            Intent intent = new Intent(mContext, ImagePagerActivity.class);
+//                            // 图片url,为了演示这里使用常量，一般从数据库中或网络中获取
+//                            intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, new String[]{((Video) videoDir).getAnswer().getUrl()});
+//                            intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, 1);
+//                            mContext.startActivity(intent);
+//                        }else {
+//                            MyUtils.showToast(mContext,"该视频未上传答案");
+//                        }
                     }
                 }
             });

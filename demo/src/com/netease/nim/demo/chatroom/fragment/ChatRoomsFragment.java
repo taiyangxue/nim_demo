@@ -32,9 +32,6 @@ import com.netease.nim.uikit.common.util.sys.ScreenUtil;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.bmob.v3.BmobQuery;
-import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.FindListener;
 
 
 /**
@@ -158,21 +155,21 @@ public class ChatRoomsFragment extends TFragment {
     }
 
     private void fetchData() {
-        BmobQuery<ClassRoom> query = new BmobQuery<>();
-        query.addWhereEqualTo("isOnline", true);
-        query.order("-updatedAt");
-        query.findObjects(new FindListener<ClassRoom>() {
-            @Override
-            public void done(List<ClassRoom> list, BmobException e) {
-                if (e == null) {
-                    if (list != null && list.size() > 0) {
-                        onFetchDataDone(true, list);
-                    }
-                } else {
-//                    MyUtils.showToast(getActivity(), e.getErrorCode() + e.getMessage());
-                }
-            }
-        });
+//        BmobQuery<ClassRoom> query = new BmobQuery<>();
+//        query.addWhereEqualTo("isOnline", true);
+//        query.order("-updatedAt");
+//        query.findObjects(new FindListener<ClassRoom>() {
+//            @Override
+//            public void done(List<ClassRoom> list, BmobException e) {
+//                if (e == null) {
+//                    if (list != null && list.size() > 0) {
+//                        onFetchDataDone(true, list);
+//                    }
+//                } else {
+////                    MyUtils.showToast(getActivity(), e.getErrorCode() + e.getMessage());
+//                }
+//            }
+//        });
     }
 
     private void onFetchDataDone(final boolean success, final List<ClassRoom> data) {

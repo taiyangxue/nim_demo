@@ -21,8 +21,8 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:23.+'
-//    compile 'com.google.code.gson:gson:2.2.4'
-    compile 'cn.bmob.android:bmob-sdk:3.5.0'
+    compile 'com.google.code.gson:gson:2.2.4'
+//    compile 'cn.bmob.android:bmob-sdk:3.5.0'
     compile files('libs/Ad_Android_SDK.jar')
     compile files('libs/Aseo.jar')
     compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'

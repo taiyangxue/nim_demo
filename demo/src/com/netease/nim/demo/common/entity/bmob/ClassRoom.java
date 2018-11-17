@@ -2,13 +2,12 @@ package com.netease.nim.demo.common.entity.bmob;
 
 import java.io.Serializable;
 
-import cn.bmob.v3.BmobObject;
 
 /**
  * Created by Administrator on 2017/3/3.
  */
 
-public class ClassRoom extends BmobObject implements Serializable{
+public class ClassRoom  implements Serializable{
     private String account;
     private String httpPullUrl;
     private String hlsPullUrl;
