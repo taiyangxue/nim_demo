@@ -32,16 +32,26 @@
         android:layout_height="50dp"
         android:padding="10dp"
         android:layout_alignParentRight="true"
-        android:visibility="gone"
         android:src="@drawable/icon_daan"
+        android:visibility="gone"
         />
+
     <ImageView
         android:id="@+id/iv_shipin"
         android:layout_toLeftOf="@+id/iv_daan"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:visibility="gone"
         android:padding="10dp"
+        android:visibility="gone"
         android:src="@drawable/icon_menu_paly_press"
+        />
+    <ImageView
+        android:id="@+id/iv_yidu"
+        android:layout_toLeftOf="@+id/iv_shipin"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:src="@drawable/icon_cuo"
         />
 </RelativeLayout>

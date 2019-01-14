@@ -1,4 +1,4 @@
-package com.netease.nim.demo.common.entity;
+package com.loveplusplus.demo.image;
 
 import java.io.Serializable;
 import java.util.List;

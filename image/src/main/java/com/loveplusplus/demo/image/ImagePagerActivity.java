@@ -9,6 +9,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -16,13 +17,20 @@ import android.widget.Toast;
 
 import com.zdp.aseo.content.AseoZdpAseo;
 
+import java.util.List;
+
 public class ImagePagerActivity extends FragmentActivity {
 	private static final String STATE_POSITION = "STATE_POSITION";
 	public static final String EXTRA_IMAGE_INDEX = "image_index";
 	public static final String EXTRA_IMAGE_URLS = "image_urls";
+	public static final String EXTRA_DATA_BEANS = "data_beans";
 	public static final String EXTRA_DAAN = "daan";
+	public static final String EXTRA_DAANS = "daans";
 	public static final String EXTRA_DAAN_URL = "daan_url";
+	public static final String EXTRA_DAAN_URLS = "daan_urls";
 	public static final String EXTRA_VIDEO_URL = "video_url";
+	public static final String EXTRA_VIDEO_URLS = "video_urls";
+	public static final String EXTRA_VIDEO_IDS = "video_ids";
 	public static final String EXTRA_IS_VIDEO = "is_video";
 
 	private HackyViewPager mPager;
@@ -34,6 +42,13 @@ public class ImagePagerActivity extends FragmentActivity {
 	private String daan_url;
 	private String video_url;
 	private boolean is_video;
+	private List<VideoRet.DataBean> data_beans;
+	private String[] daans;
+	private String[] daan_urls;
+	private String[] video_urls;
+	private ImageView iv_yidu;
+	private String[] video_ids;
+	private String current_id;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -43,8 +58,15 @@ public class ImagePagerActivity extends FragmentActivity {
 		pagerPosition = getIntent().getIntExtra(EXTRA_IMAGE_INDEX, 0);
 		String[] urls = getIntent().getStringArrayExtra(EXTRA_IMAGE_URLS);
 		daan = getIntent().getStringExtra(EXTRA_DAAN);
+
+		daans = getIntent().getStringArrayExtra(EXTRA_DAANS);
 		daan_url = getIntent().getStringExtra(EXTRA_DAAN_URL);
+		daan_urls = getIntent().getStringArrayExtra(EXTRA_DAAN_URLS);
+		data_beans= (List<VideoRet.DataBean>) getIntent().getSerializableExtra(EXTRA_DATA_BEANS);
 		video_url = getIntent().getStringExtra(EXTRA_VIDEO_URL);
+		video_urls = getIntent().getStringArrayExtra(EXTRA_VIDEO_URLS);
+		video_ids = getIntent().getStringArrayExtra(EXTRA_VIDEO_IDS);
+		current_id=video_ids[pagerPosition];
 		is_video=getIntent().getBooleanExtra(EXTRA_IS_VIDEO,false);
 		mPager = (HackyViewPager) findViewById(R.id.pager);
 		ImagePagerAdapter mAdapter = new ImagePagerAdapter(
@@ -54,6 +76,12 @@ public class ImagePagerActivity extends FragmentActivity {
 		CharSequence text = getString(R.string.viewpager_indicator, 1, mPager
 				.getAdapter().getCount());
 		indicator.setText(text);
+		iv_yidu = (ImageView) findViewById(R.id.iv_yidu);
+		if(SharedPreferencesUtils.getBoolean(ImagePagerActivity.this,current_id,false)){
+			iv_yidu.setImageResource(R.drawable.icon_dui);
+		}else {
+			iv_yidu.setImageResource(R.drawable.icon_cuo);
+		}
 		// 更新下标
 		mPager.setOnPageChangeListener(new OnPageChangeListener() {
 
@@ -66,10 +94,19 @@ public class ImagePagerActivity extends FragmentActivity {
 			}
 
 			@Override
-			public void onPageSelected(int arg0) {
+			public void onPageSelected(int position) {
 				CharSequence text = getString(R.string.viewpager_indicator,
-						arg0 + 1, mPager.getAdapter().getCount());
+						position + 1, mPager.getAdapter().getCount());
 				indicator.setText(text);
+				daan=daans[position];
+				daan_url=daan_urls[position];
+				video_url=video_urls[position];
+				current_id=video_ids[position];
+				if(SharedPreferencesUtils.getBoolean(ImagePagerActivity.this,current_id,false)){
+					iv_yidu.setImageResource(R.drawable.icon_dui);
+				}else {
+					iv_yidu.setImageResource(R.drawable.icon_cuo);
+				}
 			}
 
 		});
@@ -86,9 +123,18 @@ public class ImagePagerActivity extends FragmentActivity {
 		});
 		iv_daan = (ImageView) findViewById(R.id.iv_daan);
 		iv_shipin = (ImageView) findViewById(R.id.iv_shipin);
+
 		if(is_video){
 			iv_daan.setVisibility(View.VISIBLE);
 			iv_shipin.setVisibility(View.VISIBLE);
+			iv_yidu.setVisibility(View.VISIBLE);
+			iv_yidu.setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View view) {
+					SharedPreferencesUtils.setBoolean(ImagePagerActivity.this,current_id,true);
+					iv_yidu.setImageResource(R.drawable.icon_dui);
+				}
+			});
 			iv_daan.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View v) {

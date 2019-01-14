@@ -23,6 +23,8 @@ import com.netease.nim.uikit.common.ui.imageview.ImageViewEx;
 import com.netease.nim.uikit.common.ui.recyclerview.adapter.BaseQuickAdapter;
 import com.netease.nim.uikit.common.ui.recyclerview.holder.BaseViewHolder;
 
+import java.io.Serializable;
+
 /**
  * Created by huangjun on 2016/12/9.
  */
@@ -153,12 +155,26 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
 //                        imgurl=ApiUtils.STATIC_HOST+video.getSnapshotUrl_image();
 //                    }
                     imgurl=MyUtils.formatUrl(video.getSnapshotUrl_image());
-
-                    intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, new String[]{imgurl});
+                    String[] imgurls=new String[getData ().size()];
+                    String[] daans=new String[getData ().size()];
+                    String[] daanurls=new String[getData ().size()];
+                    String[] videourls=new String[getData ().size()];
+                    String[] ids=new String[getData ().size()];
+                    for (int i=0;i< getData().size();i++){
+                        imgurls[i]=MyUtils.formatUrl(getData().get(i).getSnapshotUrl_image());
+                        daans[i]=getData().get(i).getAnswer_text();
+                        daanurls[i]=MyUtils.formatUrl(getData().get(i).getAnswer_image());
+                        videourls[i]=getData().get(i).getOrigUrl();
+                        ids[i]=getData().get(i).getId()+"";
+                    }
+                    intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, imgurls);
+                    intent.putExtra(ImagePagerActivity.EXTRA_VIDEO_IDS, ids);
+                    intent.putExtra(ImagePagerActivity.EXTRA_DATA_BEANS, (Serializable) getData());
                     intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, position);
                     if(!TextUtils.isEmpty(video.getAnswer_text())){
                         intent.putExtra(ImagePagerActivity.EXTRA_DAAN ,video.getAnswer_text());
                     }
+                    intent.putExtra(ImagePagerActivity.EXTRA_DAANS ,daans);
                     if(!TextUtils.isEmpty(video.getAnswer_image())){
 //                        if(video.getAnswer_image().startsWith("http")){
 //                            ans_imgurl=video.getAnswer_image();
@@ -168,6 +184,8 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
                         ans_imgurl=MyUtils.formatUrl(video.getAnswer_image());
                         intent.putExtra(ImagePagerActivity.EXTRA_DAAN_URL,ans_imgurl);
                     }
+                    intent.putExtra(ImagePagerActivity.EXTRA_DAAN_URLS,daanurls);
+                    intent.putExtra(ImagePagerActivity.EXTRA_VIDEO_URLS,videourls);
                     intent.putExtra(ImagePagerActivity.EXTRA_VIDEO_URL,video.getOrigUrl());
                     intent.putExtra(ImagePagerActivity.EXTRA_IS_VIDEO,true);
                     mContext.startActivity(intent);
