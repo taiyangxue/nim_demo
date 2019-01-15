@@ -83,7 +83,7 @@ public class ImageDetailFragment extends Fragment {
 					message = "下载错误";
 					break;
 				case DECODING_ERROR:
-					message = "图片无法显示";
+					message = "无图片答案";
 					break;
 				case NETWORK_DENIED:
 					message = "网络有问题，无法下载";

@@ -8,12 +8,10 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
-import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.zdp.aseo.content.AseoZdpAseo;
 
@@ -49,7 +47,7 @@ public class ImagePagerActivity extends FragmentActivity {
 	private ImageView iv_yidu;
 	private String[] video_ids;
 	private String current_id;
-
+	private int current_position;
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -58,7 +56,7 @@ public class ImagePagerActivity extends FragmentActivity {
 		pagerPosition = getIntent().getIntExtra(EXTRA_IMAGE_INDEX, 0);
 		String[] urls = getIntent().getStringArrayExtra(EXTRA_IMAGE_URLS);
 		daan = getIntent().getStringExtra(EXTRA_DAAN);
-
+		current_position=pagerPosition;
 		daans = getIntent().getStringArrayExtra(EXTRA_DAANS);
 		daan_url = getIntent().getStringExtra(EXTRA_DAAN_URL);
 		daan_urls = getIntent().getStringArrayExtra(EXTRA_DAAN_URLS);
@@ -66,8 +64,10 @@ public class ImagePagerActivity extends FragmentActivity {
 		video_url = getIntent().getStringExtra(EXTRA_VIDEO_URL);
 		video_urls = getIntent().getStringArrayExtra(EXTRA_VIDEO_URLS);
 		video_ids = getIntent().getStringArrayExtra(EXTRA_VIDEO_IDS);
-		current_id=video_ids[pagerPosition];
 		is_video=getIntent().getBooleanExtra(EXTRA_IS_VIDEO,false);
+		if(is_video) {
+			current_id=video_ids[pagerPosition];
+		}
 		mPager = (HackyViewPager) findViewById(R.id.pager);
 		ImagePagerAdapter mAdapter = new ImagePagerAdapter(
 				getSupportFragmentManager(), urls);
@@ -77,10 +77,12 @@ public class ImagePagerActivity extends FragmentActivity {
 				.getAdapter().getCount());
 		indicator.setText(text);
 		iv_yidu = (ImageView) findViewById(R.id.iv_yidu);
-		if(SharedPreferencesUtils.getBoolean(ImagePagerActivity.this,current_id,false)){
-			iv_yidu.setImageResource(R.drawable.icon_dui);
-		}else {
-			iv_yidu.setImageResource(R.drawable.icon_cuo);
+		if(is_video){
+			if(SharedPreferencesUtils.getBoolean(ImagePagerActivity.this,current_id,false)){
+				iv_yidu.setImageResource(R.drawable.icon_dui);
+			}else {
+				iv_yidu.setImageResource(R.drawable.icon_cuo);
+			}
 		}
 		// 更新下标
 		mPager.setOnPageChangeListener(new OnPageChangeListener() {
@@ -98,15 +100,18 @@ public class ImagePagerActivity extends FragmentActivity {
 				CharSequence text = getString(R.string.viewpager_indicator,
 						position + 1, mPager.getAdapter().getCount());
 				indicator.setText(text);
-				daan=daans[position];
-				daan_url=daan_urls[position];
-				video_url=video_urls[position];
-				current_id=video_ids[position];
-				if(SharedPreferencesUtils.getBoolean(ImagePagerActivity.this,current_id,false)){
-					iv_yidu.setImageResource(R.drawable.icon_dui);
-				}else {
-					iv_yidu.setImageResource(R.drawable.icon_cuo);
+				if(is_video){
+					daan=daans[position];
+					daan_url=daan_urls[position];
+					video_url=video_urls[position];
+					current_id=video_ids[position];
+					if(SharedPreferencesUtils.getBoolean(ImagePagerActivity.this,current_id,false)){
+						iv_yidu.setImageResource(R.drawable.icon_dui);
+					}else {
+						iv_yidu.setImageResource(R.drawable.icon_cuo);
+					}
 				}
+				current_position=position;
 			}
 
 		});
@@ -123,6 +128,19 @@ public class ImagePagerActivity extends FragmentActivity {
 		});
 		iv_daan = (ImageView) findViewById(R.id.iv_daan);
 		iv_shipin = (ImageView) findViewById(R.id.iv_shipin);
+		findViewById(R.id.iv_back).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				if(is_video){
+					finish();
+				}else {
+					Intent intent=new Intent();
+					intent.putExtra("position",current_position);
+					setResult(1,intent);
+					finish();
+				}
+			}
+		});
 
 		if(is_video){
 			iv_daan.setVisibility(View.VISIBLE);
@@ -138,20 +156,37 @@ public class ImagePagerActivity extends FragmentActivity {
 			iv_daan.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View v) {
-					if(!TextUtils.isEmpty(daan)){
-						showDaan(daan);
-					}else {
+//					if(!TextUtils.isEmpty(daan)){
+//						showDaan(daan);
+//					}else {
 						//展示答案
-						if(daan_url!=null){
+//						if(daan_url!=null){
 							Intent intent = new Intent(ImagePagerActivity.this, ImagePagerActivity.class);
 							// 图片url,为了演示这里使用常量，一般从数据库中或网络中获取
-							intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, new String[]{daan_url});
-							intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, 1);
-							startActivity(intent);
-						}else {
-							Toast.makeText(ImagePagerActivity.this,"该视频未上传答案",Toast.LENGTH_SHORT).show();
-						}
-					}
+							intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS,daan_urls);
+							intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, current_position);
+//							intent.putExtra(ImagePagerActivity.EXTRA_VIDEO_IDS, video_ids);
+//							if(!TextUtils.isEmpty(daan)){
+//								intent.putExtra(ImagePagerActivity.EXTRA_DAAN ,daan);
+//							}
+//							intent.putExtra(ImagePagerActivity.EXTRA_DAANS ,daans);
+//							if(!TextUtils.isEmpty(daan_url)){
+////                        if(video.getAnswer_image().startsWith("http")){
+////                            ans_imgurl=video.getAnswer_image();
+////                        }else {
+////                            ans_imgurl=ApiUtils.STATIC_HOST+video.getAnswer_image();
+////                        }
+//								intent.putExtra(ImagePagerActivity.EXTRA_DAAN_URL,daan_url);
+//							}
+//							intent.putExtra(ImagePagerActivity.EXTRA_DAAN_URLS,daan_urls);
+//							intent.putExtra(ImagePagerActivity.EXTRA_VIDEO_URLS,video_urls);
+//							intent.putExtra(ImagePagerActivity.EXTRA_VIDEO_URL,video_url);
+//							intent.putExtra(ImagePagerActivity.EXTRA_IS_VIDEO,false);
+							startActivityForResult(intent,1);
+//						}else {
+//							Toast.makeText(ImagePagerActivity.this,"该视频未上传答案",Toast.LENGTH_SHORT).show();
+//						}
+//					}
 				}
 			});
 			iv_shipin.setOnClickListener(new View.OnClickListener() {
@@ -210,4 +245,17 @@ public class ImagePagerActivity extends FragmentActivity {
 //	public interface OnClickCallback<T> {
 //		void myClick(T t);
 //	}
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		super.onActivityResult(requestCode, resultCode, data);
+		Log.e("TAG",requestCode+"??"+resultCode+"??"+data.getIntExtra("position",0));
+		switch (requestCode){
+			case 1:
+//				current_position=data.getIntExtra("position",0);
+//				current_id=video_ids[current_position];
+				mPager.setCurrentItem(data.getIntExtra("position",0));
+				break;
+		}
+	}
 }

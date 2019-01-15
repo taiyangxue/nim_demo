@@ -16,7 +16,7 @@
         android:layout_alignParentBottom="true"
         android:gravity="center"
         android:textSize="18sp"
-        android:textColor="@android:color/white"
+        android:textColor="#ff0000"
         android:text="@string/viewpager_indicator"
         android:background="@android:color/transparent" />
     <ImageView
@@ -24,8 +24,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="13dp"
+        android:layout_marginLeft="50dp"
         android:src="@drawable/yidu_caogao"
         />
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:src="@drawable/icon_back"/>
     <ImageView
         android:id="@+id/iv_daan"
         android:layout_width="50dp"

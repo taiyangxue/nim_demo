@@ -213,6 +213,12 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
                     showDaan(video.getAnswer_text());
                 }else {
                     //展示答案
+                    String[] daanurls=new String[getData ().size()];
+                    for (int i=0;i< getData().size();i++){
+                        if(!TextUtils.isEmpty(getData().get(i).getAnswer_image())){
+                            daanurls[i]= MyUtils.formatUrl(getData().get(i).getAnswer_image());
+                        }
+                    }
                     if(!TextUtils.isEmpty(video.getAnswer_image())){
                         String ans_imgurl="";
 //                        if(video.getAnswer_image().startsWith("http")){
@@ -223,8 +229,8 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
                         ans_imgurl=MyUtils.formatUrl(video.getAnswer_image());
                         Intent intent = new Intent(mContext, ImagePagerActivity.class);
                         // 图片url,为了演示这里使用常量，一般从数据库中或网络中获取
-                        intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, new String[]{ans_imgurl});
-                        intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, 1);
+                        intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, daanurls);
+                        intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, position);
                         mContext.startActivity(intent);
                     }else {
                         MyUtils.showToast(mContext,"该视频未上传答案");
