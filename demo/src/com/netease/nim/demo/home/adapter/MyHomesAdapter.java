@@ -10,7 +10,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.lidroid.xutils.BitmapUtils;
-import com.loveplusplus.demo.image.ImagePagerActivity;
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.chatroom.activity.NEVideoPlayerActivity;
 import com.netease.nim.demo.common.entity.VideoRet;
@@ -19,11 +18,13 @@ import com.netease.nim.demo.common.util.ApiUtils;
 import com.netease.nim.demo.common.util.MyUtils;
 import com.netease.nim.demo.common.util.SharedPreferencesUtils;
 import com.netease.nim.demo.home.activity.HudongActivity;
+import com.netease.nim.demo.home.activity.ImagePagerActivity2;
 import com.netease.nim.uikit.common.ui.imageview.ImageViewEx;
 import com.netease.nim.uikit.common.ui.recyclerview.adapter.BaseQuickAdapter;
 import com.netease.nim.uikit.common.ui.recyclerview.holder.BaseViewHolder;
 
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * Created by huangjun on 2016/12/9.
@@ -33,6 +34,7 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
     private BitmapUtils utils;
     private int course;
     private int type_id;
+    private List<VideoRet.DataBean> dataBeans;
     public MyHomesAdapter(BitmapUtils utils, RecyclerView recyclerView, int course) {
         super(recyclerView, R.layout.video_item2, null);
         this.utils=utils;
@@ -145,7 +147,7 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
             @Override
             public void onClick(View v) {
                 if (!TextUtils.isEmpty(video.getSnapshotUrl_image())) {
-                    Intent intent = new Intent(mContext, ImagePagerActivity.class);
+                    Intent intent = new Intent(mContext, ImagePagerActivity2.class);
                     // 图片url,为了演示这里使用常量，一般从数据库中或网络中获取
                     String imgurl="";
                     String ans_imgurl="";
@@ -167,14 +169,16 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
                         videourls[i]=getData().get(i).getOrigUrl();
                         ids[i]=getData().get(i).getId()+"";
                     }
-                    intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, imgurls);
-                    intent.putExtra(ImagePagerActivity.EXTRA_VIDEO_IDS, ids);
-                    intent.putExtra(ImagePagerActivity.EXTRA_DATA_BEANS, (Serializable) getData());
-                    intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, position);
+                    intent.putExtra(ImagePagerActivity2.EXTRA_IMAGE_URLS, imgurls);
+                    intent.putExtra(ImagePagerActivity2.EXTRA_VIDEO_IDS, ids);
+                    intent.putExtra(ImagePagerActivity2.EXTRA_DATA_BEANS, (Serializable) getData());
+                    intent.putExtra(ImagePagerActivity2.EXTRA_IMAGE_INDEX, position);
                     if(!TextUtils.isEmpty(video.getAnswer_text())){
-                        intent.putExtra(ImagePagerActivity.EXTRA_DAAN ,video.getAnswer_text());
+                        intent.putExtra(ImagePagerActivity2.EXTRA_DAAN ,video.getAnswer_text());
                     }
-                    intent.putExtra(ImagePagerActivity.EXTRA_DAANS ,daans);
+                    intent.putExtra(ImagePagerActivity2.EXTRA_DAANS ,daans);
+                    dataBeans=getData();
+                    intent.putExtra(ImagePagerActivity2.EXTRA_DATA_BEANS, (Serializable) dataBeans);
                     if(!TextUtils.isEmpty(video.getAnswer_image())){
 //                        if(video.getAnswer_image().startsWith("http")){
 //                            ans_imgurl=video.getAnswer_image();
@@ -182,12 +186,14 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
 //                            ans_imgurl=ApiUtils.STATIC_HOST+video.getAnswer_image();
 //                        }
                         ans_imgurl=MyUtils.formatUrl(video.getAnswer_image());
-                        intent.putExtra(ImagePagerActivity.EXTRA_DAAN_URL,ans_imgurl);
+                        intent.putExtra(ImagePagerActivity2.EXTRA_DAAN_URL,ans_imgurl);
                     }
-                    intent.putExtra(ImagePagerActivity.EXTRA_DAAN_URLS,daanurls);
-                    intent.putExtra(ImagePagerActivity.EXTRA_VIDEO_URLS,videourls);
-                    intent.putExtra(ImagePagerActivity.EXTRA_VIDEO_URL,video.getOrigUrl());
-                    intent.putExtra(ImagePagerActivity.EXTRA_IS_VIDEO,true);
+                    intent.putExtra(ImagePagerActivity2.EXTRA_DAAN_URLS,daanurls);
+                    intent.putExtra(ImagePagerActivity2.EXTRA_VIDEO_URLS,videourls);
+                    intent.putExtra(ImagePagerActivity2.EXTRA_VIDEO_URL,video.getOrigUrl());
+                    intent.putExtra(ImagePagerActivity2.EXTRA_IS_VIDEO,true);
+                    intent.putExtra(ImagePagerActivity2.EXTRA_COURSE,course);
+                    intent.putExtra(ImagePagerActivity2.EXTRA_IS_COLLECT,video.isIscollect());
                     mContext.startActivity(intent);
                 } else {
                     MyUtils.showToast(mContext, "该视频未上传视频封面");
@@ -227,10 +233,10 @@ public class MyHomesAdapter extends BaseQuickAdapter<VideoRet.DataBean, BaseView
 //                            ans_imgurl=ApiUtils.STATIC_HOST+video.getAnswer_image();
 //                        }
                         ans_imgurl=MyUtils.formatUrl(video.getAnswer_image());
-                        Intent intent = new Intent(mContext, ImagePagerActivity.class);
+                        Intent intent = new Intent(mContext, ImagePagerActivity2.class);
                         // 图片url,为了演示这里使用常量，一般从数据库中或网络中获取
-                        intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, daanurls);
-                        intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, position);
+                        intent.putExtra(ImagePagerActivity2.EXTRA_IMAGE_URLS, daanurls);
+                        intent.putExtra(ImagePagerActivity2.EXTRA_IMAGE_INDEX, position);
                         mContext.startActivity(intent);
                     }else {
                         MyUtils.showToast(mContext,"该视频未上传答案");

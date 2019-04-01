@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -30,12 +31,16 @@ public class ImagePagerActivity extends FragmentActivity {
 	public static final String EXTRA_VIDEO_URLS = "video_urls";
 	public static final String EXTRA_VIDEO_IDS = "video_ids";
 	public static final String EXTRA_IS_VIDEO = "is_video";
+	public static final String EXTRA_IS_COLLECT = "is_collect";
+	public static final String EXTRA_COURSE = "course";
 
 	private HackyViewPager mPager;
 	private int pagerPosition;
 	private TextView indicator;
 	private ImageView iv_daan;
 	private ImageView iv_shipin;
+	private ImageView iv_hudong;
+	private ImageView iv_collect;
 	private String daan;
 	private String daan_url;
 	private String video_url;
@@ -48,6 +53,8 @@ public class ImagePagerActivity extends FragmentActivity {
 	private String[] video_ids;
 	private String current_id;
 	private int current_position;
+	private int course;
+	private boolean is_collect;
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -64,7 +71,10 @@ public class ImagePagerActivity extends FragmentActivity {
 		video_url = getIntent().getStringExtra(EXTRA_VIDEO_URL);
 		video_urls = getIntent().getStringArrayExtra(EXTRA_VIDEO_URLS);
 		video_ids = getIntent().getStringArrayExtra(EXTRA_VIDEO_IDS);
+
+		course = getIntent().getIntExtra(EXTRA_COURSE,0);
 		is_video=getIntent().getBooleanExtra(EXTRA_IS_VIDEO,false);
+		is_collect=getIntent().getBooleanExtra(EXTRA_IS_COLLECT,false);
 		if(is_video) {
 			current_id=video_ids[pagerPosition];
 		}
@@ -128,6 +138,9 @@ public class ImagePagerActivity extends FragmentActivity {
 		});
 		iv_daan = (ImageView) findViewById(R.id.iv_daan);
 		iv_shipin = (ImageView) findViewById(R.id.iv_shipin);
+		iv_hudong = (ImageView) findViewById(R.id.iv_hudong);
+		iv_collect = (ImageView) findViewById(R.id.iv_collect);
+
 		findViewById(R.id.iv_back).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -143,8 +156,37 @@ public class ImagePagerActivity extends FragmentActivity {
 		});
 
 		if(is_video){
-			iv_daan.setVisibility(View.VISIBLE);
-			iv_shipin.setVisibility(View.VISIBLE);
+		    iv_collect.setVisibility(View.VISIBLE);
+		    iv_hudong.setVisibility(View.VISIBLE);
+		    iv_collect.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    iv_collect.setImageResource(R.drawable.ali_shoucang2);
+                    Intent intent = new Intent();
+                    intent.setAction("intent.action.sun");
+                    intent.putExtra("type", 2);
+                    intent.putExtra("video_id", current_id);
+                    intent.putExtra("course", course);
+                    intent.putExtra("status", 0);
+                    sendBroadcast(intent);
+                }
+            });
+		    iv_hudong.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent();
+                    intent.setAction("intent.action.sun");
+                    intent.putExtra("type", 3);
+                    intent.putExtra("video_id", current_id);
+                    sendBroadcast(intent);
+                }
+            });
+			if(daan_url.length()>0){
+				iv_daan.setVisibility(View.VISIBLE);
+			}
+			if(!TextUtils.isEmpty(video_url)){
+				iv_shipin.setVisibility(View.VISIBLE);
+			}
 			iv_yidu.setVisibility(View.VISIBLE);
 			iv_yidu.setOnClickListener(new View.OnClickListener() {
 				@Override

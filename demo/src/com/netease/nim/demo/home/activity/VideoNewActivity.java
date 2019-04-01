@@ -8,15 +8,16 @@ import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.lidroid.xutils.BitmapUtils;
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.common.entity.VideoRet;
-import com.netease.nim.demo.common.entity.bmob.Video;
-import com.netease.nim.demo.common.entity.bmob.VideoDir;
 import com.netease.nim.demo.common.util.ApiListener;
 import com.netease.nim.demo.common.util.ApiUtils;
 import com.netease.nim.demo.common.util.MyUtils;
@@ -30,6 +31,7 @@ import com.netease.nim.uikit.common.ui.recyclerview.listener.OnItemClickListener
 import com.netease.nim.uikit.common.util.sys.ScreenUtil;
 import com.netease.nim.uikit.model.ToolBarOptions;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
@@ -57,6 +59,14 @@ public class VideoNewActivity extends UI {
     private String time;
     private String search;
     private EditText et_name;
+    private TextView tv_title1;
+    private TextView tv_title2;
+    private TextView tv_title3;
+    private TextView tv_title4;
+    private TextView tv_title5;
+    private TextView tv_title6;
+    private List<MyData> titlemap;
+    private LinearLayout ll_title;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +76,14 @@ public class VideoNewActivity extends UI {
         pid = getIntent().getIntExtra("pid", 0);
         course = getIntent().getIntExtra("course", 0);
         grade = SharedPreferencesUtils.getString(this, "grade", "");
+
+        if(getIntent().getSerializableExtra("titlemap")!=null){
+            titlemap= (List<MyData>) getIntent().getSerializableExtra("titlemap");
+        }else {
+            titlemap=new ArrayList<>();
+        }
+        MyData myData=new MyData(pid,getIntent().getStringExtra("title"));
+        titlemap.add(myData);
 //        title = getIntent().getStringExtra("title");
         ToolBarOptions options = new ToolBarOptions();
         options.titleString = getIntent().getStringExtra("title");
@@ -102,6 +120,27 @@ public class VideoNewActivity extends UI {
     }
 
     private void findViews() {
+//        tv_title1 = findView(R.id.tv_title1);
+//        tv_title2 = findView(R.id.tv_title2);
+//        tv_title3 = findView(R.id.tv_title3);
+//        tv_title4 = findView(R.id.tv_title4);
+//        tv_title5 = findView(R.id.tv_title5);
+//        tv_title6 = findView(R.id.tv_title6);
+        ll_title = findView(R.id.ll_title);
+        for (final MyData myData:titlemap){
+            System.out.println("Key = " + myData.pid + ", Value = " + myData.title);
+            TextView mTextView=new TextView(this);
+            LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+            mTextView.setLayoutParams(layoutParams);
+            mTextView.setText(myData.title);
+            mTextView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Log.e("TAG",myData.pid+"??????");
+                }
+            });
+            ll_title.addView(mTextView);
+        }
         swipeRefreshLayout = findView(R.id.swipe_refresh);
         swipeRefreshLayout.setPullUpEnable(true);
         swipeRefreshLayout.setOnRefreshListener(new PullToRefreshLayout.OnRefreshListener() {
@@ -135,6 +174,7 @@ public class VideoNewActivity extends UI {
                     intent.putExtra("title",item.getName());
                     intent.putExtra("course",course);
                     intent.putExtra("type_id",type_id);
+                    intent.putExtra("titlemap", (Serializable) titlemap);
                     startActivity(intent);
                 }
             }
@@ -366,5 +406,13 @@ public class VideoNewActivity extends UI {
                 fetchData(true,false);
             }
         }, mYear, mMonth, mDay).show();
+    }
+    private class MyData implements Serializable{
+        public MyData(int pid,String title){
+            this.pid=pid;
+            this.title=title;
+        }
+        int pid;
+        String title;
     }
 }

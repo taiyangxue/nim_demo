@@ -27,6 +27,67 @@
 
             </android.support.v7.widget.Toolbar>
         </android.support.design.widget.AppBarLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/actionbar_dark_back_icon"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/actionbar_dark_logo_icon"/>
+            <LinearLayout
+                android:id="@+id/ll_title"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_height="30dp">
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_title1"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:text=""/>-->
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_title2"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:text=""/>-->
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_title3"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:text=""/>-->
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_title4"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:text=""/>-->
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_title5"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:text=""/>-->
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_title6"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:text=""/>-->
+            </LinearLayout>
+        </LinearLayout>
 
         <com.netease.nim.uikit.common.ui.ptr2.PullToRefreshLayout
             android:id="@+id/swipe_refresh"

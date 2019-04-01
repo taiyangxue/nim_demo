@@ -542,6 +542,9 @@
         <activity android:name=".home.activity.NodeActivity" />
         <activity android:name=".home.activity.NodePlayActivity" />
         <activity android:name=".home.activity.HudongActivity"></activity>
+        <activity
+            android:name=".home.activity.ImagePagerActivity2"
+            android:theme="@style/AppTheme.NoTitleBar" />
     </application>
 
 </manifest>

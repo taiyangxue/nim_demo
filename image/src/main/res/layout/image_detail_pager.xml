@@ -33,14 +33,15 @@
         android:layout_height="50dp"
         android:padding="10dp"
         android:src="@drawable/icon_back"/>
+
     <ImageView
         android:id="@+id/iv_daan"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:padding="10dp"
         android:layout_alignParentRight="true"
-        android:src="@drawable/icon_daan"
         android:visibility="gone"
+        android:src="@drawable/ali_daan_white"
         />
 
     <ImageView
@@ -50,8 +51,9 @@
         android:layout_height="50dp"
         android:padding="10dp"
         android:visibility="gone"
-        android:src="@drawable/icon_menu_paly_press"
+        android:src="@drawable/ali_play_white"
         />
+
     <ImageView
         android:id="@+id/iv_yidu"
         android:layout_toLeftOf="@+id/iv_shipin"
@@ -60,5 +62,23 @@
         android:padding="5dp"
         android:visibility="gone"
         android:src="@drawable/icon_cuo"
+        />
+    <ImageView
+        android:id="@+id/iv_collect"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@+id/iv_yidu"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:src="@drawable/ali_shoucang_white"
+        />
+    <ImageView
+        android:id="@+id/iv_hudong"
+        android:layout_toLeftOf="@+id/iv_collect"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:src="@drawable/hudong_white"
         />
 </RelativeLayout>
