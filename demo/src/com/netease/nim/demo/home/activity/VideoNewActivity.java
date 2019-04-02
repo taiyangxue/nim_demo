@@ -17,6 +17,7 @@ import android.widget.TextView;
 
 import com.lidroid.xutils.BitmapUtils;
 import com.netease.nim.demo.R;
+import com.netease.nim.demo.common.entity.MyData;
 import com.netease.nim.demo.common.entity.VideoRet;
 import com.netease.nim.demo.common.util.ApiListener;
 import com.netease.nim.demo.common.util.ApiUtils;
@@ -29,7 +30,6 @@ import com.netease.nim.uikit.common.ui.recyclerview.adapter.BaseQuickAdapter;
 import com.netease.nim.uikit.common.ui.recyclerview.decoration.SpacingDecoration;
 import com.netease.nim.uikit.common.ui.recyclerview.listener.OnItemClickListener;
 import com.netease.nim.uikit.common.util.sys.ScreenUtil;
-import com.netease.nim.uikit.model.ToolBarOptions;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -79,15 +79,22 @@ public class VideoNewActivity extends UI {
 
         if(getIntent().getSerializableExtra("titlemap")!=null){
             titlemap= (List<MyData>) getIntent().getSerializableExtra("titlemap");
+            if(getIntent().getIntExtra("position",0)>0){
+                ArrayList<MyData> temp=new ArrayList<>();
+                for(int i=getIntent().getIntExtra("position",0);i<titlemap.size();i++){
+                    temp.add(titlemap.get(i));
+                }
+                titlemap.removeAll(temp);
+            }
         }else {
             titlemap=new ArrayList<>();
         }
-        MyData myData=new MyData(pid,getIntent().getStringExtra("title"));
+        MyData myData=new MyData(pid,getIntent().getStringExtra("title"),titlemap.size());
         titlemap.add(myData);
 //        title = getIntent().getStringExtra("title");
-        ToolBarOptions options = new ToolBarOptions();
-        options.titleString = getIntent().getStringExtra("title");
-        setToolBar(R.id.toolbar, options);
+//        ToolBarOptions options = new ToolBarOptions();
+//        options.titleString = getIntent().getStringExtra("title");
+//        setToolBar(R.id.toolbar, options);
         findViews();
         limit = 20;
         fetchData(true, false);
@@ -127,18 +134,35 @@ public class VideoNewActivity extends UI {
 //        tv_title5 = findView(R.id.tv_title5);
 //        tv_title6 = findView(R.id.tv_title6);
         ll_title = findView(R.id.ll_title);
+        findView(R.id.iv_back).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
         for (final MyData myData:titlemap){
             System.out.println("Key = " + myData.pid + ", Value = " + myData.title);
             TextView mTextView=new TextView(this);
             LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
             mTextView.setLayoutParams(layoutParams);
-            mTextView.setText(myData.title);
-            mTextView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Log.e("TAG",myData.pid+"??????");
-                }
-            });
+            mTextView.setText(myData.title+"/");
+            if(myData.position>0){
+                mTextView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Log.e("TAG",myData.pid+"??????"+myData.position);
+                        finish();
+                        Intent intent=new Intent(VideoNewActivity.this,VideoNewActivity.class);
+                        intent.putExtra("pid",myData.pid);
+                        intent.putExtra("title",myData.title);
+                        intent.putExtra("course",course);
+                        intent.putExtra("type_id",type_id);
+                        intent.putExtra("position",myData.position);
+                        intent.putExtra("titlemap", (Serializable) titlemap);
+                        startActivity(intent);
+                    }
+                });
+            }
             ll_title.addView(mTextView);
         }
         swipeRefreshLayout = findView(R.id.swipe_refresh);
@@ -169,6 +193,7 @@ public class VideoNewActivity extends UI {
             public void onItemClick(MyHomesAdapter adapter, View vew, int position) {
                 VideoRet.DataBean item= adapter.getItem(position);
                 if(item.getPid()!=0){
+                    finish();
                     Intent intent=new Intent(VideoNewActivity.this,VideoNewActivity.class);
                     intent.putExtra("pid",item.getId());
                     intent.putExtra("title",item.getName());
@@ -406,13 +431,5 @@ public class VideoNewActivity extends UI {
                 fetchData(true,false);
             }
         }, mYear, mMonth, mDay).show();
-    }
-    private class MyData implements Serializable{
-        public MyData(int pid,String title){
-            this.pid=pid;
-            this.title=title;
-        }
-        int pid;
-        String title;
     }
 }
