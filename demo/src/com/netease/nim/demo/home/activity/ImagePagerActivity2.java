@@ -105,6 +105,7 @@ public class ImagePagerActivity2 extends FragmentActivity {
         iv_daan = (ImageView) findViewById(com.loveplusplus.demo.image.R.id.iv_daan);
         iv_shipin = (ImageView) findViewById(com.loveplusplus.demo.image.R.id.iv_shipin);
         iv_hudong = (ImageView) findViewById(com.loveplusplus.demo.image.R.id.iv_hudong);
+        updatepage(0);
         // 更新下标
         mPager.setOnPageChangeListener(new OnPageChangeListener() {
 
@@ -121,85 +122,8 @@ public class ImagePagerActivity2 extends FragmentActivity {
                 CharSequence text = getString(com.loveplusplus.demo.image.R.string.viewpager_indicator,
                         position + 1, mPager.getAdapter().getCount());
                 indicator.setText(text);
-                if (is_video) {
-                    daan = daans[position];
-                    daan_url = daan_urls[position];
-                    video_url = video_urls[position];
-                    current_id = video_ids[position];
-                    if (SharedPreferencesUtils.getBoolean(ImagePagerActivity2.this, current_id, false)) {
-                        iv_yidu.setImageResource(com.loveplusplus.demo.image.R.drawable.icon_dui);
-                    } else {
-                        iv_yidu.setImageResource(com.loveplusplus.demo.image.R.drawable.icon_cuo);
-                    }
-                    if (data_beans.get(position).isIscollect()) {
-                        iv_collect.setImageResource(R.drawable.ali_shoucang2);
-                    } else {
-                        iv_collect.setImageResource(R.drawable.ali_shoucang_white);
-                    }
-                    if (!TextUtils.isEmpty(data_beans.get(position).getAnswer_image())) {
-                        iv_daan.setVisibility(View.VISIBLE);
-                    } else {
-                        iv_daan.setVisibility(View.INVISIBLE);
-                    }
-//                    Log.e("TAG",data_beans.get(position).getSnapshotUrl_image());
-//                    Log.e("TAG",data_beans.get(position).getOrigUrl());
-                    if (!TextUtils.isEmpty(data_beans.get(position).getOrigUrl())) {
-                        iv_shipin.setVisibility(View.VISIBLE);
-                    } else {
-                        iv_shipin.setVisibility(View.GONE);
-                    }
-                    iv_hudong.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View v) {
-//                            Intent intent = new Intent();
-//                            intent.setAction("intent.action.sun");
-//                            intent.putExtra("type", 3);
-//                            intent.putExtra("video_id", data_beans.get(position).getId());
-//                            sendBroadcast(intent);
-                            Intent intent=new Intent(ImagePagerActivity2.this,HudongActivity.class);
-                            intent.putExtra("video_id",data_beans.get(position).getId());
-                            startActivity(intent);
-                        }
-                    });
-                    iv_collect.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View v) {
-                            if (data_beans.get(position).isIscollect()) {
-                                ApiUtils.getInstance().video_canclecollect(com.netease.nim.demo.common.util.SharedPreferencesUtils.getInt(ImagePagerActivity2.this, "account_id", 0) + "",
-                                        data_beans.get(position).getId() + "", course, new ApiListener<String>() {
-                                            @Override
-                                            public void onSuccess(String s) {
-                                                MyUtils.showToast(ImagePagerActivity2.this, "取消成功");
-                                                iv_collect.setImageResource(R.drawable.ali_shoucang_white);
-                                            }
-
-                                            @Override
-                                            public void onFailed(String errorMsg) {
-                                                MyUtils.showToast(ImagePagerActivity2.this, errorMsg);
-                                            }
-                                        });
-                            } else {
-                                ApiUtils.getInstance().video_collect(com.netease.nim.demo.common.util.SharedPreferencesUtils.getInt(ImagePagerActivity2.this, "account_id", 0) + "",
-                                        data_beans.get(position).getId() + "", course, new ApiListener<String>() {
-                                            @Override
-                                            public void onSuccess(String s) {
-                                                MyUtils.showToast(ImagePagerActivity2.this, "收藏成功");
-                                                iv_collect.setImageResource(R.drawable.ali_shoucang2);
-                                            }
-
-                                            @Override
-                                            public void onFailed(String errorMsg) {
-                                                MyUtils.showToast(ImagePagerActivity2.this, errorMsg);
-                                            }
-                                        });
-                            }
-
-                        }
-                    });
-                }
+                updatepage(position);
                 current_position = position;
-
-
 
             }
 
@@ -294,6 +218,85 @@ public class ImagePagerActivity2 extends FragmentActivity {
                     intent.putExtra("type", 1);
                     intent.putExtra("url", video_url);
                     sendBroadcast(intent);
+                }
+            });
+        }
+    }
+
+    private void updatepage(final int position) {
+        if (is_video) {
+            daan = daans[position];
+            daan_url = daan_urls[position];
+            video_url = video_urls[position];
+            current_id = video_ids[position];
+            if (SharedPreferencesUtils.getBoolean(ImagePagerActivity2.this, current_id, false)) {
+                iv_yidu.setImageResource(com.loveplusplus.demo.image.R.drawable.icon_dui);
+            } else {
+                iv_yidu.setImageResource(com.loveplusplus.demo.image.R.drawable.icon_cuo);
+            }
+            if (data_beans.get(position).isIscollect()) {
+                iv_collect.setImageResource(R.drawable.ali_shoucang2);
+            } else {
+                iv_collect.setImageResource(R.drawable.ali_shoucang_white);
+            }
+            if (!TextUtils.isEmpty(data_beans.get(position).getAnswer_image())) {
+                iv_daan.setVisibility(View.VISIBLE);
+            } else {
+                iv_daan.setVisibility(View.INVISIBLE);
+            }
+//                    Log.e("TAG",data_beans.get(position).getSnapshotUrl_image());
+//                    Log.e("TAG",data_beans.get(position).getOrigUrl());
+            if (!TextUtils.isEmpty(data_beans.get(position).getOrigUrl())) {
+                iv_shipin.setVisibility(View.VISIBLE);
+            } else {
+                iv_shipin.setVisibility(View.GONE);
+            }
+            iv_hudong.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+//                            Intent intent = new Intent();
+//                            intent.setAction("intent.action.sun");
+//                            intent.putExtra("type", 3);
+//                            intent.putExtra("video_id", data_beans.get(position).getId());
+//                            sendBroadcast(intent);
+                    Intent intent=new Intent(ImagePagerActivity2.this,HudongActivity.class);
+                    intent.putExtra("video_id",data_beans.get(position).getId());
+                    startActivity(intent);
+                }
+            });
+            iv_collect.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (data_beans.get(position).isIscollect()) {
+                        ApiUtils.getInstance().video_canclecollect(com.netease.nim.demo.common.util.SharedPreferencesUtils.getInt(ImagePagerActivity2.this, "account_id", 0) + "",
+                                data_beans.get(position).getId() + "", course, new ApiListener<String>() {
+                                    @Override
+                                    public void onSuccess(String s) {
+                                        MyUtils.showToast(ImagePagerActivity2.this, "取消成功");
+                                        iv_collect.setImageResource(R.drawable.ali_shoucang_white);
+                                    }
+
+                                    @Override
+                                    public void onFailed(String errorMsg) {
+                                        MyUtils.showToast(ImagePagerActivity2.this, errorMsg);
+                                    }
+                                });
+                    } else {
+                        ApiUtils.getInstance().video_collect(com.netease.nim.demo.common.util.SharedPreferencesUtils.getInt(ImagePagerActivity2.this, "account_id", 0) + "",
+                                data_beans.get(position).getId() + "", course, new ApiListener<String>() {
+                                    @Override
+                                    public void onSuccess(String s) {
+                                        MyUtils.showToast(ImagePagerActivity2.this, "收藏成功");
+                                        iv_collect.setImageResource(R.drawable.ali_shoucang2);
+                                    }
+
+                                    @Override
+                                    public void onFailed(String errorMsg) {
+                                        MyUtils.showToast(ImagePagerActivity2.this, errorMsg);
+                                    }
+                                });
+                    }
+
                 }
             });
         }
