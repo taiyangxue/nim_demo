@@ -96,9 +96,9 @@ public class ImagePagerActivity2 extends FragmentActivity {
         iv_yidu = (ImageView) findViewById(com.loveplusplus.demo.image.R.id.iv_yidu);
         if (is_video) {
             if (SharedPreferencesUtils.getBoolean(ImagePagerActivity2.this, current_id, false)) {
-                iv_yidu.setImageResource(com.loveplusplus.demo.image.R.drawable.icon_dui);
+                iv_yidu.setImageResource(com.loveplusplus.demo.image.R.drawable.icon_dui_green);
             } else {
-                iv_yidu.setImageResource(com.loveplusplus.demo.image.R.drawable.icon_cuo);
+                iv_yidu.setImageResource(com.loveplusplus.demo.image.R.drawable.icon_cuo_green);
             }
         }
         iv_collect = (ImageView) findViewById(com.loveplusplus.demo.image.R.id.iv_collect);
@@ -230,14 +230,14 @@ public class ImagePagerActivity2 extends FragmentActivity {
             video_url = video_urls[position];
             current_id = video_ids[position];
             if (SharedPreferencesUtils.getBoolean(ImagePagerActivity2.this, current_id, false)) {
-                iv_yidu.setImageResource(com.loveplusplus.demo.image.R.drawable.icon_dui);
+                iv_yidu.setImageResource(com.loveplusplus.demo.image.R.drawable.icon_dui_green);
             } else {
-                iv_yidu.setImageResource(com.loveplusplus.demo.image.R.drawable.icon_cuo);
+                iv_yidu.setImageResource(com.loveplusplus.demo.image.R.drawable.icon_cuo_green);
             }
             if (data_beans.get(position).isIscollect()) {
                 iv_collect.setImageResource(R.drawable.ali_shoucang2);
             } else {
-                iv_collect.setImageResource(R.drawable.ali_shoucang_white);
+                iv_collect.setImageResource(R.drawable.icon_shoucang_green);
             }
             if (!TextUtils.isEmpty(data_beans.get(position).getAnswer_image())) {
                 iv_daan.setVisibility(View.VISIBLE);
@@ -273,7 +273,7 @@ public class ImagePagerActivity2 extends FragmentActivity {
                                     @Override
                                     public void onSuccess(String s) {
                                         MyUtils.showToast(ImagePagerActivity2.this, "取消成功");
-                                        iv_collect.setImageResource(R.drawable.ali_shoucang_white);
+                                        iv_collect.setImageResource(R.drawable.icon_shoucang_green);
                                     }
 
                                     @Override
