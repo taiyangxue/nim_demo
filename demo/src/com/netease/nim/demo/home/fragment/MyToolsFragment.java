@@ -44,6 +44,7 @@ public class MyToolsFragment extends TFragment {
     private TextView tv_hour;
     private TextView tv_min;
     private TextView tv_sec;
+    private Intent intent;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -111,6 +112,33 @@ public class MyToolsFragment extends TFragment {
                     case 1:
                         showAddHeiban();
                         break;
+                    case 2:
+                        intent = getActivity().getPackageManager().getLaunchIntentForPackage("com.fenbi.android.solar");
+                        if (intent != null) {
+                            startActivity(intent);
+                        } else {
+//                        tv_info.setText("程序开启失败！");
+                            MyUtils.showToast(getActivity(), "程序未安装！");
+                        }
+                        break;
+                    case 3:
+                        intent = getActivity().getPackageManager().getLaunchIntentForPackage("com.jiongji.andriod.card");
+                        if (intent != null) {
+                            startActivity(intent);
+                        } else {
+//                        tv_info.setText("程序开启失败！");
+                            MyUtils.showToast(getActivity(), "程序未安装！");
+                        }
+                        break;
+                    case 4:
+                        intent = getActivity().getPackageManager().getLaunchIntentForPackage("cn.dictcn.android.digitize.wys_lwddgjyycd_8027");
+                        if (intent != null) {
+                            startActivity(intent);
+                        } else {
+//                        tv_info.setText("程序开启失败！");
+                            MyUtils.showToast(getActivity(), "程序未安装！");
+                        }
+                        break;
                 }
 //                Intent intent=new Intent(getActivity(), CourseActivity.class);
 //                intent.putExtra("course",position);
@@ -121,8 +149,9 @@ public class MyToolsFragment extends TFragment {
 
     public void init() {
         myItems = new ArrayList<>();
-        String[] names = {"课程表", "黑板设置"};
-        int[] images = {R.drawable.kechengbiao, R.drawable.heiban_icon};
+        String[] names = {"课程表", "黑板设置","小猿搜题","百词斩","朗文词典"};
+        int[] images = {R.drawable.kechengbiao, R.drawable.heiban_icon,R.drawable.xiaoyuan_app_icon,
+                R.drawable.baicizhan_app_icon,R.drawable.langwenapp_icon};
         for (int i = 0; i < names.length; i++) {
             MyItem item = new MyItem();
             item.name = names[i];
