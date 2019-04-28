@@ -139,6 +139,15 @@ public class MyToolsFragment extends TFragment {
                             MyUtils.showToast(getActivity(), "程序未安装！");
                         }
                         break;
+                    case 5:
+                        intent = getActivity().getPackageManager().getLaunchIntentForPackage("com.yangcong345.android.phone");
+                        if (intent != null) {
+                            startActivity(intent);
+                        } else {
+//                        tv_info.setText("程序开启失败！");
+                            MyUtils.showToast(getActivity(), "程序未安装！");
+                        }
+                        break;
                 }
 //                Intent intent=new Intent(getActivity(), CourseActivity.class);
 //                intent.putExtra("course",position);
@@ -149,9 +158,9 @@ public class MyToolsFragment extends TFragment {
 
     public void init() {
         myItems = new ArrayList<>();
-        String[] names = {"课程表", "黑板设置","小猿搜题","百词斩","朗文词典"};
+        String[] names = {"课程表", "黑板设置","小猿搜题","百词斩","朗文词典","洋葱数学"};
         int[] images = {R.drawable.kechengbiao, R.drawable.heiban_icon,R.drawable.xiaoyuan_app_icon,
-                R.drawable.baicizhan_app_icon,R.drawable.langwenapp_icon};
+                R.drawable.baicizhan_app_icon,R.drawable.langwenapp_icon,R.drawable.icon_appyangcong};
         for (int i = 0; i < names.length; i++) {
             MyItem item = new MyItem();
             item.name = names[i];
