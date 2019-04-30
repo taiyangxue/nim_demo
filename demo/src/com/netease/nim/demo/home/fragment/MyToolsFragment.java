@@ -3,6 +3,7 @@ package com.netease.nim.demo.home.fragment;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -148,6 +149,27 @@ public class MyToolsFragment extends TFragment {
                             MyUtils.showToast(getActivity(), "程序未安装！");
                         }
                         break;
+                    case 6:
+                        intent = getActivity().getPackageManager().getLaunchIntentForPackage("com.plan.kot32.tomatotime");
+                        if (intent != null) {
+                            startActivity(intent);
+                        } else {
+//                        tv_info.setText("程序开启失败！");
+                            MyUtils.showToast(getActivity(), "程序未安装！");
+                        }
+                        break;
+                    case 7:
+                        intent = new Intent(Intent.ACTION_DIAL,Uri.parse("tel:"));
+                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        startActivity(intent);
+//                        intent = getActivity().getPackageManager().getLaunchIntentForPackage("com.android.providers.telephoney");
+//                        if (intent != null) {
+//                            startActivity(intent);
+//                        } else {
+////                        tv_info.setText("程序开启失败！");
+//                            MyUtils.showToast(getActivity(), "程序未安装！");
+//                        }
+                        break;
                 }
 //                Intent intent=new Intent(getActivity(), CourseActivity.class);
 //                intent.putExtra("course",position);
@@ -158,9 +180,10 @@ public class MyToolsFragment extends TFragment {
 
     public void init() {
         myItems = new ArrayList<>();
-        String[] names = {"课程表", "黑板设置","小猿搜题","百词斩","朗文词典","洋葱数学"};
+        String[] names = {"课程表", "黑板设置","小猿搜题","百词斩","朗文词典","洋葱数学","番茄ToDo","电话"};
         int[] images = {R.drawable.kechengbiao, R.drawable.heiban_icon,R.drawable.xiaoyuan_app_icon,
-                R.drawable.baicizhan_app_icon,R.drawable.langwenapp_icon,R.drawable.icon_appyangcong};
+                R.drawable.baicizhan_app_icon,R.drawable.langwenapp_icon,R.drawable.icon_appyangcong,
+                R.drawable.logo_fanqietudo,R.drawable.phone};
         for (int i = 0; i < names.length; i++) {
             MyItem item = new MyItem();
             item.name = names[i];
